@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="" />
+    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,21 +17,15 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java">
+        <entry file="file://$PROJECT_DIR$/src/RetakeFinalExam20December2018/ActivationKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="221">
+              <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -40,6 +38,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -54,54 +55,60 @@
         <option value="$PROJECT_DIR$/src/RetakeFinalExam20December2018/ActivationKeys.java" />
         <option value="$PROJECT_DIR$/src/FinalExam16December2018/Concert.java" />
         <option value="$PROJECT_DIR$/src/FinalExam16December2018/SongEncryption.java" />
-        <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java" />
         <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
-    <option name="y" value="155" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1342" />
+    <option name="y" value="-20" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="JavaCodeFinalExamPreparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCodeFinalExamPreparation" type="462c0819:PsiDirectoryNode" />
+              <item name="Final Exam Preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Exam Preparation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaCodeFinalExamPreparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCodeFinalExamPreparation" type="462c0819:PsiDirectoryNode" />
+              <item name="Final Exam Preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Exam Preparation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaCodeFinalExamPreparation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaCodeFinalExamPreparation" type="462c0819:PsiDirectoryNode" />
+              <item name="Final Exam Preparation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Final Exam Preparation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="DemoFinalExam06April2019" type="462c0819:PsiDirectoryNode" />
+              <item name="RetakeFinalExam20December2018" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -118,7 +125,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SongEncryption">
+  <component name="RunManager" selected="Application.Deciphering">
     <configuration name="ActivationKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RetakeFinalExam20December2018.ActivationKeys" />
       <module name="JavaCodeFinalExamPreparation" />
@@ -158,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnTheWayToAnnapurna" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FinalExam14April2019GroupI.OnTheWayToAnnapurna" />
+    <configuration name="Deciphering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoFinalExam06April2019.Deciphering" />
       <module name="JavaCodeFinalExamPreparation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="FinalExam14April2019GroupI.*" />
+          <option name="PATTERN" value="DemoFinalExam06April2019.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -186,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Deciphering" />
         <item itemvalue="Application.SongEncryption" />
         <item itemvalue="Application.Concert" />
         <item itemvalue="Application.ActivationKeys" />
         <item itemvalue="Application.ArrivingInKathmandu" />
-        <item itemvalue="Application.OnTheWayToAnnapurna" />
       </list>
     </recent_temporary>
   </component>
@@ -213,17 +220,19 @@
       <workItem from="1563125265457" duration="12058000" />
       <workItem from="1563211525640" duration="4990000" />
       <workItem from="1563295809947" duration="581000" />
+      <workItem from="1563302810465" duration="3170000" />
+      <workItem from="1563377607829" duration="1226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39444000" />
+    <option name="totallyTimeSpent" value="43840000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-324" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18381241" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18656716" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -342,16 +351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RetakeFinalExam20December2018/ActivationKeys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FinalExam16December2018/Concert.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -379,17 +378,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java">
+    <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="244">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java">
+    <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RetakeFinalExam20December2018/ActivationKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="65" lean-forward="true" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
