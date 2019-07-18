@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="" />
+    <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Final Exam Preparation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Final Exam Preparation/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +35,20 @@
     <favorites_list name="JavaFundamentalsMay2019" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +69,9 @@
       <replace>studentsPerCourse</replace>
       <replace>letterPosition</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -96,7 +117,6 @@
         <option value="$PROJECT_DIR$/src/MidExam20190630/SecondTask.java" />
         <option value="$PROJECT_DIR$/src/MidExam20190630/ThirdTask.java" />
         <option value="$PROJECT_DIR$/src/RegExAndTextProcessing/LettersChangeNumbers.java" />
-        <option value="$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java" />
         <option value="$PROJECT_DIR$/src/TextProcessingRegularExpressionsMoreExercise/MorseCodeTranslator.java" />
         <option value="$PROJECT_DIR$/src/TextProcessingRegularExpressionsMoreExercise/ExtractPersonInformation.java" />
         <option value="$PROJECT_DIR$/src/TextProcessingRegularExpressionsMoreExercise/AsciiSumator.java" />
@@ -106,6 +126,7 @@
         <option value="$PROJECT_DIR$/src/TextProcessingRegularExpressionsMoreExercise/RageQuit.java" />
         <option value="$PROJECT_DIR$/src/TextProcessingAndRegexExersice/MultiplyBigNumber2.java" />
         <option value="$PROJECT_DIR$/src/TextProcessingAndRegexExersice/MultiplyBigNumber.java" />
+        <option value="$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java" />
       </list>
     </option>
   </component>
@@ -115,45 +136,60 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1625" />
-    <option name="y" value="-62" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="759" />
+    <option name="height" value="744" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskIntelliJ_201905-08" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercises Java Code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TaskIntelliJ_201905-08" type="462c0819:PsiDirectoryNode" />
+              <item name="Exercises Java Code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Exercises Java Code" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="RegExAndTextProcessing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -171,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiplyBigNumber2">
+  <component name="RunManager" selected="Application.NetherRealms">
     <configuration name="MultiplyBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextProcessingAndRegexExersice.MultiplyBigNumber" />
       <module name="JavaFundamentalsMay2019" />
@@ -191,6 +227,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="TextProcessingAndRegexExersice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NetherRealms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegExAndTextProcessing.NetherRealms" />
+      <module name="JavaFundamentalsMay2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RegExAndTextProcessing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,26 +286,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WinningTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessingRegularExpressionsMoreExercise.WinningTicket" />
-      <module name="JavaFundamentalsMay2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TextProcessingRegularExpressionsMoreExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NetherRealms" />
         <item itemvalue="Application.MultiplyBigNumber2" />
         <item itemvalue="Application.MultiplyBigNumber" />
         <item itemvalue="Application.RageQuit" />
         <item itemvalue="Application.TreasureFinder" />
-        <item itemvalue="Application.WinningTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -313,11 +349,12 @@
       <workItem from="1562773481518" duration="6312000" />
       <workItem from="1562861581242" duration="600000" />
       <workItem from="1563211593474" duration="655000" />
+      <workItem from="1563466636193" duration="3749000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206789000" />
+    <option name="totallyTimeSpent" value="210538000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -329,7 +366,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1625" y="-62" width="1382" height="759" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.47975707" side_tool="true" weight="0.18835099" />
       <window_info id="Image Layers" order="1" />
@@ -337,13 +375,13 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.4801865" side_tool="true" weight="0.18835099" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51981354" visible="true" weight="0.2677761" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.51981354" weight="0.27155825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.2831424" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.41080198" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.41080198" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4893617" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19148937" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -663,12 +701,6 @@
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="103" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/RegExAndTextProcessing/LettersChangeNumbers.java</url>
           <properties />
           <option name="timeStamp" value="106" />
@@ -696,6 +728,12 @@
           <line>8</line>
           <properties />
           <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -852,16 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/SoftUniBarIncome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AssociativeArr/DemoSumAverage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -894,26 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1054">
           <caret line="1125" column="19" selection-start-line="1125" selection-start-column="19" selection-end-line="1125" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/Race.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/StarEnigma.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,36 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="61" lean-forward="true" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/ExtractEmails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/Furniture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TextProcessingRegularExpressionsMoreExercise/TreasureFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1178,6 +1156,66 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-175">
           <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/ExtractEmails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/StarEnigma.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" lean-forward="true" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/SoftUniBarIncome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="26" lean-forward="true" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/Race.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="19" column="41" lean-forward="true" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/Furniture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="22" column="45" lean-forward="true" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

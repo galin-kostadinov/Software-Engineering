@@ -11,10 +11,10 @@ public class NetherRealms {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String[] demons = sc.nextLine().split(",\\s*".trim());
+        String[] demons = sc.nextLine().split("[,\\s]+".trim());
 
-        String regexHealth = "(?<health>[^0-9+\\-*\\/.]{1})";
-        String regexDamage = "(?<damage>[-]?\\d+[.]?\\d?)";
+        String regexHealth = "(?<health>[^0-9+\\-\\*\\/\\.]{1})";
+        String regexDamage = "(?<damage>[-+]?\\d+[\\.]?\\d*)";
         Pattern patternHealth = Pattern.compile(regexHealth);
         Pattern patternDamage = Pattern.compile(regexDamage);
 
