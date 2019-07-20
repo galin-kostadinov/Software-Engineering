@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/05. Simple Operations and Calculation/tasks/InchesToCentimeters/main.cpp
+iostream
+-
+
