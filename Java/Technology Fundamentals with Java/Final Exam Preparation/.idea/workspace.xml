@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Exercises Java Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises Java Code/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java" afterDir="false" />
-    </list>
+    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +17,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="152">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -53,6 +50,7 @@
         <option value="$PROJECT_DIR$/src/FinalExam16December2018/SongEncryption.java" />
         <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Deciphering.java" />
         <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java" />
+        <option value="$PROJECT_DIR$/src/DemoFinalExam06April2019/Demo.java" />
       </list>
     </option>
   </component>
@@ -68,7 +66,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,6 +88,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -121,20 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Dictionary">
-    <configuration name="ActivationKeys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RetakeFinalExam20December2018.ActivationKeys" />
-      <module name="JavaCodeFinalExamPreparation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RetakeFinalExam20December2018.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Demo">
     <configuration name="Concert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FinalExam16December2018.Concert" />
       <module name="JavaCodeFinalExamPreparation" />
@@ -150,6 +135,19 @@
     </configuration>
     <configuration name="Deciphering" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DemoFinalExam06April2019.Deciphering" />
+      <module name="JavaCodeFinalExamPreparation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DemoFinalExam06April2019.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DemoFinalExam06April2019.Demo" />
       <module name="JavaCodeFinalExamPreparation" />
       <extension name="coverage">
         <pattern>
@@ -189,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Dictionary" />
         <item itemvalue="Application.Deciphering" />
         <item itemvalue="Application.SongEncryption" />
         <item itemvalue="Application.Concert" />
-        <item itemvalue="Application.ActivationKeys" />
       </list>
     </recent_temporary>
   </component>
@@ -220,17 +218,18 @@
       <workItem from="1563377607829" duration="1226000" />
       <workItem from="1563466491174" duration="728000" />
       <workItem from="1563472881533" duration="2221000" />
+      <workItem from="1563626584725" duration="977000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46789000" />
+    <option name="totallyTimeSpent" value="47766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2322239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -396,10 +395,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DemoFinalExam06April2019/Dictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="29" column="63" lean-forward="true" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="152">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
         </state>
       </provider>
     </entry>
