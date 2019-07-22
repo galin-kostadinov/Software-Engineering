@@ -1,0 +1,11 @@
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/charityCampaign.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/tasks.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/alcoholMarket.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/RadiansToDegrees.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/convertorUSDtoBGN.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/danceHall.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/tailoringWorkshop.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/rectangleAreaSecond.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/rectangleArea.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/rebuild_cache.dir

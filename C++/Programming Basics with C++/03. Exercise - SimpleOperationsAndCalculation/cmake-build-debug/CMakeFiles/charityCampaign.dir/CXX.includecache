@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/simple_tasks/charityCampaign.cpp
+iostream
+-
+
