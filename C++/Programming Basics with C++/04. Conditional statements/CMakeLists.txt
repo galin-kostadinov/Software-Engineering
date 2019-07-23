@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.14)
+project(ConditionalStatement)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(ConditionalStatement main.cpp "simple_tasks/ExcellentResult .cpp" simple_tasks/GreaterNumber.cpp simple_tasks/EvenOrOdd.cpp simple_tasks/NumberToText.cpp simple_tasks/ThreeEqualNumbers.cpp "simple_tasks/Number100to200 .cpp" simple_tasks/PasswordGuess.cpp simple_tasks/AreaOfFigures.cpp simple_tasks/DayOfWeek.cpp simple_tasks/AnimalType.cpp simple_tasks/ToyShop.cpp)
+add_executable(ToyShop simple_tasks/ToyShop.cpp)
+add_executable(ThreeEqualNumbers simple_tasks/ThreeEqualNumbers.cpp)
+add_executable(PasswordGuess simple_tasks/PasswordGuess.cpp)
+add_executable(NumberToText simple_tasks/NumberToText.cpp)
+add_executable(Number100to200  "simple_tasks/Number100to200 .cpp")
+add_executable(GreaterNumber simple_tasks/GreaterNumber.cpp)
+add_executable(ExcellentResult  "simple_tasks/ExcellentResult .cpp")
+add_executable(EvenOrOdd simple_tasks/EvenOrOdd.cpp)
+add_executable(DayOfWeek simple_tasks/DayOfWeek.cpp)
+add_executable(AreaOfFigures simple_tasks/AreaOfFigures.cpp)
+add_executable(AnimalType simple_tasks/AnimalType.cpp)

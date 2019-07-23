@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/07. Conditional statements/tasks/ConditionalStatement/simple_tasks/EvenOrOdd.cpp
+iostream
+-
+
