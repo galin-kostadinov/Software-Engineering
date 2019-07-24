@@ -28,11 +28,11 @@ public class SongEncryption {
                     char newLetter = (char) (currentSymbol + key);
                     if (Character.isLowerCase(currentSymbol)) {
                         while (newLetter > 'z') {
-                            newLetter -= (char)('z'-'a'+1);
+                            newLetter -= (char) ('z' - 'a' + 1);
                         }
                     } else {
                         while (newLetter > 'Z') {
-                            newLetter -= (char)('Z'-'A'+1);
+                            newLetter -= (char) ('Z' - 'A' + 1);
                         }
                     }
                     output.append(newLetter);
@@ -44,7 +44,7 @@ public class SongEncryption {
                     output.append('@');
                 }
             }
-            System.out.printf("Successful encryption: %s%n",output);
+            System.out.printf("Successful encryption: %s%n", output);
         }
     }
 }
