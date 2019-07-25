@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/simple_tasks/GodzillaVsKong.cpp
+iostream
+-
+

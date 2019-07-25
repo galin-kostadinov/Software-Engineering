@@ -1,0 +1,11 @@
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/SumSeconds.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/BonusScore.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/Scholarship.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/MetricConverter.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/SpeedInfo.dir
+E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/edit_cache.dir
