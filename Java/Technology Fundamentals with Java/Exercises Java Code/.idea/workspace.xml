@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,35 +34,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="335">
+              <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +134,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -167,7 +146,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -189,18 +167,13 @@
             </path>
             <path>
               <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Exercises Java Code" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AssociativeArrEx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaFundamentalsMay2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +205,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Ranking">
+  <component name="RunManager" selected="Application.Judge">
+    <configuration name="Judge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AssociativeArraysMoreExercise.Judge" />
+      <module name="JavaFundamentalsMay2019" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AssociativeArraysMoreExercise.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MultiplyBigNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TextProcessingAndRegexExersice.MultiplyBigNumber" />
       <module name="JavaFundamentalsMay2019" />
@@ -285,19 +271,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RageQuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TextProcessingRegularExpressionsMoreExercise.RageQuit" />
-      <module name="JavaFundamentalsMay2019" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TextProcessingRegularExpressionsMoreExercise.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Ranking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AssociativeArraysMoreExercise.Ranking" />
       <module name="JavaFundamentalsMay2019" />
@@ -313,11 +286,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Judge" />
         <item itemvalue="Application.Ranking" />
         <item itemvalue="Application.NetherRealms" />
         <item itemvalue="Application.MultiplyBigNumber2" />
         <item itemvalue="Application.MultiplyBigNumber" />
-        <item itemvalue="Application.RageQuit" />
       </list>
     </recent_temporary>
   </component>
@@ -378,11 +351,13 @@
       <workItem from="1563472841219" duration="33000" />
       <workItem from="1563994708420" duration="5273000" />
       <workItem from="1564075793909" duration="1829000" />
+      <workItem from="1564235996112" duration="1859000" />
+      <workItem from="1564255743254" duration="4347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217673000" />
+    <option name="totallyTimeSpent" value="223879000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -406,7 +381,7 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.51981354" weight="0.27155825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.6841244" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.49099836" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4893617" />
@@ -1217,16 +1192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -1237,10 +1202,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="335">
+          <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
