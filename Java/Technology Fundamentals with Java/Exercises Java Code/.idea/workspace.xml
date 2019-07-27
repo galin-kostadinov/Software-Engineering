@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" afterDir="false" />
     </list>
@@ -34,14 +35,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="335">
-              <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -74,7 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ListExercise/Train2.java" />
         <option value="$PROJECT_DIR$/src/ListExercise/AppendArrays.java" />
         <option value="$PROJECT_DIR$/src/ListsMoreExerxise/DrumSet.java" />
         <option value="$PROJECT_DIR$/src/ListsMoreExerxise/MixedUpLists.java" />
@@ -125,6 +134,7 @@
         <option value="$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" />
+        <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" />
       </list>
     </option>
   </component>
@@ -134,7 +144,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -352,12 +362,12 @@
       <workItem from="1563994708420" duration="5273000" />
       <workItem from="1564075793909" duration="1829000" />
       <workItem from="1564235996112" duration="1859000" />
-      <workItem from="1564255743254" duration="4347000" />
+      <workItem from="1564255743254" duration="4661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="223879000" />
+    <option name="totallyTimeSpent" value="224193000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -760,16 +770,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ListExercise/Train.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListExercise/Train2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1215,10 +1215,17 @@
     <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
-          <caret line="93" column="11" lean-forward="true" selection-start-line="93" selection-start-column="11" selection-end-line="93" selection-end-column="11" />
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
