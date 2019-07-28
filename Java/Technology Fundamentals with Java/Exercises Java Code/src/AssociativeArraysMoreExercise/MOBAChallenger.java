@@ -41,7 +41,8 @@ public class MOBAChallenger {
                     LinkedHashMap<String, Integer> posSkillFirstPlayer = playerPool.get(firstPlayer);
                     LinkedHashMap<String, Integer> posSkillSecondPlayer = playerPool.get(secondPlayer);
 
-                    if (posSkillFirstPlayer.keySet().containsAll(posSkillSecondPlayer.keySet())) {
+                    if (posSkillFirstPlayer.keySet().containsAll(posSkillSecondPlayer.keySet())
+                            || posSkillSecondPlayer.keySet().containsAll(posSkillFirstPlayer.keySet())) {
                         int totalPointFirstPlayer = getTotalPoint(posSkillFirstPlayer);
                         int totalPointSecondPlayer = getTotalPoint(posSkillSecondPlayer);
 
@@ -58,8 +59,6 @@ public class MOBAChallenger {
         playerPool.entrySet()
                 .stream()
                 .sorted((p1, p2) -> {
-                    String firstPlayerName = p1.getKey();
-                    String secondPlayerName = p2.getKey();
                     LinkedHashMap<String, Integer> posSkillFirstPlayer = p1.getValue();
                     LinkedHashMap<String, Integer> posSkillSecondPlayer = p2.getValue();
 
@@ -67,19 +66,42 @@ public class MOBAChallenger {
                     int totalPointSecondPlayer = getTotalPoint(posSkillSecondPlayer);
 
                     int sort = Integer.compare(totalPointSecondPlayer, totalPointFirstPlayer);
+                    String firstPlayerName = p1.getKey();
+                    String secondPlayerName = p2.getKey();
 
                     if (sort == 0) {
                         sort = firstPlayerName.compareTo(secondPlayerName);
                     }
                     return sort;
                 })
-                .forEach(p->{
+                .forEach(p -> {
                     String playerName = p.getKey();
                     LinkedHashMap<String, Integer> posSkillPlayer = p.getValue();
                     int totalPointPlayer = getTotalPoint(posSkillPlayer);
 
-                    System.out.printf("%s: %d skill", playerName, totalPointPlayer);
+                    System.out.printf("%s: %d skill%n", playerName, totalPointPlayer);
 
+                    posSkillPlayer.entrySet()
+                            .stream()
+                            .sorted((e1, e2) -> {
+                                int firstSkill = e1.getValue();
+                                int secondSkill = e2.getValue();
+
+                                int sort = Integer.compare(secondSkill, firstSkill);
+                                if (sort == 0) {
+                                    String firstPosition = e1.getKey();
+                                    String secondPosition = e2.getKey();
+
+                                    sort = firstPosition.compareTo(secondPosition);
+                                }
+
+                                return sort;
+                            })
+                            .forEach(e -> {
+                                int skill = e.getValue();
+                                String position = e.getKey();
+                                System.out.printf("- %s <::> %d%n", position, skill);
+                            });
 
                 });
 

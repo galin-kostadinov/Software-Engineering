@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -50,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+            <state relative-caret-position="550">
+              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,9 +145,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1760" />
+    <option name="y" value="-113" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -366,12 +364,12 @@
       <workItem from="1564075793909" duration="1829000" />
       <workItem from="1564235996112" duration="1859000" />
       <workItem from="1564255743254" duration="4661000" />
-      <workItem from="1564288879282" duration="4077000" />
+      <workItem from="1564288879282" duration="5766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="228270000" />
+    <option name="totallyTimeSpent" value="229959000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -383,7 +381,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.47975707" side_tool="true" weight="0.18835099" />
@@ -395,10 +393,10 @@
       <window_info content_ui="combo" id="Project" order="6" sideWeight="0.51981354" weight="0.27155825" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.49099836" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.4907909" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" weight="0.4893617" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.29685807" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19148937" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
@@ -751,6 +749,12 @@
           <line>24</line>
           <properties />
           <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="120" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1228,8 +1232,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="83" column="19" lean-forward="true" selection-start-line="83" selection-start-column="19" selection-end-line="83" selection-end-column="19" />
+        <state relative-caret-position="550">
+          <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
