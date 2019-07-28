@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,26 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java">
+        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="55" column="13" lean-forward="true" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -85,8 +70,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ListExercise/AppendArrays.java" />
-        <option value="$PROJECT_DIR$/src/ListsMoreExerxise/DrumSet.java" />
         <option value="$PROJECT_DIR$/src/ListsMoreExerxise/MixedUpLists.java" />
         <option value="$PROJECT_DIR$/src/ListsMoreExerxise/TakeSkipRope.java" />
         <option value="$PROJECT_DIR$/src/Lists/Demo.java" />
@@ -136,6 +119,8 @@
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" />
+        <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Snowwhite.java" />
+        <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java" />
       </list>
     </option>
   </component>
@@ -145,9 +130,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="1760" />
-    <option name="y" value="-113" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="35" />
+    <option name="y" value="23" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -157,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,7 +170,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,12 +349,12 @@
       <workItem from="1564075793909" duration="1829000" />
       <workItem from="1564235996112" duration="1859000" />
       <workItem from="1564255743254" duration="4661000" />
-      <workItem from="1564288879282" duration="5766000" />
+      <workItem from="1564288879282" duration="5939000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229959000" />
+    <option name="totallyTimeSpent" value="230132000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -390,7 +375,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.4801865" side_tool="true" weight="0.18835099" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.51981354" weight="0.27155825" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51981354" visible="true" weight="0.27132195" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" weight="0.4907909" />
@@ -778,16 +763,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ListExercise/Train2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListExercise/SoftUniCoursePlanning.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="385">
@@ -1200,30 +1175,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RegExAndTextProcessing/NetherRealms.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="65" column="78" selection-start-line="65" selection-start-column="78" selection-end-line="65" selection-end-column="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1237,6 +1192,33 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Judge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Ranking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
