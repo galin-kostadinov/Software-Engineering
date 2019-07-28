@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +33,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -42,6 +41,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -74,7 +82,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ListsMoreExerxise/MixedUpLists.java" />
         <option value="$PROJECT_DIR$/src/ListsMoreExerxise/TakeSkipRope.java" />
         <option value="$PROJECT_DIR$/src/Lists/Demo.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArrEx/CountCharsInString.java" />
@@ -125,6 +132,7 @@
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/MOBAChallenger.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/Snowwhite.java" />
         <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/SnowWhite.java" />
+        <option value="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java" />
       </list>
     </option>
   </component>
@@ -135,8 +143,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1352" />
-    <option name="y" value="-50" />
+    <option name="x" value="-100" />
+    <option name="y" value="81" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -354,12 +362,12 @@
       <workItem from="1564075793909" duration="1829000" />
       <workItem from="1564235996112" duration="1859000" />
       <workItem from="1564255743254" duration="4661000" />
-      <workItem from="1564288879282" duration="10246000" />
+      <workItem from="1564288879282" duration="10347000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="234439000" />
+    <option name="totallyTimeSpent" value="234540000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -371,7 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" sideWeight="0.47975707" side_tool="true" weight="0.18835099" />
@@ -380,10 +388,10 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.4801865" side_tool="true" weight="0.18835099" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.51981354" weight="0.13086233" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.51981354" visible="true" weight="0.21482602" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.44517186" visible="true" weight="0.09534128" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.44517186" visible="true" weight="0.14402619" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.5646481" />
@@ -768,16 +776,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ListExercise/SoftUniCoursePlanning.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="27" column="50" lean-forward="true" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListExercise/PokemonDontGo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="436">
@@ -1227,6 +1225,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>
