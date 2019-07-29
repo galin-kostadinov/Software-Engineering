@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArr/DemoStreamAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArr/DemoStreamAPI.java" afterDir="false" />
-    </list>
+    <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +58,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Object And Classes Exsercise" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -236,7 +233,7 @@
       <workItem from="1564255743254" duration="4661000" />
       <workItem from="1564288879282" duration="11722000" />
       <workItem from="1564323497304" duration="7006000" />
-      <workItem from="1564381104415" duration="7333000" />
+      <workItem from="1564381104415" duration="7673000" />
     </task>
     <servers />
   </component>
