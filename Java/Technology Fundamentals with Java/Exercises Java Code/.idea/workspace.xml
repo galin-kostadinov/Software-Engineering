@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/AssociativeArr/DemoStreamAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AssociativeArraysMoreExercise/DragonArmy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +235,8 @@
       <workItem from="1564235996112" duration="1859000" />
       <workItem from="1564255743254" duration="4661000" />
       <workItem from="1564288879282" duration="11722000" />
-      <workItem from="1564323497304" duration="5726000" />
+      <workItem from="1564323497304" duration="7006000" />
+      <workItem from="1564381104415" duration="2829000" />
     </task>
     <servers />
   </component>
@@ -256,7 +257,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
