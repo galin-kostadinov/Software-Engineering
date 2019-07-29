@@ -11,6 +11,8 @@ public class DemoStreamAPI {
         IntSummaryStatistics y = Arrays.stream(nums).summaryStatistics();
         int yMin = y.getMin();
         double yAverage = y.getAverage();
+        System.out.println("Min y = " + yMin);
+        System.out.println("Average y = " + yAverage);
 
         /*---------------------------------------------------------------*/
 
@@ -18,14 +20,14 @@ public class DemoStreamAPI {
 
         OptionalInt z = Arrays.stream(nums).min();
         if (z != null) {
-            System.out.println(z);
+            System.out.println("Min z = " + z.getAsInt());
         } else {
             System.out.println("no elements");
         }
 
         /*---------------------------------------------------------------*/
 
-        List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(-5, 1, 2, 3, 4, 5));
 
         Optional<Integer> x1 = numbers.stream().min(Comparator.naturalOrder()); // Min
 
@@ -38,11 +40,21 @@ public class DemoStreamAPI {
          because we use "Integer" - this is object not primitive "int"
          */
 
+        Optional<Integer> sum = numbers.stream().reduce((current, newValue) -> current + newValue);
+        System.out.println("sum = " + sum.get());
+
+
         if (x1.isPresent()) {
-            System.out.println(x1.get());
+            System.out.println("Min x1 = " + x1.get());
         } else {
             System.out.println("no elements");
         }
-    }
 
+        /*---------------------------------------------------------------*/
+
+        List<String> names = new ArrayList<>(Arrays.asList("Z", "Ani", "Maria", "Stefan", "T"));
+
+        Optional<String> name = names.stream().min((a, b) -> a.compareTo(b));// First object Alphabetically
+        System.out.println(name.get());
+    }
 }
