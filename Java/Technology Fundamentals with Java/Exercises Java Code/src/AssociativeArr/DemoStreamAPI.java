@@ -1,6 +1,7 @@
 package AssociativeArr;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class DemoStreamAPI {
     public static void main(String[] args) {
@@ -56,5 +57,23 @@ public class DemoStreamAPI {
 
         Optional<String> name = names.stream().min((a, b) -> a.compareTo(b));// First object Alphabetically
         System.out.println(name.get());
+
+        /*---------------------------------------------------------------*/
+
+        List<Integer> nums2 = numbers.stream()
+                .filter(n -> n % 2 == 0)
+                .map(i -> i * 2)
+                .collect(Collectors.toList());
+
+        /*---------------------------------------------------------------*/
+
+        List<Integer> num4 = Arrays.stream(sc.nextLine().split("\\s+"))
+                .map(Integer::parseInt)
+                .collect(Collectors.toList());
+
+        /*---------------------------------------------------------------*/
+
+        String[] text = sc.nextLine().split("\\s+");
+        List<String> text1 = Arrays.asList(sc.nextLine().split("\\s+"));
     }
 }
