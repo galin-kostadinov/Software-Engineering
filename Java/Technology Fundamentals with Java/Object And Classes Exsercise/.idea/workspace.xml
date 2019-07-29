@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CompanyRosterMoreEx/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RawDataMoreEx/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RawDataMoreEx/Cargo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RawDataMoreEx/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RawDataMoreEx/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RawDataMoreEx/Tire.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CompanyRosterMoreEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CompanyRosterMoreEx/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompanyRosterMoreEx.Main" />
       <module name="TasksObjectAndClassesExsercise" />
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArticlesSecond.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RawDataMoreEx.Main" />
       <module name="TasksObjectAndClassesExsercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArticlesSecond.*" />
+          <option name="PATTERN" value="RawDataMoreEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,7 @@
       <workItem from="1560271352977" duration="10787000" />
       <workItem from="1560353455871" duration="551000" />
       <workItem from="1560970840876" duration="408000" />
-      <workItem from="1564401886763" duration="12023000" />
+      <workItem from="1564401886763" duration="16397000" />
     </task>
     <servers />
   </component>
