@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\obj\Debug\08. CondenseArrayToNumber.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\obj\Debug\08. CondenseArrayToNumber.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\bin\Debug\_08.Condense_Array_to_Number.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\bin\Debug\_08.Condense_Array_to_Number.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\bin\Debug\_08.Condense_Array_to_Number.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\obj\Debug\_08.Condense_Array_to_Number.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\08. Condense Array to Number\obj\Debug\_08.Condense_Array_to_Number.pdb
