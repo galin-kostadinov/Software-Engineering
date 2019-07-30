@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\bin\Debug\_10.LadyBugs.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\bin\Debug\_10.LadyBugs.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\bin\Debug\_10.LadyBugs.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\obj\Debug\10. LadyBugs.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\obj\Debug\10. LadyBugs.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\obj\Debug\_10.LadyBugs.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\10. LadyBugs\obj\Debug\_10.LadyBugs.pdb

@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\bin\Debug\_08.Magic_Sum.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\bin\Debug\_08.Magic_Sum.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\bin\Debug\_08.Magic_Sum.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\obj\Debug\08. Magic Sum.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\obj\Debug\08. Magic Sum.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\obj\Debug\_08.Magic_Sum.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\08. Magic Sum\obj\Debug\_08.Magic_Sum.pdb

@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\bin\Debug\_06.Equal_Sum.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\bin\Debug\_06.Equal_Sum.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\bin\Debug\_06.Equal_Sum.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\obj\Debug\06. EqualSum.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\obj\Debug\06. EqualSum.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\obj\Debug\_06.Equal_Sum.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\06. Equal Sum\obj\Debug\_06.Equal_Sum.pdb

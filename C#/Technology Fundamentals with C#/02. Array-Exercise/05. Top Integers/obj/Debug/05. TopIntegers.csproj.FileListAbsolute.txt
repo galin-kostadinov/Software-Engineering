@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\bin\Debug\_05.Top_Integers.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\bin\Debug\_05.Top_Integers.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\bin\Debug\_05.Top_Integers.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\obj\Debug\05. TopIntegers.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\obj\Debug\_05.Top_Integers.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\obj\Debug\_05.Top_Integers.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\05. Top Integers\obj\Debug\05. TopIntegers.csprojAssemblyReference.cache

@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\bin\Debug\07.MaxSequenceEqualElemII.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\bin\Debug\07.MaxSequenceEqualElemII.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\bin\Debug\07.MaxSequenceEqualElemII.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\obj\Debug\07.MaxSequenceEqualElemII.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\obj\Debug\07.MaxSequenceEqualElemII.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\obj\Debug\07.MaxSequenceEqualElemII.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\07.MaxSequenceEqualElemII\obj\Debug\07.MaxSequenceEqualElemII.pdb

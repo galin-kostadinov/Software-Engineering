@@ -1,0 +1,7 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\obj\Debug\09. KaminoFactory.csprojAssemblyReference.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\obj\Debug\09. KaminoFactory.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\bin\Debug\_09.Kamino_Factory.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\bin\Debug\_09.Kamino_Factory.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\bin\Debug\_09.Kamino_Factory.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\obj\Debug\_09.Kamino_Factory.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\09. Kamino Factory\obj\Debug\_09.Kamino_Factory.pdb

@@ -1,0 +1,6 @@
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\bin\Debug\_04.Array_Rotation.exe.config
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\bin\Debug\_04.Array_Rotation.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\bin\Debug\_04.Array_Rotation.pdb
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\obj\Debug\04. ArrayRotation.csproj.CoreCompileInputs.cache
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\obj\Debug\_04.Array_Rotation.exe
+E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\04. Array Rotation\obj\Debug\_04.Array_Rotation.pdb
