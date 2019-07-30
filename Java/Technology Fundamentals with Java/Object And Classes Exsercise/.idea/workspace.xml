@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +155,8 @@
       <workItem from="1560271352977" duration="10787000" />
       <workItem from="1560353455871" duration="551000" />
       <workItem from="1560970840876" duration="408000" />
-      <workItem from="1564401886763" duration="17522000" />
+      <workItem from="1564401886763" duration="17678000" />
+      <workItem from="1564463814379" duration="2416000" />
     </task>
     <servers />
   </component>
@@ -167,7 +168,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
