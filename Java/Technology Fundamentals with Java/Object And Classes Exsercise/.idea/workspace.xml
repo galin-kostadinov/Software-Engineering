@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TeamworkProjectsMoreEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TeamworkProjectsMoreEx/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Exercises Java Code/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercises Java Code/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TeamworkProjectsMoreEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TeamworkProjectsMoreEx/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -156,7 +154,7 @@
       <workItem from="1560353455871" duration="551000" />
       <workItem from="1560970840876" duration="408000" />
       <workItem from="1564401886763" duration="17678000" />
-      <workItem from="1564463814379" duration="15394000" />
+      <workItem from="1564463814379" duration="16542000" />
     </task>
     <servers />
   </component>

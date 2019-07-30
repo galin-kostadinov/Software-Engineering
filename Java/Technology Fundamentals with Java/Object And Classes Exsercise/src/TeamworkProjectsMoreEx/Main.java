@@ -44,7 +44,7 @@ public class Main {
             if (!isTeamNameExist) {
                 System.out.printf("Team %s does not exist!%n", teamName);
             } else if (isExistMember) {
-                System.out.printf("Member %s cannot join team %s!", user, teamName);
+                System.out.printf("Member %s cannot join team %s!%n", user, teamName);
             }
             if (isTeamNameExist && !isExistMember) {
                 teams.stream().filter(x -> x.getName().equals(teamName)).findFirst().get().getMembers().add(user);
@@ -63,7 +63,7 @@ public class Main {
                 .forEach(e -> {
                     System.out.println(e.getName());
                     System.out.printf("- %s%n", e.getCreatorName());
-                    e.getMembers().forEach(m -> System.out.printf("-- %s%n", m));
+                    e.getMembers().stream().sorted((e1, e2) -> e1.compareTo(e2)).forEach(m -> System.out.printf("-- %s%n", m));
                 });
 
         System.out.println("Teams to disband:");
