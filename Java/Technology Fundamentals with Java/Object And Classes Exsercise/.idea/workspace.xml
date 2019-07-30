@@ -4,7 +4,6 @@
     <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarSalesmanMoreEx/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,7 +63,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompanyRosterMoreEx.Main" />
       <module name="TasksObjectAndClassesExsercise" />
@@ -91,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Students.Main" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CarSalesmanMoreEx.Main" />
       <module name="TasksObjectAndClassesExsercise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Students.*" />
+          <option name="PATTERN" value="CarSalesmanMoreEx.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +155,7 @@
       <workItem from="1560353455871" duration="551000" />
       <workItem from="1560970840876" duration="408000" />
       <workItem from="1564401886763" duration="17678000" />
-      <workItem from="1564463814379" duration="2416000" />
+      <workItem from="1564463814379" duration="6126000" />
     </task>
     <servers />
   </component>
