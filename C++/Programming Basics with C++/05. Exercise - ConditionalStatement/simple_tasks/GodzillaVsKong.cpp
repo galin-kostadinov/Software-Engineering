@@ -3,7 +3,6 @@
 using namespace std;
 
 int main() {
-
     double budget;
     int statistics;
     double clothesPrice;
@@ -25,5 +24,6 @@ int main() {
         cout << "Not enough money!" << endl;
         cout << "Wingard needs " << totalPrice - budget << " leva more." << endl;
     }
+
     return 0;
 }
