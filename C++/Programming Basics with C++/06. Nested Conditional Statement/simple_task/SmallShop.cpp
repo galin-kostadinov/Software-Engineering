@@ -7,7 +7,9 @@ int main() {
     string product, city;
     double quantity;
     cin >> product >> city >> quantity;
-    double price;
+
+    double price = 0;
+
     if (product == "coffee") {
         if (city == "Sofia") {
             price = 0.50;
@@ -51,7 +53,6 @@ int main() {
     }
 
     double totalPrice = quantity * price;
-
 
     cout << totalPrice << endl;
     return 0;
