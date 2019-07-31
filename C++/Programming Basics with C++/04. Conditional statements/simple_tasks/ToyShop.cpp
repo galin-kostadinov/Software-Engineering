@@ -21,10 +21,11 @@ int main() {
 
     cout.setf(iostream::fixed);
     cout.precision(2);
+
     if (leftMoney >= 0) {
-        cout << "Yes! "<<leftMoney<<" lv left." << endl;
+        cout << "Yes! " << leftMoney << " lv left." << endl;
     } else {
-        cout << "Not enough money! "<<abs(leftMoney)<<" lv needed." << endl;
+        cout << "Not enough money! " << abs(leftMoney) << " lv needed." << endl;
     }
 
     return 0;
