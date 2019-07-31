@@ -10,7 +10,6 @@ int main() {
     int socialScholarship = floor(0.35 * minSalary);
     int excellentScholarship = floor(25 * averageGrade);
 
-
     if (averageGrade > 4.5 && averageGrade < 5.5 && income < minSalary) {
         if (income < minSalary) {
             cout << "You get a Social scholarship " << socialScholarship << " BGN" << endl;
