@@ -22,7 +22,7 @@ int main() {
             output = "Ms.";
         }
     }
-    cout << output<<endl;
+    cout << output << endl;
 
     return 0;
 }

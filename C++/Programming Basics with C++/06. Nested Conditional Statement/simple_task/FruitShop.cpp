@@ -48,6 +48,7 @@ int main() {
     if (price >= 0) {
         cout.setf(ios::fixed);
         cout.precision(2);
+
         cout << price * quantity << endl;
     } else {
         cout << "error" << endl;
