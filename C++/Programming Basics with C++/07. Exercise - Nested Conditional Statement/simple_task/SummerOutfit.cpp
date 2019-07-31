@@ -4,13 +4,13 @@
 using namespace std;
 
 int main() {
-
     int degrees;
     string dayTime;
     cin >> degrees >> dayTime;
 
     string outfit;
     string shoes;
+
     if (degrees >= 10 && degrees <= 18) {
         if (dayTime == "Morning") {
             outfit = "Sweatshirt";
@@ -40,6 +40,7 @@ int main() {
         }
     }
 
-    cout << "It's " << degrees << " degrees, get your " << outfit << " and " << shoes <<"."<< endl;
+    cout << "It's " << degrees << " degrees, get your " << outfit << " and " << shoes << "." << endl;
+
     return 0;
 }
