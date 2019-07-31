@@ -6,9 +6,9 @@ int main() {
     int num;
     cin >> num;
 
-    if (num%2==0) {
+    if (num % 2 == 0) {
         cout << "even" << endl;
-    }else{
+    } else {
         cout << "odd" << endl;
     }
 
