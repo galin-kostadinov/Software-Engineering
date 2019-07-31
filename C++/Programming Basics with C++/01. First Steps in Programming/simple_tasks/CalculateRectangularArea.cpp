@@ -10,5 +10,6 @@ int main() {
     int result = a * h;
 
     cout << result << endl;
+
     return 0;
 }
