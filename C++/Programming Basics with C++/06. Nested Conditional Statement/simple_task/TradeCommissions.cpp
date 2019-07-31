@@ -20,7 +20,6 @@ int main() {
         } else if (income > 10000) {
             commission = 0.12;
         }
-
     } else if (town == "Varna") {
         if (income >= 0 && income <= 500) {
             commission = 0.045;
@@ -46,6 +45,7 @@ int main() {
     if (commission >= 0) {
         cout.setf(ios::fixed);
         cout.precision(2);
+
         cout << commission * income << endl;
     } else {
         cout << "error" << endl;

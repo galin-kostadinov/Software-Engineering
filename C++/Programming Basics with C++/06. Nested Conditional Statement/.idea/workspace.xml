@@ -19,7 +19,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89c89fa8-1508-4029-b570-14dabf3af574" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/simple_task/SmallShop.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_task/SmallShop.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_task/TradeCommissions.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_task/TradeCommissions.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,11 +34,23 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_task/SmallShop.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="617">
               <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/simple_task/TradeCommissions.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -56,12 +68,12 @@
       <list>
         <option value="$PROJECT_DIR$/simple_task/FruitOrVegetable.cpp" />
         <option value="$PROJECT_DIR$/simple_task/InvalidNumber.cpp" />
-        <option value="$PROJECT_DIR$/simple_task/TradeCommissions.cpp" />
         <option value="$PROJECT_DIR$/simple_task/SkiTrip.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/simple_task/FruitShop.cpp" />
         <option value="$PROJECT_DIR$/simple_task/PersonalTitles.cpp" />
         <option value="$PROJECT_DIR$/simple_task/SmallShop.cpp" />
+        <option value="$PROJECT_DIR$/simple_task/TradeCommissions.cpp" />
       </list>
     </option>
   </component>
@@ -183,12 +195,12 @@
       <updated>1561217449811</updated>
       <workItem from="1561217453373" duration="7683000" />
       <workItem from="1564560392449" duration="130000" />
-      <workItem from="1564564344291" duration="140000" />
+      <workItem from="1564564344291" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7953000" />
+    <option name="totallyTimeSpent" value="7995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
@@ -237,16 +249,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.cpp" />
-    <entry file="file://$PROJECT_DIR$/simple_task/TradeCommissions.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="48" column="44" selection-start-line="46" selection-start-column="7" selection-end-line="48" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -299,6 +301,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="617">
           <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_task/TradeCommissions.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
