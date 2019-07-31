@@ -12,18 +12,23 @@ int main() {
 
     string command;
     cin >> command;
+
     while (command != "Done") {
         int numberOfCarton = stoi(command);
         cartonVolume += numberOfCarton;
+
         if (freeSpace <= cartonVolume) {
             break;
         }
+
         cin >> command;
     }
+
     if (command == "Done") {
         cout << (freeSpace - cartonVolume) << " Cubic meters left." << endl;
     } else {
         cout << "No more free space! You need " << (cartonVolume - freeSpace) << " Cubic meters more." << endl;
     }
+
     return 0;
 }
