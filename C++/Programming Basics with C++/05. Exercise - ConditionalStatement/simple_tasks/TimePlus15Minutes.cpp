@@ -11,8 +11,8 @@ int main() {
     hour = min / 60;
     min = min % 60;
 
-    if (hour>=24){
-        hour-=24;
+    if (hour >= 24) {
+        hour -= 24;
     }
 
     if (min < 10) {
