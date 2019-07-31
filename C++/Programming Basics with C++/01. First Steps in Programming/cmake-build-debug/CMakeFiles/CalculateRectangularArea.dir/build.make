@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CalculateRectangularArea.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/CalculateRectangularArea.dir/flags.make
 
 CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj: CMakeFiles/CalculateRectangularArea.dir/flags.make
 CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj: ../simple_tasks/CalculateRectangularArea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.obj -c "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp"
 
 CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp" > CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp" > CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.i
 
 CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp" -o CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\simple_tasks\CalculateRectangularArea.cpp" -o CMakeFiles\CalculateRectangularArea.dir\simple_tasks\CalculateRectangularArea.cpp.s
 
 # Object files for target CalculateRectangularArea
 CalculateRectangularArea_OBJECTS = \
@@ -81,7 +81,7 @@ CalculateRectangularArea.exe: CMakeFiles/CalculateRectangularArea.dir/build.make
 CalculateRectangularArea.exe: CMakeFiles/CalculateRectangularArea.dir/linklibs.rsp
 CalculateRectangularArea.exe: CMakeFiles/CalculateRectangularArea.dir/objects1.rsp
 CalculateRectangularArea.exe: CMakeFiles/CalculateRectangularArea.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CalculateRectangularArea.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CalculateRectangularArea.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CalculateRectangularArea.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/CalculateRectangularArea.dir/clean:
 .PHONY : CMakeFiles/CalculateRectangularArea.dir/clean
 
 CMakeFiles/CalculateRectangularArea.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\01. First Steps in Programming\cmake-build-debug\CMakeFiles\CalculateRectangularArea.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming" "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming" "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug" "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug" "E:\ComputerProgramming\TestGitHup\01. First Steps in Programming\cmake-build-debug\CMakeFiles\CalculateRectangularArea.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/CalculateRectangularArea.dir/depend
 

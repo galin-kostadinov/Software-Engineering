@@ -7,9 +7,9 @@
       <config projectName="tasks" targetName="tasks" />
       <config projectName="tasks" targetName="danceHall" />
       <config projectName="tasks" targetName="tailoringWorkshop" />
-      <config projectName="tasks" targetName="rectangleAreaSecond" />
-      <config projectName="tasks" targetName="convertorUSDtoBGN" />
       <config projectName="tasks" targetName="charityCampaign" />
+      <config projectName="tasks" targetName="convertorUSDtoBGN" />
+      <config projectName="tasks" targetName="rectangleAreaSecond" />
       <config projectName="tasks" targetName="rectangleArea" />
     </generated>
   </component>
@@ -19,7 +19,34 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6a6e887-6501-4856-98fd-8128aeb9e4a1" name="Default Changelist" comment="" />
+    <list default="true" id="b6a6e887-6501-4856-98fd-8128aeb9e4a1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../04. Conditional statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../04. Conditional statements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/task.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../07. Exercise - Nested Conditional Statement/cmake-build-debug/task.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../08. While-loop/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../08. While-loop/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Vacation.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Vacation.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Walking.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Walking.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/Simple_Tasks.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../09. Exercise - While-loop/cmake-build-debug/Simple_Tasks.cbp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +59,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/simple_tasks/tailoringWorkshop.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -74,28 +101,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03. Exercise - SimpleOperationsAndCalculation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="03. Exercise - SimpleOperationsAndCalculation" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../04. Conditional statements" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02. Simple Operations and Calculation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -188,16 +200,17 @@
       <workItem from="1560669766177" duration="422000" />
       <workItem from="1564560686188" duration="437000" />
       <workItem from="1564563762316" duration="193000" />
+      <workItem from="1564575272582" duration="12000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8019000" />
+    <option name="totallyTimeSpent" value="8031000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16471216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1663113" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -300,7 +313,7 @@
     <entry file="file://$PROJECT_DIR$/simple_tasks/tailoringWorkshop.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
         </state>
       </provider>
     </entry>

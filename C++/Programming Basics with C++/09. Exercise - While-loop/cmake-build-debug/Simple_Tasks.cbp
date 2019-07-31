@@ -332,9 +332,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/main.cpp">
-			<Option target="Simple_Tasks"/>
-		</Unit>
 		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/simple-tasks/Cake.cpp">
 			<Option target="Simple_Tasks"/>
 			<Option target="Cake"/>

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Simple_Tasks.dir/main.cpp.obj"
   "CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj"
   "CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj"
   "CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj"

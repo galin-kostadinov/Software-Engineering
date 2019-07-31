@@ -107,7 +107,7 @@ clean: CMakeFiles/OnTimeForTheExam.dir/clean
 CMakeFiles/task.dir/all:
 	$(MAKE) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/depend
 	$(MAKE) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=21,22,23,24,25,26,27,28,29,30,31,32 "Built target task"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=21,22,23,24,25,26,27,28,29,30,31 "Built target task"
 .PHONY : CMakeFiles/task.dir/all
 
 # Include target in all.
@@ -117,7 +117,7 @@ all: CMakeFiles/task.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/task.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" 12
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" 11
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/task.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/task.dir/rule

@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/01__First_Steps_in_Programming.dir/main.cpp.obj"
   "CMakeFiles/01__First_Steps_in_Programming.dir/simple_tasks/CalculateRectangularArea.cpp.obj"
   "CMakeFiles/01__First_Steps_in_Programming.dir/simple_tasks/Count1to20.cpp.obj"
   "CMakeFiles/01__First_Steps_in_Programming.dir/simple_tasks/Expression.cpp.obj"

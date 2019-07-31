@@ -500,9 +500,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/main.cpp">
-			<Option target="task"/>
-		</Unit>
 		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/simple_task/Cinema.cpp">
 			<Option target="task"/>
 			<Option target="Cinema"/>

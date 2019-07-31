@@ -56,22 +56,9 @@ include CMakeFiles/task.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/task.dir/flags.make
 
-CMakeFiles/task.dir/main.cpp.obj: CMakeFiles/task.dir/flags.make
-CMakeFiles/task.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\main.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\main.cpp"
-
-CMakeFiles/task.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/task.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\main.cpp" > CMakeFiles\task.dir\main.cpp.i
-
-CMakeFiles/task.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/task.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\main.cpp" -o CMakeFiles\task.dir\main.cpp.s
-
 CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj: ../simple_task/PointOnRectangleBorder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\PointOnRectangleBorder.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\PointOnRectangleBorder.cpp"
 
 CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.i: cmake_force
@@ -84,7 +71,7 @@ CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/Cinema.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/Cinema.cpp.obj: ../simple_task/Cinema.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/simple_task/Cinema.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/task.dir/simple_task/Cinema.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\Cinema.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\Cinema.cpp"
 
 CMakeFiles/task.dir/simple_task/Cinema.cpp.i: cmake_force
@@ -97,7 +84,7 @@ CMakeFiles/task.dir/simple_task/Cinema.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj: ../simple_task/SummerOutfit.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\SummerOutfit.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\SummerOutfit.cpp"
 
 CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.i: cmake_force
@@ -110,7 +97,7 @@ CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/NewHouse.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/NewHouse.cpp.obj: ../simple_task/NewHouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/simple_task/NewHouse.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/task.dir/simple_task/NewHouse.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\NewHouse.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\NewHouse.cpp"
 
 CMakeFiles/task.dir/simple_task/NewHouse.cpp.i: cmake_force
@@ -123,7 +110,7 @@ CMakeFiles/task.dir/simple_task/NewHouse.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/FishingBoat.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/FishingBoat.cpp.obj: ../simple_task/FishingBoat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/simple_task/FishingBoat.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/task.dir/simple_task/FishingBoat.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\FishingBoat.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\FishingBoat.cpp"
 
 CMakeFiles/task.dir/simple_task/FishingBoat.cpp.i: cmake_force
@@ -136,7 +123,7 @@ CMakeFiles/task.dir/simple_task/FishingBoat.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/Journey.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/Journey.cpp.obj: ../simple_task/Journey.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/task.dir/simple_task/Journey.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/task.dir/simple_task/Journey.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\Journey.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\Journey.cpp"
 
 CMakeFiles/task.dir/simple_task/Journey.cpp.i: cmake_force
@@ -149,7 +136,7 @@ CMakeFiles/task.dir/simple_task/Journey.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.obj: ../simple_task/OperationsBetweenNumbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\OperationsBetweenNumbers.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\OperationsBetweenNumbers.cpp"
 
 CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.i: cmake_force
@@ -162,7 +149,7 @@ CMakeFiles/task.dir/simple_task/OperationsBetweenNumbers.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/HotelRoom.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/HotelRoom.cpp.obj: ../simple_task/HotelRoom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/task.dir/simple_task/HotelRoom.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/task.dir/simple_task/HotelRoom.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\HotelRoom.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\HotelRoom.cpp"
 
 CMakeFiles/task.dir/simple_task/HotelRoom.cpp.i: cmake_force
@@ -175,7 +162,7 @@ CMakeFiles/task.dir/simple_task/HotelRoom.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.obj: ../simple_task/OnTimeForTheExam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\OnTimeForTheExam.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\OnTimeForTheExam.cpp"
 
 CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.i: cmake_force
@@ -188,7 +175,7 @@ CMakeFiles/task.dir/simple_task/OnTimeForTheExam.cpp.s: cmake_force
 
 CMakeFiles/task.dir/simple_task/Volleyball.cpp.obj: CMakeFiles/task.dir/flags.make
 CMakeFiles/task.dir/simple_task/Volleyball.cpp.obj: ../simple_task/Volleyball.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/task.dir/simple_task/Volleyball.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/task.dir/simple_task/Volleyball.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\task.dir\simple_task\Volleyball.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\simple_task\Volleyball.cpp"
 
 CMakeFiles/task.dir/simple_task/Volleyball.cpp.i: cmake_force
@@ -201,7 +188,6 @@ CMakeFiles/task.dir/simple_task/Volleyball.cpp.s: cmake_force
 
 # Object files for target task
 task_OBJECTS = \
-"CMakeFiles/task.dir/main.cpp.obj" \
 "CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj" \
 "CMakeFiles/task.dir/simple_task/Cinema.cpp.obj" \
 "CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj" \
@@ -216,7 +202,6 @@ task_OBJECTS = \
 # External object files for target task
 task_EXTERNAL_OBJECTS =
 
-task.exe: CMakeFiles/task.dir/main.cpp.obj
 task.exe: CMakeFiles/task.dir/simple_task/PointOnRectangleBorder.cpp.obj
 task.exe: CMakeFiles/task.dir/simple_task/Cinema.cpp.obj
 task.exe: CMakeFiles/task.dir/simple_task/SummerOutfit.cpp.obj
@@ -231,7 +216,7 @@ task.exe: CMakeFiles/task.dir/build.make
 task.exe: CMakeFiles/task.dir/linklibs.rsp
 task.exe: CMakeFiles/task.dir/objects1.rsp
 task.exe: CMakeFiles/task.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable task.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\07. Exercise - Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable task.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\task.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

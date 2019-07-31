@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/simple_tasks/CalculateRectangularArea.cpp" "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj"
+  "E:/ComputerProgramming/TestGitHup/01. First Steps in Programming/simple_tasks/CalculateRectangularArea.cpp" "E:/ComputerProgramming/TestGitHup/01. First Steps in Programming/cmake-build-debug/CMakeFiles/CalculateRectangularArea.dir/simple_tasks/CalculateRectangularArea.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -252,33 +252,6 @@ PointOnRectangleBorder/fast:
 	$(MAKE) -f CMakeFiles\PointOnRectangleBorder.dir\build.make CMakeFiles/PointOnRectangleBorder.dir/build
 .PHONY : PointOnRectangleBorder/fast
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\task.dir\build.make CMakeFiles/task.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 simple_task/Cinema.obj: simple_task/Cinema.cpp.obj
 
 .PHONY : simple_task/Cinema.obj
@@ -598,9 +571,6 @@ help:
 	@echo ... PointOnRectangleBorder
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... simple_task/Cinema.obj
 	@echo ... simple_task/Cinema.i
 	@echo ... simple_task/Cinema.s

@@ -200,33 +200,6 @@ ExamPreparation/fast:
 	$(MAKE) -f CMakeFiles\ExamPreparation.dir\build.make CMakeFiles/ExamPreparation.dir/build
 .PHONY : ExamPreparation/fast
 
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Simple_Tasks.dir\build.make CMakeFiles/Simple_Tasks.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Simple_Tasks.dir\build.make CMakeFiles/Simple_Tasks.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Simple_Tasks.dir\build.make CMakeFiles/Simple_Tasks.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 simple-tasks/Cake.obj: simple-tasks/Cake.cpp.obj
 
 .PHONY : simple-tasks/Cake.obj
@@ -422,9 +395,6 @@ help:
 	@echo ... Walking
 	@echo ... OldBooks
 	@echo ... ExamPreparation
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... simple-tasks/Cake.obj
 	@echo ... simple-tasks/Cake.i
 	@echo ... simple-tasks/Cake.s

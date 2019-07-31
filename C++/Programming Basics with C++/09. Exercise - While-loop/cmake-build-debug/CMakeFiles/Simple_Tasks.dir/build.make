@@ -56,22 +56,9 @@ include CMakeFiles/Simple_Tasks.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Simple_Tasks.dir/flags.make
 
-CMakeFiles/Simple_Tasks.dir/main.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
-CMakeFiles/Simple_Tasks.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple_Tasks.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\main.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\main.cpp"
-
-CMakeFiles/Simple_Tasks.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Simple_Tasks.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\main.cpp" > CMakeFiles\Simple_Tasks.dir\main.cpp.i
-
-CMakeFiles/Simple_Tasks.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Simple_Tasks.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\main.cpp" -o CMakeFiles\Simple_Tasks.dir\main.cpp.s
-
 CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj: ../simple-tasks/OldBooks.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\OldBooks.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\OldBooks.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.i: cmake_force
@@ -84,7 +71,7 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.s: cmake_force
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj: ../simple-tasks/ExamPreparation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\ExamPreparation.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\ExamPreparation.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.i: cmake_force
@@ -97,7 +84,7 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.s: cmake_force
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj: ../simple-tasks/Vacation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\Vacation.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\Vacation.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.i: cmake_force
@@ -110,7 +97,7 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.s: cmake_force
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.obj: ../simple-tasks/Walking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\Walking.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\Walking.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.i: cmake_force
@@ -123,7 +110,7 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/Walking.cpp.s: cmake_force
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.obj: ../simple-tasks/Coins.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\Coins.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\Coins.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.i: cmake_force
@@ -136,7 +123,7 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/Coins.cpp.s: cmake_force
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.obj: CMakeFiles/Simple_Tasks.dir/flags.make
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.obj: ../simple-tasks/Cake.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.obj"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Simple_Tasks.dir\simple-tasks\Cake.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\simple-tasks\Cake.cpp"
 
 CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.i: cmake_force
@@ -149,7 +136,6 @@ CMakeFiles/Simple_Tasks.dir/simple-tasks/Cake.cpp.s: cmake_force
 
 # Object files for target Simple_Tasks
 Simple_Tasks_OBJECTS = \
-"CMakeFiles/Simple_Tasks.dir/main.cpp.obj" \
 "CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj" \
 "CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj" \
 "CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj" \
@@ -160,7 +146,6 @@ Simple_Tasks_OBJECTS = \
 # External object files for target Simple_Tasks
 Simple_Tasks_EXTERNAL_OBJECTS =
 
-Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/main.cpp.obj
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/simple-tasks/OldBooks.cpp.obj
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/simple-tasks/ExamPreparation.cpp.obj
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/simple-tasks/Vacation.cpp.obj
@@ -171,7 +156,7 @@ Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/build.make
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/linklibs.rsp
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/objects1.rsp
 Simple_Tasks.exe: CMakeFiles/Simple_Tasks.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Simple_Tasks.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\09. Exercise - While-loop\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Simple_Tasks.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Simple_Tasks.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
