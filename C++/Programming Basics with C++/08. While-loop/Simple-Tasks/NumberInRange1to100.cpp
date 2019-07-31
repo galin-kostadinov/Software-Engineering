@@ -10,6 +10,8 @@ int main() {
         cout << "Invalid number" << endl;
         cin >> number;
     }
+
     cout << "The number is:" << number << endl;
+
     return 0;
 }
