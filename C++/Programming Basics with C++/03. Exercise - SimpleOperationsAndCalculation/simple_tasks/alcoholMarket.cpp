@@ -11,6 +11,7 @@ int main() {
 
     cout.setf(ios::fixed);
     cout.precision(2);
+
     cout << totalPrice << endl;
 
     return 0;
