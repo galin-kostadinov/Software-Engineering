@@ -1,3 +1,0 @@
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/05. Simple Operations and Calculation/tasks/ProjectsCreation/cmake-build-debug/CMakeFiles/ProjectsCreation.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/05. Simple Operations and Calculation/tasks/ProjectsCreation/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/05. Simple Operations and Calculation/tasks/ProjectsCreation/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.14)
+project(02__Simple_Operations_and_Calculation)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(02__Simple_Operations_and_Calculation simpe_tasks/Birthday.cpp simpe_tasks/CircleAreaAndPerimeter.cpp simpe_tasks/ConcatenateData.cpp simpe_tasks/GreetingByName.cpp simpe_tasks/InchesToCentimeters.cpp simpe_tasks/PetShop.cpp simpe_tasks/ProjectsCreation.cpp simpe_tasks/SquareArea.cpp simpe_tasks/YardGreening.cpp)
+add_executable(YardGreening simpe_tasks/YardGreening.cpp)
+add_executable(SquareArea simpe_tasks/SquareArea.cpp)
+add_executable(ProjectsCreation simpe_tasks/ProjectsCreation.cpp)
+add_executable(PetShop simpe_tasks/PetShop.cpp)
+add_executable(InchesToCentimeters simpe_tasks/InchesToCentimeters.cpp)
+add_executable(GreetingByName simpe_tasks/GreetingByName.cpp)
+add_executable(ConcatenateData simpe_tasks/ConcatenateData.cpp)
+add_executable(CircleAreaAndPerimeter simpe_tasks/CircleAreaAndPerimeter.cpp)
+add_executable(Birthday simpe_tasks/Birthday.cpp)

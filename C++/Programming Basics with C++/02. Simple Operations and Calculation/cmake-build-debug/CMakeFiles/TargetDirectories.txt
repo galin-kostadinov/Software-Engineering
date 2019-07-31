@@ -1,0 +1,12 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/PetShop.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/02__Simple_Operations_and_Calculation.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/CircleAreaAndPerimeter.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/YardGreening.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/SquareArea.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/InchesToCentimeters.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/ProjectsCreation.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/ConcatenateData.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/GreetingByName.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/Birthday.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/02. Simple Operations and Calculation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
