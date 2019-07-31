@@ -33,6 +33,8 @@
 
 CMakeCache.txt
 CMakeFiles
+CMakeFiles/
+cmake-build-debug/
 CMakeScripts
 Testing
 Makefile
