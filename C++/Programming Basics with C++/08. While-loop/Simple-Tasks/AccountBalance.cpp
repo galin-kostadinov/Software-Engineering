@@ -16,8 +16,8 @@ int main() {
         double currentAmount;
         cin >> currentAmount;
 
-        if(currentAmount<0){
-            cout<<"Invalid operation!"<<endl;
+        if (currentAmount < 0) {
+            cout << "Invalid operation!" << endl;
             break;
         }
 
