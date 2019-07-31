@@ -11,7 +11,7 @@ int main() {
     } else if (animal == "crocodile" || animal == "tortoise" || animal == "snake") {
         cout << "reptile" << endl;
     } else {
-        cout<< "unknown"<<endl;
+        cout << "unknown" << endl;
     }
 
     return 0;
