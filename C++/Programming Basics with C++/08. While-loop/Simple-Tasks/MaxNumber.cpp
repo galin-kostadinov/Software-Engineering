@@ -16,7 +16,7 @@ int main() {
         if (number > maxNumber) {
             maxNumber = number;
         }
-       
+
         counter++;
     }
 
