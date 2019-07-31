@@ -1,0 +1,9 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Vacation.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Cake.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Coins.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/Walking.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/OldBooks.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/09. Exercise - While-loop/cmake-build-debug/CMakeFiles/ExamPreparation.dir

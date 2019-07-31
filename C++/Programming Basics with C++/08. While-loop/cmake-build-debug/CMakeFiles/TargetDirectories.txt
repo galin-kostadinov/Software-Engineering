@@ -1,0 +1,11 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/Simple_Tasks.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/AccountBalance.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/Graduation.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/NumberInRange1to100.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/MaxNumber.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/Sequence2k-plus-1.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/Moving.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/GraduationPt2.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/MinNumber.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/08. While-loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
