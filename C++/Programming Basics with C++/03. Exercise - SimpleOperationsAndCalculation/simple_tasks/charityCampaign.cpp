@@ -11,6 +11,8 @@ int main() {
 
     cout.setf(ios::fixed);
     cout.precision(2);
+
     cout << result << endl;
+
     return 0;
 }
