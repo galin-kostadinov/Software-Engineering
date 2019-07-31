@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj"
   "CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj"
   "CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj"
   "CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj"

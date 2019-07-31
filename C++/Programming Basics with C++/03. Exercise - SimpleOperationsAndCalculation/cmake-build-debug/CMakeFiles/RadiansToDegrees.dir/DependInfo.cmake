@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/simple_tasks/RadiansToDegrees.cpp" "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/06. Exercise - SimpleOperationsAndCalculation/tasks/cmake-build-debug/CMakeFiles/RadiansToDegrees.dir/simple_tasks/RadiansToDegrees.cpp.obj"
+  "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/03. Exercise - SimpleOperationsAndCalculation/simple_tasks/RadiansToDegrees.cpp" "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/03. Exercise - SimpleOperationsAndCalculation/cmake-build-debug/CMakeFiles/RadiansToDegrees.dir/simple_tasks/RadiansToDegrees.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

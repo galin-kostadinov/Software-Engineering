@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ConditionalStatementEx.dir/main.cpp.obj"
   "CMakeFiles/ConditionalStatementEx.dir/simple_tasks/SumSeconds.cpp.obj"
   "CMakeFiles/ConditionalStatementEx.dir/simple_tasks/BonusScore.cpp.obj"
   "CMakeFiles/ConditionalStatementEx.dir/simple_tasks/SpeedInfo.cpp.obj"

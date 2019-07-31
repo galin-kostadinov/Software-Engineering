@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SmallShop.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/SmallShop.dir/flags.make
 
 CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.obj: CMakeFiles/SmallShop.dir/flags.make
 CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.obj: ../simple_task/SmallShop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp"
 
 CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp" > CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp" > CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.i
 
 CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp" -o CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp" -o CMakeFiles\SmallShop.dir\simple_task\SmallShop.cpp.s
 
 # Object files for target SmallShop
 SmallShop_OBJECTS = \
@@ -81,7 +81,7 @@ SmallShop.exe: CMakeFiles/SmallShop.dir/build.make
 SmallShop.exe: CMakeFiles/SmallShop.dir/linklibs.rsp
 SmallShop.exe: CMakeFiles/SmallShop.dir/objects1.rsp
 SmallShop.exe: CMakeFiles/SmallShop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SmallShop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable SmallShop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\SmallShop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/SmallShop.dir/clean:
 .PHONY : CMakeFiles/SmallShop.dir/clean
 
 CMakeFiles/SmallShop.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles\SmallShop.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles\SmallShop.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/SmallShop.dir/depend
 

@@ -58,10 +58,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/SumSeconds.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 06201
 CMakeFiles/SumSeconds.dir/all:
 	$(MAKE) -f CMakeFiles\SumSeconds.dir\build.make CMakeFiles/SumSeconds.dir/depend
 	$(MAKE) -f CMakeFiles\SumSeconds.dir\build.make CMakeFiles/SumSeconds.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target SumSeconds"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target SumSeconds"
 .PHONY : CMakeFiles/SumSeconds.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/SumSeconds.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SumSeconds.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SumSeconds.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/SumSeconds.dir/rule
 
 # Convenience name for target.
@@ -107,7 +107,7 @@ clean: CMakeFiles/SumSeconds.dir/clean
 CMakeFiles/ConditionalStatementEx.dir/all:
 	$(MAKE) -f CMakeFiles\ConditionalStatementEx.dir\build.make CMakeFiles/ConditionalStatementEx.dir/depend
 	$(MAKE) -f CMakeFiles\ConditionalStatementEx.dir\build.make CMakeFiles/ConditionalStatementEx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12 "Built target ConditionalStatementEx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11 "Built target ConditionalStatementEx"
 .PHONY : CMakeFiles/ConditionalStatementEx.dir/all
 
 # Include target in all.
@@ -117,9 +117,9 @@ all: CMakeFiles/ConditionalStatementEx.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConditionalStatementEx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 10
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 9
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ConditionalStatementEx.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ConditionalStatementEx.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ clean: CMakeFiles/ConditionalStatementEx.dir/clean
 CMakeFiles/BonusScore.dir/all:
 	$(MAKE) -f CMakeFiles\BonusScore.dir\build.make CMakeFiles/BonusScore.dir/depend
 	$(MAKE) -f CMakeFiles\BonusScore.dir\build.make CMakeFiles/BonusScore.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target BonusScore"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target BonusScore"
 .PHONY : CMakeFiles/BonusScore.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: CMakeFiles/BonusScore.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/BonusScore.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/BonusScore.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/BonusScore.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: CMakeFiles/BonusScore.dir/clean
 CMakeFiles/GodzillaVsKong.dir/all:
 	$(MAKE) -f CMakeFiles\GodzillaVsKong.dir\build.make CMakeFiles/GodzillaVsKong.dir/depend
 	$(MAKE) -f CMakeFiles\GodzillaVsKong.dir\build.make CMakeFiles/GodzillaVsKong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=13,14 "Built target GodzillaVsKong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=12,13 "Built target GodzillaVsKong"
 .PHONY : CMakeFiles/GodzillaVsKong.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: CMakeFiles/GodzillaVsKong.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GodzillaVsKong.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/GodzillaVsKong.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/GodzillaVsKong.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ clean: CMakeFiles/GodzillaVsKong.dir/clean
 CMakeFiles/WorldSwimmingRecord.dir/all:
 	$(MAKE) -f CMakeFiles\WorldSwimmingRecord.dir\build.make CMakeFiles/WorldSwimmingRecord.dir/depend
 	$(MAKE) -f CMakeFiles\WorldSwimmingRecord.dir\build.make CMakeFiles/WorldSwimmingRecord.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target WorldSwimmingRecord"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=24,25 "Built target WorldSwimmingRecord"
 .PHONY : CMakeFiles/WorldSwimmingRecord.dir/all
 
 # Include target in all.
@@ -228,9 +228,9 @@ all: CMakeFiles/WorldSwimmingRecord.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/WorldSwimmingRecord.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/WorldSwimmingRecord.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/WorldSwimmingRecord.dir/rule
 
 # Convenience name for target.
@@ -255,7 +255,7 @@ clean: CMakeFiles/WorldSwimmingRecord.dir/clean
 CMakeFiles/Scholarship.dir/all:
 	$(MAKE) -f CMakeFiles\Scholarship.dir\build.make CMakeFiles/Scholarship.dir/depend
 	$(MAKE) -f CMakeFiles\Scholarship.dir\build.make CMakeFiles/Scholarship.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target Scholarship"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target Scholarship"
 .PHONY : CMakeFiles/Scholarship.dir/all
 
 # Include target in all.
@@ -265,9 +265,9 @@ all: CMakeFiles/Scholarship.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Scholarship.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Scholarship.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Scholarship.dir/rule
 
 # Convenience name for target.
@@ -292,7 +292,7 @@ clean: CMakeFiles/Scholarship.dir/clean
 CMakeFiles/TimePlus15Minutes.dir/all:
 	$(MAKE) -f CMakeFiles\TimePlus15Minutes.dir\build.make CMakeFiles/TimePlus15Minutes.dir/depend
 	$(MAKE) -f CMakeFiles\TimePlus15Minutes.dir\build.make CMakeFiles/TimePlus15Minutes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target TimePlus15Minutes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target TimePlus15Minutes"
 .PHONY : CMakeFiles/TimePlus15Minutes.dir/all
 
 # Include target in all.
@@ -302,9 +302,9 @@ all: CMakeFiles/TimePlus15Minutes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TimePlus15Minutes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/TimePlus15Minutes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/TimePlus15Minutes.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ clean: CMakeFiles/TimePlus15Minutes.dir/clean
 CMakeFiles/MetricConverter.dir/all:
 	$(MAKE) -f CMakeFiles\MetricConverter.dir\build.make CMakeFiles/MetricConverter.dir/depend
 	$(MAKE) -f CMakeFiles\MetricConverter.dir\build.make CMakeFiles/MetricConverter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target MetricConverter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=14,15 "Built target MetricConverter"
 .PHONY : CMakeFiles/MetricConverter.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/MetricConverter.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MetricConverter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/MetricConverter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/MetricConverter.dir/rule
 
 # Convenience name for target.
@@ -366,7 +366,7 @@ clean: CMakeFiles/MetricConverter.dir/clean
 CMakeFiles/SpeedInfo.dir/all:
 	$(MAKE) -f CMakeFiles\SpeedInfo.dir\build.make CMakeFiles/SpeedInfo.dir/depend
 	$(MAKE) -f CMakeFiles\SpeedInfo.dir\build.make CMakeFiles/SpeedInfo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target SpeedInfo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target SpeedInfo"
 .PHONY : CMakeFiles/SpeedInfo.dir/all
 
 # Include target in all.
@@ -376,9 +376,9 @@ all: CMakeFiles/SpeedInfo.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SpeedInfo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SpeedInfo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/SpeedInfo.dir/rule
 
 # Convenience name for target.

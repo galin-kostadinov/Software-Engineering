@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MetricConverter.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/MetricConverter.dir/flags.make
 
 CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.obj: CMakeFiles/MetricConverter.dir/flags.make
 CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.obj: ../simple_tasks/MetricConverter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\simple_tasks\MetricConverter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\simple_tasks\MetricConverter.cpp"
 
 CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\simple_tasks\MetricConverter.cpp" > CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\simple_tasks\MetricConverter.cpp" > CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.i
 
 CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\simple_tasks\MetricConverter.cpp" -o CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\simple_tasks\MetricConverter.cpp" -o CMakeFiles\MetricConverter.dir\simple_tasks\MetricConverter.cpp.s
 
 # Object files for target MetricConverter
 MetricConverter_OBJECTS = \
@@ -81,7 +81,7 @@ MetricConverter.exe: CMakeFiles/MetricConverter.dir/build.make
 MetricConverter.exe: CMakeFiles/MetricConverter.dir/linklibs.rsp
 MetricConverter.exe: CMakeFiles/MetricConverter.dir/objects1.rsp
 MetricConverter.exe: CMakeFiles/MetricConverter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MetricConverter.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MetricConverter.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MetricConverter.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/MetricConverter.dir/clean:
 .PHONY : CMakeFiles/MetricConverter.dir/clean
 
 CMakeFiles/MetricConverter.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles\MetricConverter.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles\MetricConverter.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/MetricConverter.dir/depend
 

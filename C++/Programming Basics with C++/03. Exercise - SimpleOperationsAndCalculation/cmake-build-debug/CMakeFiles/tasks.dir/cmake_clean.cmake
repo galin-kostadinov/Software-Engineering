@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/tasks.dir/main.cpp.obj"
   "CMakeFiles/tasks.dir/simple_tasks/convertorUSDtoBGN.cpp.obj"
   "tasks.pdb"
   "tasks.exe"

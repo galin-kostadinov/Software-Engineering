@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/TradeCommissions.cpp" "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/simple_task/TradeCommissions.cpp.obj"
+  "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/TradeCommissions.cpp" "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/simple_task/TradeCommissions.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

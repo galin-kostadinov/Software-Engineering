@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/convertorUSDtoBGN.dir/depend.make
@@ -58,107 +58,107 @@ include CMakeFiles/convertorUSDtoBGN.dir/flags.make
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.obj: ../simple_tasks/convertorUSDtoBGN.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\convertorUSDtoBGN.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\convertorUSDtoBGN.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\convertorUSDtoBGN.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\convertorUSDtoBGN.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/convertorUSDtoBGN.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\convertorUSDtoBGN.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\convertorUSDtoBGN.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\convertorUSDtoBGN.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.obj: ../simple_tasks/RadiansToDegrees.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\RadiansToDegrees.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\RadiansToDegrees.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\RadiansToDegrees.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\RadiansToDegrees.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/RadiansToDegrees.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\RadiansToDegrees.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\RadiansToDegrees.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\RadiansToDegrees.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.obj: ../simple_tasks/rectangleArea.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleArea.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleArea.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleArea.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleArea.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleArea.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleArea.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleArea.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleArea.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.obj: ../simple_tasks/tailoringWorkshop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\tailoringWorkshop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\tailoringWorkshop.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\tailoringWorkshop.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\tailoringWorkshop.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/tailoringWorkshop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\tailoringWorkshop.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\tailoringWorkshop.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\tailoringWorkshop.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.obj: ../simple_tasks/danceHall.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\danceHall.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\danceHall.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\danceHall.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\danceHall.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/danceHall.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\danceHall.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\danceHall.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\danceHall.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.obj: ../simple_tasks/charityCampaign.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\charityCampaign.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\charityCampaign.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\charityCampaign.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\charityCampaign.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/charityCampaign.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\charityCampaign.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\charityCampaign.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\charityCampaign.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.obj: ../simple_tasks/alcoholMarket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\alcoholMarket.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\alcoholMarket.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\alcoholMarket.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\alcoholMarket.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/alcoholMarket.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\alcoholMarket.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\alcoholMarket.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\alcoholMarket.cpp.s
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.obj: CMakeFiles/convertorUSDtoBGN.dir/flags.make
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.obj: ../simple_tasks/rectangleAreaSecond.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleAreaSecond.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleAreaSecond.cpp"
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleAreaSecond.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleAreaSecond.cpp" > CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.i
 
 CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/convertorUSDtoBGN.dir/simple_tasks/rectangleAreaSecond.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\simple_tasks\rectangleAreaSecond.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\simple_tasks\rectangleAreaSecond.cpp" -o CMakeFiles\convertorUSDtoBGN.dir\simple_tasks\rectangleAreaSecond.cpp.s
 
 # Object files for target convertorUSDtoBGN
 convertorUSDtoBGN_OBJECTS = \
@@ -186,7 +186,7 @@ convertorUSDtoBGN.exe: CMakeFiles/convertorUSDtoBGN.dir/build.make
 convertorUSDtoBGN.exe: CMakeFiles/convertorUSDtoBGN.dir/linklibs.rsp
 convertorUSDtoBGN.exe: CMakeFiles/convertorUSDtoBGN.dir/objects1.rsp
 convertorUSDtoBGN.exe: CMakeFiles/convertorUSDtoBGN.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable convertorUSDtoBGN.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable convertorUSDtoBGN.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\convertorUSDtoBGN.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +199,6 @@ CMakeFiles/convertorUSDtoBGN.dir/clean:
 .PHONY : CMakeFiles/convertorUSDtoBGN.dir/clean
 
 CMakeFiles/convertorUSDtoBGN.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles\convertorUSDtoBGN.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles\convertorUSDtoBGN.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/convertorUSDtoBGN.dir/depend
 

@@ -1,10 +1,10 @@
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/TradeCommissions.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/FruitShop.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/SkiTrip.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/InvalidNumber.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/edit_cache.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/SmallShop.dir
-E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/CMakeFiles/PersonalTitles.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir

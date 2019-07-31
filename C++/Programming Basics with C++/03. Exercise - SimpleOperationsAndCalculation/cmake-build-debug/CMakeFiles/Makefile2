@@ -58,10 +58,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/charityCampaign.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 06201
 CMakeFiles/charityCampaign.dir/all:
 	$(MAKE) -f CMakeFiles\charityCampaign.dir\build.make CMakeFiles/charityCampaign.dir/depend
 	$(MAKE) -f CMakeFiles\charityCampaign.dir\build.make CMakeFiles/charityCampaign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target charityCampaign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target charityCampaign"
 .PHONY : CMakeFiles/charityCampaign.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/charityCampaign.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/charityCampaign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/charityCampaign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/charityCampaign.dir/rule
 
 # Convenience name for target.
@@ -107,7 +107,7 @@ clean: CMakeFiles/charityCampaign.dir/clean
 CMakeFiles/tasks.dir/all:
 	$(MAKE) -f CMakeFiles\tasks.dir\build.make CMakeFiles/tasks.dir/depend
 	$(MAKE) -f CMakeFiles\tasks.dir\build.make CMakeFiles/tasks.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=24,25,26 "Built target tasks"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=24,25 "Built target tasks"
 .PHONY : CMakeFiles/tasks.dir/all
 
 # Include target in all.
@@ -117,9 +117,9 @@ all: CMakeFiles/tasks.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tasks.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 3
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/tasks.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/tasks.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ clean: CMakeFiles/tasks.dir/clean
 CMakeFiles/alcoholMarket.dir/all:
 	$(MAKE) -f CMakeFiles\alcoholMarket.dir\build.make CMakeFiles/alcoholMarket.dir/depend
 	$(MAKE) -f CMakeFiles\alcoholMarket.dir\build.make CMakeFiles/alcoholMarket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target alcoholMarket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target alcoholMarket"
 .PHONY : CMakeFiles/alcoholMarket.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: CMakeFiles/alcoholMarket.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alcoholMarket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/alcoholMarket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/alcoholMarket.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: CMakeFiles/alcoholMarket.dir/clean
 CMakeFiles/RadiansToDegrees.dir/all:
 	$(MAKE) -f CMakeFiles\RadiansToDegrees.dir\build.make CMakeFiles/RadiansToDegrees.dir/depend
 	$(MAKE) -f CMakeFiles\RadiansToDegrees.dir\build.make CMakeFiles/RadiansToDegrees.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target RadiansToDegrees"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target RadiansToDegrees"
 .PHONY : CMakeFiles/RadiansToDegrees.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: CMakeFiles/RadiansToDegrees.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RadiansToDegrees.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/RadiansToDegrees.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/RadiansToDegrees.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ clean: CMakeFiles/RadiansToDegrees.dir/clean
 CMakeFiles/convertorUSDtoBGN.dir/all:
 	$(MAKE) -f CMakeFiles\convertorUSDtoBGN.dir\build.make CMakeFiles/convertorUSDtoBGN.dir/depend
 	$(MAKE) -f CMakeFiles\convertorUSDtoBGN.dir\build.make CMakeFiles/convertorUSDtoBGN.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14,15 "Built target convertorUSDtoBGN"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14,15 "Built target convertorUSDtoBGN"
 .PHONY : CMakeFiles/convertorUSDtoBGN.dir/all
 
 # Include target in all.
@@ -228,9 +228,9 @@ all: CMakeFiles/convertorUSDtoBGN.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/convertorUSDtoBGN.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 9
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/convertorUSDtoBGN.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/convertorUSDtoBGN.dir/rule
 
 # Convenience name for target.
@@ -255,7 +255,7 @@ clean: CMakeFiles/convertorUSDtoBGN.dir/clean
 CMakeFiles/danceHall.dir/all:
 	$(MAKE) -f CMakeFiles\danceHall.dir\build.make CMakeFiles/danceHall.dir/depend
 	$(MAKE) -f CMakeFiles\danceHall.dir\build.make CMakeFiles/danceHall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target danceHall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target danceHall"
 .PHONY : CMakeFiles/danceHall.dir/all
 
 # Include target in all.
@@ -265,9 +265,9 @@ all: CMakeFiles/danceHall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/danceHall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/danceHall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/danceHall.dir/rule
 
 # Convenience name for target.
@@ -292,7 +292,7 @@ clean: CMakeFiles/danceHall.dir/clean
 CMakeFiles/tailoringWorkshop.dir/all:
 	$(MAKE) -f CMakeFiles\tailoringWorkshop.dir\build.make CMakeFiles/tailoringWorkshop.dir/depend
 	$(MAKE) -f CMakeFiles\tailoringWorkshop.dir\build.make CMakeFiles/tailoringWorkshop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target tailoringWorkshop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target tailoringWorkshop"
 .PHONY : CMakeFiles/tailoringWorkshop.dir/all
 
 # Include target in all.
@@ -302,9 +302,9 @@ all: CMakeFiles/tailoringWorkshop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tailoringWorkshop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/tailoringWorkshop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/tailoringWorkshop.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ clean: CMakeFiles/tailoringWorkshop.dir/clean
 CMakeFiles/rectangleAreaSecond.dir/all:
 	$(MAKE) -f CMakeFiles\rectangleAreaSecond.dir\build.make CMakeFiles/rectangleAreaSecond.dir/depend
 	$(MAKE) -f CMakeFiles\rectangleAreaSecond.dir\build.make CMakeFiles/rectangleAreaSecond.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target rectangleAreaSecond"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target rectangleAreaSecond"
 .PHONY : CMakeFiles/rectangleAreaSecond.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/rectangleAreaSecond.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rectangleAreaSecond.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/rectangleAreaSecond.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/rectangleAreaSecond.dir/rule
 
 # Convenience name for target.
@@ -366,7 +366,7 @@ clean: CMakeFiles/rectangleAreaSecond.dir/clean
 CMakeFiles/rectangleArea.dir/all:
 	$(MAKE) -f CMakeFiles\rectangleArea.dir\build.make CMakeFiles/rectangleArea.dir/depend
 	$(MAKE) -f CMakeFiles\rectangleArea.dir\build.make CMakeFiles/rectangleArea.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target rectangleArea"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target rectangleArea"
 .PHONY : CMakeFiles/rectangleArea.dir/all
 
 # Include target in all.
@@ -376,9 +376,9 @@ all: CMakeFiles/rectangleArea.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/rectangleArea.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/rectangleArea.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\06. Exercise - SimpleOperationsAndCalculation\tasks\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\03. Exercise - SimpleOperationsAndCalculation\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/rectangleArea.dir/rule
 
 # Convenience name for target.

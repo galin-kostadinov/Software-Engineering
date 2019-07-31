@@ -58,10 +58,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/NestedConditionalStatement.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 06201
 CMakeFiles/NestedConditionalStatement.dir/all:
 	$(MAKE) -f CMakeFiles\NestedConditionalStatement.dir\build.make CMakeFiles/NestedConditionalStatement.dir/depend
 	$(MAKE) -f CMakeFiles\NestedConditionalStatement.dir\build.make CMakeFiles/NestedConditionalStatement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14,15 "Built target NestedConditionalStatement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=7,8,9,10,11,12,13,14 "Built target NestedConditionalStatement"
 .PHONY : CMakeFiles/NestedConditionalStatement.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/NestedConditionalStatement.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NestedConditionalStatement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 8
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NestedConditionalStatement.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/NestedConditionalStatement.dir/rule
 
 # Convenience name for target.
@@ -107,7 +107,7 @@ clean: CMakeFiles/NestedConditionalStatement.dir/clean
 CMakeFiles/FruitOrVegetable.dir/all:
 	$(MAKE) -f CMakeFiles\FruitOrVegetable.dir\build.make CMakeFiles/FruitOrVegetable.dir/depend
 	$(MAKE) -f CMakeFiles\FruitOrVegetable.dir\build.make CMakeFiles/FruitOrVegetable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target FruitOrVegetable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target FruitOrVegetable"
 .PHONY : CMakeFiles/FruitOrVegetable.dir/all
 
 # Include target in all.
@@ -117,9 +117,9 @@ all: CMakeFiles/FruitOrVegetable.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FruitOrVegetable.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FruitOrVegetable.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/FruitOrVegetable.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ clean: CMakeFiles/FruitOrVegetable.dir/clean
 CMakeFiles/TradeCommissions.dir/all:
 	$(MAKE) -f CMakeFiles\TradeCommissions.dir\build.make CMakeFiles/TradeCommissions.dir/depend
 	$(MAKE) -f CMakeFiles\TradeCommissions.dir\build.make CMakeFiles/TradeCommissions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target TradeCommissions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target TradeCommissions"
 .PHONY : CMakeFiles/TradeCommissions.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: CMakeFiles/TradeCommissions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/TradeCommissions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/TradeCommissions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/TradeCommissions.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: CMakeFiles/TradeCommissions.dir/clean
 CMakeFiles/FruitShop.dir/all:
 	$(MAKE) -f CMakeFiles\FruitShop.dir\build.make CMakeFiles/FruitShop.dir/depend
 	$(MAKE) -f CMakeFiles\FruitShop.dir\build.make CMakeFiles/FruitShop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target FruitShop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target FruitShop"
 .PHONY : CMakeFiles/FruitShop.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: CMakeFiles/FruitShop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FruitShop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/FruitShop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/FruitShop.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ clean: CMakeFiles/FruitShop.dir/clean
 CMakeFiles/SkiTrip.dir/all:
 	$(MAKE) -f CMakeFiles\SkiTrip.dir\build.make CMakeFiles/SkiTrip.dir/depend
 	$(MAKE) -f CMakeFiles\SkiTrip.dir\build.make CMakeFiles/SkiTrip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target SkiTrip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target SkiTrip"
 .PHONY : CMakeFiles/SkiTrip.dir/all
 
 # Include target in all.
@@ -228,9 +228,9 @@ all: CMakeFiles/SkiTrip.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SkiTrip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SkiTrip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/SkiTrip.dir/rule
 
 # Convenience name for target.
@@ -255,7 +255,7 @@ clean: CMakeFiles/SkiTrip.dir/clean
 CMakeFiles/InvalidNumber.dir/all:
 	$(MAKE) -f CMakeFiles\InvalidNumber.dir\build.make CMakeFiles/InvalidNumber.dir/depend
 	$(MAKE) -f CMakeFiles\InvalidNumber.dir\build.make CMakeFiles/InvalidNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target InvalidNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target InvalidNumber"
 .PHONY : CMakeFiles/InvalidNumber.dir/all
 
 # Include target in all.
@@ -265,9 +265,9 @@ all: CMakeFiles/InvalidNumber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/InvalidNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/InvalidNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/InvalidNumber.dir/rule
 
 # Convenience name for target.
@@ -292,7 +292,7 @@ clean: CMakeFiles/InvalidNumber.dir/clean
 CMakeFiles/SmallShop.dir/all:
 	$(MAKE) -f CMakeFiles\SmallShop.dir\build.make CMakeFiles/SmallShop.dir/depend
 	$(MAKE) -f CMakeFiles\SmallShop.dir\build.make CMakeFiles/SmallShop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target SmallShop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target SmallShop"
 .PHONY : CMakeFiles/SmallShop.dir/all
 
 # Include target in all.
@@ -302,9 +302,9 @@ all: CMakeFiles/SmallShop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SmallShop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/SmallShop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/SmallShop.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ clean: CMakeFiles/SmallShop.dir/clean
 CMakeFiles/PersonalTitles.dir/all:
 	$(MAKE) -f CMakeFiles\PersonalTitles.dir\build.make CMakeFiles/PersonalTitles.dir/depend
 	$(MAKE) -f CMakeFiles\PersonalTitles.dir\build.make CMakeFiles/PersonalTitles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=16,17 "Built target PersonalTitles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=15,16 "Built target PersonalTitles"
 .PHONY : CMakeFiles/PersonalTitles.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/PersonalTitles.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PersonalTitles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PersonalTitles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/PersonalTitles.dir/rule
 
 # Convenience name for target.

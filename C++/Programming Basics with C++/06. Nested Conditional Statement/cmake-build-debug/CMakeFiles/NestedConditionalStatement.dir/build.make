@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/NestedConditionalStatement.dir/depend.make
@@ -56,113 +56,99 @@ include CMakeFiles/NestedConditionalStatement.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NestedConditionalStatement.dir/flags.make
 
-CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
-CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\main.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\main.cpp"
-
-CMakeFiles/NestedConditionalStatement.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\main.cpp" > CMakeFiles\NestedConditionalStatement.dir\main.cpp.i
-
-CMakeFiles/NestedConditionalStatement.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\main.cpp" -o CMakeFiles\NestedConditionalStatement.dir\main.cpp.s
-
 CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj: ../simple_task/PersonalTitles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\PersonalTitles.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\PersonalTitles.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\PersonalTitles.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\PersonalTitles.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\PersonalTitles.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\PersonalTitles.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\PersonalTitles.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj: ../simple_task/SmallShop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SmallShop.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SmallShop.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SmallShop.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj: ../simple_task/FruitOrVegetable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitOrVegetable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitOrVegetable.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitOrVegetable.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitOrVegetable.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitOrVegetable.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitOrVegetable.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitOrVegetable.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.obj: ../simple_task/InvalidNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\InvalidNumber.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\InvalidNumber.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\InvalidNumber.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\InvalidNumber.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/InvalidNumber.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\InvalidNumber.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\InvalidNumber.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\InvalidNumber.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.obj: ../simple_task/FruitShop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitShop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitShop.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitShop.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitShop.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitShop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\FruitShop.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\FruitShop.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\FruitShop.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.obj: ../simple_task/TradeCommissions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\TradeCommissions.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\TradeCommissions.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\TradeCommissions.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\TradeCommissions.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/TradeCommissions.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\TradeCommissions.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\TradeCommissions.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\TradeCommissions.cpp.s
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.obj: CMakeFiles/NestedConditionalStatement.dir/flags.make
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.obj: ../simple_task/SkiTrip.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SkiTrip.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SkiTrip.cpp"
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SkiTrip.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SkiTrip.cpp" > CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.i
 
 CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NestedConditionalStatement.dir/simple_task/SkiTrip.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\simple_task\SkiTrip.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\simple_task\SkiTrip.cpp" -o CMakeFiles\NestedConditionalStatement.dir\simple_task\SkiTrip.cpp.s
 
 # Object files for target NestedConditionalStatement
 NestedConditionalStatement_OBJECTS = \
-"CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj" \
 "CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj" \
 "CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj" \
 "CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj" \
@@ -174,7 +160,6 @@ NestedConditionalStatement_OBJECTS = \
 # External object files for target NestedConditionalStatement
 NestedConditionalStatement_EXTERNAL_OBJECTS =
 
-NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/main.cpp.obj
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/simple_task/PersonalTitles.cpp.obj
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/simple_task/SmallShop.cpp.obj
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/simple_task/FruitOrVegetable.cpp.obj
@@ -186,7 +171,7 @@ NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/build.
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/linklibs.rsp
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/objects1.rsp
 NestedConditionalStatement.exe: CMakeFiles/NestedConditionalStatement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable NestedConditionalStatement.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable NestedConditionalStatement.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\NestedConditionalStatement.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -199,6 +184,6 @@ CMakeFiles/NestedConditionalStatement.dir/clean:
 .PHONY : CMakeFiles/NestedConditionalStatement.dir/clean
 
 CMakeFiles/NestedConditionalStatement.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\09. NestedConditionalStatement\tasks\NestedConditionalStatement\cmake-build-debug\CMakeFiles\NestedConditionalStatement.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\06. Nested Conditional Statement\cmake-build-debug\CMakeFiles\NestedConditionalStatement.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/NestedConditionalStatement.dir/depend
 

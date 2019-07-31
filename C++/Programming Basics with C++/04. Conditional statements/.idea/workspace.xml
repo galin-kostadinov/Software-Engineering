@@ -2,18 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ConditionalStatement" targetName="PasswordGuess" />
-      <config projectName="ConditionalStatement" targetName="Number100to200" />
-      <config projectName="ConditionalStatement" targetName="GreaterNumber" />
-      <config projectName="ConditionalStatement" targetName="ThreeEqualNumbers" />
-      <config projectName="ConditionalStatement" targetName="AnimalType" />
-      <config projectName="ConditionalStatement" targetName="AreaOfFigures" />
-      <config projectName="ConditionalStatement" targetName="EvenOrOdd" />
       <config projectName="ConditionalStatement" targetName="NumberToText" />
+      <config projectName="ConditionalStatement" targetName="GreaterNumber" />
       <config projectName="ConditionalStatement" targetName="ConditionalStatement" />
       <config projectName="ConditionalStatement" targetName="ToyShop" />
-      <config projectName="ConditionalStatement" targetName="DayOfWeek" />
       <config projectName="ConditionalStatement" targetName="ExcellentResult" />
+      <config projectName="ConditionalStatement" targetName="EvenOrOdd" />
+      <config projectName="ConditionalStatement" targetName="Number100to200" />
+      <config projectName="ConditionalStatement" targetName="PasswordGuess" />
+      <config projectName="ConditionalStatement" targetName="AnimalType" />
+      <config projectName="ConditionalStatement" targetName="DayOfWeek" />
+      <config projectName="ConditionalStatement" targetName="AreaOfFigures" />
+      <config projectName="ConditionalStatement" targetName="ThreeEqualNumbers" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -23,111 +23,163 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2b378b7-cec7-42d5-b2a2-aa11409d83e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../Java/Java Advanced/Exercises Java Code/src/StacksAndQueues_Lab/BrowserHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/AnimalType.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/AnimalType.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/objects.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/simple_tasks/AnimalType.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AnimalType.dir/simple_tasks/AnimalType.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AreaOfFigures.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AreaOfFigures.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AreaOfFigures.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/AreaOfFigures.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/objects1.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ConditionalStatement.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/DayOfWeek.dir/simple_tasks/DayOfWeek.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ExcellentResult.dir/simple_tasks/ExcellentResult_.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/GreaterNumber.dir/simple_tasks/GreaterNumber.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Number100to200.dir/simple_tasks/Number100to200_.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/NumberToText.dir/simple_tasks/NumberToText.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/PasswordGuess.dir/simple_tasks/PasswordGuess.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ThreeEqualNumbers.dir/simple_tasks/ThreeEqualNumbers.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/objects.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ConditionalStatement.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ConditionalStatement.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Java/Technology Fundamentals with Java/Object And Classes Exsercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Java/Technology Fundamentals with Java/Object And Classes Exsercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../01. First Steps in Programming/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../01. First Steps in Programming/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/BonusScore.dir/simple_tasks/BonusScore.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/ConditionalStatementEx.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/GodzillaVsKong.dir/simple_tasks/GodzillaVsKong.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/MetricConverter.dir/simple_tasks/MetricConverter.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/simple_tasks/Scholarship.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/Scholarship.dir/simple_tasks/Scholarship.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SpeedInfo.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/SumSeconds.dir/simple_tasks/SumSeconds.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/TimePlus15Minutes.dir/simple_tasks/TimePlus15Minutes.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/simple_tasks/WorldSwimmingRecord.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/ConditionalStatementEx.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/ConditionalStatementEx.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/Scholarship.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/Scholarship.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../05. Exercise - ConditionalStatement/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/objects.a" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/simple_task/FruitOrVegetable.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitOrVegetable.dir/simple_task/FruitOrVegetable.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/FruitShop.dir/simple_task/FruitShop.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/InvalidNumber.dir/simple_task/InvalidNumber.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/objects1.rsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/NestedConditionalStatement.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/PersonalTitles.dir/simple_task/PersonalTitles.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SkiTrip.dir/simple_task/SkiTrip.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/SmallShop.dir/simple_task/SmallShop.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/objects.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/TradeCommissions.dir/simple_task/TradeCommissions.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/FruitOrVegetable.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/FruitOrVegetable.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/NestedConditionalStatement.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/NestedConditionalStatement.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../06. Nested Conditional Statement/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../06. Nested Conditional Statement/main.cpp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -165,10 +217,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1358" />
+    <option name="y" value="-324" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -176,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,12 +244,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../03. Exercise - SimpleOperationsAndCalculation" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -219,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="CMake Application.AnimalType">
+  <component name="RunManager" selected="CMake Application.DayOfWeek">
     <configuration name="AnimalType" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ConditionalStatement" TARGET_NAME="AnimalType" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ConditionalStatement" RUN_TARGET_NAME="AnimalType">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -307,27 +359,29 @@
       <updated>1560671310118</updated>
       <workItem from="1560671312680" duration="4538000" />
       <workItem from="1564559733218" duration="151000" />
+      <workItem from="1564560206642" duration="22000" />
+      <workItem from="1564560641671" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4689000" />
+    <option name="totallyTimeSpent" value="4754000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13691376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35181236" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32827735" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -437,13 +491,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">

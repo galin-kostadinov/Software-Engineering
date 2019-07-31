@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\08. Exercise - ConditionalStatement\tasks\ConditionalStatementEx\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\05. Exercise - ConditionalStatement\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -225,33 +225,6 @@ SpeedInfo: cmake_check_build_system
 SpeedInfo/fast:
 	$(MAKE) -f CMakeFiles\SpeedInfo.dir\build.make CMakeFiles/SpeedInfo.dir/build
 .PHONY : SpeedInfo/fast
-
-main.obj: main.cpp.obj
-
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\ConditionalStatementEx.dir\build.make CMakeFiles/ConditionalStatementEx.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\ConditionalStatementEx.dir\build.make CMakeFiles/ConditionalStatementEx.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\ConditionalStatementEx.dir\build.make CMakeFiles/ConditionalStatementEx.dir/main.cpp.s
-.PHONY : main.cpp.s
 
 simple_tasks/BonusScore.obj: simple_tasks/BonusScore.cpp.obj
 
@@ -510,9 +483,6 @@ help:
 	@echo ... MetricConverter
 	@echo ... SpeedInfo
 	@echo ... edit_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... simple_tasks/BonusScore.obj
 	@echo ... simple_tasks/BonusScore.i
 	@echo ... simple_tasks/BonusScore.s

@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NestedConditionalStatement">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/NestedConditionalStatement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/NestedConditionalStatement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 NestedConditionalStatement"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 NestedConditionalStatement"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="NestedConditionalStatement/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/NestedConditionalStatement.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/NestedConditionalStatement.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,15 +53,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 NestedConditionalStatement/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 NestedConditionalStatement/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FruitOrVegetable">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/FruitOrVegetable.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/FruitOrVegetable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -74,15 +74,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitOrVegetable"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitOrVegetable"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FruitOrVegetable/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/FruitOrVegetable.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/FruitOrVegetable.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -95,25 +95,25 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitOrVegetable/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitOrVegetable/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TradeCommissions">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/TradeCommissions.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/TradeCommissions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -126,15 +126,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 TradeCommissions"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 TradeCommissions"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="TradeCommissions/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/TradeCommissions.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/TradeCommissions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -147,15 +147,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 TradeCommissions/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 TradeCommissions/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FruitShop">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/FruitShop.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/FruitShop.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -168,15 +168,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitShop"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitShop"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="FruitShop/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/FruitShop.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/FruitShop.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -189,15 +189,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitShop/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 FruitShop/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SkiTrip">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/SkiTrip.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/SkiTrip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -210,15 +210,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SkiTrip"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SkiTrip"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SkiTrip/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/SkiTrip.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/SkiTrip.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -231,15 +231,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SkiTrip/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SkiTrip/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InvalidNumber">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/InvalidNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/InvalidNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -252,15 +252,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 InvalidNumber"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 InvalidNumber"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="InvalidNumber/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/InvalidNumber.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/InvalidNumber.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -273,25 +273,25 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 InvalidNumber/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 InvalidNumber/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SmallShop">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/SmallShop.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/SmallShop.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -304,15 +304,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallShop"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallShop"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="SmallShop/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/SmallShop.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/SmallShop.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -325,15 +325,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallShop/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 SmallShop/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PersonalTitles">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/PersonalTitles.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/PersonalTitles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -346,15 +346,15 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 PersonalTitles"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 PersonalTitles"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="PersonalTitles/fast">
-				<Option output="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/PersonalTitles.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug"/>
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/PersonalTitles.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -367,45 +367,42 @@
 					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 PersonalTitles/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 PersonalTitles/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/main.cpp">
-			<Option target="NestedConditionalStatement"/>
-		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/FruitOrVegetable.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/FruitOrVegetable.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="FruitOrVegetable"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/FruitShop.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/FruitShop.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="FruitShop"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/InvalidNumber.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/InvalidNumber.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="InvalidNumber"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/PersonalTitles.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/PersonalTitles.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="PersonalTitles"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/SkiTrip.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/SkiTrip.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="SkiTrip"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/SmallShop.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/SmallShop.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="SmallShop"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/simple_task/TradeCommissions.cpp">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/simple_task/TradeCommissions.cpp">
 			<Option target="NestedConditionalStatement"/>
 			<Option target="TradeCommissions"/>
 		</Unit>
-		<Unit filename="E:/ComputerProgramming/C++/Programming Basics with C++ 062019/09. NestedConditionalStatement/tasks/NestedConditionalStatement/CMakeLists.txt">
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/06. Nested Conditional Statement/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

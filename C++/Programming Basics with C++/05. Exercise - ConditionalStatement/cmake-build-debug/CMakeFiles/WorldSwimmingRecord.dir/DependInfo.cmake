@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/simple_tasks/WorldSwimmingRecord.cpp" "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/08. Exercise - ConditionalStatement/tasks/ConditionalStatementEx/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/simple_tasks/WorldSwimmingRecord.cpp.obj"
+  "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/05. Exercise - ConditionalStatement/simple_tasks/WorldSwimmingRecord.cpp" "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/05. Exercise - ConditionalStatement/cmake-build-debug/CMakeFiles/WorldSwimmingRecord.dir/simple_tasks/WorldSwimmingRecord.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
