@@ -16,7 +16,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40739ffe-ae69-4358-a452-1ae93ac7e6da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/simple_tasks/Expression.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_tasks/Expression.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,19 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/simple_tasks/Expression.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="136">
+              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -57,10 +48,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp" />
         <option value="$PROJECT_DIR$/simple_tasks/CalculateRectangularArea.cpp" />
         <option value="$PROJECT_DIR$/simple_tasks/Count1to20.cpp" />
         <option value="$PROJECT_DIR$/simple_tasks/Expression.cpp" />
+        <option value="$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp" />
       </list>
     </option>
   </component>
@@ -160,12 +151,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564561207464</updated>
       <workItem from="1564561209385" duration="430000" />
-      <workItem from="1564563521454" duration="92000" />
+      <workItem from="1564563521454" duration="135000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="522000" />
+    <option name="totallyTimeSpent" value="565000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-324" width="1936" height="1056" extended-state="6" />
@@ -226,13 +217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/simple_tasks/CalculateRectangularArea.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -251,6 +235,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simple_tasks/HelloSoftUni.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
