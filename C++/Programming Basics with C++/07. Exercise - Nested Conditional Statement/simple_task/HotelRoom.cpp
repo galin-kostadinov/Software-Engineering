@@ -36,7 +36,9 @@ int main() {
 
     cout.setf(ios::fixed);
     cout.precision(2);
+
     cout << "Apartment: " << apartmentPrice << " lv." << endl;
     cout << "Studio: " << studioPrice << " lv." << endl;
+
     return 0;
 }
