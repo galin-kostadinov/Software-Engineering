@@ -1,0 +1,13 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/OnTimeForTheExam.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/task.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Volleyball.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/HotelRoom.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/OperationsBetweenNumbers.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/FishingBoat.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Journey.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/SummerOutfit.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/NewHouse.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/Cinema.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/PointOnRectangleBorder.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/07. Exercise - Nested Conditional Statement/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.14)
+project(task)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(task simple_task/PointOnRectangleBorder.cpp simple_task/Cinema.cpp simple_task/SummerOutfit.cpp simple_task/NewHouse.cpp simple_task/FishingBoat.cpp simple_task/Journey.cpp simple_task/OperationsBetweenNumbers.cpp simple_task/HotelRoom.cpp simple_task/OnTimeForTheExam.cpp simple_task/Volleyball.cpp)
+add_executable(Volleyball simple_task/Volleyball.cpp)
+add_executable(OnTimeForTheExam simple_task/OnTimeForTheExam.cpp)
+add_executable(HotelRoom simple_task/HotelRoom.cpp)
+add_executable(OperationsBetweenNumbers simple_task/OperationsBetweenNumbers.cpp)
+add_executable(Journey simple_task/Journey.cpp)
+add_executable(FishingBoat simple_task/FishingBoat.cpp)
+add_executable(NewHouse simple_task/NewHouse.cpp)
+add_executable(SummerOutfit simple_task/SummerOutfit.cpp)
+add_executable(Cinema simple_task/Cinema.cpp)
+add_executable(PointOnRectangleBorder simple_task/PointOnRectangleBorder.cpp)
