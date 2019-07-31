@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="" />
+    <list default="true" id="6e92d315-4a42-4748-8129-02cd95563763" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Exercises Java Code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../TestGitHup/Object And Classes Exsercise" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -153,6 +155,8 @@
       <workItem from="1564401886763" duration="17678000" />
       <workItem from="1564463814379" duration="16542000" />
       <workItem from="1564514775846" duration="122000" />
+      <workItem from="1564581767133" duration="294000" />
+      <workItem from="1564582160056" duration="33000" />
     </task>
     <servers />
   </component>
