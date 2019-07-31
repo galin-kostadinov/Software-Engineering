@@ -18,9 +18,10 @@ int main() {
         price = 5.0;
     }
 
-    cout.setf(ios:: fixed);
+    cout.setf(ios::fixed);
     cout.precision(2);
-    cout<< price*rows*columns<<endl;
+
+    cout << price * rows * columns << endl;
 
     return 0;
 }
