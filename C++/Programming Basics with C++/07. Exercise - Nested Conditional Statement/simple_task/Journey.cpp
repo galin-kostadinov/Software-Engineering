@@ -11,6 +11,7 @@ int main() {
     string destination;
     string place;
     double totalPrice;
+
     if (budget <= 100) {
         destination = "Bulgaria";
         if (season == "summer") {
@@ -39,7 +40,7 @@ int main() {
     cout.precision(2);
 
     cout << "Somewhere in " << destination << endl;
-    cout<< place<<" - "<< totalPrice<<endl;
+    cout << place << " - " << totalPrice << endl;
 
     return 0;
 }
