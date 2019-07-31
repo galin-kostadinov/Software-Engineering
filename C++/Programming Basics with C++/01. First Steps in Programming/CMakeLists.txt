@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.14)
+project(01__First_Steps_in_Programming)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(01__First_Steps_in_Programming main.cpp simple_tasks/CalculateRectangularArea.cpp simple_tasks/Count1to20.cpp simple_tasks/Expression.cpp simple_tasks/HelloSoftUni.cpp)
+add_executable(HelloSoftUni simple_tasks/HelloSoftUni.cpp)
+add_executable(Expression simple_tasks/Expression.cpp)
+add_executable(Count1to20 simple_tasks/Count1to20.cpp)
+add_executable(CalculateRectangularArea simple_tasks/CalculateRectangularArea.cpp)

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/simple_tasks/HelloSoftUni.cpp
+iostream
+-
+

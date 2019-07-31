@@ -1,0 +1,7 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/01__First_Steps_in_Programming.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/Expression.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/HelloSoftUni.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/Count1to20.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/CalculateRectangularArea.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/01. First Steps in Programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
