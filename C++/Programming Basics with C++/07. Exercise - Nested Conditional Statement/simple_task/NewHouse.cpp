@@ -11,6 +11,7 @@ int main() {
     cin >> typeFlowers >> flowersCount >> budget;
 
     double totalPrice = 0;
+
     if (typeFlowers == "Roses") {
         totalPrice = flowersCount * 5.0;
         if (flowersCount > 80) {
@@ -44,7 +45,7 @@ int main() {
     cout.precision(2);
 
     if (leftMoney >= 0) {
-        cout << "Hey, you have a great garden with " << flowersCount <<" "<< typeFlowers << " and " << leftMoney
+        cout << "Hey, you have a great garden with " << flowersCount << " " << typeFlowers << " and " << leftMoney
              << " leva left." << endl;
     } else {
         cout << "Not enough money, you need " << abs(leftMoney) << " leva more." << endl;
