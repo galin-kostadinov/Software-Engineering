@@ -1,6 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\bin\Debug\_03.Zig_Zag_Arrays.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\bin\Debug\_03.Zig_Zag_Arrays.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\bin\Debug\_03.Zig_Zag_Arrays.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\obj\Debug\03. Zig-ZagArrays.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\obj\Debug\_03.Zig_Zag_Arrays.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\03. Zig-Zag Arrays\obj\Debug\_03.Zig_Zag_Arrays.pdb

@@ -1,7 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\bin\Debug\_01.Train.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\bin\Debug\_01.Train.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\bin\Debug\_01.Train.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\obj\Debug\01. Train.csprojAssemblyReference.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\obj\Debug\01. Train.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\obj\Debug\_01.Train.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\10. Arrays Exercise\Array-Exercise_Sep2018\01. Train\obj\Debug\_01.Train.pdb
