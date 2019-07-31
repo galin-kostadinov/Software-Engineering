@@ -8,6 +8,7 @@ int main() {
 
     bool firstCondition = ((x == x1 || x == x2) && (y >= y1 && y <= y2));
     bool secondCondition = ((y == y1 || y == y2) && (x >= x1 && x <= x2));
+
     if (firstCondition || secondCondition) {
         cout << "Border" << endl;
     } else {
