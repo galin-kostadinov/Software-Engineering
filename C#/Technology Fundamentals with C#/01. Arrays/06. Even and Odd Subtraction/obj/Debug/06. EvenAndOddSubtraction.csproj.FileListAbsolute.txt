@@ -1,6 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\bin\Debug\_06.Even_and_Odd_Subtraction.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\bin\Debug\_06.Even_and_Odd_Subtraction.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\bin\Debug\_06.Even_and_Odd_Subtraction.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\obj\Debug\06. EvenAndOddSubtraction.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\obj\Debug\_06.Even_and_Odd_Subtraction.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\06. Even and Odd Subtraction\obj\Debug\_06.Even_and_Odd_Subtraction.pdb

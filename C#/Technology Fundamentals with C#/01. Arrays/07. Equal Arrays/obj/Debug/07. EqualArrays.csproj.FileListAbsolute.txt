@@ -1,6 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\bin\Debug\_07.Equal_Arrays.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\bin\Debug\_07.Equal_Arrays.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\bin\Debug\_07.Equal_Arrays.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\obj\Debug\07. EqualArrays.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\obj\Debug\_07.Equal_Arrays.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\07. Equal Arrays\obj\Debug\_07.Equal_Arrays.pdb

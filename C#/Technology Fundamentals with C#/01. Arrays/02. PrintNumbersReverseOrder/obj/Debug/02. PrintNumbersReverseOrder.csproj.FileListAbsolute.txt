@@ -1,6 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\bin\Debug\_02.PrintNumbersReverseOrder.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\bin\Debug\_02.PrintNumbersReverseOrder.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\bin\Debug\_02.PrintNumbersReverseOrder.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\obj\Debug\02. PrintNumbersReverseOrder.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\obj\Debug\_02.PrintNumbersReverseOrder.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\02. PrintNumbersReverseOrder\obj\Debug\_02.PrintNumbersReverseOrder.pdb

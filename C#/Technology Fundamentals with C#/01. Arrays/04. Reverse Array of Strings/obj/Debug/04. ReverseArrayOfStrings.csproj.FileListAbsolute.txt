@@ -1,6 +1,0 @@
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\bin\Debug\_04.Reverse_Array_of_Strings.exe.config
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\bin\Debug\_04.Reverse_Array_of_Strings.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\bin\Debug\_04.Reverse_Array_of_Strings.pdb
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\obj\Debug\04. ReverseArrayOfStrings.csproj.CoreCompileInputs.cache
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\obj\Debug\_04.Reverse_Array_of_Strings.exe
-E:\Csharp\softUni_exercise\TechnologyFundamentals\09. Arrays\Array-Lab_Sep2018\04. Reverse Array of Strings\obj\Debug\_04.Reverse_Array_of_Strings.pdb
