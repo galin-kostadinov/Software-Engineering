@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/EvenOrOdd.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/EvenOrOdd.dir/flags.make
 
 CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.obj: CMakeFiles/EvenOrOdd.dir/flags.make
 CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.obj: ../simple_tasks/EvenOrOdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp"
 
 CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp" > CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp" > CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.i
 
 CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EvenOrOdd.dir/simple_tasks/EvenOrOdd.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp" -o CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp" -o CMakeFiles\EvenOrOdd.dir\simple_tasks\EvenOrOdd.cpp.s
 
 # Object files for target EvenOrOdd
 EvenOrOdd_OBJECTS = \
@@ -81,7 +81,7 @@ EvenOrOdd.exe: CMakeFiles/EvenOrOdd.dir/build.make
 EvenOrOdd.exe: CMakeFiles/EvenOrOdd.dir/linklibs.rsp
 EvenOrOdd.exe: CMakeFiles/EvenOrOdd.dir/objects1.rsp
 EvenOrOdd.exe: CMakeFiles/EvenOrOdd.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EvenOrOdd.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable EvenOrOdd.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\EvenOrOdd.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/EvenOrOdd.dir/clean:
 .PHONY : CMakeFiles/EvenOrOdd.dir/clean
 
 CMakeFiles/EvenOrOdd.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles\EvenOrOdd.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles\EvenOrOdd.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/EvenOrOdd.dir/depend
 

@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ToyShop.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/ToyShop.dir/flags.make
 
 CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.obj: CMakeFiles/ToyShop.dir/flags.make
 CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.obj: ../simple_tasks/ToyShop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp"
 
 CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp" > CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp" > CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.i
 
 CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ToyShop.dir/simple_tasks/ToyShop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp" -o CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp" -o CMakeFiles\ToyShop.dir\simple_tasks\ToyShop.cpp.s
 
 # Object files for target ToyShop
 ToyShop_OBJECTS = \
@@ -81,7 +81,7 @@ ToyShop.exe: CMakeFiles/ToyShop.dir/build.make
 ToyShop.exe: CMakeFiles/ToyShop.dir/linklibs.rsp
 ToyShop.exe: CMakeFiles/ToyShop.dir/objects1.rsp
 ToyShop.exe: CMakeFiles/ToyShop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ToyShop.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ToyShop.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ToyShop.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/ToyShop.dir/clean:
 .PHONY : CMakeFiles/ToyShop.dir/clean
 
 CMakeFiles/ToyShop.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles\ToyShop.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles\ToyShop.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ToyShop.dir/depend
 

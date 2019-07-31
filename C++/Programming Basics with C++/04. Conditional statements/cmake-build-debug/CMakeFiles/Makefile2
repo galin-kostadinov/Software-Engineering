@@ -58,10 +58,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/ExcellentResult.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 06201
 CMakeFiles/ExcellentResult.dir/all:
 	$(MAKE) -f CMakeFiles\ExcellentResult.dir\build.make CMakeFiles/ExcellentResult.dir/depend
 	$(MAKE) -f CMakeFiles\ExcellentResult.dir\build.make CMakeFiles/ExcellentResult.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=22,23 "Built target ExcellentResult"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=21,22 "Built target ExcellentResult"
 .PHONY : CMakeFiles/ExcellentResult.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/ExcellentResult.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ExcellentResult.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ExcellentResult.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ExcellentResult.dir/rule
 
 # Convenience name for target.
@@ -107,7 +107,7 @@ clean: CMakeFiles/ExcellentResult.dir/clean
 CMakeFiles/ConditionalStatement.dir/all:
 	$(MAKE) -f CMakeFiles\ConditionalStatement.dir\build.make CMakeFiles/ConditionalStatement.dir/depend
 	$(MAKE) -f CMakeFiles\ConditionalStatement.dir\build.make CMakeFiles/ConditionalStatement.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target ConditionalStatement"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=5,6,7,8,9,10,11,12,13,14,15,16 "Built target ConditionalStatement"
 .PHONY : CMakeFiles/ConditionalStatement.dir/all
 
 # Include target in all.
@@ -117,9 +117,9 @@ all: CMakeFiles/ConditionalStatement.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ConditionalStatement.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 13
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 12
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ConditionalStatement.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ConditionalStatement.dir/rule
 
 # Convenience name for target.
@@ -144,7 +144,7 @@ clean: CMakeFiles/ConditionalStatement.dir/clean
 CMakeFiles/ToyShop.dir/all:
 	$(MAKE) -f CMakeFiles\ToyShop.dir\build.make CMakeFiles/ToyShop.dir/depend
 	$(MAKE) -f CMakeFiles\ToyShop.dir\build.make CMakeFiles/ToyShop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=34,35 "Built target ToyShop"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=33,34 "Built target ToyShop"
 .PHONY : CMakeFiles/ToyShop.dir/all
 
 # Include target in all.
@@ -154,9 +154,9 @@ all: CMakeFiles/ToyShop.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ToyShop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ToyShop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ToyShop.dir/rule
 
 # Convenience name for target.
@@ -181,7 +181,7 @@ clean: CMakeFiles/ToyShop.dir/clean
 CMakeFiles/EvenOrOdd.dir/all:
 	$(MAKE) -f CMakeFiles\EvenOrOdd.dir\build.make CMakeFiles/EvenOrOdd.dir/depend
 	$(MAKE) -f CMakeFiles\EvenOrOdd.dir\build.make CMakeFiles/EvenOrOdd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=20,21 "Built target EvenOrOdd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=19,20 "Built target EvenOrOdd"
 .PHONY : CMakeFiles/EvenOrOdd.dir/all
 
 # Include target in all.
@@ -191,9 +191,9 @@ all: CMakeFiles/EvenOrOdd.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/EvenOrOdd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/EvenOrOdd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/EvenOrOdd.dir/rule
 
 # Convenience name for target.
@@ -218,7 +218,7 @@ clean: CMakeFiles/EvenOrOdd.dir/clean
 CMakeFiles/PasswordGuess.dir/all:
 	$(MAKE) -f CMakeFiles\PasswordGuess.dir\build.make CMakeFiles/PasswordGuess.dir/depend
 	$(MAKE) -f CMakeFiles\PasswordGuess.dir\build.make CMakeFiles/PasswordGuess.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=30,31 "Built target PasswordGuess"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=29,30 "Built target PasswordGuess"
 .PHONY : CMakeFiles/PasswordGuess.dir/all
 
 # Include target in all.
@@ -228,9 +228,9 @@ all: CMakeFiles/PasswordGuess.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/PasswordGuess.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/PasswordGuess.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/PasswordGuess.dir/rule
 
 # Convenience name for target.
@@ -255,7 +255,7 @@ clean: CMakeFiles/PasswordGuess.dir/clean
 CMakeFiles/ThreeEqualNumbers.dir/all:
 	$(MAKE) -f CMakeFiles\ThreeEqualNumbers.dir\build.make CMakeFiles/ThreeEqualNumbers.dir/depend
 	$(MAKE) -f CMakeFiles\ThreeEqualNumbers.dir\build.make CMakeFiles/ThreeEqualNumbers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=32,33 "Built target ThreeEqualNumbers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=31,32 "Built target ThreeEqualNumbers"
 .PHONY : CMakeFiles/ThreeEqualNumbers.dir/all
 
 # Include target in all.
@@ -265,9 +265,9 @@ all: CMakeFiles/ThreeEqualNumbers.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ThreeEqualNumbers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/ThreeEqualNumbers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/ThreeEqualNumbers.dir/rule
 
 # Convenience name for target.
@@ -292,7 +292,7 @@ clean: CMakeFiles/ThreeEqualNumbers.dir/clean
 CMakeFiles/NumberToText.dir/all:
 	$(MAKE) -f CMakeFiles\NumberToText.dir\build.make CMakeFiles/NumberToText.dir/depend
 	$(MAKE) -f CMakeFiles\NumberToText.dir\build.make CMakeFiles/NumberToText.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=28,29 "Built target NumberToText"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=27,28 "Built target NumberToText"
 .PHONY : CMakeFiles/NumberToText.dir/all
 
 # Include target in all.
@@ -302,9 +302,9 @@ all: CMakeFiles/NumberToText.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/NumberToText.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/NumberToText.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/NumberToText.dir/rule
 
 # Convenience name for target.
@@ -329,7 +329,7 @@ clean: CMakeFiles/NumberToText.dir/clean
 CMakeFiles/GreaterNumber.dir/all:
 	$(MAKE) -f CMakeFiles\GreaterNumber.dir\build.make CMakeFiles/GreaterNumber.dir/depend
 	$(MAKE) -f CMakeFiles\GreaterNumber.dir\build.make CMakeFiles/GreaterNumber.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=24,25 "Built target GreaterNumber"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=23,24 "Built target GreaterNumber"
 .PHONY : CMakeFiles/GreaterNumber.dir/all
 
 # Include target in all.
@@ -339,9 +339,9 @@ all: CMakeFiles/GreaterNumber.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/GreaterNumber.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/GreaterNumber.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/GreaterNumber.dir/rule
 
 # Convenience name for target.
@@ -366,7 +366,7 @@ clean: CMakeFiles/GreaterNumber.dir/clean
 CMakeFiles/Number100to200.dir/all:
 	$(MAKE) -f CMakeFiles\Number100to200.dir\build.make CMakeFiles/Number100to200.dir/depend
 	$(MAKE) -f CMakeFiles\Number100to200.dir\build.make CMakeFiles/Number100to200.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=26,27 "Built target Number100to200"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=25,26 "Built target Number100to200"
 .PHONY : CMakeFiles/Number100to200.dir/all
 
 # Include target in all.
@@ -376,9 +376,9 @@ all: CMakeFiles/Number100to200.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Number100to200.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Number100to200.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Number100to200.dir/rule
 
 # Convenience name for target.
@@ -403,7 +403,7 @@ clean: CMakeFiles/Number100to200.dir/clean
 CMakeFiles/DayOfWeek.dir/all:
 	$(MAKE) -f CMakeFiles\DayOfWeek.dir\build.make CMakeFiles/DayOfWeek.dir/depend
 	$(MAKE) -f CMakeFiles\DayOfWeek.dir\build.make CMakeFiles/DayOfWeek.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=18,19 "Built target DayOfWeek"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=17,18 "Built target DayOfWeek"
 .PHONY : CMakeFiles/DayOfWeek.dir/all
 
 # Include target in all.
@@ -413,9 +413,9 @@ all: CMakeFiles/DayOfWeek.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DayOfWeek.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/DayOfWeek.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/DayOfWeek.dir/rule
 
 # Convenience name for target.
@@ -440,7 +440,7 @@ clean: CMakeFiles/DayOfWeek.dir/clean
 CMakeFiles/AreaOfFigures.dir/all:
 	$(MAKE) -f CMakeFiles\AreaOfFigures.dir\build.make CMakeFiles/AreaOfFigures.dir/depend
 	$(MAKE) -f CMakeFiles\AreaOfFigures.dir\build.make CMakeFiles/AreaOfFigures.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target AreaOfFigures"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target AreaOfFigures"
 .PHONY : CMakeFiles/AreaOfFigures.dir/all
 
 # Include target in all.
@@ -450,9 +450,9 @@ all: CMakeFiles/AreaOfFigures.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AreaOfFigures.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AreaOfFigures.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/AreaOfFigures.dir/rule
 
 # Convenience name for target.
@@ -477,7 +477,7 @@ clean: CMakeFiles/AreaOfFigures.dir/clean
 CMakeFiles/AnimalType.dir/all:
 	$(MAKE) -f CMakeFiles\AnimalType.dir\build.make CMakeFiles/AnimalType.dir/depend
 	$(MAKE) -f CMakeFiles\AnimalType.dir\build.make CMakeFiles/AnimalType.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target AnimalType"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target AnimalType"
 .PHONY : CMakeFiles/AnimalType.dir/all
 
 # Include target in all.
@@ -487,9 +487,9 @@ all: CMakeFiles/AnimalType.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/AnimalType.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/AnimalType.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/AnimalType.dir/rule
 
 # Convenience name for target.

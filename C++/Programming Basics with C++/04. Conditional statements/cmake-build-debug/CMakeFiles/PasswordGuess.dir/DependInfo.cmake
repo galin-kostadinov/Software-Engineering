@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/07. Conditional statements/tasks/ConditionalStatement/simple_tasks/PasswordGuess.cpp" "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/07. Conditional statements/tasks/ConditionalStatement/cmake-build-debug/CMakeFiles/PasswordGuess.dir/simple_tasks/PasswordGuess.cpp.obj"
+  "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/04. Conditional statements/simple_tasks/PasswordGuess.cpp" "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/04. Conditional statements/cmake-build-debug/CMakeFiles/PasswordGuess.dir/simple_tasks/PasswordGuess.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

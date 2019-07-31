@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement"
+CMAKE_SOURCE_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug"
+CMAKE_BINARY_DIR = "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ConditionalStatement.dir/depend.make
@@ -56,165 +56,151 @@ include CMakeFiles/ConditionalStatement.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ConditionalStatement.dir/flags.make
 
-CMakeFiles/ConditionalStatement.dir/main.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
-CMakeFiles/ConditionalStatement.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConditionalStatement.dir/main.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\main.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\main.cpp"
-
-CMakeFiles/ConditionalStatement.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/main.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\main.cpp" > CMakeFiles\ConditionalStatement.dir\main.cpp.i
-
-CMakeFiles/ConditionalStatement.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/main.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\main.cpp" -o CMakeFiles\ConditionalStatement.dir\main.cpp.s
-
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj: ../simple_tasks/ExcellentResult\ .cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ExcellentResult .cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ExcellentResult .cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ExcellentResult .cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ExcellentResult .cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ExcellentResult .cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ExcellentResult .cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ExcellentResult_.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj: ../simple_tasks/GreaterNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\GreaterNumber.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\GreaterNumber.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\GreaterNumber.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\GreaterNumber.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\GreaterNumber.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\GreaterNumber.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\GreaterNumber.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj: ../simple_tasks/EvenOrOdd.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\EvenOrOdd.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\EvenOrOdd.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\EvenOrOdd.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.obj: ../simple_tasks/NumberToText.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\NumberToText.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\NumberToText.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\NumberToText.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\NumberToText.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/NumberToText.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\NumberToText.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\NumberToText.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\NumberToText.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.obj: ../simple_tasks/ThreeEqualNumbers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ThreeEqualNumbers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ThreeEqualNumbers.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ThreeEqualNumbers.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ThreeEqualNumbers.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/ThreeEqualNumbers.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ThreeEqualNumbers.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ThreeEqualNumbers.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ThreeEqualNumbers.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.obj: ../simple_tasks/Number100to200\ .cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\Number100to200 .cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\Number100to200 .cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\Number100to200 .cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\Number100to200 .cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/Number100to200_.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\Number100to200 .cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\Number100to200 .cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\Number100to200_.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.obj: ../simple_tasks/PasswordGuess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\PasswordGuess.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\PasswordGuess.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\PasswordGuess.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\PasswordGuess.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/PasswordGuess.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\PasswordGuess.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\PasswordGuess.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\PasswordGuess.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.obj: ../simple_tasks/AreaOfFigures.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AreaOfFigures.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AreaOfFigures.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AreaOfFigures.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AreaOfFigures.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/AreaOfFigures.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AreaOfFigures.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AreaOfFigures.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AreaOfFigures.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.obj: ../simple_tasks/DayOfWeek.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\DayOfWeek.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\DayOfWeek.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\DayOfWeek.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\DayOfWeek.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/DayOfWeek.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\DayOfWeek.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\DayOfWeek.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\DayOfWeek.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.obj: ../simple_tasks/AnimalType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AnimalType.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AnimalType.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AnimalType.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AnimalType.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/AnimalType.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\AnimalType.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\AnimalType.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\AnimalType.cpp.s
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.obj: CMakeFiles/ConditionalStatement.dir/flags.make
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.obj: ../simple_tasks/ToyShop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.obj -c "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.obj -c "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp"
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.i
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp" > CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.i
 
 CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ConditionalStatement.dir/simple_tasks/ToyShop.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\simple_tasks\ToyShop.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.s
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\simple_tasks\ToyShop.cpp" -o CMakeFiles\ConditionalStatement.dir\simple_tasks\ToyShop.cpp.s
 
 # Object files for target ConditionalStatement
 ConditionalStatement_OBJECTS = \
-"CMakeFiles/ConditionalStatement.dir/main.cpp.obj" \
 "CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj" \
 "CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj" \
 "CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj" \
@@ -230,7 +216,6 @@ ConditionalStatement_OBJECTS = \
 # External object files for target ConditionalStatement
 ConditionalStatement_EXTERNAL_OBJECTS =
 
-ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/main.cpp.obj
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj
@@ -246,7 +231,7 @@ ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/build.make
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/linklibs.rsp
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/objects1.rsp
 ConditionalStatement.exe: CMakeFiles/ConditionalStatement.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable ConditionalStatement.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable ConditionalStatement.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ConditionalStatement.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -259,6 +244,6 @@ CMakeFiles/ConditionalStatement.dir/clean:
 .PHONY : CMakeFiles/ConditionalStatement.dir/clean
 
 CMakeFiles/ConditionalStatement.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug" "E:\ComputerProgramming\C++\Programming Basics with C++ 062019\07. Conditional statements\tasks\ConditionalStatement\cmake-build-debug\CMakeFiles\ConditionalStatement.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug" "E:\ComputerProgramming\GitHubRepoSoftUniTasks\Software-Engineering\C++\Programming Basics with C++\04. Conditional statements\cmake-build-debug\CMakeFiles\ConditionalStatement.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/ConditionalStatement.dir/depend
 

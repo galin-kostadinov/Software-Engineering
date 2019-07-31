@@ -1,4 +1,4 @@
-# Install script for directory: E:/ComputerProgramming/C++/Programming Basics with C++ 062019/07. Conditional statements/tasks/ConditionalStatement
+# Install script for directory: E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/04. Conditional statements
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/ComputerProgramming/C++/Programming Basics with C++ 062019/07. Conditional statements/tasks/ConditionalStatement/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/04. Conditional statements/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

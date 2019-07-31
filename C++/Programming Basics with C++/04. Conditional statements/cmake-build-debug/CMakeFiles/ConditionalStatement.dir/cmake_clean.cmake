@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ConditionalStatement.dir/main.cpp.obj"
   "CMakeFiles/ConditionalStatement.dir/simple_tasks/ExcellentResult_.cpp.obj"
   "CMakeFiles/ConditionalStatement.dir/simple_tasks/GreaterNumber.cpp.obj"
   "CMakeFiles/ConditionalStatement.dir/simple_tasks/EvenOrOdd.cpp.obj"
