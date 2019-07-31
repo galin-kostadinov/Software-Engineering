@@ -14,5 +14,6 @@ int main() {
     double personsCount = (hallAreaMeters - wardrobeAreaMeters - benchArea) / neededAreaToPerson;
 
     cout << floor(personsCount);
+
     return 0;
 }
