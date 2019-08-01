@@ -14,27 +14,33 @@ public class SongEncryption {
         String input = "";
         while (!"end".equals(input = sc.nextLine())) {
             Matcher matcherValidation = patternValidation.matcher(input);
+
             if (!matcherValidation.find()) {
                 System.out.println("Invalid input!");
                 continue;
             }
 
             int key = matcherValidation.group("artist").length();
+            key %= ('z' - 'a' + 1);
 
             StringBuilder output = new StringBuilder(input.length());
+
             for (int i = 0; i < input.length(); i++) {
                 char currentSymbol = input.charAt(i);
+
                 if (Character.isLetter(currentSymbol)) {
                     char newLetter = (char) (currentSymbol + key);
+
                     if (Character.isLowerCase(currentSymbol)) {
-                        while (newLetter > 'z') {
+                        if (newLetter > 'z') {
                             newLetter -= (char) ('z' - 'a' + 1);
                         }
                     } else {
-                        while (newLetter > 'Z') {
+                        if (newLetter > 'Z') {
                             newLetter -= (char) ('Z' - 'A' + 1);
                         }
                     }
+
                     output.append(newLetter);
                 } else if (Character.isWhitespace(currentSymbol)) {
                     output.append(' ');
@@ -44,6 +50,7 @@ public class SongEncryption {
                     output.append('@');
                 }
             }
+
             System.out.printf("Successful encryption: %s%n", output);
         }
     }
