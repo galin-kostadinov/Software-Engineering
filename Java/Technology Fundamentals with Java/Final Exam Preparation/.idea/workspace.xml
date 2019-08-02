@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FinalExam14April2019GroupII/TheIsleOfManTTRace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FinalExam14April2019GroupII/TheIsleOfManTTRace.java" afterDir="false" />
-    </list>
+    <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +154,7 @@
       <workItem from="1563897380460" duration="1600000" />
       <workItem from="1563986403262" duration="2976000" />
       <workItem from="1564645190072" duration="5416000" />
+      <workItem from="1564735584427" duration="275000" />
     </task>
     <servers />
   </component>
@@ -168,7 +166,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
