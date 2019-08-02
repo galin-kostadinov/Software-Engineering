@@ -6,9 +6,12 @@ using namespace std;
 int main() {
     string text;
     getline(cin, text);
+
     int sum = 0;
+
     for (int i = 0; i < text.length(); i++) {
         char symbol = text[i];
+
         if (symbol == 'a') {
             sum += 1;
         } else if (symbol == 'e') {
@@ -21,6 +24,7 @@ int main() {
             sum += 5;
         }
     }
+
     cout << sum << endl;
 
     return 0;
