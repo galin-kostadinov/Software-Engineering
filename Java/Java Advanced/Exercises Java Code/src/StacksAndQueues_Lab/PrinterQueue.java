@@ -16,7 +16,7 @@ public class PrinterQueue {
             if (input.equals("cancel")) {
                 if (printingQueue.size() > 0) {
                     System.out.println("Canceled " + printingQueue.poll());
-                }else{
+                } else {
                     System.out.println("Printer is on standby");
                 }
             } else {
@@ -24,7 +24,7 @@ public class PrinterQueue {
             }
         }
 
-        while (printingQueue.size() > 0) {
+        while (!printingQueue.isEmpty()) {
             System.out.println(printingQueue.poll());
         }
     }
