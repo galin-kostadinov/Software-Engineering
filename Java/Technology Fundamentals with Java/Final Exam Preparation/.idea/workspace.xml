@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="655b6bca-668b-4966-be9d-40c8c6ed1183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/FinalExam03August2019/MessagesManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FinalExam03August2019/StringManipulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +158,7 @@
       <workItem from="1563986403262" duration="2976000" />
       <workItem from="1564645190072" duration="5416000" />
       <workItem from="1564735584427" duration="275000" />
-      <workItem from="1564852415059" duration="233000" />
+      <workItem from="1564852415059" duration="371000" />
     </task>
     <servers />
   </component>
