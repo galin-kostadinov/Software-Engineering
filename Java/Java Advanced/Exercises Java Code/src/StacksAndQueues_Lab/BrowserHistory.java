@@ -7,6 +7,7 @@ public class BrowserHistory {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        //url.push(), url.pop(), url.peek();
         ArrayDeque<String> url = new ArrayDeque<>();
         String input = "";
 
