@@ -1,8 +1,11 @@
 package StacksAndQueues_Exercise;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Scanner;
 
-public class BasicStackOperations {
+public class BasicQueueOperations {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -17,10 +20,10 @@ public class BasicStackOperations {
         Arrays.stream(sc.nextLine().split("\\s+"))
                 .mapToInt(Integer::parseInt)
                 .limit(elementsCount)
-                .forEach(numbers::push);
+                .forEach(numbers::offer);
 
         for (int i = 0; i < countToRemove; i++) {
-            numbers.pop();
+            numbers.poll();
         }
 
         if (numbers.contains(checkElementIsPresent)) {
