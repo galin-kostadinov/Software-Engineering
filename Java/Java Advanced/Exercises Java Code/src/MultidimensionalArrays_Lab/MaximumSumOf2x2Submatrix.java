@@ -66,14 +66,14 @@ public class MaximumSumOf2x2Submatrix {
         System.out.println(sumSubMatrix);
     }
 
-    private static int getMatrixSum(int[][] matrix) {
-        int sum = 0;
-        for (int row = 0; row < matrix.length; row++) {
-            for (int col = 0; col < matrix[row].length; col++) {
-                sum += matrix[row][col];
-            }
-        }
-
-        return sum;
-    }
+//    private static int getMatrixSum(int[][] matrix) {
+//        int sum = 0;
+//        for (int row = 0; row < matrix.length; row++) {
+//            for (int col = 0; col < matrix[row].length; col++) {
+//                sum += matrix[row][col];
+//            }
+//        }
+//
+//        return sum;
+//    }
 }
