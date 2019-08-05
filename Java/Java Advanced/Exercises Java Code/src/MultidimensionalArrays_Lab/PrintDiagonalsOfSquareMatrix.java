@@ -6,16 +6,12 @@ public class PrintDiagonalsOfSquareMatrix {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int N = Integer.parseInt(sc.nextLine());
+        int n = Integer.parseInt(sc.nextLine());
 
-        String[][] matrix = new String[N][N];
+        String[][] matrix = new String[n][n];
 
         for (int row = 0; row < matrix.length; row++) {
-            String[] input = sc.nextLine().split("\\s+");
-
-            for (int col = 0; col < matrix[row].length; col++) {
-                matrix[row][col] = input[col];
-            }
+            matrix[row] =  sc.nextLine().split("\\s+");
         }
 
         for (int row = 0; row < matrix.length; row++) {
