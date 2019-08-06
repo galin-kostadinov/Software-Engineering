@@ -18,20 +18,21 @@ public class MaximalSum {
             matrixPrime[row] = Arrays.stream(sc.nextLine().split("\\s+".trim())).mapToInt(Integer::parseInt).toArray();
         }
 
-        int[][] subMatrix = new int[3][3];
+        int subMatrixSize = 3;
+        int[][] subMatrix = new int[subMatrixSize][subMatrixSize];
         int sumSubMatrix = 0;
 
         int startIndexRow = 0;
         int startIndexCol = 0;
 
-        while ((matrixPrime.length - startIndexRow) >= 3) {
-            int[][] currentMatrix = new int[3][3];
+        while ((matrixPrime.length - startIndexRow) >= subMatrixSize) {
+            int[][] currentMatrix = new int[subMatrixSize][subMatrixSize];
             int indexRowSub = 0;
             int indexColSub = 0;
             int sum = 0;
 
-            for (int row = startIndexRow; row < startIndexRow + 3; row++) {
-                for (int col = startIndexCol; col < startIndexCol + 3; col++) {
+            for (int row = startIndexRow; row < startIndexRow + subMatrixSize; row++) {
+                for (int col = startIndexCol; col < startIndexCol + subMatrixSize; col++) {
                     currentMatrix[indexRowSub][indexColSub] = matrixPrime[row][col];
                     sum += currentMatrix[indexRowSub][indexColSub];
                     indexColSub++;
@@ -48,7 +49,7 @@ public class MaximalSum {
 
             startIndexCol++;
 
-            if (matrixPrime[rows - 1].length - startIndexCol < 3) {
+            if (matrixPrime[rows - 1].length - startIndexCol < subMatrixSize) {
                 startIndexCol = 0;
                 startIndexRow++;
             }
