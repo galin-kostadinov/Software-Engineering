@@ -19,32 +19,25 @@ public class MaximalSum {
         }
 
         int subMatrixSize = 3;
-        int[][] subMatrix = new int[subMatrixSize][subMatrixSize];
         int sumSubMatrix = 0;
-
         int startIndexRow = 0;
         int startIndexCol = 0;
+        int startIndexRowSubMatrix = 0;
+        int startIndexColSubMatrix = 0;
 
         while ((matrixPrime.length - startIndexRow) >= subMatrixSize) {
-            int[][] currentMatrix = new int[subMatrixSize][subMatrixSize];
-            int indexRowSub = 0;
-            int indexColSub = 0;
             int sum = 0;
 
             for (int row = startIndexRow; row < startIndexRow + subMatrixSize; row++) {
                 for (int col = startIndexCol; col < startIndexCol + subMatrixSize; col++) {
-                    currentMatrix[indexRowSub][indexColSub] = matrixPrime[row][col];
-                    sum += currentMatrix[indexRowSub][indexColSub];
-                    indexColSub++;
+                    sum += matrixPrime[row][col];
                 }
-
-                indexRowSub++;
-                indexColSub = 0;
             }
 
             if (sum > sumSubMatrix) {
                 sumSubMatrix = sum;
-                subMatrix = currentMatrix;
+                startIndexRowSubMatrix = startIndexRow;
+                startIndexColSubMatrix = startIndexCol;
             }
 
             startIndexCol++;
@@ -55,13 +48,37 @@ public class MaximalSum {
             }
         }
 
+        int[][] subMatrix = createSubMatrix(matrixPrime, startIndexRowSubMatrix, startIndexColSubMatrix, subMatrixSize);
+
         System.out.println("Sum = " + sumSubMatrix);
 
+        printMatrix(subMatrix);
+    }
+
+    private static void printMatrix(int[][] subMatrix) {
         for (int row = 0; row < subMatrix.length; row++) {
             for (int col = 0; col < subMatrix[row].length; col++) {
                 System.out.printf("%d ", subMatrix[row][col]);
             }
             System.out.println();
         }
+    }
+
+    private static int[][] createSubMatrix(int[][] matrixPrime, int startIndexRowSubMatrix, int startIndexColSubMatrix,
+                                           int subMatrixSize) {
+        int[][] subMatrix = new int[subMatrixSize][subMatrixSize];
+
+        int indexRowSub = 0;
+        int indexColSub = 0;
+        for (int row = startIndexRowSubMatrix; row < startIndexRowSubMatrix + subMatrixSize; row++) {
+            for (int col = startIndexColSubMatrix; col < startIndexColSubMatrix + subMatrixSize; col++) {
+                subMatrix[indexRowSub][indexColSub] = matrixPrime[row][col];
+                indexColSub++;
+            }
+
+            indexRowSub++;
+            indexColSub = 0;
+        }
+        return subMatrix;
     }
 }
