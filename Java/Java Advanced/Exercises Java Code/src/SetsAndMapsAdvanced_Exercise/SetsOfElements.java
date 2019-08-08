@@ -1,6 +1,5 @@
 package SetsAndMapsAdvanced_Exercise;
 
-import java.util.Arrays;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
@@ -28,6 +27,5 @@ public class SetsOfElements {
 
         firstList.forEach(num -> System.out.print(num + " "));
         System.out.println();
-
     }
 }
