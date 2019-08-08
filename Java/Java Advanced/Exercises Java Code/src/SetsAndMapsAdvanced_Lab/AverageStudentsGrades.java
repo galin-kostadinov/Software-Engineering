@@ -25,15 +25,18 @@ public class AverageStudentsGrades {
                     .map(gr -> String.format("%.2f", gr))
                     .collect(Collectors.joining(" "));
 
-            double avg = grades.stream().mapToDouble(e -> e).average().orElse(0d);
+            double sumGrades = 0;
+            for (Double grade : grades) {
+                sumGrades += grade;
+            }
+            double avg = sumGrades / grades.size();
 
             System.out.println(
-                    String.format("%s -> %s (avg: %2f)",
+                    String.format("%s -> %s (avg: %.2f)",
                             name,
                             allGrades,
                             avg)
             );
         });
-
     }
 }
