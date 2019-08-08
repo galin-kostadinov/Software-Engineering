@@ -13,8 +13,7 @@ public class FixEmails {
         String name;
         while (!"stop".equals(name = sc.nextLine())) {
             String email = sc.nextLine();
-            if (!email.contains(".us") && !email.contains(".com")
-                    && !email.contains(".uk")) {
+            if (!email.endsWith(".us") && !email.endsWith(".com") && !email.endsWith(".uk")) {
                 personsEmails.put(name, email);
             }
         }
