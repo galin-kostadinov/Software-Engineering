@@ -25,6 +25,5 @@ public class MinerTask {
         map.entrySet().forEach(e -> {
             System.out.println(String.format("%s -> %d", e.getKey(), e.getValue()));
         });
-        //0:51
     }
 }
