@@ -3,7 +3,7 @@ import java.io.*;
 public class SumLines {
     public static void main(String[] args) throws IOException {
         String filePath = "E:\\ComputerProgramming\\Java\\03_JavaAdvanced\\Java Advanced\\Java Advanced - 201905\\10. Exercise - Streams, Files and Directories\\04. Java-Advanced-Files-and-Streams-Exercises-Resources\\input.txt";
-        String outputPath = filePath.substring(0, filePath.lastIndexOf("\\") + 2) + "asciiSum.txt";
+        String outputPath = filePath.substring(0, filePath.lastIndexOf("\\") + 1) + "asciiSum.txt";
 
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(outputPath)));
         try {
