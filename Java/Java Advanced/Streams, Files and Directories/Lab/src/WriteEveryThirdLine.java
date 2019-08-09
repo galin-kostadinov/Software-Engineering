@@ -17,11 +17,20 @@ public class WriteEveryThirdLine {
                 if (pos % 3 == 0) {
                     bfw.write(line);
                     bfw.newLine();
+                    //bfw.append(line).append(System.lineSeparator());
+
                 }
                 pos++;
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        /*
+        If we don`t Using try-with-resources, then:
+                 finally:
+                 bfw.flush();
+                 bfw.close();
+        */
     }
 }
