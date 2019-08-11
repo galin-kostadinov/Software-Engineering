@@ -14,7 +14,8 @@ public class CountUppercaseWords {
 
         String[] words = reader.readLine().split("\\s+");
 
-        Predicate<String> isStartingWithCapital = word -> Character.isUpperCase((word.charAt(0)));
+        Predicate<String> isStartingWithCapital = word -> word.charAt(0) >= 'A' && word.charAt(0) <= 'Z';
+        //Character.isUpperCase(word.charAt(0))
 
         List<String> capitalWords = Arrays.stream(words)
                 .filter(isStartingWithCapital)
