@@ -20,7 +20,7 @@ public class FindTheSmallestElement {
             int min = arr.stream().mapToInt(Integer::intValue).min().getAsInt();
             return arr.lastIndexOf(min);
         };
-        
+
         System.out.println(minNumber.apply(numbers));
     }
 }
