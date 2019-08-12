@@ -16,16 +16,19 @@ public class Main {
 
         while (count-- > 0) {
             String[] tokens = reader.readLine().split("\\s+");
-            String make = tokens[0];
-            String model = tokens[1];
-            int horsePower = Integer.parseInt(tokens[2]);
+            if (tokens.length > 1) {
+                String make = tokens[0];
+                String model = tokens[1];
+                int horsePower = Integer.parseInt(tokens[2]);
+                Car car = new Car(make, model, horsePower);
+                cars.add(car);
 
-            Car car = new Car();
-            car.setModel(model);
-            car.setMake(make);
-            car.setHorsePower(horsePower);
+            } else {
+                String make = tokens[0];
+                Car car = new Car(make);
+                cars.add(car);
+            }
 
-            cars.add(car);
         }
 
         cars.forEach(car -> System.out.println(car.carInfo()));

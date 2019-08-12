@@ -5,6 +5,16 @@ public class Car {
     private String model;
     private int horsePower;
 
+    public Car(String make) {
+        this(make, "unknown", -1);
+    }
+
+    public Car(String make, String model, int horsePower) {
+        this.make = make;
+        this.model = model;
+        this.horsePower = horsePower;
+    }
+
     public String getMake() {
         return make;
     }
