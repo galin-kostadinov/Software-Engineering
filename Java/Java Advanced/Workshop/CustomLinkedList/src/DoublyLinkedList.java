@@ -1,4 +1,5 @@
 import java.util.NoSuchElementException;
+import java.util.function.Consumer;
 
 public class DoublyLinkedList {
     private class ListNode {
@@ -93,7 +94,32 @@ public class DoublyLinkedList {
             this.tail.next = null;
         }
 
+        this.size--;
         return lastItem;
+    }
+
+    public int[] toArray() {
+        checkSize();
+
+        int[] array = new int[this.size];
+        int index = 0;
+        ListNode currentNode = this.head;
+
+        while (currentNode != null) {
+            array[index++] = currentNode.item;
+            currentNode = currentNode.next;
+        }
+
+        return array;
+    }
+
+    public void forEach(Consumer<Integer> consumer) {
+        ListNode currentNode = this.head;
+
+        while (currentNode != null) {
+            consumer.accept(currentNode.item);
+            currentNode = currentNode.next;
+        }
     }
 
     private void checkSize() {
