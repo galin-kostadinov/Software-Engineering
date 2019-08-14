@@ -11,6 +11,13 @@ public class Person {
     private List<Parant> parants;
     private List<Child> children;
 
+    public Person(String personName) {
+        this.personName = personName;
+        this.pokemons = new ArrayList<>();
+        this.parants = new ArrayList<>();
+        this.children = new ArrayList<>();
+    }
+
     public String getPersonName() {
         return personName;
     }
@@ -33,13 +40,6 @@ public class Person {
 
     public List<Child> getChildren() {
         return children;
-    }
-
-    public Person(String personName) {
-        this.personName = personName;
-        this.pokemons = new ArrayList<>();
-        this.parants = new ArrayList<>();
-        this.children = new ArrayList<>();
     }
 
     public void setCompany(Company company) {

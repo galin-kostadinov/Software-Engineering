@@ -1,7 +1,5 @@
 package Google;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        Map<String, Person> persons = new HashMap<>();
+        Map<String, Person> people = new HashMap<>();
 
         String input;
 
@@ -20,37 +18,35 @@ public class Main {
             String[] tokens = input.split("\\s+");
 
             String personName = tokens[0];
-            persons.putIfAbsent(personName, new Person(personName));
+            people.putIfAbsent(personName, new Person(personName));
 
             String dataType = tokens[1];
             switch (dataType) {
                 case "company":
                     Company company = new Company(tokens[2], tokens[3], Double.parseDouble(tokens[4]));
-                    persons.get(personName).setCompany(company);
+                    people.get(personName).setCompany(company);
                     break;
                 case "pokemon":
                     Pokemon pokemon = new Pokemon(tokens[2], tokens[3]);
-                    persons.get(personName).addPokemons(pokemon);
+                    people.get(personName).addPokemons(pokemon);
                     break;
                 case "parents":
                     Parant parent = new Parant(tokens[2], tokens[3]);
-                    persons.get(personName).addParants(parent);
+                    people.get(personName).addParants(parent);
                     break;
                 case "children":
                     Child child = new Child(tokens[2], tokens[3]);
-                    persons.get(personName).addChildren(child);
+                    people.get(personName).addChildren(child);
                     break;
                 case "car":
                     Car car = new Car(tokens[2], Integer.parseInt(tokens[3]));
-                    persons.get(personName).setCar(car);
+                    people.get(personName).setCar(car);
                     break;
             }
-
-
         }
 
         String personName = reader.readLine();
-        Person person = persons.get(personName);
+        Person person = people.get(personName);
 
         System.out.println(person.getPersonName());
 
@@ -70,6 +66,5 @@ public class Main {
 
         System.out.println("Children:");
         person.getChildren().forEach(p-> System.out.println(p.toString()));
-
     }
 }
