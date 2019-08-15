@@ -10,7 +10,7 @@ public class Main {
 
         int count = Integer.parseInt(reader.readLine());
 
-        while(count-->0){
+        while (count-- > 0) {
             String str = reader.readLine();
             Box<String> box = new Box<>(str);
             System.out.println(box.toString());
