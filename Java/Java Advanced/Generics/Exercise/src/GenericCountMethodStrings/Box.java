@@ -2,10 +2,14 @@ package GenericCountMethodStrings;
 
 public class Box<T> {
 
-    T element;
+    private T element;
 
-    public Box (T element){
+    public Box(T element) {
         this.element = element;
+    }
+
+    public T getElement() {
+        return element;
     }
 
     @Override

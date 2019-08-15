@@ -29,7 +29,7 @@ public class Main {
     private static <T extends Comparable<T>> int countGreaterElements(List<Box<T>> boxes, T compareElement) {
         int count = 0;
         for (Box<T> box : boxes) {
-            if (box.element.compareTo(compareElement) > 0){
+            if (box.getElement().compareTo(compareElement) > 0){
                 count++;
             }
         }
