@@ -14,5 +14,12 @@ public class Main {
         } else {
             System.out.println("Book are equal");
         }
+
+        List<Book> books = new ArrayList<>();
+        books.add(bookOne);
+        books.add(bookTwo);
+        books.add(bookThree);
+
+        books.sort(new BookComparator());
     }
 }
