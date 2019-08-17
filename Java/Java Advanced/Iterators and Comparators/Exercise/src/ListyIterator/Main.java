@@ -26,13 +26,15 @@ public class Main {
                 case "Print":
                     try {
                         iterator.print();
-                    } catch (IllegalAccessException exception){
+                    } catch (IllegalAccessException exception) {
                         System.out.println(exception.getMessage());
                     }
-
                     break;
                 case "HasNext":
                     System.out.println(iterator.hasNext());
+                    break;
+                case "PrintAll":
+                    iterator.printAll();
                     break;
             }
         }
