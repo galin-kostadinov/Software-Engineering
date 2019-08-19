@@ -10,7 +10,7 @@ public class Lake implements Iterable<Integer> {
     public Lake() {
         this.elements = new ArrayList<>();
     }
-    
+
     public void setElements(List<Integer> elements) {
         this.elements.addAll(elements);
     }
