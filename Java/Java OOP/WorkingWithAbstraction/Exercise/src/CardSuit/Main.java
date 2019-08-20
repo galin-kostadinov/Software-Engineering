@@ -12,7 +12,7 @@ public class Main {
 
         System.out.println(input + ":");
 
-        for (Card nameValue : Card.values()) {
+        for (CardSuit nameValue : CardSuit.values()) {
             int ordinalValue = nameValue.getOrdinalValue();
             System.out.printf("Ordinal value: %d; Name value: %s%n", ordinalValue, nameValue);
         }

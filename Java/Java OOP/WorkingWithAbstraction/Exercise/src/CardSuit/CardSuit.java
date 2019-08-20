@@ -1,6 +1,6 @@
 package CardSuit;
 
-public enum Card {
+public enum CardSuit {
     CLUBS(0),
     DIAMONDS(1),
     HEARTS(2),
@@ -8,7 +8,7 @@ public enum Card {
 
     private int ordinalValue;
 
-    Card(int ordinalValue) {
+    CardSuit(int ordinalValue) {
         this.ordinalValue = ordinalValue;
     }
 
