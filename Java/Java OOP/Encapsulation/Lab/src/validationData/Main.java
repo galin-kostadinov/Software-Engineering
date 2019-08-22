@@ -1,6 +1,5 @@
 package validationData;
 
-
 import validationData.person.Person;
 
 import java.io.BufferedReader;
@@ -16,11 +15,20 @@ public class Main {
         List<Person> people = new ArrayList<>();
         for (int i = 0; i < n; i++) {
             String[] input = reader.readLine().split(" ");
-            people.add(new Person(input[0], input[1], Integer.parseInt(input[2]), Double.parseDouble(input[3])));
+        try {
+                people.add(new Person(input[0], input[1], Integer.parseInt(input[2]), Double.parseDouble(input[3])));
+           } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
         }
         double bonus = Double.parseDouble(reader.readLine());
         for (Person person : people) {
-            person.increaseSalary(bonus);
+            try {
+                person.increaseSalary(bonus);
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
+
             System.out.println(person.toString());
         }
     }

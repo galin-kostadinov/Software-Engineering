@@ -67,7 +67,7 @@ public class Person {
         }
         bonus /= 100;
 
-        double increasedSalary = this.getSalary() * (1 + bonus / 100);
+        double increasedSalary = this.getSalary() * (1 + bonus);
         this.setSalary(increasedSalary);
     }
 
