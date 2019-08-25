@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangularArea", "RectangularArea\RectangularArea.csproj", "{93E6D4AD-FD82-4B28-A04B-150F523B49FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangularArea1", "RectangularArea1\RectangularArea1.csproj", "{36069187-5BEC-49CD-8872-93C38EC53737}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93E6D4AD-FD82-4B28-A04B-150F523B49FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E6D4AD-FD82-4B28-A04B-150F523B49FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E6D4AD-FD82-4B28-A04B-150F523B49FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E6D4AD-FD82-4B28-A04B-150F523B49FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36069187-5BEC-49CD-8872-93C38EC53737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36069187-5BEC-49CD-8872-93C38EC53737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36069187-5BEC-49CD-8872-93C38EC53737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36069187-5BEC-49CD-8872-93C38EC53737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8265CA5C-2F4C-467C-A451-360D651024CC}
+	EndGlobalSection
+EndGlobal
