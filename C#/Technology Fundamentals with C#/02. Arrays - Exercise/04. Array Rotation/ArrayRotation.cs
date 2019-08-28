@@ -7,7 +7,8 @@ public class Program
     {
         int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-        int rotations = int.Parse(Console.ReadLine());// Може да си спестим завъртания като сметнем rotation%numbers.Length=needRotation;
+        int rotations = int.Parse(Console.ReadLine());
+
         for (int i = 1; i <= rotations; i++)
         {
             int firstIndex = numbers[0];
@@ -17,8 +18,8 @@ public class Program
                 numbers[j] = numbers[j + 1];
 
             }
-            numbers[numbers.Length - 1] = firstIndex;
 
+            numbers[numbers.Length - 1] = firstIndex;
         }
 
         Console.WriteLine(string.Join(" ", numbers));

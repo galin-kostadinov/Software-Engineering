@@ -6,7 +6,7 @@ public class MaxSequence
     public static void Main()
     {
         int[] numbers = Console.ReadLine().Split().Select(int.Parse).ToArray();
-        //int[] numbers = { 1, 1, 1, 2, 1, 1, 2, 1, 1, 1, 1, 1, 2, 2 };//1 1 1 2 1 1 2 1 1 1 1 1 2 2
+
 
         int counterFirstSequence = 0;
         int counterSecondSequence = 0;
@@ -14,6 +14,7 @@ public class MaxSequence
         int secondNumberPerSequence = 0;
         int firstNumIndex = -1;
         int secondNumIndex = -1;
+
         for (int i = 0; i < numbers.Length - 1; i++)
         {
             if (numbers[i] == numbers[i + 1])
@@ -29,18 +30,18 @@ public class MaxSequence
                     counterFirstSequence++;
                     firstNumIndex = i;
                 }
-                else if (firstNumberPerSequence == numbers[i] && firstNumIndex+1 != i && counterSecondSequence == 0)
+                else if (firstNumberPerSequence == numbers[i] && firstNumIndex + 1 != i && counterSecondSequence == 0)
                 {
                     secondNumberPerSequence = numbers[i];
                     counterSecondSequence = 2;
                     secondNumIndex = i;
                 }
-                else if (secondNumberPerSequence == numbers[i] && secondNumIndex+1 == i)
+                else if (secondNumberPerSequence == numbers[i] && secondNumIndex + 1 == i)
                 {
                     counterSecondSequence++;
                     secondNumIndex = i;
                 }
-                else /*if (numbers[i] != firstNumberPerSequence || numbers[i] != secondNumberPerSequence)*/
+                else
                 {
                     if (counterFirstSequence < counterSecondSequence)
                     {
@@ -60,6 +61,7 @@ public class MaxSequence
                 }
             }
         }
+
         if (counterFirstSequence > 0 && counterFirstSequence >= counterSecondSequence)
         {
             for (int i = 1; i <= counterFirstSequence; i++)

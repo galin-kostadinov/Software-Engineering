@@ -7,6 +7,7 @@ public class Orders
         string product = Console.ReadLine();
         int quantity = int.Parse(Console.ReadLine());
         double totalPrice = TotalPriceForSelectedProduct(product, quantity);
+
         Console.WriteLine($"{totalPrice:F2}");
 
     }
@@ -14,6 +15,7 @@ public class Orders
     public static double TotalPriceForSelectedProduct(string product, int quantity)
     {
         double totalPrice = 0;
+
         switch (product)
         {
             case "coffee":
@@ -31,6 +33,7 @@ public class Orders
             default:
                 break;
         }
+
         return totalPrice;
     }
 

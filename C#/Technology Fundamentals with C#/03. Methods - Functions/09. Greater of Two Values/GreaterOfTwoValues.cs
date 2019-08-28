@@ -5,7 +5,7 @@ public class GreaterOfTwoValues
     public static void Main()
     {
         string valueType = Console.ReadLine();
-        
+
         switch (valueType)
         {
             case "int":
@@ -26,9 +26,7 @@ public class GreaterOfTwoValues
                 string resultstring = GetMax(firstString, secondString);
                 Console.WriteLine(resultstring);
                 break;
-                
         }
-
     }
 
     public static int GetMax(int first, int second)
@@ -55,4 +53,3 @@ public class GreaterOfTwoValues
     }
 }
 
-    

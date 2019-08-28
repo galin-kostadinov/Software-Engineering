@@ -14,6 +14,7 @@ public class EqualSumII
         {
             rightSum += numbers[i];
         }
+
         for (int i = 0; i < numbers.Length; i++)
         {
             rightSum -= numbers[i];
@@ -25,6 +26,7 @@ public class EqualSumII
 
             leftSum += numbers[i];
         }
+
         Console.WriteLine("no");
     }
 }

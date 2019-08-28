@@ -11,7 +11,7 @@ public class Program
 
         for (int i = 0; i < numbers.Length; i++)
         {
-            roundingNumber[i] =(int)Math.Round(numbers[i], MidpointRounding.AwayFromZero);
+            roundingNumber[i] = (int)Math.Round(numbers[i], MidpointRounding.AwayFromZero);
         }
 
         for (int i = 0; i < roundingNumber.Length; i++)

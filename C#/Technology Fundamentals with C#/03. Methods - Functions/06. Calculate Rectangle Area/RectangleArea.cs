@@ -7,6 +7,7 @@ public class RectangleArea
         double rectangleleWidth = double.Parse(Console.ReadLine());
         double rectangleHight = double.Parse(Console.ReadLine());
         double rectangleArea = CalculateRectangleArea(rectangleleWidth, rectangleHight);
+
         Console.WriteLine(rectangleArea);
     }
 

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-//string[] text = line.Split(new char[] { ',', ' ', '!' }, StringSplitOptions.RemoveEmptyEntries);
 public class KaminoFactory
 {
     public static void Main()
@@ -22,9 +21,9 @@ public class KaminoFactory
             {
                 break;
             }
-           
+
             int[] currentDNA = line.Split(new char[] { '!' }, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
-                        
+
             int currentSum = 0;
 
             for (int i = 0; i < currentDNA.Length; i++)
@@ -95,6 +94,7 @@ public class KaminoFactory
             }
             currentRow++;
         }
+
         Console.WriteLine($"Best DNA sample {row} with sum: {sum}.");
         Console.WriteLine(string.Join(" ", DNA));
     }

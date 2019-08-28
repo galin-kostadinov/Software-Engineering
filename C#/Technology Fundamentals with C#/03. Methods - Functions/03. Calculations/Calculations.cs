@@ -51,5 +51,4 @@ class Command
         int result = a / b;
         Console.WriteLine(result);
     }
-
 }

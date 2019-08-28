@@ -8,6 +8,7 @@ public class MathPower
         int power = int.Parse(Console.ReadLine());
 
         double raiseToPower = RaiseToPower(number, power);
+
         Console.WriteLine(raiseToPower);
     }
 

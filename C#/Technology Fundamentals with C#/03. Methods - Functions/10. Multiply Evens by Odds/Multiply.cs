@@ -6,6 +6,7 @@ public class Multiply
     {
         int number = int.Parse(Console.ReadLine());
         number = Math.Abs(number);
+
         Console.WriteLine(GetMultipleOfEvenAndOdds(number));
     }
 
@@ -28,6 +29,7 @@ public class Multiply
     {
         string numberToSting = number.ToString();
         int result = 0;
+
         for (int i = 0; i < numberToSting.Length; i++)
         {
             if (numberToSting[i] % 2 == expectedRemainder)
@@ -35,12 +37,7 @@ public class Multiply
                 result += int.Parse(numberToSting[i] + "");
             }
         }
+
         return result;
     }
-
-    //while (number > 10)
-    //{
-    //    int last = number % 10;
-    //    number /= 10;
-    //}
 }

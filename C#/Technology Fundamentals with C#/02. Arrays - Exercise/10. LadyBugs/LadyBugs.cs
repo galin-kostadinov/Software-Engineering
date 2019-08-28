@@ -26,10 +26,12 @@ public class LadyBugs
             while (true)
             {
                 string input = Console.ReadLine();
+
                 if (input == "end")
                 {
                     break;
                 }
+
                 string[] ladyBugMove = input.Split().ToArray();
                 int startLadyBugIndex = int.Parse(ladyBugMove[0]);
 
@@ -51,11 +53,12 @@ public class LadyBugs
                 {
                     endLadyBugIndex = startLadyBugIndex - currentLadyBugFlyLength;
                     ladyBugsPositions[startLadyBugIndex] = 0;
-                    if (endLadyBugIndex < 0 || endLadyBugIndex>= ladyBugsPositions.Length)
-                    {                        
+
+                    if (endLadyBugIndex < 0 || endLadyBugIndex >= ladyBugsPositions.Length)
+                    {
                         continue;
                     }
-                    
+
                     while (endLadyBugIndex < ladyBugsPositions.Length && endLadyBugIndex >= 0)
                     {
                         if (ladyBugsPositions[endLadyBugIndex] == 1)
@@ -67,12 +70,13 @@ public class LadyBugs
                             break;
                         }
                     }
+
                     if (!(endLadyBugIndex < 0 || endLadyBugIndex >= ladyBugsPositions.Length))
                     {
                         ladyBugsPositions[endLadyBugIndex] = 1;
                     }
                 }
-                else if(currentLadyBugDirection == "right")
+                else if (currentLadyBugDirection == "right")
                 {
                     endLadyBugIndex = startLadyBugIndex + currentLadyBugFlyLength;
                     ladyBugsPositions[startLadyBugIndex] = 0;
@@ -93,11 +97,12 @@ public class LadyBugs
                             break;
                         }
                     }
+
                     if (!(endLadyBugIndex < 0 || endLadyBugIndex >= ladyBugsPositions.Length))
                     {
                         ladyBugsPositions[endLadyBugIndex] = 1;
                     }
-                }           
+                }
             }
 
             Console.WriteLine(string.Join(" ", ladyBugsPositions));

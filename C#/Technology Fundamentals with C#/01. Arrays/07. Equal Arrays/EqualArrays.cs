@@ -10,6 +10,7 @@ public class EqualArrays
 
         double sum = 0;
         bool identicalArrays = true;
+
         for (int i = 0; i < firstArray.Length; i++)
         {
             if (firstArray[i] != secondArray[i])
@@ -18,12 +19,13 @@ public class EqualArrays
                 identicalArrays = false;
                 break;
             }
+
             sum += firstArray[i];
         }
+
         if (identicalArrays)
         {
             Console.WriteLine($"Arrays are identical. Sum: {sum}");
         }
-
     }
 }

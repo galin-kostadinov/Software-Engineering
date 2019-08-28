@@ -16,9 +16,10 @@ public class Train
 
         for (int i = 0; i < train.Length; i++)
         {
-            Console.Write(train[i]+" ");
+            Console.Write(train[i] + " ");
             sum += train[i];
         }
+
         Console.WriteLine();
         Console.WriteLine(sum);
     }
