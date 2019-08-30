@@ -38,7 +38,20 @@ public class MessageLogger implements Logger {
 
     private void logMessage(String date, ReportLevel reportLevel, String message) {
         for (Appender appender : appenders) {
-            appender.append(date, reportLevel, message);
+            if (appender.getReportLevel().compareTo((reportLevel)) <= 0) {
+                appender.append(date, reportLevel, message);
+            }
         }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder("Logger info" + System.lineSeparator());
+        for (Appender appender : appenders) {
+            builder.append(appender.toString());
+            builder.append(System.lineSeparator());
+        }
+
+        return builder.toString().trim();
     }
 }
