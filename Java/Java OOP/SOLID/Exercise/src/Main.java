@@ -1,16 +1,28 @@
 import loggerlib.appender.ConsoleAppender;
+import loggerlib.appender.FileAppender;
 import loggerlib.appender.interfaces.Appender;
-import loggerlib.enumerations.ReportLevel;
+import loggerlib.customFiles.LogFile;
+import loggerlib.customFiles.interfaces.File;
 import loggerlib.layout.SimpleLayout;
 import loggerlib.layout.interfeces.Layout;
+import loggerlib.loggers.MessageLogger;
+import loggerlib.loggers.interfaces.Logger;
+
+import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Layout simpleLayout = new SimpleLayout();
+        Appender consoleAppender = new ConsoleAppender(simpleLayout);
 
-        Layout layout = new SimpleLayout();
-        Appender consoleAppender = new ConsoleAppender(layout);
-        consoleAppender.append("3/26/2015 2:08:11 PM",
-                ReportLevel.INFO,
-                "Error parsing JSON.");
+        File file = new LogFile();
+        Appender fileAppender = new FileAppender(simpleLayout);
+        ((FileAppender) fileAppender).setFile(file);
+
+        Logger logger = new MessageLogger(consoleAppender, fileAppender);
+
+
+        logger.logError("3/31/2015 5:33:07 PM", "Error parsing request");
+        System.out.println(file.getSize());
     }
 }
