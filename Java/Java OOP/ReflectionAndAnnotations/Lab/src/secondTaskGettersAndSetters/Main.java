@@ -12,30 +12,23 @@ public class Main {
 
         Method[] allDeclaredMethods = reflectionClass.getDeclaredMethods();
 
-        Method[] getters = getMethodStartsWith("get", allDeclaredMethods);
-        Method[] setters = getMethodStartsWith("set", allDeclaredMethods);
-
-        Arrays.stream(getters)
+        Arrays.stream(allDeclaredMethods)
+                .filter(m -> m.getName().startsWith("get") && m.getParameterCount() == 0)
                 .sorted(Comparator.comparing(Method::getName))
                 .forEach(m -> System.out.println(
                         String.format("%s will return class %s",
                                 m.getName(),
-                                m.getReturnType().getSimpleName()))
+                                m.getReturnType().getName()))
                 );
 
-        Arrays.stream(setters)
+        Arrays.stream(allDeclaredMethods)
+                .filter(m -> m.getName().startsWith("set") && m.getParameterCount() == 1)
                 .sorted(Comparator.comparing(Method::getName))
                 .forEach(m -> System.out.println(
                         String.format("%s and will set field of class %s",
                                 m.getName(),
-                                m.getParameterTypes()[0].getSimpleName()))
+                                m.getParameterTypes()[0].getName()))
                 );
 
-    }
-
-    public static Method[] getMethodStartsWith(String startWith, Method[] methods) {
-        return Arrays.stream(methods)
-                .filter(m -> m.getName().startsWith(startWith))
-                .toArray(Method[]::new);
     }
 }
