@@ -10,7 +10,13 @@ public class SquareRoot {
 
         try {
             int a = Integer.parseInt(reader.readLine());
+
+            if (a < 0) {
+                throw new NumberFormatException();
+            }
+
             double result = Math.sqrt(a);
+
             System.out.println(result);
         } catch (NumberFormatException | IOException ex) {
             System.out.println("Invalid number");
