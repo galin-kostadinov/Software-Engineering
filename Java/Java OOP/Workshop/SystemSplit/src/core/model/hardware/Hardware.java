@@ -18,11 +18,18 @@ public abstract class Hardware {
         this.maximumCapacity = maximumCapacity;
         this.maximumMemory = maximumMemory;
         this.softwares = new ArrayList<>();
-
     }
 
     public String getName() {
         return name;
+    }
+
+    private void setMaximumCapacity(int maximumCapacity) {
+        this.maximumCapacity = maximumCapacity;
+    }
+
+    private void setMaximumMemory(int maximumMemory) {
+        this.maximumMemory = maximumMemory;
     }
 
     public int getMaximumCapacity() {
@@ -32,6 +39,16 @@ public abstract class Hardware {
     public int getMaximumMemory() {
         return this.maximumMemory;
     }
+
+    public void addSoftware(Software software) {
+        if (software.getMemoryConsumption() <= this.getMaximumMemory() &&
+                software.getCapacityConsumption() <= this.getMaximumCapacity()) {
+            this.softwares.add(software);
+            this.setUsedResources(software);
+        }
+    }
+
+    protected abstract void setUsedResources(Software software);
 
     protected enum Type {
         POWER,
