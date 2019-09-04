@@ -25,5 +25,6 @@ public class RegisterPowerHardwareCommand extends BaseCommand {
     @Override
     public void execute() {
         Hardware hardware = new PowerHardware(this.name, this.capacity, this.memory);
+        systemSplit.addHardwareComponent(hardware);
     }
 }

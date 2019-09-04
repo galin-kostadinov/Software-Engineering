@@ -25,5 +25,6 @@ public class RegisterHeavyHardwareCommand extends BaseCommand {
     @Override
     public void execute() {
         Hardware hardware = new HeavyHardware(this.name, this.capacity, this.memory);
+        systemSplit.addHardwareComponent(hardware);
     }
 }

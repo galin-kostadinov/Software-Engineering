@@ -9,7 +9,7 @@ public class LightSoftware extends Software {
     public int getCapacityConsumption() {
         int baseCapacity = super.getCapacityConsumption();
         baseCapacity += baseCapacity / 2;
-        return super.getCapacityConsumption();
+        return baseCapacity;
     }
 
     @Override

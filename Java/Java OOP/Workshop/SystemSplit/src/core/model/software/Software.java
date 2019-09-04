@@ -13,6 +13,10 @@ public abstract class Software {
         this.memoryConsumption = memoryConsumption;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getCapacityConsumption() {
         return capacityConsumption;
     }

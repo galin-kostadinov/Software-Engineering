@@ -12,8 +12,8 @@ public final class CommandFactory {
     public static Command buildCommand(String name, Object... args) {
         try {
             Class commandClass = Class.forName(BASE_COMMAND_PACKAGE + name + COMMAND_SUFFIX);
-            Constructor<Command> constuctor = commandClass.getDeclaredConstructors()[0];
-            return constuctor.newInstance(new Object[]{args});
+            Constructor<Command> constructor = commandClass.getDeclaredConstructors()[0];
+            return constructor.newInstance(new Object[]{args});
         } catch (ClassNotFoundException
                 | IllegalAccessException
                 | InstantiationException

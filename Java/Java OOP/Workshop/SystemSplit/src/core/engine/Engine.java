@@ -32,5 +32,8 @@ public class Engine {
 
             line = this.reader.readLine();
         }
+
+        Command command = CommandFactory.buildCommand("SystemSplit", new Object[]{this.systemSplit});
+        command.execute();
     }
 }
