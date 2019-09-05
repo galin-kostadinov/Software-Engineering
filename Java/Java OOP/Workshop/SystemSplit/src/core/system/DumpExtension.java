@@ -7,7 +7,10 @@ import java.lang.reflect.Field;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.Function;
+import java.util.function.Predicate;
 import java.util.function.ToIntFunction;
+import java.util.function.ToLongFunction;
 
 public class DumpExtension extends SystemSplit {
     private Map<String, Hardware> dumpHardwareCollection;
@@ -35,19 +38,6 @@ public class DumpExtension extends SystemSplit {
     }
 
     public void addHardwareComponentToDump(Hardware hardware) {
-//        try {
-//            Class<? extends Hardware> aClass = hardware.getClass();
-//            Field maximumCapacity = aClass.getSuperclass().getDeclaredField("maximumCapacity");
-//            maximumCapacity.setAccessible(true);
-//            maximumCapacity.set(hardware, 0);
-//
-//            Field maximumMemory = aClass.getSuperclass().getDeclaredField("maximumMemory");
-//            maximumMemory.setAccessible(true);
-//            maximumMemory.set(hardware, 0);
-//        } catch (NoSuchFieldException | IllegalAccessException e) {
-//            e.printStackTrace();
-//        }
-
         this.dumpHardwareCollection.put(hardware.getName(), hardware);
     }
 
@@ -78,73 +68,19 @@ public class DumpExtension extends SystemSplit {
     }
 
     public long getCountOfPowerHardwareComponents() {
-        return this.dumpHardwareCollection
-                .values()
-                .stream()
-                .filter(h -> h.getType().equalsIgnoreCase("Power"))
-                .count();
+        return getCountOfCurrentTypeHardwareComponent(h -> h.getType().equalsIgnoreCase("Power"));
     }
 
     public long getCountOfHeavyHardwareComponents() {
-        return this.dumpHardwareCollection
-                .values()
-                .stream()
-                .filter(h -> h.getType().equalsIgnoreCase("Heavy"))
-                .count();
+        return getCountOfCurrentTypeHardwareComponent(h -> h.getType().equalsIgnoreCase("Heavy"));
     }
 
     public int getCountOfExpressSoftwareComponents() {
-        int count = 0;
-        for (Hardware hardware : dumpHardwareCollection.values()) {
-
-            try {
-                Field softwares = hardware.getClass().getSuperclass().getDeclaredField("softwares");
-                softwares.setAccessible(true);
-                List<Software> list = (List<Software>) softwares.get(hardware);
-
-                for (Software software : list) {
-                    Field type = software.getClass().getSuperclass().getDeclaredField("type");
-                    type.setAccessible(true);
-
-                    Enum typeEnum = (Enum) type.get(software);
-
-                    if (typeEnum.name().equals("EXPRESS")) {
-                        count++;
-                    }
-                }
-            } catch (NoSuchFieldException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
-
-        return count;
+        return getCountOfCurrentTypeSoftwareComponent("EXPRESS");
     }
 
     public int getCountOfLightSoftwareComponents() {
-        int count = 0;
-        for (Hardware hardware : dumpHardwareCollection.values()) {
-
-            try {
-                Field softwares = hardware.getClass().getSuperclass().getDeclaredField("softwares");
-                softwares.setAccessible(true);
-                List<Software> list = (List<Software>) softwares.get(hardware);
-
-                for (Software software : list) {
-                    Field type = software.getClass().getSuperclass().getDeclaredField("type");
-                    type.setAccessible(true);
-
-                    Enum typeEnum = (Enum) type.get(software);
-
-                    if (typeEnum.name().equals("LIGHT")) {
-                        count++;
-                    }
-                }
-            } catch (NoSuchFieldException | IllegalAccessException e) {
-                e.printStackTrace();
-            }
-        }
-
-        return count;
+        return getCountOfCurrentTypeSoftwareComponent("LIGHT");
     }
 
     public int getTotalDumpedMemory() {
@@ -161,5 +97,39 @@ public class DumpExtension extends SystemSplit {
                 .stream()
                 .mapToInt(function)
                 .sum();
+    }
+
+    private long getCountOfCurrentTypeHardwareComponent(Predicate<Hardware> isType) {
+        return this.dumpHardwareCollection
+                .values()
+                .stream()
+                .filter(isType)
+                .count();
+    }
+
+    public int getCountOfCurrentTypeSoftwareComponent(String typeName) {
+        int count = 0;
+        for (Hardware hardware : dumpHardwareCollection.values()) {
+            try {
+                Field softwares = hardware.getClass().getSuperclass().getDeclaredField("softwares");
+                softwares.setAccessible(true);
+                List<Software> list = (List<Software>) softwares.get(hardware);
+
+                for (Software software : list) {
+                    Field type = software.getClass().getSuperclass().getDeclaredField("type");
+                    type.setAccessible(true);
+
+                    Enum typeEnum = (Enum) type.get(software);
+
+                    if (typeEnum.name().equals(typeName)) {
+                        count++;
+                    }
+                }
+            } catch (NoSuchFieldException | IllegalAccessException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return count;
     }
 }
