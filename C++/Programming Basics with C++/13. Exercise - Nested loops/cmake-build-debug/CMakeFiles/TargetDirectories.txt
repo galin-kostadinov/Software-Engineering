@@ -1,0 +1,12 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/Coding.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/EqualSumsLeftRightPosition.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/EqualSumsEvenOddPosition.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/PasswordGenerator.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/SumPrimeNonPrime.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/Fishing.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/NumberPyramid.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/Matrix.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/SpecialNumbers.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/TrainTheTrainers.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/13. Exercise - Nested loops/cmake-build-debug/CMakeFiles/rebuild_cache.dir
