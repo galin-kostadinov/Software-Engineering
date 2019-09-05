@@ -1,0 +1,11 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/NameWars.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/Building.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/Numbers1toNWithStep3.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/Combination.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/CookieFactory.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/EvenPowersOf2.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/MagicNumbers.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/NumbersNto1.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/Travelling.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CMakeFiles/edit_cache.dir

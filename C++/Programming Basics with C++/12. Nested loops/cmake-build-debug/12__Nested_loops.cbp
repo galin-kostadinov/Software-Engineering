@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="12__Nested_loops"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NameWars">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/NameWars.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 NameWars"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NameWars/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/NameWars.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 NameWars/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Building">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Building.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Building"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Building/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Building.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Building/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Numbers1toNWithStep3">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Numbers1toNWithStep3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Numbers1toNWithStep3"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Numbers1toNWithStep3/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Numbers1toNWithStep3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Numbers1toNWithStep3/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Combination">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Combination.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Combination"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Combination/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Combination.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Combination/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CookieFactory">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CookieFactory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 CookieFactory"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CookieFactory/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/CookieFactory.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 CookieFactory/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvenPowersOf2">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/EvenPowersOf2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 EvenPowersOf2"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EvenPowersOf2/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/EvenPowersOf2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 EvenPowersOf2/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MagicNumbers">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/MagicNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 MagicNumbers"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MagicNumbers/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/MagicNumbers.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 MagicNumbers/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumbersNto1">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/NumbersNto1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumbersNto1"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="NumbersNto1/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/NumbersNto1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 NumbersNto1/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Travelling">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Travelling.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Travelling"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Travelling/fast">
+				<Option output="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Travelling.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 Travelling/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/Building.cpp">
+			<Option target="Building"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/Combination.cpp">
+			<Option target="Combination"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/CookieFactory.cpp">
+			<Option target="CookieFactory"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/EvenPowersOf2.cpp">
+			<Option target="EvenPowersOf2"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/MagicNumbers.cpp">
+			<Option target="MagicNumbers"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/NameWars.cpp">
+			<Option target="NameWars"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/Numbers1toNWithStep3.cpp">
+			<Option target="Numbers1toNWithStep3"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/NumbersNto1.cpp">
+			<Option target="NumbersNto1"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/simple_tasks/Travelling.cpp">
+			<Option target="Travelling"/>
+		</Unit>
+		<Unit filename="E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/12. Nested loops/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
