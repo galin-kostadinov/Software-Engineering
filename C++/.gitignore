@@ -386,4 +386,9 @@ hs_err_pid*
 *.out
 *.app
 
+
+
+#GKK ignored
+cmake-build-debug/
 .idea/
+CMakeLists.txt
