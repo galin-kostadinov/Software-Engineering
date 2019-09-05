@@ -1,0 +1,10 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/EqualPairs.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/Salary.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/DivideWithoutRemainder.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/Histogram.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/HalfSumElement.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/NimbersEndingIn7.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/OddEvenPos.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/OddEvenPosition.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/11. Exercise - For-loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
