@@ -392,3 +392,7 @@ hs_err_pid*
 cmake-build-debug/
 .idea/
 CMakeLists.txt
+
+git rm --cached cmake-build-debug/
+git rm --cached .idea/
+git rm --cached CMakeLists.txt
