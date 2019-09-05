@@ -1,0 +1,11 @@
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/Numbersfrom1to100.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/10__For_loop.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/VowelsSum.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/CleverLily.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/LatinLetters.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/SumNumbers.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/NumberSequence.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/OddEvenSum.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/LeftAndRightSum.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerProgramming/GitHubRepoSoftUniTasks/Software-Engineering/C++/Programming Basics with C++/10. For-loop/cmake-build-debug/CMakeFiles/rebuild_cache.dir
