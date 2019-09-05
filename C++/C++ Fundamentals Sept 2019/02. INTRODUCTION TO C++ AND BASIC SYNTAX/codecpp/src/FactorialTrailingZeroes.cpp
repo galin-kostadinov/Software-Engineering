@@ -7,7 +7,7 @@ int main() {
 
     cin >> N;
 
-    cout << N / 5 << endl;
+    cout << N / 5 + N / 25 << endl;
 
     return 0;
 }
