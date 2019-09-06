@@ -1,10 +1,11 @@
-package models;
+package models.engines;
 
 import exceptions.ArgumentException;
 import helpers.Validator;
-import models.interfaces.Output;
+import models.interfaces.ModelGetter;
+import models.interfaces.OutputProducer;
 
-public abstract class Engine implements Comparable<Engine>, Output {
+public abstract class Engine implements Comparable<Engine>, OutputProducer, ModelGetter {
     private static final int MIN_MODEL_LENGTH = 3;
     private String model;
     private int horsepower;
@@ -16,13 +17,11 @@ public abstract class Engine implements Comparable<Engine>, Output {
         this.setDisplacement(displacement);
     }
 
-    private void setModel(String model) throws ArgumentException {
-        if (Validator.validateEngineModel(model)) {
-            this.model = model;
+    private void setDisplacement(int displacement) throws ArgumentException {
+        if (Validator.validateParam(displacement)) {
+            this.displacement = displacement;
         } else {
-            throw new ArgumentException("Model's name must be at least"
-                    + MIN_MODEL_LENGTH
-                    + " symbols long.");
+            throw new ArgumentException(Validator.generateErrorMessage("Displacement"));
         }
     }
 
@@ -34,19 +33,28 @@ public abstract class Engine implements Comparable<Engine>, Output {
         }
     }
 
-    private void setDisplacement(int displacement) throws ArgumentException {
-        if (Validator.validateParam(displacement)) {
-            this.displacement = displacement;
+    private void setModel(String model) throws ArgumentException {
+        if (Validator.validateEngineModel(model)) {
+            this.model = model;
         } else {
-            throw new ArgumentException(Validator.generateErrorMessage("Displacement"));
+            throw new ArgumentException("Model's name must be at least "
+                    + MIN_MODEL_LENGTH
+                    + " symbols long.");
         }
+    }
+
+    @Override
+    public String getModel() {
+        return this.model;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass().getSuperclass() != o.getClass().getSuperclass()) return false;
+
         Engine engine = (Engine) o;
+
         return model.equals(engine.model);
     }
 

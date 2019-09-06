@@ -1,12 +1,12 @@
-package models;
+package models.boats;
 
 import exceptions.ArgumentException;
 import helpers.Validator;
-import models.interfaces.Speed;
+import models.interfaces.ModelGetter;
+import models.interfaces.SpeedCalculator;
 
-public abstract class Boat implements Comparable<Boat>, Speed {
+public abstract class Boat implements Comparable<Boat>, SpeedCalculator, ModelGetter {
     private static final int MIN_MODEL_LENGTH = 5;
-
     private String model;
     private int weight;
 
@@ -23,33 +23,41 @@ public abstract class Boat implements Comparable<Boat>, Speed {
         }
     }
 
+    protected int getWeight() {
+        return this.weight;
+    }
+
+    @Override
+    public String getModel() {
+        return this.model;
+    }
+
     private void setModel(String model) throws ArgumentException {
         if (Validator.validateBoatModel(model)) {
             this.model = model;
         } else {
-            throw new ArgumentException("Model's name must be at least"
+            throw new ArgumentException("Model's name must be at least "
                     + MIN_MODEL_LENGTH
                     + " symbols long.");
         }
     }
 
     @Override
-    public int hashCode() {
-        return model.hashCode();
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null ||
+                this.getClass().getSuperclass()
+                        !=
+                        o.getClass().getSuperclass()) return false;
+
+        Boat boat = (Boat) o;
+
+        return model.equals(boat.model);
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) return true;
-        if (obj == null || this.getClass().getSuperclass() != obj.getClass().getSuperclass()) return false;
-
-        Boat boat = (Boat) obj;
-
-        return super.equals(boat.model);
-    }
-
-    protected int getWeight() {
-        return this.weight;
+    public int hashCode() {
+        return model.hashCode();
     }
 
     @Override

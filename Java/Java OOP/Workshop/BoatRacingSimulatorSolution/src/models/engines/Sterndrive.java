@@ -1,6 +1,7 @@
-package models;
+package models.engines;
 
 import exceptions.ArgumentException;
+import models.engines.Engine;
 
 public class Sterndrive extends Engine {
     public Sterndrive(String model, int horsepower, int displacement) throws ArgumentException {

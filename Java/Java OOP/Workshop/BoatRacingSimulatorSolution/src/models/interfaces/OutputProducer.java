@@ -1,5 +1,5 @@
 package models.interfaces;
 
-public interface Output {
+public interface OutputProducer {
     int getOutput();
 }
