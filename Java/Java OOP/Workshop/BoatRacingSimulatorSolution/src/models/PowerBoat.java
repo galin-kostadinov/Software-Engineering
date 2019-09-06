@@ -13,4 +13,11 @@ public class PowerBoat extends Boat {
     }
 
 
+    @Override
+    public double calcSpeed(Race race) {
+        return (this.boatEngine.getOutput() + this.secondEngine.getOutput())
+                - this.getWeight()
+                + race.getCurrentSpeed() / 5;
+
+    }
 }

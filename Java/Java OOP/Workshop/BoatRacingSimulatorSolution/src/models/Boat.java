@@ -1,9 +1,10 @@
 package models;
 
 import exceptions.ArgumentException;
-import helpers.BoatValidator;
+import helpers.Validator;
+import models.interfaces.Speed;
 
-public abstract class Boat implements Comparable<Boat> {
+public abstract class Boat implements Comparable<Boat>, Speed {
     private static final int MIN_MODEL_LENGTH = 5;
 
     private String model;
@@ -15,19 +16,15 @@ public abstract class Boat implements Comparable<Boat> {
     }
 
     private void setWeight(int weight) throws ArgumentException {
-        if (BoatValidator.validateParam(weight)) {
+        if (Validator.validateParam(weight)) {
             this.weight = weight;
         } else {
-            throw new ArgumentException(this.generateErrorMessage("Weight"));
+            throw new ArgumentException(Validator.generateErrorMessage("Weight"));
         }
     }
 
-    protected String generateErrorMessage(String paramName) {
-        return String.format("%s must be positive integer.", paramName);
-    }
-
     private void setModel(String model) throws ArgumentException {
-        if (BoatValidator.validateModel(model)) {
+        if (Validator.validateBoatModel(model)) {
             this.model = model;
         } else {
             throw new ArgumentException("Model's name must be at least"
@@ -44,11 +41,15 @@ public abstract class Boat implements Comparable<Boat> {
     @Override
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (obj == null || this.getClass() != obj.getClass()) return false;
+        if (obj == null || this.getClass().getSuperclass() != obj.getClass().getSuperclass()) return false;
 
         Boat boat = (Boat) obj;
 
         return super.equals(boat.model);
+    }
+
+    protected int getWeight() {
+        return this.weight;
     }
 
     @Override

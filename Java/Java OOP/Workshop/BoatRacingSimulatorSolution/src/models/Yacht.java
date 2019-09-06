@@ -1,7 +1,7 @@
 package models;
 
 import exceptions.ArgumentException;
-import helpers.BoatValidator;
+import helpers.Validator;
 
 
 public class Yacht extends Boat {
@@ -15,10 +15,15 @@ public class Yacht extends Boat {
     }
 
     public void setCargoWeight(int cargoWeight) throws ArgumentException {
-        if (BoatValidator.validateParam(cargoWeight)) {
+        if (Validator.validateParam(cargoWeight)) {
             this.cargoWeight = cargoWeight;
         } else {
-            throw new ArgumentException(this.generateErrorMessage("Cargo Weight"));
+            throw new ArgumentException(Validator.generateErrorMessage("Cargo Weight"));
         }
+    }
+
+    @Override
+    public double calcSpeed(Race race) {
+        return 0;
     }
 }

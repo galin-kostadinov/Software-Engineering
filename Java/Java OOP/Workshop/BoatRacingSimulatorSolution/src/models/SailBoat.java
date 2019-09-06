@@ -1,7 +1,7 @@
 package models;
 
 import exceptions.ArgumentException;
-import helpers.BoatValidator;
+import helpers.Validator;
 
 public class SailBoat extends Boat {
     private int sailEfficiency;
@@ -12,10 +12,15 @@ public class SailBoat extends Boat {
     }
 
     public void setSailEfficiency(int sailEfficiency) throws ArgumentException {
-        if (BoatValidator.validateSailEfficiency(sailEfficiency)) {
+        if (Validator.validateSailEfficiency(sailEfficiency)) {
             this.sailEfficiency = sailEfficiency;
         } else {
             throw new ArgumentException("Sail Effectiveness must be between [1...100].");
         }
+    }
+
+    @Override
+    public double calcSpeed(Race race) {
+        return 0;
     }
 }

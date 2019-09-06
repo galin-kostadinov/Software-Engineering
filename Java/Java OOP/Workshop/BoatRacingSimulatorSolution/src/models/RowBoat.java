@@ -1,7 +1,7 @@
 package models;
 
 import exceptions.ArgumentException;
-import helpers.BoatValidator;
+import helpers.Validator;
 
 public class RowBoat extends Boat {
     private int oars;
@@ -12,13 +12,18 @@ public class RowBoat extends Boat {
     }
 
     public void setOars(int oars) throws ArgumentException {
-        if (BoatValidator.validateParam(oars)) {
+        if (Validator.validateParam(oars)) {
             this.oars = oars;
         } else {
-            throw new ArgumentException(this.generateErrorMessage("Oars"));
+            throw new ArgumentException(Validator.generateErrorMessage("Oars"));
         }
 
 
+    }
+
+    @Override
+    public double calcSpeed(Race race) {
+        return 0;
     }
 }
 
