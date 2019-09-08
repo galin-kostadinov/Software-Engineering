@@ -21,7 +21,7 @@ public class RecursiveArraySum {
         if (index == arr.length) {
             return 0;
         }
-        
+
         return arr[index] + sum(arr, index + 1);
     }
 }
