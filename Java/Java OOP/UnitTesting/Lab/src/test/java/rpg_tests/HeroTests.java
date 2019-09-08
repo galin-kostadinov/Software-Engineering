@@ -2,7 +2,7 @@ package rpg_tests;
 
 import org.junit.Assert;
 import org.junit.Test;
-import rpg_lab.Dummy;
+import org.mockito.Mockito;
 import rpg_lab.Hero;
 import rpg_lab.Target;
 import rpg_lab.Weapon;
@@ -17,48 +17,18 @@ public class HeroTests {
 
     @Test
     public void attackGainsExperienceIfTargetIsDead() {
-        Target target = new Target() {
-            @Override
-            public int getHealth() {
-                return DEFAULT_TARGET_HEALTH;
-            }
+        Target mockTarget = Mockito.mock(Target.class);
+        Mockito.when(mockTarget.giveExperience()).thenReturn(DEFAULT_XP);
+        Mockito.when(mockTarget.isDead()).thenReturn(DEFAULT_IS_TARGET_DEAD);
 
-            @Override
-            public void takeAttack(int attackPoints) {
+        Weapon mockWeapon = Mockito.mock(Weapon.class);
+        Mockito.when(mockWeapon.getAttackPoints()).thenReturn(DEFAULT_WEAPON_POINTS);
+        Mockito.when(mockWeapon.getDurabilityPoints()).thenReturn(DEFAULT_WEAPON_DURABILITY_POINTS);
 
-            }
 
-            @Override
-            public int giveExperience() {
-                return DEFAULT_XP;
-            }
+        Hero hero = new Hero(mockWeapon, HERO_NAME);
+        hero.attack(mockTarget);
 
-            @Override
-            public boolean isDead() {
-                return DEFAULT_IS_TARGET_DEAD;
-            }
-        };
-
-        Weapon weapon = new Weapon() {
-            @Override
-            public int getAttackPoints() {
-                return DEFAULT_WEAPON_POINTS;
-            }
-
-            @Override
-            public int getDurabilityPoints() {
-                return DEFAULT_WEAPON_DURABILITY_POINTS;
-            }
-
-            @Override
-            public void attack(Target target) {
-
-            }
-        };
-
-        Hero hero = new Hero(weapon, HERO_NAME);
-        hero.attack(target);
-
-        Assert.assertEquals(DEFAULT_XP, hero.getExperience());
+        Assert.assertEquals("Wrong experience",DEFAULT_XP, hero.getExperience());
     }
 }
