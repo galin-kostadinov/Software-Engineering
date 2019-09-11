@@ -5,7 +5,7 @@ public class ChainblockImpl implements Chainblock {
     private Map<Integer, Transaction> transactions;
 
     public ChainblockImpl() {
-        this.transactions = new HashMap<>();
+        this.transactions = new LinkedHashMap<>();
     }
 
     public int getCount() {
@@ -83,31 +83,107 @@ public class ChainblockImpl implements Chainblock {
     }
 
     public Iterable<Transaction> getAllOrderedByAmountDescendingThenById() {
-        return null;
+        return this.transactions
+                .values()
+                .stream()
+                .sorted((f, s) -> {
+                    int sort = Double.compare(s.getAmount(), f.getAmount());
+
+                    if (sort == 0) {
+                        sort = f.getId() - s.getId();
+                    }
+
+                    return sort;
+                })
+                .collect(Collectors.toList());
     }
 
     public Iterable<Transaction> getBySenderOrderedByAmountDescending(String sender) {
-        return null;
+        List<Transaction> transactions = this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getFrom().equals(sender))
+                .sorted((f, s) -> Double.compare(s.getAmount(), f.getAmount()))
+                .collect(Collectors.toList());
+
+        if (transactions.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
+        return transactions;
     }
 
     public Iterable<Transaction> getByReceiverOrderedByAmountThenById(String receiver) {
-        return null;
+        List<Transaction> transactions = this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getTo().equals(receiver))
+                .sorted((f, s) -> {
+                    int sort = Double.compare(s.getAmount(), f.getAmount());
+
+                    if (sort == 0) {
+                        sort = f.getId() - s.getId();
+                    }
+
+                    return sort;
+                })
+                .collect(Collectors.toList());
+
+        if (transactions.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
+        return transactions;
     }
 
     public Iterable<Transaction> getByTransactionStatusAndMaximumAmount(TransactionStatus status, double amount) {
-        return null;
+        return this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getStatus().equals(status) && transaction.getAmount() <= amount)
+                .sorted((f, s) -> Double.compare(s.getAmount(), f.getAmount()))
+                .collect(Collectors.toList());
     }
 
     public Iterable<Transaction> getBySenderAndMinimumAmountDescending(String sender, double amount) {
-        return null;
+        List<Transaction> transactions = this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getFrom().equals(sender) && transaction.getAmount() > amount)
+                .sorted((f, s) -> Double.compare(s.getAmount(), f.getAmount()))
+                .collect(Collectors.toList());
+
+        if (transactions.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
+        return transactions;
     }
 
     public Iterable<Transaction> getByReceiverAndAmountRange(String receiver, double lo, double hi) {
-        return null;
+        List<Transaction> transactions = this.transactions
+                .values()
+                .stream()
+                .filter(transaction ->
+                        transaction.getTo().equals(receiver)
+                                && transaction.getAmount() >= lo
+                                && transaction.getAmount() < hi)
+                .sorted((f, s) -> Double.compare(s.getAmount(), f.getAmount()))
+                .collect(Collectors.toList());
+
+        if (transactions.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
+        return transactions;
     }
 
     public Iterable<Transaction> getAllInAmountRange(double lo, double hi) {
-        return null;
+        return this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getAmount() >= lo && transaction.getAmount() <= hi)
+                .collect(Collectors.toList());
     }
 
     public Iterator<Transaction> iterator() {

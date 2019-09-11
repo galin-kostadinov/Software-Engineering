@@ -2,8 +2,6 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.zip.DeflaterOutputStream;
-
 public class ChainblockImplTest {
     private Chainblock chainblock;
 
@@ -251,6 +249,231 @@ public class ChainblockImplTest {
         }
 
         Assert.assertTrue(areEqual);
+    }
+
+
+    @Test
+    public void getAllOrderedByAmountDescendingThenByIdShouldReturnSortedElements() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 200);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+
+        int[] expectedIds = {4, 2, 1, 3};
+
+        Iterable<Transaction> ordered = this.chainblock.getAllOrderedByAmountDescendingThenById();
+
+        int index = 0;
+        for (Transaction transaction : ordered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getBySenderOrderedByAmountDescendingShouldThrowExceptionIfGivenSenderNotPresent() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, "A", RECEIVER, 100);
+        this.chainblock.add(t1);
+
+        this.chainblock.getBySenderOrderedByAmountDescending(SENDER);
+    }
+
+    @Test
+    public void getBySenderOrderedByAmountDescendingShouldReturnTransactionsFromGivenSenderOrdered() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, "A", RECEIVER, 200);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+
+        Iterable<Transaction> getOrdered = this.chainblock.getBySenderOrderedByAmountDescending(SENDER);
+
+        int[] expectedIds = {2, 3, 1};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getByReceiverOrderedByAmountThenByldThrowExceptionIfGivenReceiverNotPresent() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, "B", 100);
+        this.chainblock.add(t1);
+
+        this.chainblock.getByReceiverOrderedByAmountThenById(RECEIVER);
+    }
+
+    @Test
+    public void getByReceiverOrderedByAmountThenByIdShouldReturnTransactionsFromGivenReceiverOrdered() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t5 = new TransactionImpl(5, SUCCESSFUL_STATUS, SENDER, "A", 200);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+        this.chainblock.add(t5);
+
+        Iterable<Transaction> getOrdered = this.chainblock.getByReceiverOrderedByAmountThenById(RECEIVER);
+
+        int[] expectedIds = {2, 3, 1, 4};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test
+    public void getByTransactionStatusAndMaximumAmountShouldReturnEmptyDatabase() {
+        new ChainblockImpl().getByTransactionStatusAndMaximumAmount(SUCCESSFUL_STATUS, INITIAL_AMOUNT);
+    }
+
+    @Test
+    public void getByTransactionStatusAndMaximumAmountShouldReturnTransactionsFromGivenReceiverOrdered() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t5 = new TransactionImpl(5, TransactionStatus.UNAUTHORIZED, SENDER, "A", 10);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+        this.chainblock.add(t5);
+
+        Iterable<Transaction> getOrdered =
+                this.chainblock.getByTransactionStatusAndMaximumAmount(SUCCESSFUL_STATUS, 150);
+
+        int[] expectedIds = {2, 3, 1, 4};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getBySenderAndMinimumAmountDescendingShouldThrowExceptionIfThereIsNotSuchTransaction() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, "B", RECEIVER, 100);
+        this.chainblock.add(t1);
+        this.chainblock.getBySenderAndMinimumAmountDescending(SENDER, 110);
+    }
+
+    @Test
+    public void getBySenderAndMinimumAmountDescendingShouldReturnTransactionsFromGivenSenderOrdered() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t5 = new TransactionImpl(5, SUCCESSFUL_STATUS, "A", RECEIVER, 10);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+        this.chainblock.add(t5);
+
+        Iterable<Transaction> getOrdered =
+                this.chainblock.getBySenderAndMinimumAmountDescending(SENDER, 90);
+
+        int[] expectedIds = {2, 3, 1, 4};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getByReceiverAndAmountRangeShouldThrowExceptionIfThereIsNotSuchTransaction() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, "B", "B", 100);
+        this.chainblock.add(t1);
+        this.chainblock.getByReceiverAndAmountRange(RECEIVER, 50, 110);
+    }
+
+    @Test
+    public void getByReceiverAndAmountRangeShouldReturnTransactionsFromGivenReceiverOrdered() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t5 = new TransactionImpl(5, SUCCESSFUL_STATUS, SENDER, "A", 10);
+        Transaction t6 = new TransactionImpl(6, SUCCESSFUL_STATUS, SENDER, RECEIVER, 160);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+        this.chainblock.add(t5);
+        this.chainblock.add(t6);
+
+        Iterable<Transaction> getOrdered =
+                this.chainblock.getByReceiverAndAmountRange(RECEIVER, 100, 160);
+
+        int[] expectedIds = {2, 3, 1, 4};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
+    }
+
+    @Test
+    public void getAllInAmountRangeShouldReturnEmptyDatabase() {
+        new ChainblockImpl().getAllInAmountRange(100, 200);
+    }
+
+    @Test
+    public void getAllInAmountRangeShouldReturnAllTransactionsInGivenRange() {
+        Transaction t1 = new TransactionImpl(1, SUCCESSFUL_STATUS, SENDER, RECEIVER, 100);
+        Transaction t2 = new TransactionImpl(2, SUCCESSFUL_STATUS, SENDER, RECEIVER, 150);
+        Transaction t3 = new TransactionImpl(3, SUCCESSFUL_STATUS, SENDER, RECEIVER, 120);
+        Transaction t4 = new TransactionImpl(4, SUCCESSFUL_STATUS, SENDER, RECEIVER, 90);
+        Transaction t5 = new TransactionImpl(5, SUCCESSFUL_STATUS, SENDER, RECEIVER, 200);
+
+        this.chainblock.add(t1);
+        this.chainblock.add(t2);
+        this.chainblock.add(t3);
+        this.chainblock.add(t4);
+        this.chainblock.add(t5);
+
+        Iterable<Transaction> getOrdered =
+                this.chainblock.getAllInAmountRange(100, 150);
+
+        int[] expectedIds = {1, 2, 3};
+
+        int index = 0;
+        for (Transaction transaction : getOrdered) {
+            Assert.assertEquals(expectedIds[index++], transaction.getId());
+        }
+
+        Assert.assertEquals(expectedIds.length, index);
     }
 
     private void addTransactions(int count) {
