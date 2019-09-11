@@ -13,6 +13,10 @@ public class ChainblockImplTest {
     private static String RECEIVER = "Paraskeva";
     private static double INITIAL_AMOUNT = 100.00;
 
+    private static final int[] IDS = {1, 2, 3, 4, 5, 6};
+    private static final String[] NAMES = {"A", "B", "C", "D", "E", "F"};
+    private static final double[] AMOUNTS = {10, 20, 30, 40, 50, 60};
+
     private static final Transaction TRANSACTION_ID_ONE =
             new TransactionImpl(ID,
                     SUCCESSFUL_STATUS,
@@ -156,10 +160,10 @@ public class ChainblockImplTest {
     public void getTransactionStatusShouldReturnAllTransactionsWithGivenStatus() {
         final int ELEMENTS_COUNT = 8;
         this.addTransactions(ELEMENTS_COUNT);
-        Iterable<Transaction> transactions = this.chainblock.getByTransactionStatus(SUCCESSFUL_STATUS);
-
         this.chainblock.add(new TransactionImpl(
                 ID * 123, TransactionStatus.UNAUTHORIZED, "Milen", "Stefan", 10.0));
+
+        Iterable<Transaction> transactions = this.chainblock.getByTransactionStatus(SUCCESSFUL_STATUS);
 
         int count = 0;
         for (Transaction transaction : transactions) {
@@ -169,9 +173,95 @@ public class ChainblockImplTest {
         Assert.assertEquals(ELEMENTS_COUNT, count);
     }
 
+    @Test
+    public void getTransactionStatusShouldReturnAllTransactionsWithGivenStatusOrderedDescendingByAmount() {
+        final int ELEMENTS_COUNT = 12;
+        this.addTransactionsWithDiffAmount(ELEMENTS_COUNT);
+
+        Iterable<Transaction> transactions = this.chainblock.getByTransactionStatus(SUCCESSFUL_STATUS);
+
+        boolean areOrdered = true;
+        double amount = Double.POSITIVE_INFINITY;
+
+        for (Transaction transaction : transactions) {
+            if (amount < transaction.getAmount()) {
+                areOrdered = false;
+            } else {
+                amount = transaction.getAmount();
+            }
+        }
+
+        Assert.assertTrue(areOrdered);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getAllSendersWithTransactionStatusShouldThrowAnExceptionWhenNoTransactionsWithGivenStatusArePresent() {
+        final int ELEMENTS_COUNT = 15;
+        this.addTransactionsWithDiffAmount(ELEMENTS_COUNT);
+        this.chainblock.getAllSendersWithTransactionStatus(
+                TransactionStatus.values()[(SUCCESSFUL_STATUS.ordinal() + 1) % TransactionStatus.values().length]);
+    }
+
+
+    @Test
+    public void getAllSendersWithTransactionStatusShouldReturnCorrectNames() {
+        for (int i = 0; i < IDS.length; i++) {
+            chainblock.add(new TransactionImpl(IDS[i], SUCCESSFUL_STATUS, NAMES[i], NAMES[i], AMOUNTS[i]));
+        }
+
+        Iterable<String> receivers = this.chainblock.getAllSendersWithTransactionStatus(SUCCESSFUL_STATUS);
+
+        int index = NAMES.length - 1;
+        boolean areEqual = true;
+        for (String receiver : receivers) {
+            if (!receiver.equals(NAMES[index--])) {
+                areEqual = false;
+                break;
+            }
+        }
+
+        Assert.assertTrue(areEqual);
+    }
+
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getAllReceiversWithTransactionStatusShouldThrowAnExceptionWhenNoTransactionsWithGivenStatusArePresent() {
+        final int ELEMENTS_COUNT = 15;
+        this.addTransactionsWithDiffAmount(ELEMENTS_COUNT);
+        this.chainblock.getAllReceiversWithTransactionStatus(
+                TransactionStatus.values()[(SUCCESSFUL_STATUS.ordinal() + 1) % TransactionStatus.values().length]);
+    }
+
+
+    @Test
+    public void getAllReceiversWithTransactionStatusShouldReturnCorrectNames() {
+        for (int i = 0; i < IDS.length; i++) {
+            chainblock.add(new TransactionImpl(IDS[i], SUCCESSFUL_STATUS, NAMES[i], NAMES[i], AMOUNTS[i]));
+        }
+
+        Iterable<String> receivers = this.chainblock.getAllReceiversWithTransactionStatus(SUCCESSFUL_STATUS);
+
+        int index = NAMES.length - 1;
+        boolean areEqual = true;
+        for (String receiver : receivers) {
+            if (!receiver.equals(NAMES[index--])) {
+                areEqual = false;
+                break;
+            }
+        }
+
+        Assert.assertTrue(areEqual);
+    }
+
     private void addTransactions(int count) {
         for (int i = 1; i <= count; i++) {
             this.chainblock.add(new TransactionImpl(i, SUCCESSFUL_STATUS, SENDER, RECEIVER, INITIAL_AMOUNT));
+        }
+    }
+
+    private void addTransactionsWithDiffAmount(int count) {
+        for (int i = 1; i <= count; i++) {
+            this.chainblock.add(new TransactionImpl(i, SUCCESSFUL_STATUS, SENDER, RECEIVER, INITIAL_AMOUNT * i));
         }
     }
 }

@@ -54,6 +54,7 @@ public class ChainblockImpl implements Chainblock {
                 .values()
                 .stream()
                 .filter(transaction -> transaction.getStatus().equals(status))
+                .sorted((f, s) -> Double.compare(s.getAmount(), f.getAmount()))
                 .collect(Collectors.toList());
 
         if (transactions.isEmpty()) {
@@ -64,11 +65,21 @@ public class ChainblockImpl implements Chainblock {
     }
 
     public Iterable<String> getAllSendersWithTransactionStatus(TransactionStatus status) {
-        return null;
+        Iterable<Transaction> transactions = this.getByTransactionStatus(status);
+
+        List<String> senders = new ArrayList<>();
+        transactions.forEach(s -> senders.add(s.getFrom()));
+
+        return senders;
     }
 
     public Iterable<String> getAllReceiversWithTransactionStatus(TransactionStatus status) {
-        return null;
+        Iterable<Transaction> transactions = this.getByTransactionStatus(status);
+
+        List<String> receivers = new ArrayList<>();
+        transactions.forEach(s -> receivers.add(s.getTo()));
+
+        return receivers;
     }
 
     public Iterable<Transaction> getAllOrderedByAmountDescendingThenById() {
