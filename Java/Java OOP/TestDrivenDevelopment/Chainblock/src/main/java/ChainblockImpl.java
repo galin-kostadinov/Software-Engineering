@@ -1,6 +1,5 @@
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class ChainblockImpl implements Chainblock {
     private Map<Integer, Transaction> transactions;
@@ -35,15 +34,33 @@ public class ChainblockImpl implements Chainblock {
     }
 
     public void removeTransactionById(int id) {
+        if (!this.transactions.containsKey(id)) {
+            throw new IllegalArgumentException();
+        }
 
+        this.transactions.remove(id);
     }
 
     public Transaction getById(int id) {
-        return null;
+        if (!this.transactions.containsKey(id)) {
+            throw new IllegalArgumentException();
+        }
+
+        return this.transactions.get(id);
     }
 
     public Iterable<Transaction> getByTransactionStatus(TransactionStatus status) {
-        return null;
+        List<Transaction> transactions = this.transactions
+                .values()
+                .stream()
+                .filter(transaction -> transaction.getStatus().equals(status))
+                .collect(Collectors.toList());
+
+        if (transactions.isEmpty()) {
+            throw new IllegalArgumentException();
+        }
+
+        return transactions;
     }
 
     public Iterable<String> getAllSendersWithTransactionStatus(TransactionStatus status) {

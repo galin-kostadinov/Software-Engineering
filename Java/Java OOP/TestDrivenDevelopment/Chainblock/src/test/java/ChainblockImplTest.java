@@ -69,9 +69,7 @@ public class ChainblockImplTest {
     @Test
     public void getCountShouldWorkProperlyWithTenElements() {
         final int ELEMENTS_COUNT = 10;
-        for (int i = 1; i <= 10; i++) {
-            this.chainblock.add(new TransactionImpl(i, SUCCESSFUL_STATUS, SENDER, RECEIVER, INITIAL_AMOUNT));
-        }
+        this.addTransactions(ELEMENTS_COUNT);
         Assert.assertEquals(ELEMENTS_COUNT, this.chainblock.getCount());
     }
 
@@ -93,5 +91,87 @@ public class ChainblockImplTest {
         this.chainblock.changeTransactionStatus(ID, newStatus);
 
         Assert.assertEquals(newStatus, TRANSACTION_ID_ONE.getStatus());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void removeTransactionByIdShouldThrowAnExceptionWithIvalidID() {
+        this.chainblock.add(TRANSACTION_ID_ONE);
+        this.chainblock.removeTransactionById(ID + 1);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void removeTransactionByIdShouldThrowAnExceptionOnEmptyDatabase() {
+        new ChainblockImpl().removeTransactionById(ID);
+    }
+
+    @Test
+    public void removeTransactionByIdShouldRemoveCorrectly() {
+        this.chainblock.add(TRANSACTION_ID_ONE);
+        this.chainblock.removeTransactionById(ID);
+
+        Assert.assertEquals(0, this.chainblock.getCount());
+    }
+
+    @Test
+    public void removeTransactionByIdShouldRemoveTheCorrectTransaction() {
+        final int ELEMENTS_COUNT = 10;
+        this.addTransactions(ELEMENTS_COUNT);
+
+        this.chainblock.removeTransactionById(ELEMENTS_COUNT - 1);
+
+        Assert.assertFalse(this.chainblock.contains(ELEMENTS_COUNT - 1));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getByIdShouldThrowAnExceptionOnEmptyDatabase() {
+        new ChainblockImpl().getById(ID);
+    }
+
+    @Test
+    public void getByIdShouldReturnCorrectTransactionWithSingleElement() {
+        this.chainblock.add(TRANSACTION_ID_ONE);
+        Transaction returnedTransaction = this.chainblock.getById(ID);
+
+        Assert.assertEquals(TRANSACTION_ID_ONE.getId(), returnedTransaction.getId());
+    }
+
+    @Test
+    public void getByIdShouldReturnTheCorrectTransaction() {
+        final int ELEMENTS_COUNT = 10;
+        this.addTransactions(ELEMENTS_COUNT);
+
+        Transaction returnedTransaction = this.chainblock.getById(ELEMENTS_COUNT - 1);
+
+        Assert.assertEquals(ELEMENTS_COUNT - 1, returnedTransaction.getId());
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void getByTransactionStatusShouldThrowAnExceptionIfThereAreNoTransactionsWithGivenStatus() {
+        final int ELEMENTS_COUNT = 10;
+        this.addTransactions(ELEMENTS_COUNT);
+        this.chainblock.getByTransactionStatus(TransactionStatus.values()[(SUCCESSFUL_STATUS.ordinal() + 1) % TransactionStatus.values().length]);
+    }
+
+    @Test
+    public void getTransactionStatusShouldReturnAllTransactionsWithGivenStatus() {
+        final int ELEMENTS_COUNT = 8;
+        this.addTransactions(ELEMENTS_COUNT);
+        Iterable<Transaction> transactions = this.chainblock.getByTransactionStatus(SUCCESSFUL_STATUS);
+
+        this.chainblock.add(new TransactionImpl(
+                ID * 123, TransactionStatus.UNAUTHORIZED, "Milen", "Stefan", 10.0));
+
+        int count = 0;
+        for (Transaction transaction : transactions) {
+            count++;
+        }
+
+        Assert.assertEquals(ELEMENTS_COUNT, count);
+    }
+
+    private void addTransactions(int count) {
+        for (int i = 1; i <= count; i++) {
+            this.chainblock.add(new TransactionImpl(i, SUCCESSFUL_STATUS, SENDER, RECEIVER, INITIAL_AMOUNT));
+        }
     }
 }
