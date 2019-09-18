@@ -12,36 +12,31 @@ public class PoisonousPlants {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-        ArrayDeque<Integer> indexToRemove = new ArrayDeque<>();
+        ArrayDeque<Integer> indexes = new ArrayDeque<>();
 
-        int initialPlantsCount = Integer.parseInt(reader.readLine());
+        int n = Integer.parseInt(reader.readLine());
 
         List<Integer> plants = Arrays.stream(reader.readLine().split("\\s+"))
                 .map(Integer::parseInt)
                 .collect(Collectors.toList());
 
-        int days = 0;
+        indexes.push(0);
 
-        while (plants.size() > 1) {
-            int plantsSize = plants.size();
-            for (int i = 1; i < plantsSize; i++) {
-                if (plants.get(i - 1) < plants.get(i)) {
-                    indexToRemove.push(i);
-                }
+        int[] days = new int[n];
+
+        for (int i = 1; i < n; i++) {
+            int maxDays = 0;
+            while (indexes.size() > 0 && plants.get(indexes.peek())>= plants.get(i)) {
+                maxDays = Math.max(maxDays, days[indexes.pop()]);
             }
 
-            if (indexToRemove.isEmpty()) {
-                break;
+            if (indexes.size() > 0) {
+                days[i] = maxDays + 1;
             }
 
-            while (!indexToRemove.isEmpty()) {
-                int index = indexToRemove.pop();
-                plants.remove(index);
-            }
-
-            days++;
+            indexes.push(i);
         }
 
-        System.out.println(days);
+        System.out.println(Arrays.stream(days).max().getAsInt());
     }
 }
