@@ -14,18 +14,20 @@ public class InfixToPostfix {
 
         String operators = "+-*/";
 
-        for (String currentSymbol : input) {
-            if (Character.isLetterOrDigit(currentSymbol.charAt(0))) {
-                queueOutput.offer(currentSymbol);
-            } else if (operators.contains(currentSymbol)) {
-                while (checkOperatorStack(currentSymbol.charAt(0), operatorStack)) {
+        for (String symbol : input) {
+            char currentChar = symbol.charAt(0);
+
+            if (Character.isLetterOrDigit(currentChar)) {
+                queueOutput.offer(symbol);
+            } else if (operators.contains(symbol)) {
+                while (checkOperatorStack(currentChar, operatorStack)) {
                     queueOutput.offer(operatorStack.pop());
                 }
 
-                operatorStack.push(currentSymbol);
-            } else if (currentSymbol.charAt(0) == '(') {
-                operatorStack.push(currentSymbol);
-            } else if (currentSymbol.charAt(0) == ')') {
+                operatorStack.push(symbol);
+            } else if (currentChar == '(') {
+                operatorStack.push(symbol);
+            } else if (currentChar == ')') {
                 while (!operatorStack.isEmpty() && operatorStack.peek().charAt(0) != '(') {
                     queueOutput.offer(operatorStack.pop());
                 }
@@ -40,13 +42,10 @@ public class InfixToPostfix {
             queueOutput.offer(operatorStack.pop());
         }
 
-        while (!queueOutput.isEmpty()) {
-            System.out.printf("%s ", queueOutput.poll());
-        }
-        System.out.println();
+        System.out.println(String.join(" ", queueOutput));
     }
 
-    private static boolean checkOperatorStack(char currentSymbol, ArrayDeque<String> operatorStack) {
+    private static boolean checkOperatorStack(char currentChar, ArrayDeque<String> operatorStack) {
         boolean isTrue = true;
         String lastOperator = operatorStack.peek();
 
@@ -54,7 +53,7 @@ public class InfixToPostfix {
             return isTrue = false;
         }
 
-        switch (currentSymbol + "") {
+        switch (currentChar + "") {
             case "+":
             case "-":
                 if (lastOperator.equals("(")) {
