@@ -60,10 +60,9 @@ int main() {
         }
 
         if (currentCount > count) {
-           arrWithMostFrequentNumbers.clear();
+            arrWithMostFrequentNumbers.clear();
             arrWithMostFrequentNumbers.push_back(currentNumber);
             count = currentCount;
-
         } else if (currentCount == count) {
             if (!contains(arrWithMostFrequentNumbers, currentNumber)) {
                 arrWithMostFrequentNumbers.push_back(currentNumber);
