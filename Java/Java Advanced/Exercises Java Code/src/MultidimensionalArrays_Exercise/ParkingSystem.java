@@ -13,7 +13,7 @@ public class ParkingSystem {
         int row = Integer.parseInt(dimension[0]);
         int col = Integer.parseInt(dimension[1]);
 
-        int[][] parking = new int[row][col];
+        int[][] parking = new int[row][];
 
         String input;
 
@@ -22,6 +22,10 @@ public class ParkingSystem {
             int entryRow = token[0];
             int desiredRow = token[1];
             int desiredCol = token[2];
+
+            if (parking[desiredRow] == null) {
+                parking[desiredRow] = new int[col];
+            }
 
             if (parking[desiredRow][desiredCol] == 0) {
                 parking[desiredRow][desiredCol] = 1;
