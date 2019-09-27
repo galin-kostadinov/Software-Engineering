@@ -13,7 +13,9 @@ public class Crossfire {
         int cols = sc.nextInt();
         sc.nextLine();
 
-        ArrayList<ArrayList<Integer>> matrix = generateMatrix(rows, cols);
+        ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
+
+        generateMatrix(matrix, rows, cols);
 
         String input;
         while (!"Nuke it from orbit".equals(input = sc.nextLine())) {
@@ -36,11 +38,6 @@ public class Crossfire {
 
             for (int r = 0; r < matrix.size(); r++) {
                 matrix.get(r).removeAll(new ArrayList<>(Arrays.asList(0)));
-
-//              matrix.set(r, matrix.get(r)
-//                        .stream()
-//                        .filter(el -> el != 0)
-//                        .collect(Collectors.toCollection(ArrayList::new)));
 
                 if (matrix.get(r).size() == 0) {
                     matrix.remove(r);
@@ -68,18 +65,14 @@ public class Crossfire {
         }
     }
 
-    private static ArrayList<ArrayList<Integer>> generateMatrix(int rows, int cols) {
-        ArrayList<ArrayList<Integer>> matrix = new ArrayList<>();
-
+    private static void generateMatrix(ArrayList<ArrayList<Integer>> matrix, int rows, int cols) {
         int value = 1;
         for (int r = 0; r < rows; r++) {
-            ArrayList<Integer> row = new ArrayList<>();
+            ArrayList<Integer> row = new ArrayList<>(cols);
             for (int c = 0; c < cols; c++) {
                 row.add(value++);
             }
             matrix.add(row);
         }
-
-        return matrix;
     }
 }
