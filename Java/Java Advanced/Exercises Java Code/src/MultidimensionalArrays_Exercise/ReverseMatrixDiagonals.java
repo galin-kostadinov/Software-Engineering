@@ -11,7 +11,7 @@ public class ReverseMatrixDiagonals {
         int cols = sc.nextInt();
         sc.nextLine();
 
-        int[][] matrix = new int[rows][cols];
+        int[][] matrix = new int[rows][];
 
         for (int row = 0; row < matrix.length; row++) {
             matrix[row] = Arrays.stream(sc.nextLine().split("\\s+")).mapToInt(Integer::parseInt).toArray();
