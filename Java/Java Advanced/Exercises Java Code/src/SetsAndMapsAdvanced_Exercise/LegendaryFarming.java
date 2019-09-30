@@ -1,6 +1,5 @@
 package SetsAndMapsAdvanced_Exercise;
 
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -15,7 +14,6 @@ public class LegendaryFarming {
         keyMaterials.put("shards", 0);
         keyMaterials.put("fragments", 0);
         keyMaterials.put("motes", 0);
-
 
         while (true) {
             String[] input = reader.readLine().split("\\s+");
@@ -51,7 +49,6 @@ public class LegendaryFarming {
                 break;
             }
         }
-
 
         keyMaterials
                 .entrySet()
