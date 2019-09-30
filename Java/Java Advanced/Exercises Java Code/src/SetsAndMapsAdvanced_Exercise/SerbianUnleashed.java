@@ -11,7 +11,7 @@ public class SerbianUnleashed {
         Scanner sc = new Scanner(System.in);
 
         String regex = "^(?<singer>([A-Za-z]+\\s)+)@(?<venue>([A-Za-z]+\\s)+)"
-                +"(?<ticketsPrice>\\d+)\\s{1}(?<ticketsCount>\\d+)$";
+                + "(?<ticketsPrice>\\d+)\\s{1}(?<ticketsCount>\\d+)$";
         Pattern pattern = Pattern.compile(regex);
 
         //venue->singer->income
