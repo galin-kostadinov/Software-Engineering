@@ -8,7 +8,7 @@ public class CopyBytes {
         String userDir = System.getProperty("user.dir");
 
         String pathIn = userDir + "\\res\\input.txt";
-        String pathOut = userDir + "\\res\\output.txt";
+        String pathOut = userDir + "\\res\\outputInt.txt";
 
         try (FileInputStream fis = new FileInputStream(pathIn);
              FileOutputStream fos = new FileOutputStream(pathOut)) {
