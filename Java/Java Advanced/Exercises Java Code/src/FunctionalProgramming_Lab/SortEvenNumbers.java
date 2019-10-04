@@ -25,5 +25,7 @@ public class SortEvenNumbers {
 
         System.out.println(String.join(", ", evenNumToString));
         System.out.println(String.join(", ", evenSortedNumToString));
+
+        //System.out.println(evenNums.toString().replaceAll("[\\[\\]]",""));
     }
 }
