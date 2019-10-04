@@ -15,8 +15,6 @@ public class ReadFile {
                 System.out.print(res + " ");
                 oneByte = fis.read();
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
