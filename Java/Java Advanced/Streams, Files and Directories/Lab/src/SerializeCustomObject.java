@@ -6,7 +6,7 @@ import java.util.List;
 public class SerializeCustomObject {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         String userDir = System.getProperty("user.dir");
-        String path = userDir + "\\res\\output.gal";
+        String path = userDir + "\\res\\output.ser";
 
         List<String> names = new ArrayList<>();
         Collections.addAll(names, "Mimi", "Gosho");
