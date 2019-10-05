@@ -9,17 +9,11 @@ public class CircularQueue<E> {
     public CircularQueue() {
         this.array = (E[]) new Object[defaultCapacity];
         this.capacity = defaultCapacity;
-        this.head = 0;
-        this.tail = 0;
-        this.size = 0;
     }
 
     public CircularQueue(int initialCapacity) {
         this.array = (E[]) new Object[initialCapacity];
         this.capacity = initialCapacity;
-        this.size = 0;
-        this.head = 0;
-        this.tail = 0;
     }
 
     public int size() {
@@ -27,99 +21,53 @@ public class CircularQueue<E> {
     }
 
     public void enqueue(E element) {
-        if (tail == 0 && head == 0 && size == 0) {
-            array[head] = element;
-            tail++;
-            this.size++;
-        } else if (tail < capacity && tail + 1 != head && size < capacity) {
-            array[tail] = element;
-            tail++;
-            this.size++;
-        } else if (tail == capacity && head > 0) {
-            tail = 0;
-            array[tail] = element;
-            tail++;
-            this.size++;
-        } else if (size >= capacity && head < tail) {
-            int oldCapacity = this.capacity;
-            this.capacity = 2 * oldCapacity;
-            E[] newArray = (E[]) new Object[this.capacity];
+        if (this.capacity <= this.size) {
+            this.resize();
+        }
 
-            for (int i = 0; i < oldCapacity; i++) {
-                newArray[i] = this.array[i];
-            }
+        this.array[this.tail] = element;
+        this.tail = (this.tail + 1) % this.capacity;
+        this.size++;
+    }
 
-            this.array = newArray;
-            this.array[tail] = element;
+    private void resize() {
+        this.capacity *= 2;
+        E[] newArray = (E[]) new Object[this.capacity];
 
-            this.tail++;
-            this.size++;
-        } else if (size >= capacity && head >= tail) {
-            E[] newArray = this.toArray();
-            this.array = newArray;
+        this.copyAllElements(newArray);
 
-            int oldCapacity = this.capacity;
-            this.capacity = 2 * oldCapacity;
+        this.array = newArray;
+        this.head = 0;
+        this.tail = this.size;
+    }
 
-            newArray = (E[]) new Object[this.capacity];
-            for (int i = 0; i < oldCapacity; i++) {
-                newArray[i] = this.array[i];
-            }
+    private void copyAllElements(E[] newArray) {
+        int currentIndex = 0;
+        int currentHead = this.head;
 
-            this.array = newArray;
-            this.head = 0;
-            this.tail = this.size;
-
-            this.array[tail] = element;
-
-            this.tail++;
-            this.size++;
-        } else if (head >= tail && size < capacity) {
-            array[tail] = element;
-            tail++;
-            this.size++;
+        int oldCapacity = this.array.length;
+        while (currentIndex < this.size) {
+            newArray[currentIndex++] = this.array[currentHead];
+            currentHead = (currentHead + 1) % oldCapacity;
         }
     }
 
     public E dequeue() {
-        E element;
-        if (size == 0) {
+        if (this.size == 0) {
             throw new IllegalArgumentException();
-        } else if (head == capacity) {
-            head = 0;
-            element = this.array[head];
-            head++;
-            size--;
-        } else {
-            element = this.array[head];
-            head++;
-            size--;
         }
 
-        return element;
+        E result = this.array[this.head];
+        this.head = (this.head + 1) % this.capacity;
+        this.size--;
+
+        return result;
     }
 
     public E[] toArray() {
         E[] newArray = (E[]) new Object[this.size];
-        int currentTail = this.tail;
-        int currentHead = this.head;
 
-        for (int i = 0; i < this.size; i++) {
-            if (currentTail > currentHead) {
-                newArray[i] = this.array[currentHead];
-                currentHead++;
-            } else if (currentHead > currentTail && currentHead < this.capacity || currentHead == currentTail) {
-                newArray[i] = this.array[currentHead];
-                currentHead++;
-            } else if (currentHead == this.capacity) {
-                currentHead = 0;
-                newArray[i] = this.array[currentHead];
-                currentHead++;
-            } else {
-                newArray[i] = this.array[currentHead];
-                currentHead++;
-            }
-        }
+        this.copyAllElements(newArray);
 
         return newArray;
     }

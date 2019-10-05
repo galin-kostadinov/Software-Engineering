@@ -56,7 +56,5 @@ public class Main {
         System.out.printf("Count = %d\n", queue.size());
         System.out.println(Arrays.toString(queue.toArray()));
         System.out.println("---------------------------");
-
     }
-
 }
