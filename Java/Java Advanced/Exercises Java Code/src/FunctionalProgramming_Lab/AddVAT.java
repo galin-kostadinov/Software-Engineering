@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
+import java.util.function.Function;
 import java.util.function.UnaryOperator;
 
 public class AddVAT {
@@ -13,6 +14,8 @@ public class AddVAT {
         String[] split = reader.readLine().split(", ");
 
         UnaryOperator<Double> addVat = d -> 1.2 * d;
+
+        //Function<Double, Double> addVat1 = d -> 1.2 * d;
 
         System.out.println("Prices with VAT:");
         Arrays.stream(split)
