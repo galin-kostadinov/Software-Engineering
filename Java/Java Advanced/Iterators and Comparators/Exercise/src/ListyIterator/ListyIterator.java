@@ -50,9 +50,9 @@ public class ListyIterator implements Iterable<String> {
     @Override
     public Iterator<String> iterator() {
         //First variant:
-        // return this.list.iterator();
+        // return this.list.iterator(); - default behavior
 
-        //Second variant:
+        //Second variant: If we want to create iterator with different behavior
         return new Iterator<String>() {
             private int index = 0;
 
