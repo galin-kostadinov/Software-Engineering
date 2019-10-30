@@ -20,12 +20,12 @@ public class Main {
     }
 
     private static void printCurrentRow(int width, int row) {
-        System.out.print(printSpace(" ", width - row));
-        System.out.print(printSpace("* ", row));
+        System.out.print(printSymbols(" ", width - row));
+        System.out.print(printSymbols("* ", row));
         System.out.println();
     }
 
-    private static String printSpace(String str, int count) {
+    private static String printSymbols(String str, int count) {
         StringBuilder sb = new StringBuilder();
 
         while (count-- > 0) {

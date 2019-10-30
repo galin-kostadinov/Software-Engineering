@@ -15,6 +15,4 @@ public enum Season {
     public int getMultiplier(){
         return this.multiplier;
     }
-
-
 }
