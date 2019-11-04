@@ -1,2 +1,5 @@
 # Software-Engineering
-Software Engineering - Java, JavaScript, C#, C++
+Java;
+C++;
+C#;
+Data Structures and Algorithms;
