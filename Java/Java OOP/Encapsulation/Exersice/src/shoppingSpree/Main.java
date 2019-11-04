@@ -20,7 +20,7 @@ public class Main {
             double money = Double.parseDouble(nameProduct.substring(nameProduct.indexOf("=") + 1).trim());
             try {
                 Person person = new Person(name, money);
-                people.put(name, person);
+                people.putIfAbsent(name, person);
             } catch (IllegalArgumentException ex) {
                 System.out.println(ex.getMessage());
                 return;
@@ -35,7 +35,7 @@ public class Main {
 
             try {
                 Product product = new Product(name, price);
-                products.put(name, product);
+                products.putIfAbsent(name, product);
             } catch (IllegalArgumentException ex) {
                 System.out.println(ex.getMessage());
                 return;
@@ -45,17 +45,20 @@ public class Main {
         String input;
 
         while (!"END".equalsIgnoreCase(input = reader.readLine())) {
-            String personName = input.substring(0, input.indexOf(" ")).trim();
-            String productName = input.substring(input.indexOf(" ")).trim();
+            String personName = input.substring(0, input.lastIndexOf(" ")).trim();
+            String productName = input.substring(input.lastIndexOf(" ")).trim();
 
             Person person = people.get(personName);
 
-            person.buyProduct(products.get(productName));
+            try {
+                person.buyProduct(products.get(productName));
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
+            }
         }
 
         for (Person person : people.values()) {
             System.out.println(person.toString());
         }
-
     }
 }

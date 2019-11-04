@@ -1,6 +1,7 @@
 package shoppingSpree;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Person {
@@ -30,6 +31,14 @@ public class Person {
         this.money = money;
     }
 
+    public List<Product> getProducts() {
+        return Collections.unmodifiableList(this.products);
+    }
+
+    public double getMoney() {
+        return money;
+    }
+
     public String getName() {
         return this.name;
     }
@@ -37,7 +46,8 @@ public class Person {
     public void buyProduct(Product product) {
         double leftMoney = this.money - product.getCost();
         if (leftMoney < 0) {
-            System.out.printf("%s can't afford %s%n", this.name, product.getName());
+            String message = String.format("%s can't afford %s", this.name, product.getName());
+            throw new IllegalArgumentException(message);
         } else {
             System.out.printf("%s bought %s%n", this.name, product.getName());
             this.products.add(product);
@@ -52,8 +62,10 @@ public class Person {
         if (this.products.isEmpty()) {
             result = String.format("%s - Nothing bought", this.name);
         } else {
-            StringBuilder sb = new StringBuilder(products.toString());
-            result = String.format("%s - %s", this.name, sb.toString().substring(1, sb.length() - 1));
+            String productsList = this.products.toString()
+                    .replace("[", "")
+                    .replace("]", "");
+            result = String.format("%s - %s", this.name, productsList);
         }
 
         return result;
