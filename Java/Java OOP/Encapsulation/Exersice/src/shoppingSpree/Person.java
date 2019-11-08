@@ -3,6 +3,7 @@ package shoppingSpree;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Person {
     private String name;
@@ -66,6 +67,8 @@ public class Person {
                     .replace("[", "")
                     .replace("]", "");
             result = String.format("%s - %s", this.name, productsList);
+
+           // String productsList = this.products.stream().map(Product::getName).collect(Collectors.joining(", "));
         }
 
         return result;
