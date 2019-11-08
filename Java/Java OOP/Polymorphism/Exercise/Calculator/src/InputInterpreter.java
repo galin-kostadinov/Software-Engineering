@@ -9,7 +9,8 @@ public class InputInterpreter {
         try {
             engine.pushNumber(Integer.parseInt(input));
         } catch (Exception ex) {
-            engine.pushOperation(this.getOperation(input));
+            Operation operation = this.getOperation(input);
+            engine.pushOperation(operation);
         }
         return true;
     }

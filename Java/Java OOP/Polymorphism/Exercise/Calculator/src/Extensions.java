@@ -1,5 +1,5 @@
 public class Extensions {
     public static InputInterpreter buildInterpreter(CalculationEngine engine) {
-        return new ExtendedInterpretator(engine);
+        return new ExtendedInterpreter(engine);
     }
 }
