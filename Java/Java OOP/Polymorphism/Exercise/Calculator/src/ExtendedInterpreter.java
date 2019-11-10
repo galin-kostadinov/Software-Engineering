@@ -1,9 +1,9 @@
 import java.util.ArrayDeque;
 
-public class ExtendedInterpretator extends InputInterpreter {
+public class ExtendedInterpreter extends InputInterpreter {
     private ArrayDeque<Integer> memory;
 
-    public ExtendedInterpretator(CalculationEngine engine) {
+    public ExtendedInterpreter(CalculationEngine engine) {
         super(engine);
         this.memory = new ArrayDeque<>();
     }
