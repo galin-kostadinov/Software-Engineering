@@ -4,15 +4,15 @@ import military.enums.Corps;
 import military.helperClasses.interfaces.Repair;
 import military.interfaces.Engineer;
 
-import java.util.ArrayList;
 import java.util.Collection;
+import java.util.LinkedHashSet;
 
 public class EngineerImpl extends SpecialisedSoldierImpl implements Engineer {
     private Collection<Repair> repairs;
 
     public EngineerImpl(int id, String firstName, String lastName, double salary, Corps corps) {
         super(id, firstName, lastName, salary, corps);
-        this.repairs = new ArrayList<>();
+        this.repairs = new LinkedHashSet<>();
     }
 
     @Override

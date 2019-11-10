@@ -12,7 +12,7 @@ public class SpyImpl extends SoldierImpl implements Spy {
 
     @Override
     public String toString() {
-        return super.toString() + System.lineSeparator() + "Code Number: " + this.getCodeNumber();
+        return (super.toString() + System.lineSeparator() + "Code Number: " + this.getCodeNumber()).trim();
     }
 
     @Override

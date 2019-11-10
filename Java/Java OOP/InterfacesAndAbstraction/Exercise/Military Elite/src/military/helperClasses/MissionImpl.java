@@ -17,6 +17,14 @@ public class MissionImpl implements Mission {
         return this.codeName;
     }
 
+    public void setCodeName(String codeName) {
+        this.codeName = codeName;
+    }
+
+    public void setState(State state) {
+        this.state = state;
+    }
+
     @Override
     public State getState() {
         return this.state;

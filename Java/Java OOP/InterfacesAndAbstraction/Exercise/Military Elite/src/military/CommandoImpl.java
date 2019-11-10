@@ -5,21 +5,20 @@ import military.enums.State;
 import military.helperClasses.interfaces.Mission;
 import military.interfaces.Commando;
 
-import java.util.ArrayList;
 import java.util.Collection;
-import java.util.List;
+import java.util.LinkedHashSet;
 
 public class CommandoImpl extends SpecialisedSoldierImpl implements Commando {
-    private List<Mission> missions;
+    private Collection<Mission> missions;
 
     public CommandoImpl(int id, String firstName, String lastName, double salary, Corps corps) {
         super(id, firstName, lastName, salary, corps);
-        this.missions = new ArrayList<>();
+        this.missions = new LinkedHashSet<>();
     }
 
     @Override
     public void addMission(Mission mission) {
-        missions.add(mission);
+        this.missions.add(mission);
     }
 
     @Override

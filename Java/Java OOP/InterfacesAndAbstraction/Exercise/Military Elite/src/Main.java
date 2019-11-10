@@ -1,10 +1,5 @@
 import commands.*;
 import commands.interfaces.Command;
-import military.CommandoImpl;
-import military.PrivateImpl;
-import military.SoldierImpl;
-import military.SpecialisedSoldierImpl;
-import military.enums.Corps;
 import military.interfaces.Soldier;
 
 import java.io.BufferedReader;

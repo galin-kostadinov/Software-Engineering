@@ -11,6 +11,14 @@ public class RepairImpl implements Repair {
         this.hoursWorked = hoursWorked;
     }
 
+    public void setPartName(String partName) {
+        this.partName = partName;
+    }
+
+    public void setHoursWorked(int hoursWorked) {
+        this.hoursWorked = hoursWorked;
+    }
+
     @Override
     public String getPartName() {
         return this.partName;

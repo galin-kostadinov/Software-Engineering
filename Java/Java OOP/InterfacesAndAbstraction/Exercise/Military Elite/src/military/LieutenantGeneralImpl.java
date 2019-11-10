@@ -3,21 +3,24 @@ package military;
 import military.interfaces.LieutenantGeneral;
 import military.interfaces.Private;
 
-import java.util.Comparator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGeneral {
-    private Set<Private> privates;
+    private Collection<Private> privates;
 
     public LieutenantGeneralImpl(int id, String firstName, String lastName, double salary) {
         super(id, firstName, lastName, salary);
+
         this.privates = new TreeSet<>(new Comparator<Private>() {
             @Override
             public int compare(Private f, Private s) {
                 return s.getId() - f.getId();
             }
         });
+    }
+
+    public Collection<Private> getPrivates() {
+        return privates;
     }
 
     @Override
