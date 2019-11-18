@@ -1,12 +1,11 @@
-import loggerlib.appender.ConsoleAppender;
-import loggerlib.appender.FileAppender;
 import loggerlib.appender.interfaces.Appender;
 import loggerlib.enumerations.ReportLevel;
-import loggerlib.layout.SimpleLayout;
-import loggerlib.layout.XmlLayout;
 import loggerlib.layout.interfeces.Layout;
 import loggerlib.loggers.MessageLogger;
 import loggerlib.loggers.interfaces.Logger;
+import loggerlib.parsecommand.AppenderParser;
+import loggerlib.parsecommand.LayoutParser;
+import loggerlib.parsecommand.LoggerParser;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -24,21 +23,10 @@ public class Main {
 
         while (n-- > 0) {
             String[] tokens = reader.readLine().split("\\s+");
-            Appender appender = null;
 
-            Layout layout = null;
+            Layout layout = LayoutParser.createLayout(tokens[1]);
 
-            if (tokens[1].equals("SimpleLayout")) {
-                layout = new SimpleLayout();
-            } else {
-                layout = new XmlLayout();
-            }
-
-            if (tokens[0].equals("ConsoleAppender")) {
-                appender = new ConsoleAppender(layout);
-            } else {
-                appender = new FileAppender(layout);
-            }
+            Appender appender = AppenderParser.createAppender(tokens[0], layout);
 
             if (tokens.length == 3) {
                 appender.setReportLevel(ReportLevel.valueOf(tokens[2]));
@@ -52,25 +40,7 @@ public class Main {
         String input;
 
         while (!"END".equals(input = reader.readLine())) {
-            String[] tokens = input.split("\\|");
-
-            switch (ReportLevel.valueOf(tokens[0])) {
-                case INFO:
-                    logger.logInfo(tokens[1], tokens[2]);
-                    break;
-                case ERROR:
-                    logger.logError(tokens[1], tokens[2]);
-                    break;
-                case FATAL:
-                    logger.logFatal(tokens[1], tokens[2]);
-                    break;
-                case WARNING:
-                    logger.logWarning(tokens[1], tokens[2]);
-                    break;
-                case CRITICAL:
-                    logger.logCritical(tokens[1], tokens[2]);
-                    break;
-            }
+            LoggerParser.log(logger, input);
         }
 
         System.out.println(logger.toString());
