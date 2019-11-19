@@ -23,7 +23,7 @@ public class HashTable<TKey, TValue> implements Iterable<KeyValue<TKey, TValue>>
     public void add(TKey key, TValue value) {
         growIfNeeded();
 
-        int index = Math.abs(key.hashCode() % this.capacity);
+        int index = (key.hashCode() & 0x7fffffff) % this.capacity;
 
         if (this.elements[index] == null) {
             this.elements[index] = new LinkedList<>();
@@ -57,7 +57,7 @@ public class HashTable<TKey, TValue> implements Iterable<KeyValue<TKey, TValue>>
     public boolean addOrReplace(TKey key, TValue value) {
         growIfNeeded();
 
-        int index = key.hashCode() % this.capacity;
+        int index = (key.hashCode() & 0x7fffffff) % this.capacity;
 
         if (this.elements[index] == null) {
             this.elements[index] = new LinkedList<>();
@@ -104,7 +104,7 @@ public class HashTable<TKey, TValue> implements Iterable<KeyValue<TKey, TValue>>
     }
 
     public KeyValue<TKey, TValue> find(TKey key) {
-        int index = Math.abs(key.hashCode() % this.capacity);
+        int index = (key.hashCode() & 0x7fffffff) % this.capacity;
 
         if (this.elements[index] != null) {
             for (var item : this.elements[index]) {
@@ -122,7 +122,7 @@ public class HashTable<TKey, TValue> implements Iterable<KeyValue<TKey, TValue>>
     }
 
     public boolean remove(TKey key) {
-        int index = Math.abs(key.hashCode() % this.capacity);
+        int index = (key.hashCode() & 0x7fffffff) % this.capacity;
 
         if (this.elements[index] == null) {
             return false;
@@ -180,7 +180,6 @@ public class HashTable<TKey, TValue> implements Iterable<KeyValue<TKey, TValue>>
     @Override
     public Iterator<KeyValue<TKey, TValue>> iterator() {
         List<KeyValue<TKey, TValue>> allKVP = this.getKvp();
-
 
 
         return new Iterator<KeyValue<TKey, TValue>>() {
