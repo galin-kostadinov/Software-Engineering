@@ -30,5 +30,10 @@ public class Main {
         Reflection reflection = (Reflection) someClass.getConstructor().newInstance();
 
         System.out.println(reflection);
+
+//        Constructor constructor = someClass.getDeclaredConstructor(String.class, String.class, String.class);
+//        constructor.setAccessible(true);
+//        Reflection reflection1 = (Reflection) constructor.newInstance("Ivan", "eban.com", "ivan@abv.bg");
+//        System.out.println(reflection1);
     }
 }
