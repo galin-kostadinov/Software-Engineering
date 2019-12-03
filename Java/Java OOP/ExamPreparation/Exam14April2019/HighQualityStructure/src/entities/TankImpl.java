@@ -6,13 +6,13 @@ public class TankImpl extends BaseMachine implements Tank {
 
     private static final double INITIAL_HEALTH_POINTS = 100;
     private static final double ATTACK_POINTS_MODIFIER = 40;
-    private static final double DEFFENCE_POINTS_MODIFIER = 30;
+    private static final double DEFENSE_POINTS_MODIFIER = 30;
 
     private boolean defenseMode;
 
     public TankImpl(String name, double attackPoints, double defensePoints) {
         super(name, attackPoints, defensePoints, INITIAL_HEALTH_POINTS);
-        this.toggleDefenseMode();
+        this.setDefenseModeTrue();
     }
 
     @Override
@@ -20,16 +20,24 @@ public class TankImpl extends BaseMachine implements Tank {
         return this.defenseMode;
     }
 
+    private void setDefenseModeTrue() {
+        this.defenseMode = true;
+        super.setAttackPoints(super.getAttackPoints() - ATTACK_POINTS_MODIFIER);
+        super.setDefensePoints(super.getDefensePoints() + DEFENSE_POINTS_MODIFIER);
+    }
+
+    private void setDefenseModeFalse() {
+        this.defenseMode = false;
+        super.setAttackPoints(super.getAttackPoints() + ATTACK_POINTS_MODIFIER);
+        super.setDefensePoints(super.getDefensePoints() - DEFENSE_POINTS_MODIFIER);
+    }
+
     @Override
     public void toggleDefenseMode() {
-        if (this.defenseMode) {
-            this.defenseMode = false;
-            super.setAttackPoints(+ATTACK_POINTS_MODIFIER);
-            super.setDefensePoints(-DEFFENCE_POINTS_MODIFIER);
+        if (this.getDefenseMode()) {
+            this.setDefenseModeFalse();
         } else {
-            this.defenseMode = true;
-            super.setAttackPoints(-ATTACK_POINTS_MODIFIER);
-            super.setDefensePoints(+DEFFENCE_POINTS_MODIFIER);
+            this.setDefenseModeTrue();
         }
     }
 
