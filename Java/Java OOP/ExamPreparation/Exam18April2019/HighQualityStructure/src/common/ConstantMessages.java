@@ -22,4 +22,37 @@ public class ConstantMessages {
 
     public static final String DEFAULT_REPORT_SEPARATOR
             = "###";
+
+    public static final String INCORRECT_USERNAME =
+            "Player's username cannot be null or an empty string. ";
+
+    public static final String INCORRECT_HEALTH =
+            "Player's health bonus cannot be less than zero. ";
+
+    public static final String INCORRECT_DAMAGE =
+            "Damage points cannot be less than zero.";
+
+    public static final String INCORRECT_CARD_NAME =
+            "Card's name cannot be null or an empty string.";
+
+    public static final String INCORRECT_DAMAGE_POINTS =
+            "Card's damage points cannot be less than zero.";
+
+    public static final String INCORRECT_HEALTH_POINTS =
+            "Card's HP cannot be less than zero.";
+
+    public static final String DEAD_PLAYER =
+            "Player is dead!";
+
+    public static final String NULL_CARD =
+            "Card cannot be null!";
+
+    public static final String NULL_PLAYER =
+            "Player cannot be null";
+
+    public static final String EXISTING_PLAYER =
+            "Player username already exists!";
+
+    public static final String EXISTING_CARD =
+            "Card name already exists!";
 }
