@@ -31,6 +31,14 @@ public class ChampionshipControllerImpl implements ChampionshipController {
         this.raceRepository = new RaceRepository();
     }
 
+    public ChampionshipControllerImpl(Repository<Rider> riderRepository,
+                                      Repository<Motorcycle> motorcycleRepository,
+                                      Repository<Race> raceRepository) {
+        this.riderRepository = riderRepository;
+        this.motorcycleRepository = motorcycleRepository;
+        this.raceRepository = raceRepository;
+    }
+
     @Override
     public String createRider(String riderName) {
         if (riderRepository.getByName(riderName) != null) {
@@ -120,6 +128,7 @@ public class ChampionshipControllerImpl implements ChampionshipController {
         }
 
         int labs = race.getLaps();
+
         List<Rider> collect = race.getRiders()
                 .stream()
                 .sorted((f, s) -> Double.compare(s.getMotorcycle().calculateRacePoints(labs), f.getMotorcycle().calculateRacePoints(labs)))
@@ -130,6 +139,8 @@ public class ChampionshipControllerImpl implements ChampionshipController {
                 String.format(OutputMessages.RIDER_SECOND_POSITION, collect.get(1).getName(), raceName)
                 + System.lineSeparator() +
                 String.format(OutputMessages.RIDER_THIRD_POSITION, collect.get(2).getName(), raceName);
+
+        collect.get(0).winRace();
 
         raceRepository.remove(race);
 
