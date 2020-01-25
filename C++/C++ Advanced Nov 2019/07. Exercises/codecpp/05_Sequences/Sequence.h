@@ -2,7 +2,6 @@
 #define SEQUENCE_H
 
 #include <vector>
-#include <iostream>
 
 template<typename T>
 class Iterator {
@@ -26,7 +25,9 @@ public:
     }
 
     bool operator!=(const Iterator &other) const {
-        return this->elements != other.elements || this->next != other.next;
+        bool a = this->elements != other.elements;
+        bool b = this->next != other.next;
+        return a || b;
     }
 
     T &operator*() const {
@@ -46,13 +47,10 @@ public:
 
 template<typename T, typename Generator>
 class Sequence {
+private:
     std::vector<T> elements;
     Generator generator;
-    typename std::vector<T>::iterator endIt;
-
 public:
-    Sequence() {}
-
     void generateNext(int numToGenerate) {
         for (int i = 0; i < numToGenerate; ++i) {
             int num = this->generator();
