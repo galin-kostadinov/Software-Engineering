@@ -221,7 +221,7 @@ REFERENCES `majors`(`major_id`)
 CREATE TABLE `payments`(
 `payment_id` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
 `payment_date` DATE NOT NULL,
-`payments_amount` DECIMAL(8, 2) NOT NULL,
+`payment_amount` DECIMAL(8, 2) NOT NULL,
 `student_id` INT(11) NOT NULL,
 
 CONSTRAINT fk_payments_students
@@ -236,7 +236,7 @@ CREATE TABLE `agenda`(
 CONSTRAINT pk_student_id_subject_id
 PRIMARY KEY (student_id, subject_id),
 
-CONSTRAINT fk_agenda_students
+CONSTRAINT fk_agenda
 FOREIGN KEY (`student_id`)
 REFERENCES `students`(`student_id`),
 
