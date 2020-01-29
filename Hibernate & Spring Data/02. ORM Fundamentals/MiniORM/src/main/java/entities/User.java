@@ -1,48 +1,51 @@
 package entities;
 
+import orm.annotations.Column;
+import orm.annotations.Entity;
+import orm.annotations.PrimaryKey;
+
 import java.util.Date;
 
+@Entity(name = "employees")
 public class User {
-    private int id;
-    private String username;
-    private int age;
-    private Date registrationDate;
+    @PrimaryKey(name = "id")
+    private long id;
 
-    public User(String username, int age, Date registrationDate) {
-        this.setUsername(username);
-        this.setAge(age);
-        this.setRegistrationDate(registrationDate);
+    @Column(name = "first_name")
+    private String firstName;
+
+    @Column(name = "last_name")
+    private String lastName;
+
+    public User() {
     }
 
-    public int getId() {
+    public User(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
-    public int getAge() {
-        return age;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public Date getRegistrationDate() {
-        return registrationDate;
-    }
-
-    public void setRegistrationDate(Date registrationDate) {
-        this.registrationDate = registrationDate;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 }
