@@ -5,10 +5,8 @@
 #include <vector>
 #include <algorithm>
 
-struct increasingOrderById
-{
-    inline bool operator() (const Company * a, const Company * b)
-    {
+struct increasingOrderById{
+    inline bool operator() (const Company * a, const Company * b){
         return (a->getId() < b->getId());
     }
 };

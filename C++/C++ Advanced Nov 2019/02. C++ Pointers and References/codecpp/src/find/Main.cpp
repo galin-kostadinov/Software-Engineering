@@ -8,35 +8,34 @@
 #include "Find.h"
 
 int main() {
-	using namespace std;
+    using namespace std;
 
-	vector<Company*> companies;
+    vector<Company *> companies;
 
-	string line;
-	while (getline(cin, line) && line != "end") {
-		istringstream lineIn(line);
+    string line;
+    while (getline(cin, line) && line != "end") {
+        istringstream lineIn(line);
 
-		Company* c = new Company();
-		lineIn >> *c;
-		companies.push_back(c);
-	}
+        Company *c = new Company();
+        lineIn >> *c;
+        companies.push_back(c);
+    }
 
-	string searchIdLine;
-	getline(cin, searchIdLine);
-	int searchId = stoi(searchIdLine);
+    string searchIdLine;
+    getline(cin, searchIdLine);
+    int searchId = stoi(searchIdLine);
 
-	Company* companyWithSearchedId = find(companies, searchId);
+    Company *companyWithSearchedId = find(companies, searchId);
 
-	if (companyWithSearchedId != nullptr) {
-		cout << *companyWithSearchedId << endl;
-	}
-	else {
-		cout << "[not found]" << endl;
-	}
+    if (companyWithSearchedId != nullptr) {
+        cout << *companyWithSearchedId << endl;
+    } else {
+        cout << "[not found]" << endl;
+    }
 
-	for (auto companyPtr : companies) {
-		delete companyPtr;
-	}
+    for (auto companyPtr : companies) {
+        delete companyPtr;
+    }
 
-	return 0;
+    return 0;
 }

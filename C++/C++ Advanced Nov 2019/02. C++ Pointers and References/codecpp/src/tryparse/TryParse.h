@@ -7,8 +7,7 @@ bool tryParse(const std::string &inNumber, int &outNumber) {
     try {
         outNumber = std::stoi(inNumber);
         return true;
-    }
-    catch (const std::invalid_argument& ia) {
+    } catch (const std::invalid_argument &ia) {
         return false;
     }
 }
