@@ -12,91 +12,91 @@ typedef unsigned char byte;
 
 class Company {
 private:
-	std::string name;
-	std::vector<std::pair<char, char> > employees;
+    std::string name;
+    std::vector<std::pair<char, char> > employees;
 
 public:
-	Company() {}
+    Company() {}
 
-	Company(std::string name, std::vector<std::pair<char, char> > employees)
-		: name(name)
-		, employees(employees) {}
+    Company(std::string name, std::vector<std::pair<char, char> > employees)
+            : name(name), employees(employees) {}
 
-	std::string getName() const {
-		return this->name;
-	}
+    std::string getName() const {
+        return this->name;
+    }
 
-	std::vector<std::pair<char, char> > getEmployees() const {
-		return this->employees;
-	}
+    std::vector<std::pair<char, char> > getEmployees() const {
+        return this->employees;
+    }
 
-	friend std::ostream& operator<<(std::ostream& stream, const Company& c);
-	friend std::istream& operator>>(std::istream& stream, Company& c);
+    friend std::ostream &operator<<(std::ostream &stream, const Company &c);
+
+    friend std::istream &operator>>(std::istream &stream, Company &c);
 };
 
-std::ostream& operator<<(std::ostream& stream, const Company& c) {
-	stream << c.name << " (";
+std::ostream &operator<<(std::ostream &stream, const Company &c) {
+    stream << c.name << " (";
 
-	for (int i = 0; i < c.employees.size(); i++) {
-		auto initials = c.employees[i];
-		stream << initials.first << "." << initials.second << ".";
-		if (i < c.employees.size() - 1) {
-			stream << ",";
-		}
-	}
+    for (int i = 0; i < c.employees.size(); i++) {
+        auto initials = c.employees[i];
+        stream << initials.first << "." << initials.second << ".";
+        if (i < c.employees.size() - 1) {
+            stream << ",";
+        }
+    }
 
-	stream << ")";
+    stream << ")";
 
-	return stream;
+    return stream;
 }
 
-std::istream& operator>>(std::istream& stream, Company& c) {
-	if (!stream) {
-		// couldn't start the read, return the stream in its current error state without attempting further reads
-		return stream;
-	}
+std::istream &operator>>(std::istream &stream, Company &c) {
+    if (!stream) {
+        // couldn't start the read, return the stream in its current error state without attempting further reads
+        return stream;
+    }
 
-	stream >> c.name;
+    stream >> c.name;
 
-	std::vector<std::pair<char, char> > employees;
-	char current;
-	stream >> current; //read the '('
+    std::vector<std::pair<char, char> > employees;
+    char current;
+    stream >> current; //read the '('
 
-	while (current != ')') {
-		char firstInitial, secondInitial;
-		stream >> current;
-		if (current == ')') {
-			if (!employees.empty()) { // sanity check
-				throw std::exception();
-			}
-			break;
-		}
-		firstInitial = current;
+    while (current != ')') {
+        char firstInitial, secondInitial;
+        stream >> current;
+        if (current == ')') {
+            if (!employees.empty()) { // sanity check
+                throw std::exception();
+            }
+            break;
+        }
+        firstInitial = current;
 
-		stream >> current; // read the '.'
-		if (current != '.') { // sanity check
-			throw std::exception();
-		}
+        stream >> current; // read the '.'
+        if (current != '.') { // sanity check
+            throw std::exception();
+        }
 
-		stream >> current;
-		secondInitial = current;
+        stream >> current;
+        secondInitial = current;
 
-		stream >> current; // read the '.'
-		if (current != '.') { // sanity check
-			throw std::exception();
-		}
+        stream >> current; // read the '.'
+        if (current != '.') { // sanity check
+            throw std::exception();
+        }
 
-		stream >> current; // read the ',' or if the input is ending - the ')'
-		if (current != ',' && current != ')') { // sanity check
-			throw std::exception();
-		}
+        stream >> current; // read the ',' or if the input is ending - the ')'
+        if (current != ',' && current != ')') { // sanity check
+            throw std::exception();
+        }
 
-		employees.push_back(std::pair<char, char>{ firstInitial, secondInitial });
-	}
+        employees.push_back(std::pair<char, char>{firstInitial, secondInitial});
+    }
 
-	c.employees = employees;
+    c.employees = employees;
 
-	return stream;
+    return stream;
 }
 
 #endif // !COMPANY_H
