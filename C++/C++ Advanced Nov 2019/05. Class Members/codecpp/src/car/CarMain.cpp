@@ -3,8 +3,7 @@
 #include "Car.h"
 
 // Function that call Print of all Getters
-void PrintInfo(const  Car& objCar )
-{
+void PrintInfo(const Car &objCar) {
     cout << "Brand -> " << objCar.GetBrand() << endl;
 
     cout << "Model -> " << objCar.GetModel() << endl;
@@ -12,8 +11,7 @@ void PrintInfo(const  Car& objCar )
     cout << "Year -> " << objCar.GetYear() << endl;
 }
 
-int main()
-{
+int main() {
     string sBrand;
 
     string sModel;
@@ -22,9 +20,9 @@ int main()
 
     cin >> sBrand >> sModel >> nYear;
 
-    const Car objCar( sBrand, sModel, nYear );
+    const Car objCar(sBrand, sModel, nYear);
 
-    PrintInfo( objCar );
+    PrintInfo(objCar);
 
     return 0;
 }
