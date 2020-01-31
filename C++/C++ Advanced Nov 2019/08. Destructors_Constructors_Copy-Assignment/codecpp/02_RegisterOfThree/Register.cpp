@@ -24,6 +24,7 @@ Register &Register::operator=(const Register &other) {
 
 Register::Register(const Register &other) {
     this->numAdded = other.numAdded;
+    this->companiesArray = new Company[ this->numAdded];
 
     int arrSize = (size_t) other.numAdded;
     for (int i = 0; i < arrSize; ++i) {
