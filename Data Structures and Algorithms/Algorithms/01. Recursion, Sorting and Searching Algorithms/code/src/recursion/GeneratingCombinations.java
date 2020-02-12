@@ -16,16 +16,16 @@ public class GeneratingCombinations {
         int cols = Integer.parseInt(reader.readLine());
 
         int[] vector = new int[cols];
-        generator(set, vector, 0, -1);
+        generator(set, vector, 0, 0);
     }
 
     private static void generator(int[] set, int[] vector, int index, int border) {
         if (index == vector.length) {
             print(vector);
         } else {
-            for (int i = border + 1; i < set.length; i++) {
+            for (int i = border; i < set.length; i++) {
                 vector[index] = set[i];
-                generator(set, vector, index + 1, i);
+                generator(set, vector, index + 1, i + 1);
             }
         }
     }
