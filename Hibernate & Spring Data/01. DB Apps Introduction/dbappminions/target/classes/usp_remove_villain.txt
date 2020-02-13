@@ -1,0 +1,29 @@
+DELIMITER $$
+CREATE PROCEDURE usp_remove_villain(account_id INT)
+BEGIN
+    IF account_id > 0 AND (SELECT id FROM villains WHERE id = account_id) IS NOT NULL
+    THEN
+        START TRANSACTION;
+        DELETE
+        FROM minions_villains
+        WHERE villain_id = account_id;
+
+        IF ((SELECT villain_id FROM minions_villains WHERE villain_id = account_id) IS NOT NULL)
+        THEN
+            ROLLBACK;
+        END IF;
+
+        DELETE
+        FROM villains
+        WHERE id = account_id;
+
+        IF ((SELECT id FROM villains WHERE id = account_id) IS NOT NULL)
+        THEN
+            ROLLBACK;
+        ELSE
+            COMMIT;
+
+        END IF;
+    END IF;
+END $$
+DELIMITER ;

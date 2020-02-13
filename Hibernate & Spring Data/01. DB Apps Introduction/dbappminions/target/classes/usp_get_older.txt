@@ -1,0 +1,8 @@
+DELIMITER $$
+CREATE PROCEDURE usp_get_older(input_id INT(11))
+BEGIN
+UPDATE minions
+SET age = age + 1
+WHERE id = input_id;
+END $$
+DELIMITER ;
