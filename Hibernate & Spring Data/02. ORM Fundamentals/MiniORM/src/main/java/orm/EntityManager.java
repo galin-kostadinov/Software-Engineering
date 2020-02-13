@@ -415,4 +415,17 @@ public class EntityManager<E> implements DbContext<E> {
 
         preparedStatement.execute();
     }
+
+    @Override
+    public boolean delete(String where) throws SQLException {
+        String query = String.format(
+                "DELETE FROM %s WHERE %s",
+                this.getTableName(),
+                where
+        );
+
+        PreparedStatement preparedStatement = this.connection.prepareStatement(query);
+
+        return preparedStatement.execute();
+    }
 }

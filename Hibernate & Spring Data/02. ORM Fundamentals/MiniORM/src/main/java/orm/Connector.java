@@ -8,7 +8,7 @@ import java.util.Properties;
 public class Connector {
     private static String USERNAME = "root";
     private static String PASSWORD = "";
-    private static String CONNECTRION_STRING = "jdbc:mysql://localhost:3306/soft_uni_simple";
+    private static String CONNECTRION_STRING = "jdbc:mysql://localhost:3306/company_db";
 
     private static Connection connection;
 

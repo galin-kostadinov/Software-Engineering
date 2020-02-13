@@ -13,9 +13,12 @@ public class App {
 
         DbContext<User> userDbContext = getDbContext(connection, User.class);
 
-        User user = userDbContext.findById(4);
-        user.setLastName("IVANOV");
-        userDbContext.persist(user);
+//        User user = userDbContext.findById(4);
+//        user.setLastName("IVANOV");
+//        userDbContext.persist(user);
+
+        userDbContext.delete("id = 1");
+
     }
 
     private static <E> DbContext<E> getDbContext(Connection connection, Class<E> klass) throws SQLException {

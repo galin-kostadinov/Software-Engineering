@@ -3,7 +3,7 @@ package orm.base;
 import java.sql.SQLException;
 
 public interface DbContext<E> {
-   //insert + update
+    //insert + update
     boolean persist(E entity) throws IllegalAccessException, SQLException;
 
     Iterable<E> find() throws SQLException, IllegalAccessException, InstantiationException;
@@ -15,4 +15,6 @@ public interface DbContext<E> {
     E findFirst(String where) throws IllegalAccessException, SQLException, InstantiationException;
 
     E findById(long id) throws IllegalAccessException, SQLException, InstantiationException;
+
+    boolean delete(String where) throws SQLException;
 }
