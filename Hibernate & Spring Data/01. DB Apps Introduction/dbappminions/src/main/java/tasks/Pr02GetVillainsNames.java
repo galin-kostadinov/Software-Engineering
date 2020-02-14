@@ -26,7 +26,7 @@ public class Pr02GetVillainsNames implements Executable {
 
         while (resultSet.next()) {
             System.out.println(
-                    String.format("%s %d", resultSet.getString(1), resultSet.getInt(2)));
+                    String.format("%s %d", resultSet.getString("name"), resultSet.getInt("cm")));
         }
     }
 
