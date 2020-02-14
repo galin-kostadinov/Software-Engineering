@@ -1,9 +1,6 @@
 package tasks;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Scanner;
 
 public class Pr06RemoveVillain implements Executable {
@@ -42,9 +39,9 @@ public class Pr06RemoveVillain implements Executable {
 
     private boolean callUspRemoveVillain(int id) throws SQLException {
         String query = "CALL usp_remove_villain(?);";
-        PreparedStatement preparedStatement = connection.prepareStatement(query);
-        preparedStatement.setLong(1, id);
-        return preparedStatement.execute();
+        CallableStatement callableStatement = connection.prepareCall(query);
+        callableStatement.setLong(1, id);
+        return callableStatement.execute();
     }
 
 
@@ -69,7 +66,7 @@ public class Pr06RemoveVillain implements Executable {
 
         ResultSet resultSet = preparedStatement.executeQuery();
         if (resultSet.next()) {
-            return resultSet.getString(1);
+            return resultSet.getString("name");
         }
 
         return "";

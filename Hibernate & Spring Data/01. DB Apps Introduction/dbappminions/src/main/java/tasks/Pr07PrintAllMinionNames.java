@@ -42,7 +42,7 @@ public class Pr07PrintAllMinionNames implements Executable {
         ResultSet resultSet = preparedStatement.executeQuery();
 
         while (resultSet.next()) {
-            minionNames.add(resultSet.getString(1));
+            minionNames.add(resultSet.getString("name"));
         }
     }
 }

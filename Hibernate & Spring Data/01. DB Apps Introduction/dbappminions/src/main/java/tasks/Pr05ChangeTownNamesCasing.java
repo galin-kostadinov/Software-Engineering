@@ -4,6 +4,8 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Pr05ChangeTownNamesCasing implements Executable {
@@ -38,17 +40,13 @@ public class Pr05ChangeTownNamesCasing implements Executable {
         ResultSet resultSet = preparedStatement.executeQuery();
         System.out.printf("%d town names were affected.%n", count);
 
-        resultSet.next();
-        System.out.printf("[%s", resultSet.getString(1));
+        List<String> townsNames = new ArrayList<>();
 
-        for (int i = 1; i < count - 1; i++) {
-            resultSet.next();
-            System.out.print(", ");
-            System.out.printf("%s", resultSet.getString(1));
+        while (resultSet.next()) {
+            townsNames.add(resultSet.getString("name"));
         }
 
-        resultSet.next();
-        System.out.printf(", %s]", resultSet.getString(1));
+        System.out.println(String.join(", ", townsNames.toString()));
     }
 
     private long setUppercaseTownsNames(String country) throws SQLException {

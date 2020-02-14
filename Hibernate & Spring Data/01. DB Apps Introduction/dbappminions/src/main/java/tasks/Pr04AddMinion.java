@@ -27,12 +27,13 @@ public class Pr04AddMinion implements Executable {
         String[] tokensVillainProp = sc.nextLine().split("\\s+");
         String villainName = tokensVillainProp[1];
 
-        String tableMinions = "minions";
-        long idTown = getEntityIdByName(tableMinions, minionTown);
+
+        String tableTowns = "towns";
+        long idTown = getEntityIdByName(tableTowns, minionTown);
 
         if (idTown < 0) {
             addTown(minionTown);
-            idTown = getEntityIdByName(tableMinions, minionTown);
+            idTown = getEntityIdByName(tableTowns, minionTown);
         }
 
         String tableVillains = "villains";
@@ -46,18 +47,20 @@ public class Pr04AddMinion implements Executable {
         addMinionInMinions(minionName, minionAge, idTown);
         long minionId = getMinionId(minionName, minionAge, idTown);
 
-        setMinionLikeServant(minionId, villainId);
+        boolean isAdded = setMinionLikeServant(minionId, villainId);
 
-        System.out.printf("Successfully added %s to be minion of %s.", minionName, villainName);
+        if (isMinionServantToVillain(minionId, villainId) && isAdded) {
+            System.out.printf("Successfully added %s to be minion of %s.", minionName, villainName);
+        }
     }
 
-    private void setMinionLikeServant(long minionId, long villainId) throws SQLException {
+    private boolean setMinionLikeServant(long minionId, long villainId) throws SQLException {
         String query = "INSERT INTO minions_villains (`minion_id`, `villain_id`) VALUE (?, ?);";
         PreparedStatement preparedStatement =
                 this.connection.prepareStatement(query);
         preparedStatement.setLong(1, minionId);
         preparedStatement.setLong(2, villainId);
-        preparedStatement.execute();
+        return preparedStatement.execute();
     }
 
     private long getMinionId(String minionName, int minionAge, long idTown) throws SQLException {
@@ -120,5 +123,19 @@ public class Pr04AddMinion implements Executable {
         }
 
         return id;
+    }
+
+    private boolean isMinionServantToVillain(long minionId, long villainId) throws SQLException {
+        String query = "SELECT COUNT(*) FROM minions_villains WHERE minion_id = ? AND villain_id = ?;";
+        PreparedStatement preparedStatement =
+                this.connection.prepareStatement(query);
+        preparedStatement.setLong(1, minionId);
+        preparedStatement.setLong(2, villainId);
+
+        ResultSet resultSet = preparedStatement.executeQuery();
+
+        resultSet.next();
+
+        return resultSet.getLong(1) > 0;
     }
 }

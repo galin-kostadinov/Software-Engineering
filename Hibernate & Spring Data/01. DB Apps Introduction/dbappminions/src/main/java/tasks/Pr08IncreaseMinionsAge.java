@@ -41,7 +41,7 @@ public class Pr08IncreaseMinionsAge implements Executable {
 
     private void print(ResultSet resultSet) throws SQLException {
         while (resultSet.next()) {
-            System.out.printf("%s %d%n", resultSet.getString(1), resultSet.getInt(2));
+            System.out.printf("%s %d%n", resultSet.getString("name"), resultSet.getInt("age"));
         }
     }
 

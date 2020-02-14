@@ -1,9 +1,6 @@
 package tasks;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.*;
 import java.util.Scanner;
 
 public class Pr09IncreaseAgeStoredProcedure implements Executable {
@@ -36,15 +33,15 @@ public class Pr09IncreaseAgeStoredProcedure implements Executable {
     private void printMinion(ResultSet resultSet) throws SQLException {
         if (resultSet.next()) {
             System.out.printf("%s %d%n",
-                    resultSet.getString(1),
-                    resultSet.getLong(2));
+                    resultSet.getString("name"),
+                    resultSet.getLong("age"));
         }
     }
 
     private void makeOlder(int id) throws SQLException {
         String query = "CALL usp_get_older(?);";
-        PreparedStatement preparedStatement = connection.prepareStatement(query);
-        preparedStatement.setLong(1, id);
-        preparedStatement.execute();
+        CallableStatement callableStatement = connection.prepareCall(query);
+        callableStatement.setInt(1, id);
+        callableStatement.execute();
     }
 }
