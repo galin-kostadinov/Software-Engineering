@@ -169,7 +169,7 @@ insert into minions_villains (minion_id, villain_id) values (13, 3);
 insert into minions_villains (minion_id, villain_id) values (42, 3);
 
 DELIMITER $$
-CREATE PROCEDURE usp_get_older(input_id INT(11))
+CREATE PROCEDURE usp_get_older(input_id INT)
 BEGIN
 UPDATE minions
 SET age = age + 1
