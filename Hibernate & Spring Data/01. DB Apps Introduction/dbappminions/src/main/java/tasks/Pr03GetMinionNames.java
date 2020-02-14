@@ -47,8 +47,8 @@ public class Pr03GetMinionNames implements Executable {
             System.out.println(
                     String.format("%d. %s %d",
                             index++,
-                            resultSetMinions.getString(1),
-                            resultSetMinions.getInt(2)));
+                            resultSetMinions.getString("name"),
+                            resultSetMinions.getInt("age")));
         }
     }
 
