@@ -1,3 +1,4 @@
+import tasks.Pr11RemoveTowns;
 import tasks.*;
 
 import javax.persistence.EntityManager;
@@ -67,19 +68,19 @@ public class Engine implements Runnable {
                 task = new Pr08GetEmployeeWithProject(entityManager, br);
                 break;
             case 9:
-
+                task = new Pr09FindLatest10Projects(entityManager, br);
                 break;
             case 10:
-
+                task = new Pr10IncreaseSalaries(entityManager, br);
                 break;
             case 11:
-
+                task = new Pr11RemoveTowns(entityManager, br);
                 break;
             case 12:
-
+                task = new Pr12FindEmployeesByFirstName(entityManager, br);
                 break;
             case 13:
-
+                task = new Pr13EmployeesMaximumSalaries(entityManager, br);
                 break;
             default:
                 System.out.println("Incorrect input.");
