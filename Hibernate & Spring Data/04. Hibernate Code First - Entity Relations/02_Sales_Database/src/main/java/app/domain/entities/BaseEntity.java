@@ -3,7 +3,7 @@ package app.domain.entities;
 import javax.persistence.*;
 
 @MappedSuperclass
-public class BaseEntity {
+public abstract class BaseEntity {
     private Integer id;
 
     public BaseEntity() {
