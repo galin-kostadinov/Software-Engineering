@@ -18,25 +18,39 @@ public class Pr02RemoveObjects implements Executable {
 
     @Override
     public void execute() throws IOException {
-        try{
-            this.entityManager.getTransaction().begin();
-
-            List<Town> towns = this.entityManager
-                    .createQuery("FROM Town WHERE char_length(name) > 5", Town.class)
+        try {
+            //Persist all towns from the database.
+            List<Town> towns = entityManager
+                    .createQuery("SELECT t FROM Town t", Town.class)
                     .getResultList();
 
+            //Detach those whose name length is more than 5 symbols.
+            for (Town town : towns) {
+                if (town.getName().length() > 5) {
+                    this.entityManager.detach(town);
+                }
+            }
+
+            this.entityManager.getTransaction().begin();
 
             for (Town town : towns) {
-                entityManager.detach(town);
-                town.setName(town.getName().toLowerCase());
-                entityManager.merge(town);
+                //transform the names of all attached towns to lowercase and save them to the database
+                if (entityManager.contains(town)) {
+                    System.out.print(town.getName() + " -> ");
+
+                    this.entityManager.detach(town);
+                    town.setName(town.getName().toLowerCase());
+                    this.entityManager.merge(town);
+
+                    System.out.println(town.getName());
+                }
             }
 
             this.entityManager.getTransaction().commit();
-        }catch (Exception e){
-            entityManager.getTransaction().rollback();
-        }finally {
-            entityManager.close();
+        } catch (Exception e) {
+            this.entityManager.getTransaction().rollback();
+        } finally {
+            this.entityManager.close();
         }
     }
 }
