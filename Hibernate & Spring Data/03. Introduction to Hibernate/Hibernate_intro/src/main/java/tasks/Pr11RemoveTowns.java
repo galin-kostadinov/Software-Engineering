@@ -25,8 +25,6 @@ public class Pr11RemoveTowns implements Executable {
         String townName = br.readLine();
 
         try {
-
-
             this.entityManager.getTransaction().begin();
 
             List<Address> addresses = this.entityManager
@@ -35,7 +33,6 @@ public class Pr11RemoveTowns implements Executable {
                     .getResultList();
 
             int count = addresses.size();
-
 
             addresses.forEach(address -> {
                 for (Employee employee : address.getEmployees()) {
