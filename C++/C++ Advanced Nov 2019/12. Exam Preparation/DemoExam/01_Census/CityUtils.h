@@ -18,11 +18,11 @@ std::map<size_t, std::shared_ptr<City>> groupByPopulation(std::vector<const City
 
     size_t size = cities.size();
     for (size_t i = 0; i < size; ++i) {
-        size_t popiulation = cities[i]->getPopulation();
+        size_t population = cities[i]->getPopulation();
 
-        result[popiulation] = std::make_shared<City>(cities[i]->getName(), popiulation);
+        result[population] = std::make_shared<City>(cities[i]->getName(), population);
 
-        totalPopulation += popiulation;
+        totalPopulation += population;
     }
 
     return result;
