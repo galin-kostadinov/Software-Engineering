@@ -4,7 +4,7 @@
 
 #include "Range.h"
 
-Range::Range() : rangeFirst(0), rangeLength(0), valueCounts(new size_t[0]{}) {}
+Range::Range() : rangeFirst(0), rangeLength(0), valueCounts(nullptr) {}
 
 void Range::add(T value) {
     if (this->empty()) {
@@ -26,9 +26,8 @@ size_t Range::getCount(T value) const {
     return this->valueCounts[this->getIndex(value)];
 }
 
-
 bool Range::empty() const {
-    return this->rangeLength == 0;
+    return this->valueCounts == nullptr;
 }
 
 Range::Range(const Range &other) :
@@ -46,7 +45,10 @@ Range &Range::operator=(const Range &other) {
 
         this->rangeFirst = other.rangeFirst;
         this->rangeLength = other.rangeLength;
-        this->valueCounts = Range::copyValues(other);
+
+        if(!other.empty()){
+            this->valueCounts = Range::copyValues(other);
+        }
     }
 
     return *this;
@@ -56,7 +58,7 @@ void Range::clear() {
     this->rangeFirst = 0;
     this->rangeLength = 0;
     delete[] this->valueCounts;
-    this->valueCounts = new size_t[0]{};
+    this->valueCounts = nullptr;
 }
 
 void Range::resize(T first, T last) {
@@ -75,6 +77,10 @@ void Range::resize(T first, T last) {
 }
 
 Range::~Range() {
-    this->clear();
+    if (valueCounts != nullptr) {
+        this->clear();
+    }
 }
+
+
 
