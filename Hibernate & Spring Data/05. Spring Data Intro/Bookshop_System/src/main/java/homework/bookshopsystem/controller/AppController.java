@@ -32,7 +32,6 @@ public class AppController implements CommandLineRunner {
         this.categoryService.seedCategory();
         this.bookService.seedBooks();
 
-
         int choice;
 
         while (true) {
