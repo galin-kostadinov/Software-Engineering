@@ -128,11 +128,13 @@ public class BookshopController implements CommandLineRunner {
         this.authorService.getAllAuthorsByFirstNameEndingWith(endLetters).forEach(System.out::println);
     }
 
-    private void getBooksWithTitleContainCurrText() {
-//todo
+    private void getBooksWithTitleContainCurrText() throws IOException {
+        System.out.println("Please, Enter the text which to be search in book title(for example -> 'sk':");
 
+        String text = br.readLine();
+
+        this.bookService.getAllByTitleContains(text).forEach(System.out::println);
     }
-
 
     private void printDashRow() {
         System.out.println("---------------------------------------------------------");

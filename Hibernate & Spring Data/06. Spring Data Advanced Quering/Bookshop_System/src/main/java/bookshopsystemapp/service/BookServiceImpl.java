@@ -136,12 +136,21 @@ public class BookServiceImpl implements BookService {
     @Override
     public List<String> getAllBooksBefore(String date) {
         DateTimeFormatter df = DateTimeFormatter.ofPattern("dd-MM-yyyy");
-        LocalDate  localDateBefore = LocalDate.parse(date, df);
+        LocalDate localDateBefore = LocalDate.parse(date, df);
 
         return this.bookRepository
                 .findAllByReleaseDateBefore(localDateBefore)
                 .stream()
                 .map(b -> String.format("%s %s %.2f", b.getTitle(), b.getEditionType(), b.getPrice()))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public List<String> getAllByTitleContains(String text) {
+        return this.bookRepository
+                .findAllByTitleContains(text)
+                .stream()
+                .map(b -> b.getTitle())
                 .collect(Collectors.toList());
     }
 

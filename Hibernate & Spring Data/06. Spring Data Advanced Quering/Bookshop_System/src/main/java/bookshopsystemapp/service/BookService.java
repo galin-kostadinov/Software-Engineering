@@ -25,4 +25,6 @@ public interface BookService {
     List<String> getBookNotReleasedInCurrYear(String year);
 
     List<String> getAllBooksBefore(String date);
+
+    List<String> getAllByTitleContains(String text);
 }
