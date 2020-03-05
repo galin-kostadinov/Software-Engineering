@@ -46,6 +46,8 @@ public class BookshopController implements CommandLineRunner {
             System.out.println("Enter 5 to get 'Books Released Before Date'");
             System.out.println("Enter 6 for 'Authors Search' by criteria");
             System.out.println("Enter 7 for 'Books Search' by criteria");
+            System.out.println("Enter 8 for 'Book Titles Search' by criteria");
+            System.out.println("Enter 9 for 'Count Books' by criteria");
 
 
             System.out.println("Enter 0 to Exit");
@@ -77,6 +79,12 @@ public class BookshopController implements CommandLineRunner {
                     break;
                 case 7:
                     getBooksWithTitleContainCurrText();
+                    break;
+                case 8:
+                    getBooksTitleByAuthorName();
+                    break;
+                case 9:
+                    getCountBooksBySizeOfTitle();
                     break;
                 default:
                     System.out.println("Incorrect choice. Try again.");
@@ -134,6 +142,20 @@ public class BookshopController implements CommandLineRunner {
         String text = br.readLine();
 
         this.bookService.getAllByTitleContains(text).forEach(System.out::println);
+    }
+
+    private void getBooksTitleByAuthorName() throws IOException {
+        System.out.println("The output will be random for every new database.");
+        System.out.println("Please, Enter a part of Author Last name(for example -> 'Ric':");
+        String lastName = br.readLine();
+
+        this.bookService.getAllBooksTitlesByAuthorFirstName(lastName).forEach(System.out::println);
+    }
+
+    private void getCountBooksBySizeOfTitle() {
+        System.out.println("Please, Enter a number(Title size):");
+//todo
+
     }
 
     private void printDashRow() {

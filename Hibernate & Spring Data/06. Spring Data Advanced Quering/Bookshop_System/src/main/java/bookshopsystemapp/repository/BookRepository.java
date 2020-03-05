@@ -4,6 +4,8 @@ import bookshopsystemapp.domain.entities.AgeRestriction;
 import bookshopsystemapp.domain.entities.Book;
 import bookshopsystemapp.domain.entities.EditionType;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.criteria.CriteriaBuilder;
@@ -28,4 +30,6 @@ public interface BookRepository extends JpaRepository<Book, Integer> {
 
     List<Book> findAllByTitleContains(String text);
 
+    @Query(value = "SELECT b FROM books b JOIN b.author a WHERE a.lastName LIKE :wildcard")
+    List<Book> findBooksByAuthorStartsWith(@Param(value = "wildcard") String wildcard);
 }

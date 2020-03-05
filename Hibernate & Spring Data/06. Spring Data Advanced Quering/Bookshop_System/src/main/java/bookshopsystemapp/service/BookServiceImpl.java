@@ -154,6 +154,15 @@ public class BookServiceImpl implements BookService {
                 .collect(Collectors.toList());
     }
 
+    @Override
+    public List<String> getAllBooksTitlesByAuthorFirstName(String text) {
+        return this.bookRepository
+                .findBooksByAuthorStartsWith(text + "%")
+                .stream()
+                .map(b -> String.format("%s (%s %s)", b.getTitle(), b.getAuthor().getFirstName(), b.getAuthor().getLastName()))
+                .collect(Collectors.toList());
+    }
+
     private Author getRandomAuthor() {
         Random random = new Random();
 
