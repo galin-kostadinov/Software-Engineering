@@ -48,7 +48,10 @@ public class BookshopController implements CommandLineRunner {
             System.out.println("Enter 7 for 'Books Search' by criteria");
             System.out.println("Enter 8 for 'Book Titles Search' by criteria");
             System.out.println("Enter 9 for 'Count Books' by criteria");
-
+            System.out.println("Enter 10 for 'Total Book Copies' by author");
+            System.out.println("Enter 11 for 'Reduced Book'");
+            System.out.println("Enter 12 to 'Increase Book Copies'");
+            System.out.println("Enter 13 to 'Remove Books' by criteria");
 
             System.out.println("Enter 0 to Exit");
             printDashRow();
@@ -85,6 +88,18 @@ public class BookshopController implements CommandLineRunner {
                     break;
                 case 9:
                     getCountBooksBySizeOfTitle();
+                    break;
+                case 10:
+                    getTotalBookCopies();
+                    break;
+                case 11:
+                    getBookInformationByTitle();
+                    break;
+                case 12:
+                    increaseBookCopies();
+                    break;
+                case 13:
+                    removeBookByCopiesCount();
                     break;
                 default:
                     System.out.println("Incorrect choice. Try again.");
@@ -152,10 +167,38 @@ public class BookshopController implements CommandLineRunner {
         this.bookService.getAllBooksTitlesByAuthorFirstName(lastName).forEach(System.out::println);
     }
 
-    private void getCountBooksBySizeOfTitle() {
+    private void getCountBooksBySizeOfTitle() throws IOException {
         System.out.println("Please, Enter a number(Title size):");
-//todo
+        Integer count = Integer.parseInt(br.readLine());
 
+        System.out.println(this.bookService.findAllBooksByTitleCount(count));
+    }
+
+    private void getTotalBookCopies() {
+        this.bookService.getAllTotalCopiesGroupByAuthor().forEach(System.out::println);
+    }
+
+    private void getBookInformationByTitle() throws IOException {
+        System.out.println("Please, Enter the book title:");
+        String title = br.readLine();
+
+        System.out.println(this.bookService.getBookDetailsByTitle(title));
+    }
+
+    private void increaseBookCopies() throws IOException {
+        System.out.println("Please, Enter the book released date in format dd-MMM-yyyy(for example -> '12 Oct 2005'):");
+        String date = br.readLine();
+        System.out.println("Please, Enter the increment value:");
+        int count = Integer.parseInt(br.readLine());
+
+        System.out.println(this.bookService.updateBookCopiesCount(date, count));
+    }
+
+    private void removeBookByCopiesCount() throws IOException {
+        System.out.println("Please, Enter the count of book copies. Books with copies count less than given will be deleted:");
+        int count = Integer.parseInt(br.readLine());
+
+        System.out.println(this.bookService.deleteBooksWithCopiesLessThan(count));
     }
 
     private void printDashRow() {

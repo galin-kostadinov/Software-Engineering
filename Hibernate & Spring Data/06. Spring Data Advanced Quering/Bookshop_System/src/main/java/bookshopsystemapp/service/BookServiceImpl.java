@@ -1,6 +1,7 @@
 package bookshopsystemapp.service;
 
 import bookshopsystemapp.domain.entities.*;
+import bookshopsystemapp.dto.book.ReducedBook;
 import bookshopsystemapp.repository.AuthorRepository;
 import bookshopsystemapp.repository.BookRepository;
 import bookshopsystemapp.repository.CategoryRepository;
@@ -150,7 +151,7 @@ public class BookServiceImpl implements BookService {
         return this.bookRepository
                 .findAllByTitleContains(text)
                 .stream()
-                .map(b -> b.getTitle())
+                .map(Book::getTitle)
                 .collect(Collectors.toList());
     }
 
@@ -161,6 +162,41 @@ public class BookServiceImpl implements BookService {
                 .stream()
                 .map(b -> String.format("%s (%s %s)", b.getTitle(), b.getAuthor().getFirstName(), b.getAuthor().getLastName()))
                 .collect(Collectors.toList());
+    }
+
+    @Override
+    public Integer findAllBooksByTitleCount(Integer count) {
+        return this.bookRepository.findAllByTitleCount(count);
+    }
+
+    @Override
+    public List<String> getAllTotalCopiesGroupByAuthor() {
+        return this.bookRepository
+                .getAllTotalCopiesGroupByAuthor()
+                .stream()
+                .map(b -> String.format("%s %s - %s",
+                        b[0], b[1], b[2]))
+                .collect(Collectors.toList());
+    }
+
+    @Override
+    public String getBookDetailsByTitle(String title) {
+        ReducedBook reducedBook = this.bookRepository.getBookByTitle(title);
+
+        return reducedBook != null ? reducedBook.toString() : "Book not found.";
+    }
+
+    @Override
+    public Integer updateBookCopiesCount(String date, int count) {
+        DateTimeFormatter df = DateTimeFormatter.ofPattern("dd MMM yyyy");
+        LocalDate localDateAfter = LocalDate.parse(date, df);
+
+        return this.bookRepository.updateBookCopiesCount(localDateAfter, count) * count;
+    }
+
+    @Override
+    public Integer deleteBooksWithCopiesLessThan(int count) {
+        return this.bookRepository.deleteBooksWithCopiesLessThan(count);
     }
 
     private Author getRandomAuthor() {
@@ -193,6 +229,4 @@ public class BookServiceImpl implements BookService {
 
         return this.categoryRepository.findById(randomId).orElse(null);
     }
-
-
 }

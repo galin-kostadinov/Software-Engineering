@@ -29,4 +29,14 @@ public interface BookService {
     List<String> getAllByTitleContains(String text);
 
     List<String> getAllBooksTitlesByAuthorFirstName(String text);
+
+    Integer findAllBooksByTitleCount(Integer count);
+
+    List<String> getAllTotalCopiesGroupByAuthor();
+
+    String getBookDetailsByTitle(String title);
+
+    Integer updateBookCopiesCount(String date, int count);
+
+    Integer deleteBooksWithCopiesLessThan(int count);
 }
