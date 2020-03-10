@@ -19,7 +19,7 @@ public class Game extends BaseEntity {
     private BigDecimal price;
     private String description;
     private LocalDate releaseDate;
-   // private Set<User> users;
+    private Set<User> users;
 
     public Game() {
 
@@ -94,16 +94,16 @@ public class Game extends BaseEntity {
         this.releaseDate = releaseDate;
     }
 
-//    @ManyToMany(targetEntity = User.class, mappedBy = "games",
-//            fetch = FetchType.EAGER,
-//            cascade = {CascadeType.PERSIST, CascadeType.MERGE})
-//    public Set<User> getUsers() {
-//        return users;
-//    }
-//
-//    public void setUsers(Set<User> users) {
-//        this.users = users;
-//    }
+    @ManyToMany(targetEntity = User.class, mappedBy = "games",
+            fetch = FetchType.EAGER,
+            cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    public Set<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<User> users) {
+        this.users = users;
+    }
 
     @Override
     public int hashCode() {
