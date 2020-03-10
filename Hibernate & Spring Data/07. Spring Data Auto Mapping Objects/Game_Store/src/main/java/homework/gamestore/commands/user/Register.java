@@ -18,7 +18,7 @@ public class Register extends Command {
     @Override
     public String execute(String... args) {
         if (!args[PASSWORD_INDEX].equals(args[PASSWORD_CONFIRM_INDEX])) {
-            return "PASSWORD and CONFIRM PASSWORD doesn't mach.";
+            return "PASSWORD and CONFIRM PASSWORD doesn't match.";
         }
 
         UserRegisterDto userRegisterDto = new UserRegisterDto(
