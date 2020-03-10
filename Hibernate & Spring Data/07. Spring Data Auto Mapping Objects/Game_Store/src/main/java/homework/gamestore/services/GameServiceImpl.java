@@ -128,12 +128,12 @@ public class GameServiceImpl implements GameService {
             return String.format("Is not found game with ID %d", id);
         }
 
-//        Set<User> users = game.getUsers();
-//
-//        for (User user : users) {
-//            user.getGames().remove(game);
-//            this.userRepository.saveAndFlush(user);
-//        }
+        Set<User> users = game.getUsers();
+
+        for (User user : users) {
+            user.getGames().remove(game);
+            this.userRepository.saveAndFlush(user);
+        }
 
         this.gameRepository.deleteById(id);
 
