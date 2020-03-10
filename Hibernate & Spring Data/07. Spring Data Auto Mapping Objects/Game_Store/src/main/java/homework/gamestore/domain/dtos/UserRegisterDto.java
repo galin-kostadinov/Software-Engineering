@@ -3,16 +3,14 @@ package homework.gamestore.domain.dtos;
 public class UserRegisterDto {
     private String email;
     private String password;
-    private String confirmPassword;
     private String fullName;
 
     public UserRegisterDto() {
     }
 
-    public UserRegisterDto(String email, String password, String confirmPassword, String fullName) {
+    public UserRegisterDto(String email, String password, String fullName) {
         this.email = email;
         this.password = password;
-        this.confirmPassword = confirmPassword;
         this.fullName = fullName;
     }
 
@@ -30,14 +28,6 @@ public class UserRegisterDto {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getConfirmPassword() {
-        return confirmPassword;
-    }
-
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
     }
 
     public String getFullName() {

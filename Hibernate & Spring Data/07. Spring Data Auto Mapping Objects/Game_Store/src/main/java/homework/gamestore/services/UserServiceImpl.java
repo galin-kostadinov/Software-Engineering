@@ -11,6 +11,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -19,18 +20,19 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+@Transactional
 @Service
 public class UserServiceImpl implements UserService {
     private final UserRepository userRepository;
     private final GameService gameService;
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
     private String loggedInUser;
 
     @Autowired
-    public UserServiceImpl(UserRepository userRepository, GameService gameService) {
+    public UserServiceImpl(UserRepository userRepository, GameService gameService, ModelMapper modelMapper) {
         this.userRepository = userRepository;
         this.gameService = gameService;
-        this.modelMapper = new ModelMapper();
+        this.modelMapper = modelMapper;
         this.loggedInUser = "";
     }
 

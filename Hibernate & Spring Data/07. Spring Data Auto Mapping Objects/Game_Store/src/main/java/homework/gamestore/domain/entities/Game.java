@@ -19,10 +19,10 @@ public class Game extends BaseEntity {
     private BigDecimal price;
     private String description;
     private LocalDate releaseDate;
-    private Set<User> users;
+   // private Set<User> users;
 
     public Game() {
-        this.users = new HashSet<>();
+
     }
 
     @Column(name = "title", nullable = false)
@@ -94,14 +94,16 @@ public class Game extends BaseEntity {
         this.releaseDate = releaseDate;
     }
 
-    @ManyToMany(targetEntity = User.class, mappedBy = "games", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public Set<User> getUsers() {
-        return users;
-    }
-
-    public void setUsers(Set<User> users) {
-        this.users = users;
-    }
+//    @ManyToMany(targetEntity = User.class, mappedBy = "games",
+//            fetch = FetchType.EAGER,
+//            cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+//    public Set<User> getUsers() {
+//        return users;
+//    }
+//
+//    public void setUsers(Set<User> users) {
+//        this.users = users;
+//    }
 
     @Override
     public int hashCode() {
@@ -114,6 +116,6 @@ public class Game extends BaseEntity {
             return true;
         if (!(obj instanceof Game))
             return false;
-        return getTitle().equals(((Game)obj).getTitle());
+        return getTitle().equals(((Game) obj).getTitle());
     }
 }

@@ -59,10 +59,9 @@ public class User extends BaseEntity {
         this.role = role;
     }
 
-    @ManyToMany(targetEntity = Game.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToMany
     @JoinTable(name = "user_game",
-            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "game_id", referencedColumnName = "id"))
+            inverseJoinColumns = @JoinColumn(name = "game_id"))
     public Set<Game> getGames() {
         return games;
     }
@@ -71,10 +70,9 @@ public class User extends BaseEntity {
         this.games = games;
     }
 
-    @ManyToMany(targetEntity = Game.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToMany
     @JoinTable(name = "user_shoping_cart_game",
-            joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "game_id", referencedColumnName = "id"))
+            inverseJoinColumns = @JoinColumn(name = "game_id"))
     public Set<Game> getShoppingCard() {
         return shoppingCard;
     }

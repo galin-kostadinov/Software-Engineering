@@ -17,10 +17,13 @@ public class Register extends Command {
 
     @Override
     public String execute(String... args) {
+        if (!args[PASSWORD_INDEX].equals(args[PASSWORD_CONFIRM_INDEX])) {
+            return "PASSWORD and CONFIRM PASSWORD doesn't mach.";
+        }
+
         UserRegisterDto userRegisterDto = new UserRegisterDto(
                 args[EMAIL_INDEX],
                 args[PASSWORD_INDEX],
-                args[PASSWORD_CONFIRM_INDEX],
                 args[USER_NAME_INDEX]);
 
         return this.getUserService().registerUser(userRegisterDto);

@@ -17,28 +17,28 @@ import homework.gamestore.services.GameService;
 import homework.gamestore.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Component;
 
 import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.Arrays;
 
 import static homework.gamestore.constants.CommandConstants.*;
 
-@Controller
+@Component
 public class GameStoreController implements CommandLineRunner {
     private final UserService userService;
     private final GameService gameService;
+    private final BufferedReader br;
 
     @Autowired
-    public GameStoreController(UserService userService, GameService gameService) {
+    public GameStoreController(UserService userService, GameService gameService, BufferedReader br) {
         this.userService = userService;
         this.gameService = gameService;
+        this.br = br;
     }
 
     @Override
     public void run(String... args) throws Exception {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         while (true) {
             System.out.println("-----------------------------------------------------------------------------------");

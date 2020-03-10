@@ -13,6 +13,7 @@ import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import javax.validation.ConstraintViolation;
 import javax.validation.Validation;
 import javax.validation.Validator;
@@ -21,18 +22,19 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
+@Transactional
 @Service
 public class GameServiceImpl implements GameService {
     private final GameRepository gameRepository;
     private final UserRepository userRepository;
-    private ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
     private String loggedInUser;
 
     @Autowired
-    public GameServiceImpl(GameRepository gameRepository, UserRepository userRepository) {
+    public GameServiceImpl(GameRepository gameRepository, UserRepository userRepository, ModelMapper modelMapper) {
         this.gameRepository = gameRepository;
         this.userRepository = userRepository;
-        this.modelMapper = new ModelMapper();
+        this.modelMapper = modelMapper;
         this.loggedInUser = "";
     }
 
@@ -126,12 +128,12 @@ public class GameServiceImpl implements GameService {
             return String.format("Is not found game with ID %d", id);
         }
 
-        Set<User> users = game.getUsers();
-
-        for (User user : users) {
-            user.getGames().remove(game);
-            this.userRepository.saveAndFlush(user);
-        }
+//        Set<User> users = game.getUsers();
+//
+//        for (User user : users) {
+//            user.getGames().remove(game);
+//            this.userRepository.saveAndFlush(user);
+//        }
 
         this.gameRepository.deleteById(id);
 
