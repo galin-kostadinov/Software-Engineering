@@ -99,6 +99,7 @@ public class GameStoreController implements CommandLineRunner {
                     command = new BuyItem(userService, gameService);
                     break;
                 default:
+                    System.out.println("The entered command format is not appropriate. Please, try again.");
                     break;
             }
 
