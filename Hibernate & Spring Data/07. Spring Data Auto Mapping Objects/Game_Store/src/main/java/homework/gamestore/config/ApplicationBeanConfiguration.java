@@ -9,6 +9,7 @@ import java.io.InputStreamReader;
 
 @Configuration
 public class ApplicationBeanConfiguration {
+
     @Bean
     public ModelMapper modelMapper() {
         return new ModelMapper();
