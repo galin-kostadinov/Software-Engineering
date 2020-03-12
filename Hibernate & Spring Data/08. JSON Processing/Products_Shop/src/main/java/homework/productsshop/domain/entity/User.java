@@ -1,7 +1,9 @@
 package homework.productsshop.domain.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
+import java.util.HashSet;
 import java.util.Set;
 
 @Entity
@@ -10,15 +12,16 @@ public class User extends BaseEntity {
     private String firstName;
     private String lastName;
     private Integer age;
-    private Set<Product> boughtProducts;
-    private Set<Product> soldProducts;
+    private Set<Product> sellProducts;
     private Set<User> users;
     private Set<User> friends;
 
     public User() {
+        this.users = new HashSet<>();
+        this.friends = new HashSet<>();
     }
 
-    @Column(name = "first_name", length = 50)
+    @Column(name = "first_name")
     public String getFirstName() {
         return firstName;
     }
@@ -27,8 +30,9 @@ public class User extends BaseEntity {
         this.firstName = firstName;
     }
 
+    @NotNull(message = "Last name cannot be null.")
     @Size(min = 3)
-    @Column(name = "last_name", length = 50, nullable = false)
+    @Column(name = "last_name", nullable = false)
     public String getLastName() {
         return lastName;
     }
@@ -46,22 +50,13 @@ public class User extends BaseEntity {
         this.age = age;
     }
 
-    @OneToMany(mappedBy = "buyer", cascade = CascadeType.ALL)
-    public Set<Product> getBoughtProducts() {
-        return boughtProducts;
+    @OneToMany(mappedBy = "seller", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    public Set<Product> getSellProducts() {
+        return sellProducts;
     }
 
-    public void setBoughtProducts(Set<Product> boughtProducts) {
-        this.boughtProducts = boughtProducts;
-    }
-
-    @OneToMany(mappedBy = "seller", cascade = CascadeType.ALL)
-    public Set<Product> getSoldProducts() {
-        return soldProducts;
-    }
-
-    public void setSoldProducts(Set<Product> soldProducts) {
-        this.soldProducts = soldProducts;
+    public void setSellProducts(Set<Product> sellProducts) {
+        this.sellProducts = sellProducts;
     }
 
     @ManyToMany(mappedBy = "users", cascade = {CascadeType.PERSIST, CascadeType.MERGE})
@@ -73,7 +68,7 @@ public class User extends BaseEntity {
         this.friends = friends;
     }
 
-    @ManyToMany(cascade = {CascadeType.PERSIST, CascadeType.MERGE})
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(name = "users_friends",
             joinColumns = @JoinColumn(name = "user_id"),
             inverseJoinColumns = @JoinColumn(name = "friend_id"))
