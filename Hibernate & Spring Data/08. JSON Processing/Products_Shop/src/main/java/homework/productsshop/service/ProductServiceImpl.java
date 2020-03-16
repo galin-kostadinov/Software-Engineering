@@ -17,7 +17,7 @@ import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.util.*;
 
-@Transactional
+@Transactional //When we have nested elements.
 @Service
 public class ProductServiceImpl implements ProductService {
     private final ProductRepository productRepository;

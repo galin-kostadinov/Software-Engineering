@@ -15,7 +15,7 @@ public class Category extends BaseEntity {
         this.products = new HashSet<>();
     }
 
-    @Size(min = 3, max = 15)
+    @Size(min = 3, max = 15, message = "Wrong category name.")
     @Column(name = "name", nullable = false, unique = true, length = 15)
     public String getName() {
         return name;
@@ -34,7 +34,7 @@ public class Category extends BaseEntity {
     public Set<Product> getProducts() {
         return products;
     }
-   // cascade = {CascadeType.PERSIST, CascadeType.MERGE}
+
     public void setProducts(Set<Product> products) {
         this.products = products;
     }

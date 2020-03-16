@@ -31,7 +31,7 @@ public class User extends BaseEntity {
     }
 
     @NotNull(message = "Last name cannot be null.")
-    @Size(min = 3)
+    @Size(min = 3, message = "Wrong size.")
     @Column(name = "last_name", nullable = false)
     public String getLastName() {
         return lastName;

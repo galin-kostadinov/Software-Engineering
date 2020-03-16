@@ -1,102 +1,77 @@
 [
   {
-    "name": "TRAMADOL HYDROCHLORIDE",
-    "price": 516.48,
-    "seller": "Jennifer Riley"
+    "name": "Parsley",
+    "price": 519.06,
+    "seller": "Jeremy Woods"
   },
   {
-    "name": "DAYWEAR PLUS MULTI PROTECTION TINTED MOISTURIZER",
-    "price": 555.12,
-    "seller": "null Bennett"
+    "name": "Topiramate",
+    "price": 578.77,
+    "seller": "Marie Williamson"
+  },
+  {
+    "name": "AIR",
+    "price": 581.69,
+    "seller": "Gary Stevens"
   },
   {
     "name": "Agaricus Equisetum Special Order",
     "price": 585.93,
-    "seller": "Jeremy Woods"
-  },
-  {
-    "name": "Gemcitabine",
-    "price": 594.79,
-    "seller": "Patricia Fuller"
-  },
-  {
-    "name": "No7 Protect and Perfect Foundation Sunscreen Broad Spectrum SPF 15 Cool Ivory",
-    "price": 616.19,
-    "seller": "Benjamin Henry"
-  },
-  {
-    "name": "AMARANTHUS PALMERI POLLEN",
-    "price": 623.16,
-    "seller": "Fred Barnes"
+    "seller": "Patricia Cooper"
   },
   {
     "name": "ziprasidone hydrochloride",
     "price": 628.66,
-    "seller": "Anna Parker"
+    "seller": "Patrick King"
   },
   {
-    "name": "Amitiza",
-    "price": 666.58,
-    "seller": "null Mitchell"
+    "name": "Childrens Allegra Allergy",
+    "price": 650.97,
+    "seller": "null Moreno"
   },
   {
-    "name": "ENBREL",
-    "price": 673.97,
-    "seller": "Christina Patterson"
-  },
-  {
-    "name": "PRIMAXIN",
-    "price": 686.66,
-    "seller": "null Baker"
-  },
-  {
-    "name": "CALMING DIAPER RASH",
-    "price": 700.92,
-    "seller": "Jennifer Riley"
-  },
-  {
-    "name": "Pollens - Weeds and Garden Plants, Nettle Urtica dioica",
-    "price": 782.77,
-    "seller": "Joshua Murray"
-  },
-  {
-    "name": "Meloxicam",
-    "price": 809.18,
-    "seller": "Amanda Frazier"
+    "name": "Isosorbide Mononitrate",
+    "price": 789.91,
+    "seller": "Betty Lawson"
   },
   {
     "name": "Azithromycin",
     "price": 813.87,
-    "seller": "Chris Mitchell"
+    "seller": "Benjamin Henry"
   },
   {
-    "name": "Aquafresh",
-    "price": 849.93,
-    "seller": "Arthur Reynolds"
-  },
-  {
-    "name": "Perrigo Benzoyl Peroxide",
-    "price": 873.24,
-    "seller": "Rachel Johnson"
+    "name": "RESCRIPTOR",
+    "price": 850.52,
+    "seller": "Carl Daniels"
   },
   {
     "name": "Levothyroxine Sodium",
     "price": 885.86,
-    "seller": "Fred Allen"
+    "seller": "null Cunningham"
   },
   {
     "name": "EPZICOM",
     "price": 895.65,
-    "seller": "Nicole Martinez"
-  },
-  {
-    "name": "Spironolactone",
-    "price": 933.69,
-    "seller": "null Cunningham"
+    "seller": "Jean Henry"
   },
   {
     "name": "Homeopathic Rheumatism",
     "price": 967.08,
+    "seller": "Nicole Martinez"
+  },
+  {
+    "name": "Clearskin",
+    "price": 968.59,
+    "seller": "null Thompson"
+  },
+  {
+    "name": "Smooth texture Orange flavor",
+    "price": 976.65,
+    "seller": "Gary Stevens"
+  },
+  {
+    "name": "Retin-A MICRO",
+    "price": 995.98,
     "seller": "Jonathan Rodriguez"
   }
 ]

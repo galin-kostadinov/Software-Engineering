@@ -2,6 +2,7 @@ package homework.productsshop.domain.entity;
 
 import javax.persistence.*;
 import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.math.BigDecimal;
 import java.util.HashSet;
@@ -42,6 +43,7 @@ public class Product extends BaseEntity {
 
     @ManyToOne(optional = false, targetEntity = User.class, cascade = CascadeType.ALL)
     @JoinColumn(name = "seller_id", referencedColumnName = "id")
+    @NotNull(message = "Seller cannot be null.")
     public User getSeller() {
         return seller;
     }
