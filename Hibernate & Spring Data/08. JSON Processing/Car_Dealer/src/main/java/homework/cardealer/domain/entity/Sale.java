@@ -1,6 +1,7 @@
 package homework.cardealer.domain.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "sales")
@@ -12,7 +13,8 @@ public class Sale extends BaseEntity {
     public Sale() {
     }
 
-    @Column(name = "discount")
+    @NotNull(message = "Sale discount cannot be null.")
+    @Column(name = "discount", nullable = false)
     public Double getDiscount() {
         return discount;
     }

@@ -1,9 +1,9 @@
 package homework.cardealer.domain.entity;
 
-import jdk.jfr.Unsigned;
-
 import javax.persistence.*;
-import java.util.List;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import java.util.Set;
 
 @Entity
 @Table(name = "cars")
@@ -11,13 +11,14 @@ public class Car extends BaseEntity {
     private String make;
     private String model;
     private Long travelledDistance;
-    private List<Part> parts;
+    private Set<Part> parts;
     private Sale sale;
 
     public Car() {
     }
 
-    @Column(name = "make")
+    @NotNull(message = "Car Make cannot be null.")
+    @Column(name = "make", nullable = false)
     public String getMake() {
         return make;
     }
@@ -26,7 +27,8 @@ public class Car extends BaseEntity {
         this.make = make;
     }
 
-    @Column(name = "model")
+    @NotNull(message = "Car Model cannot be null.")
+    @Column(name = "model", nullable = false)
     public String getModel() {
         return model;
     }
@@ -35,7 +37,9 @@ public class Car extends BaseEntity {
         this.model = model;
     }
 
-    @Column(name = "travelled_distance")
+    @NotNull(message = "Car travelled distance cannot be null.")
+    @Min(value = 0, message = "Travelled distance cannot be negative.")
+    @Column(name = "travelled_distance", nullable = false)
     public Long getTravelledDistance() {
         return travelledDistance;
     }
@@ -45,11 +49,11 @@ public class Car extends BaseEntity {
     }
 
     @ManyToMany(targetEntity = Part.class, fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public List<Part> getParts() {
+    public Set<Part> getParts() {
         return parts;
     }
 
-    public void setParts(List<Part> parts) {
+    public void setParts(Set<Part> parts) {
         this.parts = parts;
     }
 

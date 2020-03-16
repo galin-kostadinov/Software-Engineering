@@ -1,21 +1,23 @@
 package homework.cardealer.domain.entity;
 
 import javax.persistence.*;
-import java.time.LocalDate;
+import javax.validation.constraints.NotNull;
+import java.util.Date;
 import java.util.Set;
 
 @Entity
 @Table(name = "customers")
 public class Customer extends BaseEntity {
     private String name;
-    private LocalDate birthDate;
+    private Date birthDate;
     private boolean isYoungDriver;
-    private Set<Sale> sales;
+    private Set<Sale> purchases;
 
     public Customer() {
     }
 
-    @Column(name = "name")
+    @NotNull(message = "Customer name cannot be null.")
+    @Column(name = "name", nullable = false)
     public String getName() {
         return name;
     }
@@ -24,16 +26,18 @@ public class Customer extends BaseEntity {
         this.name = name;
     }
 
-    @Column(name = "birth_date")
-    public LocalDate getBirthDate() {
+    @NotNull(message = "Customer birth date cannot be null.")
+    @Column(name = "birth_date", nullable = false)
+    public Date getBirthDate() {
         return birthDate;
     }
 
-    public void setBirthDate(LocalDate birthDate) {
+    public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
     }
 
-    @Column(name = "is_young_driver")
+    @NotNull(message = "Customer is_young_driver cannot be null.")
+    @Column(name = "is_young_driver", nullable = false)
     public boolean isYoungDriver() {
         return isYoungDriver;
     }
@@ -43,11 +47,11 @@ public class Customer extends BaseEntity {
     }
 
     @OneToMany(mappedBy = "customer", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-    public Set<Sale> getSales() {
-        return sales;
+    public Set<Sale> getPurchases() {
+        return purchases;
     }
 
-    public void setSales(Set<Sale> sales) {
-        this.sales = sales;
+    public void setPurchases(Set<Sale> purchases) {
+        this.purchases = purchases;
     }
 }

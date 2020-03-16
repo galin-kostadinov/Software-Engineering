@@ -1,6 +1,9 @@
 package homework.cardealer.domain.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 import java.util.Set;
 
@@ -16,7 +19,8 @@ public class Part extends BaseEntity {
     public Part() {
     }
 
-    @Column(name = "name")
+    @NotNull(message = "Part name cannot be null.")
+    @Column(name = "name", nullable = false, unique = true)
     public String getName() {
         return name;
     }
@@ -25,7 +29,9 @@ public class Part extends BaseEntity {
         this.name = name;
     }
 
-    @Column(name = "price")
+    @NotNull(message = "Part price cannot be null.")
+    @DecimalMin(value = "0", message = "Part price cannot be negative.")
+    @Column(name = "price", nullable = false)
     public BigDecimal getPrice() {
         return price;
     }
@@ -34,7 +40,9 @@ public class Part extends BaseEntity {
         this.price = price;
     }
 
-    @Column(name = "quantity")
+    @NotNull(message = "Part quantity cannot be null.")
+    @Min(value = 0, message = "Part quantity cannot be negative.")
+    @Column(name = "quantity", nullable = false)
     public Integer getQuantity() {
         return quantity;
     }
@@ -43,7 +51,7 @@ public class Part extends BaseEntity {
         this.quantity = quantity;
     }
 
-    @ManyToMany(mappedBy = "parts",  fetch = FetchType.EAGER, cascade = CascadeType.ALL)
+    @ManyToMany(mappedBy = "parts", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     public Set<Car> getCars() {
         return cars;
     }
