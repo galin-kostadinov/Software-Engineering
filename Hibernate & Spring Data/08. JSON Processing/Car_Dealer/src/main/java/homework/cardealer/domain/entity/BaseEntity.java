@@ -3,7 +3,7 @@ package homework.cardealer.domain.entity;
 import javax.persistence.*;
 
 @MappedSuperclass
-public class BaseEntity {
+public abstract class BaseEntity {
     private Long id;
 
     public BaseEntity() {
