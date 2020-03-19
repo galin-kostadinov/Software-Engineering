@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<products>
+    <product name="Parsley" price="519.06" seller="null Peterson"/>
+    <product name="Extra Strength Pain Reliever PM" price="542.72" seller="null Peterson"/>
+    <product name="PLANTAGO LANCEOLATA POLLEN" price="561.68" seller="Jennifer Riley"/>
+    <product name="Agaricus Equisetum Special Order" price="585.93" seller="null Stewart"/>
+    <product name="AMARANTHUS PALMERI POLLEN" price="623.16" seller="Gloria Alexander"/>
+    <product name="AVANDAMET" price="632.08" seller="null Thompson"/>
+    <product name="ENBREL" price="673.97" seller="Anna Parker"/>
+    <product name="CLARINS Ever Matte SPF 15 - 105 Nude" price="696.06" seller="Doris Cook"/>
+    <product name="Acnezzol Base" price="710.60" seller="Brandon Fuller"/>
+    <product name="Prostate" price="716.05" seller="Benjamin Henry"/>
+    <product name="Meloxicam" price="809.18" seller="Patrick King"/>
+    <product name="Aquafresh" price="849.93" seller="Benjamin Henry"/>
+    <product name="Moore Medical Sinus Pain and Pressure Relief" price="855.39" seller="null Cunningham"/>
+    <product name="ESIKA" price="879.37" seller="Gloria Alexander"/>
+    <product name="Levothyroxine Sodium" price="885.86" seller="Anna Clark"/>
+    <product name="Care One Hemorrhoidal" price="932.18" seller="Sandra Riley"/>
+    <product name="Metformin Hydrochloride" price="953.99" seller="Billy Parker"/>
+    <product name="Homeopathic Rheumatism" price="967.08" seller="Patricia Fuller"/>
+</products>
