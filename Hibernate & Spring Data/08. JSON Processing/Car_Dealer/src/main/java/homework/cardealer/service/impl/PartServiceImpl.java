@@ -66,9 +66,9 @@ public class PartServiceImpl implements PartService {
 
         Random random = new Random();
 
-        int count = random.nextInt((upperBound - lowerBound) + 1) + lowerBound;
+        int count = random.nextInt(upperBound - lowerBound) + lowerBound;
 
-        for (int i = 0; i< count; i++){
+        for (int i = 0; i < count; i++) {
             parts.add(getRandomPart());
         }
 
@@ -83,7 +83,7 @@ public class PartServiceImpl implements PartService {
         Part part = null;
 
         while (part == null) {
-            long id = random.nextInt((int) count - 1) + 1;
+            long id = random.nextInt((int) count) + 1;
             part = this.partRepository.findById(id).orElse(null);
         }
 
