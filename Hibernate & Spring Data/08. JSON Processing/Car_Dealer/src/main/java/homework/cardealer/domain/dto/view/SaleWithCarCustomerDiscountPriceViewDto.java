@@ -6,7 +6,7 @@ import com.google.gson.annotations.SerializedName;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class SaleWithCarCustomerDiscountPrice implements Serializable {
+public class SaleWithCarCustomerDiscountPriceViewDto implements Serializable {
     @Expose
     private CarMakeModelTravelledDistanceViewDto car;
 
@@ -23,7 +23,7 @@ public class SaleWithCarCustomerDiscountPrice implements Serializable {
     @Expose
     private BigDecimal priceWithDiscount;
 
-    public SaleWithCarCustomerDiscountPrice() {
+    public SaleWithCarCustomerDiscountPriceViewDto() {
     }
 
     public CarMakeModelTravelledDistanceViewDto getCar() {
