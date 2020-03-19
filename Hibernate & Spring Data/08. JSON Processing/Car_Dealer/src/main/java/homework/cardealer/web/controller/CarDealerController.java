@@ -47,19 +47,21 @@ public class CarDealerController implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("------------------------------------------");
+        System.out.println(WAIT);
+        System.out.println("------------------------------------------");
+        System.out.println("Enter 0: 'Seed the Database'");
+        System.out.println("Enter 1: 'Query 1 – Ordered Customers'");
+        System.out.println("Enter 2: 'Query 2 – Cars from Make Toyota'");
+        System.out.println("Enter 3: 'Query 3 – Local Suppliers'");
+        System.out.println("Enter 4: 'Query 4 – Cars with Their List of Parts'");
+        System.out.println("Enter 5: 'Query 5 – Total Sales by Customer'");
+        System.out.println("Enter 6: 'Query 6 – Sales with Applied Discount'");
+        System.out.println("Enter 9: EXIT");
+        System.out.println("------------------------------------------");
+
         int choice;
         while (true) {
-            System.out.println("------------------------------------------");
-            System.out.println(WAIT);
-            System.out.println("------------------------------------------");
-            System.out.println("Enter 0: 'Seed the Database'");
-            System.out.println("Enter 1: 'Query 1 – Ordered Customers'");
-            System.out.println("Enter 2: 'Query 2 – Cars from Make Toyota'");
-            System.out.println("Enter 3: 'Query 3 – Local Suppliers'");
-            System.out.println("Enter 4: 'Query 4 – Cars with Their List of Parts'");
-            System.out.println("Enter 5: 'Query 5 – Total Sales by Customer'");
-            System.out.println("Enter 6: 'Query 6 – Sales with Applied Discount'");
-            System.out.println("Enter 9: EXIT");
             System.out.println("------------------------------------------");
             System.out.println("Please, enter your choice:");
 
@@ -178,7 +180,7 @@ public class CarDealerController implements CommandLineRunner {
     }
 
     private void getAllSalesWithAppliedDiscount() throws IOException {
-        List<SaleWithCarCustomerDiscountPrice> dtos = this.saleService.getAllTotalSalesByCustomer();
+        List<SaleWithCarCustomerDiscountPriceViewDto> dtos = this.saleService.getAllTotalSalesByCustomer();
 
         String content = this.gson.toJson(dtos);
         fileUtil.write(content, PathConstant.SALES_WITH_APPLIED_DISCOUNT);
