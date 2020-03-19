@@ -5,10 +5,10 @@
       "Model": "Omega",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.2,
-    "price": 7239.16,
-    "priceWithDiscount": 5791.328
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.35,
+    "price": 3375.22,
+    "priceWithDiscount": 2193.8930
   },
   {
     "car": {
@@ -16,10 +16,10 @@
       "Model": "Astra",
       "TravelledDistance": 9223372036854775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.4,
-    "price": 5611.90,
-    "priceWithDiscount": 3367.140
+    "customerName": "Zada Attwood",
+    "Discount": 0.1,
+    "price": 1198.36,
+    "priceWithDiscount": 1078.524
   },
   {
     "car": {
@@ -27,10 +27,10 @@
       "Model": "Astra",
       "TravelledDistance": 922337203685807
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.05,
-    "price": 3814.36,
-    "priceWithDiscount": 3623.6420
+    "customerName": "Nisha Markwell",
+    "Discount": 0.3,
+    "price": 2022.59,
+    "priceWithDiscount": 1415.813
   },
   {
     "car": {
@@ -38,10 +38,10 @@
       "Model": "Corsa",
       "TravelledDistance": 214747
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.35,
-    "price": 8473.89,
-    "priceWithDiscount": 5508.0285
+    "customerName": "Natalie Poli",
+    "Discount": 0.3,
+    "price": 5147.07,
+    "priceWithDiscount": 3602.949
   },
   {
     "car": {
@@ -49,10 +49,10 @@
       "Model": "Kadet",
       "TravelledDistance": 21474847
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.35,
-    "price": 11417.80,
-    "priceWithDiscount": 7421.5700
+    "customerName": "Marcelle Griego",
+    "Discount": 0.25,
+    "price": 1721.58,
+    "priceWithDiscount": 1291.1850
   },
   {
     "car": {
@@ -60,10 +60,10 @@
       "Model": "Vectra",
       "TravelledDistance": 9223372854775807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.3,
-    "price": 2370.44,
-    "priceWithDiscount": 1659.308
+    "customerName": "Hai Everton",
+    "Discount": 0.15000000000000002,
+    "price": 1439.85,
+    "priceWithDiscount": 1223.8724999999999712030
   },
   {
     "car": {
@@ -71,10 +71,10 @@
       "Model": "Insignia",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.1,
-    "price": 3720.64,
-    "priceWithDiscount": 3348.576
+    "customerName": "Faustina Burgher",
+    "Discount": 0.05,
+    "price": 2997.74,
+    "priceWithDiscount": 2847.8530
   },
   {
     "car": {
@@ -82,10 +82,10 @@
       "Model": "Astra",
       "TravelledDistance": 922336854775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.2,
-    "price": 2846.34,
-    "priceWithDiscount": 2277.072
+    "customerName": "Kristian Engberg",
+    "Discount": 0.1,
+    "price": 4782.91,
+    "priceWithDiscount": 4304.619
   },
   {
     "car": {
@@ -93,10 +93,10 @@
       "Model": "Corsa",
       "TravelledDistance": 21474847
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.05,
-    "price": 8179.18,
-    "priceWithDiscount": 7770.2210
+    "customerName": "Marcelle Griego",
+    "Discount": 0.55,
+    "price": 7123.42,
+    "priceWithDiscount": 3205.5390
   },
   {
     "car": {
@@ -104,10 +104,10 @@
       "Model": "Omega",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Rico Peer",
+    "customerName": "Carri Knapik",
     "Discount": 0.45,
-    "price": 4648.28,
-    "priceWithDiscount": 2556.5540
+    "price": 4891.74,
+    "priceWithDiscount": 2690.4570
   },
   {
     "car": {
@@ -115,10 +115,10 @@
       "Model": "Insignia",
       "TravelledDistance": 9223372036854775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.05,
-    "price": 2278.34,
-    "priceWithDiscount": 2164.4230
+    "customerName": "Taina Achenbach",
+    "Discount": 0.15,
+    "price": 5562.90,
+    "priceWithDiscount": 4728.4650
   },
   {
     "car": {
@@ -126,10 +126,10 @@
       "Model": "Vectra",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.45,
-    "price": 9576.50,
-    "priceWithDiscount": 5267.0750
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.15,
+    "price": 7832.54,
+    "priceWithDiscount": 6657.6590
   },
   {
     "car": {
@@ -137,10 +137,10 @@
       "Model": "Astra",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Kristian Engberg",
+    "customerName": "Daniele Zarate",
     "Discount": 0.05,
-    "price": 1872.09,
-    "priceWithDiscount": 1778.4855
+    "price": 6332.90,
+    "priceWithDiscount": 6016.2550
   },
   {
     "car": {
@@ -148,10 +148,10 @@
       "Model": "Omega",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.05,
-    "price": 3954.85,
-    "priceWithDiscount": 3757.1075
+    "customerName": "Oren Perlman",
+    "Discount": 0.55,
+    "price": 7722.01,
+    "priceWithDiscount": 3474.9045
   },
   {
     "car": {
@@ -159,10 +159,10 @@
       "Model": "Corsa",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.05,
-    "price": 6160.53,
-    "priceWithDiscount": 5852.5035
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.1,
+    "price": 8150.46,
+    "priceWithDiscount": 7335.414
   },
   {
     "car": {
@@ -170,10 +170,10 @@
       "Model": "Insignia",
       "TravelledDistance": 9223372036854775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.3,
-    "price": 6195.07,
-    "priceWithDiscount": 4336.549
+    "customerName": "Teddy Hobby",
+    "Discount": 0.55,
+    "price": 2072.58,
+    "priceWithDiscount": 932.6610
   },
   {
     "car": {
@@ -181,10 +181,10 @@
       "Model": "Omega",
       "TravelledDistance": 9223336854775807
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.4,
-    "price": 4955.48,
-    "priceWithDiscount": 2973.288
+    "customerName": "Kristian Engberg",
+    "Discount": 0.15,
+    "price": 3625.45,
+    "priceWithDiscount": 3081.6325
   },
   {
     "car": {
@@ -192,10 +192,10 @@
       "Model": "Corsa",
       "TravelledDistance": 2
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.15,
-    "price": 2934.65,
-    "priceWithDiscount": 2494.4525
+    "customerName": "Francis Mckim",
+    "Discount": 0.2,
+    "price": 2539.57,
+    "priceWithDiscount": 2031.656
   },
   {
     "car": {
@@ -203,10 +203,10 @@
       "Model": "Omega",
       "TravelledDistance": 1
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.1,
-    "price": 4704.15,
-    "priceWithDiscount": 4233.735
+    "customerName": "Nisha Markwell",
+    "Discount": 0.3,
+    "price": 2377.55,
+    "priceWithDiscount": 1664.285
   },
   {
     "car": {
@@ -214,10 +214,10 @@
       "Model": "F20",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.3,
-    "price": 5615.16,
-    "priceWithDiscount": 3930.612
+    "customerName": "Hai Everton",
+    "Discount": 0.55,
+    "price": 3572.19,
+    "priceWithDiscount": 1607.4855
   },
   {
     "car": {
@@ -225,10 +225,10 @@
       "Model": "F25",
       "TravelledDistance": 9223372036854775807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.2,
-    "price": 6272.75,
-    "priceWithDiscount": 5018.200
+    "customerName": "Natalie Poli",
+    "Discount": 0.4,
+    "price": 4383.56,
+    "priceWithDiscount": 2630.136
   },
   {
     "car": {
@@ -236,10 +236,10 @@
       "Model": "M5 F10",
       "TravelledDistance": 10
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.3,
-    "price": 2509.17,
-    "priceWithDiscount": 1756.419
+    "customerName": "Garret Capron",
+    "Discount": 0.1,
+    "price": 1526.08,
+    "priceWithDiscount": 1373.472
   },
   {
     "car": {
@@ -247,10 +247,10 @@
       "Model": "F04",
       "TravelledDistance": 100000
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.45,
-    "price": 1447.43,
-    "priceWithDiscount": 796.0865
+    "customerName": "Garret Capron",
+    "Discount": 0.2,
+    "price": 1777.69,
+    "priceWithDiscount": 1422.152
   },
   {
     "car": {
@@ -258,10 +258,10 @@
       "Model": "E88",
       "TravelledDistance": 200000
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.15000000000000002,
-    "price": 5110.50,
-    "priceWithDiscount": 4343.9249999999998977900
+    "customerName": "Brett Brickley",
+    "Discount": 0.35,
+    "price": 10795.53,
+    "priceWithDiscount": 7017.0945
   },
   {
     "car": {
@@ -269,10 +269,10 @@
       "Model": "M Roadster E85",
       "TravelledDistance": 92233720365807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.25,
-    "price": 3307.15,
-    "priceWithDiscount": 2480.3625
+    "customerName": "Natalie Poli",
+    "Discount": 0.4,
+    "price": 5923.18,
+    "priceWithDiscount": 3553.908
   },
   {
     "car": {
@@ -280,10 +280,10 @@
       "Model": "1M Coupe",
       "TravelledDistance": 2147
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.4,
-    "price": 5979.87,
-    "priceWithDiscount": 3587.922
+    "customerName": "Lino Subia",
+    "Discount": 0.1,
+    "price": 11336.48,
+    "priceWithDiscount": 10202.832
   },
   {
     "car": {
@@ -291,10 +291,10 @@
       "Model": "X6 M",
       "TravelledDistance": 922775807
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.3,
-    "price": 5963.47,
-    "priceWithDiscount": 4174.429
+    "customerName": "Zada Attwood",
+    "Discount": 0.05,
+    "price": 3614.50,
+    "priceWithDiscount": 3433.7750
   },
   {
     "car": {
@@ -302,10 +302,10 @@
       "Model": "E67",
       "TravelledDistance": 21447
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.4,
-    "price": 1646.81,
-    "priceWithDiscount": 988.086
+    "customerName": "Rema Revelle",
+    "Discount": 0.1,
+    "price": 803.00,
+    "priceWithDiscount": 722.700
   },
   {
     "car": {
@@ -313,10 +313,10 @@
       "Model": "M6 E63",
       "TravelledDistance": 92235807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.55,
-    "price": 3499.65,
-    "priceWithDiscount": 1574.8425
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.05,
+    "price": 4621.86,
+    "priceWithDiscount": 4390.7670
   },
   {
     "car": {
@@ -324,10 +324,10 @@
       "Model": "M6 E63",
       "TravelledDistance": 2147
     },
-    "customerName": "Emmitt Benally",
-    "Discount": 0.15000000000000002,
-    "price": 8257.93,
-    "priceWithDiscount": 7019.2404999999998348414
+    "customerName": "Taina Achenbach",
+    "Discount": 0.4,
+    "price": 1638.90,
+    "priceWithDiscount": 983.340
   },
   {
     "car": {
@@ -335,10 +335,10 @@
       "Model": "F20",
       "TravelledDistance": 21447
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.25,
-    "price": 1455.08,
-    "priceWithDiscount": 1091.3100
+    "customerName": "Louann Holzworth",
+    "Discount": 0.3,
+    "price": 3606.33,
+    "priceWithDiscount": 2524.431
   },
   {
     "car": {
@@ -346,10 +346,10 @@
       "Model": "F04",
       "TravelledDistance": 2143647
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.25,
-    "price": 2657.36,
-    "priceWithDiscount": 1993.0200
+    "customerName": "Louann Holzworth",
+    "Discount": 0.05,
+    "price": 2987.42,
+    "priceWithDiscount": 2838.0490
   },
   {
     "car": {
@@ -357,10 +357,10 @@
       "Model": "M5 F10",
       "TravelledDistance": 27483647
     },
-    "customerName": "Garret Capron",
+    "customerName": "Sylvie Mcelravy",
     "Discount": 0.0,
-    "price": 4635.07,
-    "priceWithDiscount": 4635.070
+    "price": 3911.52,
+    "priceWithDiscount": 3911.520
   },
   {
     "car": {
@@ -369,9 +369,9 @@
       "TravelledDistance": 2036854775807
     },
     "customerName": "Daniele Zarate",
-    "Discount": 0.2,
-    "price": 3368.68,
-    "priceWithDiscount": 2694.944
+    "Discount": 0.5,
+    "price": 1054.77,
+    "priceWithDiscount": 527.385
   },
   {
     "car": {
@@ -379,10 +379,10 @@
       "Model": "F20",
       "TravelledDistance": 83647
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.1,
-    "price": 1890.69,
-    "priceWithDiscount": 1701.621
+    "customerName": "Marcelle Griego",
+    "Discount": 0.05,
+    "price": 4167.57,
+    "priceWithDiscount": 3959.1915
   },
   {
     "car": {
@@ -390,10 +390,10 @@
       "Model": "X6 M",
       "TravelledDistance": 483647
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.1,
-    "price": 4905.56,
-    "priceWithDiscount": 4415.004
+    "customerName": "Rico Peer",
+    "Discount": 0.2,
+    "price": 3040.82,
+    "priceWithDiscount": 2432.656
   },
   {
     "car": {
@@ -401,10 +401,10 @@
       "Model": "F04",
       "TravelledDistance": 483647
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.5,
-    "price": 3015.88,
-    "priceWithDiscount": 1507.940
+    "customerName": "Lino Subia",
+    "Discount": 0.05,
+    "price": 2565.47,
+    "priceWithDiscount": 2437.1965
   },
   {
     "car": {
@@ -412,10 +412,10 @@
       "Model": "F20",
       "TravelledDistance": 975807
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.45,
-    "price": 2981.88,
-    "priceWithDiscount": 1640.0340
+    "customerName": "Daniele Zarate",
+    "Discount": 0.3,
+    "price": 3716.12,
+    "priceWithDiscount": 2601.284
   },
   {
     "car": {
@@ -423,10 +423,10 @@
       "Model": "M6 E63",
       "TravelledDistance": 214747
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.2,
-    "price": 2924.60,
-    "priceWithDiscount": 2339.680
+    "customerName": "Teddy Hobby",
+    "Discount": 0.55,
+    "price": 4957.32,
+    "priceWithDiscount": 2230.7940
   },
   {
     "car": {
@@ -434,10 +434,10 @@
       "Model": "Panda",
       "TravelledDistance": 92233854775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.55,
-    "price": 5015.59,
-    "priceWithDiscount": 2257.0155
+    "customerName": "Rico Peer",
+    "Discount": 0.1,
+    "price": 1450.71,
+    "priceWithDiscount": 1305.639
   },
   {
     "car": {
@@ -445,10 +445,10 @@
       "Model": "Panda 4x4 Antarctica",
       "TravelledDistance": 214747
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.15000000000000002,
-    "price": 4459.03,
-    "priceWithDiscount": 3790.1754999999999108194
+    "customerName": "Sylvie Mcelravy",
+    "Discount": 0.4,
+    "price": 1742.49,
+    "priceWithDiscount": 1045.494
   },
   {
     "car": {
@@ -456,10 +456,10 @@
       "Model": "500 (2007) Abarth 695 Tributo Maserati",
       "TravelledDistance": 214747
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.1,
-    "price": 6240.07,
-    "priceWithDiscount": 5616.063
+    "customerName": "Taina Achenbach",
+    "Discount": 0.05,
+    "price": 2474.81,
+    "priceWithDiscount": 2351.0695
   },
   {
     "car": {
@@ -467,10 +467,10 @@
       "Model": "Panda 4x4 Antarctica",
       "TravelledDistance": 2183647
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.1,
-    "price": 7801.37,
-    "priceWithDiscount": 7021.233
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.05,
+    "price": 3762.26,
+    "priceWithDiscount": 3574.1470
   },
   {
     "car": {
@@ -478,10 +478,10 @@
       "Model": "Panda 4x4",
       "TravelledDistance": 2147447
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.15,
-    "price": 5621.01,
-    "priceWithDiscount": 4777.8585
+    "customerName": "Teddy Hobby",
+    "Discount": 0.1,
+    "price": 3573.52,
+    "priceWithDiscount": 3216.168
   },
   {
     "car": {
@@ -489,10 +489,10 @@
       "Model": "Panda",
       "TravelledDistance": 21447
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.15,
-    "price": 10874.18,
-    "priceWithDiscount": 9243.0530
+    "customerName": "Oren Perlman",
+    "Discount": 0.1,
+    "price": 6638.88,
+    "priceWithDiscount": 5974.992
   },
   {
     "car": {
@@ -501,9 +501,9 @@
       "TravelledDistance": 214647
     },
     "customerName": "Carole Witman",
-    "Discount": 0.4,
-    "price": 6481.36,
-    "priceWithDiscount": 3888.816
+    "Discount": 0.3,
+    "price": 5133.82,
+    "priceWithDiscount": 3593.674
   },
   {
     "car": {
@@ -511,10 +511,10 @@
       "Model": "500L",
       "TravelledDistance": 21474847
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.5,
-    "price": 1311.26,
-    "priceWithDiscount": 655.630
+    "customerName": "Teddy Hobby",
+    "Discount": 0.55,
+    "price": 3210.97,
+    "priceWithDiscount": 1444.9365
   },
   {
     "car": {
@@ -522,10 +522,10 @@
       "Model": "Panda",
       "TravelledDistance": 21474837
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.2,
-    "price": 1408.16,
-    "priceWithDiscount": 1126.528
+    "customerName": "Nisha Markwell",
+    "Discount": 0.0,
+    "price": 6247.23,
+    "priceWithDiscount": 6247.230
   },
   {
     "car": {
@@ -533,10 +533,10 @@
       "Model": "Freemont",
       "TravelledDistance": 92233685477
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.15,
-    "price": 1220.33,
-    "priceWithDiscount": 1037.2805
+    "customerName": "Louann Holzworth",
+    "Discount": 0.05,
+    "price": 975.15,
+    "priceWithDiscount": 926.3925
   },
   {
     "car": {
@@ -544,10 +544,10 @@
       "Model": "Panda 4x4",
       "TravelledDistance": 92233736854775807
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.2,
-    "price": 4105.55,
-    "priceWithDiscount": 3284.440
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.55,
+    "price": 1678.46,
+    "priceWithDiscount": 755.3070
   },
   {
     "car": {
@@ -555,10 +555,10 @@
       "Model": "Panda 4x4 Antarctica",
       "TravelledDistance": 21483647
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.0,
-    "price": 4764.64,
-    "priceWithDiscount": 4764.640
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.25,
+    "price": 7988.55,
+    "priceWithDiscount": 5991.4125
   },
   {
     "car": {
@@ -566,10 +566,10 @@
       "Model": "500L",
       "TravelledDistance": 2147647
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.3,
-    "price": 3332.82,
-    "priceWithDiscount": 2332.974
+    "customerName": "Daniele Zarate",
+    "Discount": 0.1,
+    "price": 1911.01,
+    "priceWithDiscount": 1719.909
   },
   {
     "car": {
@@ -577,10 +577,10 @@
       "Model": "500L",
       "TravelledDistance": 92233754775807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.4,
-    "price": 2703.01,
-    "priceWithDiscount": 1621.806
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.15000000000000002,
+    "price": 9057.45,
+    "priceWithDiscount": 7698.8324999999998188510
   },
   {
     "car": {
@@ -588,10 +588,10 @@
       "Model": "500 (2007) Abarth 695 Tributo Maserati",
       "TravelledDistance": 922337205807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.0,
-    "price": 4498.79,
-    "priceWithDiscount": 4498.790
+    "customerName": "Teddy Hobby",
+    "Discount": 0.1,
+    "price": 3853.56,
+    "priceWithDiscount": 3468.204
   },
   {
     "car": {
@@ -599,10 +599,10 @@
       "Model": "Panda",
       "TravelledDistance": 2147487
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.35,
-    "price": 3785.14,
-    "priceWithDiscount": 2460.3410
+    "customerName": "Teddy Hobby",
+    "Discount": 0.15000000000000002,
+    "price": 2667.23,
+    "priceWithDiscount": 2267.1454999999999466554
   },
   {
     "car": {
@@ -610,10 +610,10 @@
       "Model": "500L",
       "TravelledDistance": 922337204775807
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.05,
-    "price": 2425.89,
-    "priceWithDiscount": 2304.5955
+    "customerName": "Hai Everton",
+    "Discount": 0.25,
+    "price": 3723.79,
+    "priceWithDiscount": 2792.8425
   },
   {
     "car": {
@@ -621,10 +621,10 @@
       "Model": "Freemont",
       "TravelledDistance": 21473647
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.2,
-    "price": 3975.18,
-    "priceWithDiscount": 3180.144
+    "customerName": "Kristian Engberg",
+    "Discount": 0.5,
+    "price": 1691.71,
+    "priceWithDiscount": 845.855
   },
   {
     "car": {
@@ -632,10 +632,10 @@
       "Model": "Panda 4x4",
       "TravelledDistance": 922036854775807
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.55,
-    "price": 6559.12,
-    "priceWithDiscount": 2951.6040
+    "customerName": "Natalie Poli",
+    "Discount": 0.5,
+    "price": 5729.85,
+    "priceWithDiscount": 2864.925
   },
   {
     "car": {
@@ -643,10 +643,10 @@
       "Model": "500 (2007) Abarth 695 Tributo Maserati",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.2,
-    "price": 2570.84,
-    "priceWithDiscount": 2056.672
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.35,
+    "price": 3752.79,
+    "priceWithDiscount": 2439.3135
   },
   {
     "car": {
@@ -654,10 +654,10 @@
       "Model": "Freemont",
       "TravelledDistance": 2147647
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.35,
-    "price": 3142.21,
-    "priceWithDiscount": 2042.4365
+    "customerName": "Rema Revelle",
+    "Discount": 0.15000000000000002,
+    "price": 1946.21,
+    "priceWithDiscount": 1654.2784999999999610758
   },
   {
     "car": {
@@ -665,10 +665,10 @@
       "Model": "500L",
       "TravelledDistance": 922337203675807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.3,
-    "price": 4269.47,
-    "priceWithDiscount": 2988.629
+    "customerName": "Oren Perlman",
+    "Discount": 0.2,
+    "price": 2234.35,
+    "priceWithDiscount": 1787.480
   },
   {
     "car": {
@@ -676,10 +676,10 @@
       "Model": "A 140",
       "TravelledDistance": 92233754775807
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.2,
-    "price": 4195.18,
-    "priceWithDiscount": 3356.144
+    "customerName": "Marcelle Griego",
+    "Discount": 0.15000000000000002,
+    "price": 5689.72,
+    "priceWithDiscount": 4836.2619999999998862056
   },
   {
     "car": {
@@ -688,9 +688,9 @@
       "TravelledDistance": 2147647
     },
     "customerName": "Francis Mckim",
-    "Discount": 0.05,
-    "price": 4545.42,
-    "priceWithDiscount": 4318.1490
+    "Discount": 0.55,
+    "price": 3290.85,
+    "priceWithDiscount": 1480.8825
   },
   {
     "car": {
@@ -698,10 +698,10 @@
       "Model": "A 160",
       "TravelledDistance": 9223372036
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.05,
-    "price": 3067.84,
-    "priceWithDiscount": 2914.4480
+    "customerName": "Natalie Poli",
+    "Discount": 0.5,
+    "price": 2566.36,
+    "priceWithDiscount": 1283.180
   },
   {
     "car": {
@@ -709,10 +709,10 @@
       "Model": "A 160 CDI",
       "TravelledDistance": 4775807
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.2,
-    "price": 6097.26,
-    "priceWithDiscount": 4877.808
+    "customerName": "Faustina Burgher",
+    "Discount": 0.05,
+    "price": 2201.74,
+    "priceWithDiscount": 2091.6530
   },
   {
     "car": {
@@ -720,10 +720,10 @@
       "Model": "W212",
       "TravelledDistance": 54775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.15,
-    "price": 7413.53,
-    "priceWithDiscount": 6301.5005
+    "customerName": "Garret Capron",
+    "Discount": 0.2,
+    "price": 3010.04,
+    "priceWithDiscount": 2408.032
   },
   {
     "car": {
@@ -731,10 +731,10 @@
       "Model": "W202",
       "TravelledDistance": 92233754775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.15000000000000002,
-    "price": 4437.20,
-    "priceWithDiscount": 3771.6199999999999112560
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.2,
+    "price": 2999.04,
+    "priceWithDiscount": 2399.232
   },
   {
     "car": {
@@ -742,10 +742,10 @@
       "Model": "W211",
       "TravelledDistance": 47757
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.1,
-    "price": 4169.37,
-    "priceWithDiscount": 3752.433
+    "customerName": "Kristian Engberg",
+    "Discount": 0.15,
+    "price": 6940.01,
+    "priceWithDiscount": 5899.0085
   },
   {
     "car": {
@@ -753,10 +753,10 @@
       "Model": "A 170 CDI",
       "TravelledDistance": 9223775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.3,
-    "price": 2425.34,
-    "priceWithDiscount": 1697.738
+    "customerName": "Nisha Markwell",
+    "Discount": 0.0,
+    "price": 4403.36,
+    "priceWithDiscount": 4403.360
   },
   {
     "car": {
@@ -764,10 +764,10 @@
       "Model": "W212",
       "TravelledDistance": 927254775807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.35,
-    "price": 9397.09,
-    "priceWithDiscount": 6108.1085
+    "customerName": "Teddy Hobby",
+    "Discount": 0.05,
+    "price": 7735.68,
+    "priceWithDiscount": 7348.8960
   },
   {
     "car": {
@@ -775,10 +775,10 @@
       "Model": "W124",
       "TravelledDistance": 922336854775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.3,
-    "price": 6904.22,
-    "priceWithDiscount": 4832.954
+    "customerName": "Oren Perlman",
+    "Discount": 0.05,
+    "price": 3500.05,
+    "priceWithDiscount": 3325.0475
   },
   {
     "car": {
@@ -786,10 +786,10 @@
       "Model": "W210",
       "TravelledDistance": 9223372036854775807
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.3,
-    "price": 3126.85,
-    "priceWithDiscount": 2188.795
+    "customerName": "Taina Achenbach",
+    "Discount": 0.15,
+    "price": 1891.69,
+    "priceWithDiscount": 1607.9365
   },
   {
     "car": {
@@ -797,10 +797,10 @@
       "Model": "W202",
       "TravelledDistance": 2147647
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.05,
-    "price": 8204.86,
-    "priceWithDiscount": 7794.6170
+    "customerName": "Francis Mckim",
+    "Discount": 0.25,
+    "price": 3371.13,
+    "priceWithDiscount": 2528.3475
   },
   {
     "car": {
@@ -808,10 +808,10 @@
       "Model": "W211",
       "TravelledDistance": 922775807
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.4,
-    "price": 6989.04,
-    "priceWithDiscount": 4193.424
+    "customerName": "Rico Peer",
+    "Discount": 0.35,
+    "price": 5212.46,
+    "priceWithDiscount": 3388.0990
   },
   {
     "car": {
@@ -819,10 +819,10 @@
       "Model": "W212",
       "TravelledDistance": 2183647
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.2,
-    "price": 1691.25,
-    "priceWithDiscount": 1353.000
+    "customerName": "Nisha Markwell",
+    "Discount": 0.05,
+    "price": 890.46,
+    "priceWithDiscount": 845.9370
   },
   {
     "car": {
@@ -830,10 +830,10 @@
       "Model": "W203",
       "TravelledDistance": 5807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.15,
-    "price": 6846.14,
-    "priceWithDiscount": 5819.2190
+    "customerName": "Kristian Engberg",
+    "Discount": 0.2,
+    "price": 3777.52,
+    "priceWithDiscount": 3022.016
   },
   {
     "car": {
@@ -841,10 +841,10 @@
       "Model": "W211",
       "TravelledDistance": 92775807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.45,
-    "price": 3009.17,
-    "priceWithDiscount": 1655.0435
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.55,
+    "price": 4736.54,
+    "priceWithDiscount": 2131.4430
   },
   {
     "car": {
@@ -852,10 +852,10 @@
       "Model": "W210",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Emmitt Benally",
+    "customerName": "Zada Attwood",
     "Discount": 0.15000000000000002,
-    "price": 9718.04,
-    "priceWithDiscount": 8260.3339999999998056392
+    "price": 1994.24,
+    "priceWithDiscount": 1695.1039999999999601152
   },
   {
     "car": {
@@ -863,10 +863,10 @@
       "Model": "W204",
       "TravelledDistance": 9285807
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.0,
-    "price": 2768.16,
-    "priceWithDiscount": 2768.160
+    "customerName": "Carri Knapik",
+    "Discount": 0.45,
+    "price": 1647.06,
+    "priceWithDiscount": 905.8830
   },
   {
     "car": {
@@ -874,10 +874,10 @@
       "Model": "W124",
       "TravelledDistance": 2147647
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.25,
-    "price": 3764.34,
-    "priceWithDiscount": 2823.2550
+    "customerName": "Teddy Hobby",
+    "Discount": 0.15000000000000002,
+    "price": 4511.12,
+    "priceWithDiscount": 3834.4519999999999097776
   },
   {
     "car": {
@@ -885,10 +885,10 @@
       "Model": "W212",
       "TravelledDistance": 927
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.05,
-    "price": 3743.86,
-    "priceWithDiscount": 3556.6670
+    "customerName": "Louann Holzworth",
+    "Discount": 0.4,
+    "price": 5503.53,
+    "priceWithDiscount": 3302.118
   },
   {
     "car": {
@@ -896,10 +896,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 922807
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.45,
-    "price": 4196.46,
-    "priceWithDiscount": 2308.0530
+    "customerName": "Faustina Burgher",
+    "Discount": 0.3,
+    "price": 6589.86,
+    "priceWithDiscount": 4612.902
   },
   {
     "car": {
@@ -907,10 +907,10 @@
       "Model": "Pinto",
       "TravelledDistance": 9854775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.3,
-    "price": 11086.19,
-    "priceWithDiscount": 7760.333
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.2,
+    "price": 5697.28,
+    "priceWithDiscount": 4557.824
   },
   {
     "car": {
@@ -918,10 +918,10 @@
       "Model": "Torino",
       "TravelledDistance": 2147
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.25,
-    "price": 2803.73,
-    "priceWithDiscount": 2102.7975
+    "customerName": "Kristian Engberg",
+    "Discount": 0.4,
+    "price": 963.38,
+    "priceWithDiscount": 578.028
   },
   {
     "car": {
@@ -929,10 +929,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 214647
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.45,
-    "price": 2556.87,
-    "priceWithDiscount": 1406.2785
+    "customerName": "Brett Brickley",
+    "Discount": 0.35,
+    "price": 2042.61,
+    "priceWithDiscount": 1327.6965
   },
   {
     "car": {
@@ -940,10 +940,10 @@
       "Model": "Pinto",
       "TravelledDistance": 922337807
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.25,
-    "price": 2740.09,
-    "priceWithDiscount": 2055.0675
+    "customerName": "Brett Brickley",
+    "Discount": 0.55,
+    "price": 4785.17,
+    "priceWithDiscount": 2153.3265
   },
   {
     "car": {
@@ -951,10 +951,10 @@
       "Model": "Taurus",
       "TravelledDistance": 21473647
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.35,
-    "price": 2565.87,
-    "priceWithDiscount": 1667.8155
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.45,
+    "price": 1381.21,
+    "priceWithDiscount": 759.6655
   },
   {
     "car": {
@@ -962,10 +962,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 2143647
     },
-    "customerName": "Lino Subia",
+    "customerName": "Johnette Derryberry",
     "Discount": 0.05,
-    "price": 5859.31,
-    "priceWithDiscount": 5566.3445
+    "price": 2314.63,
+    "priceWithDiscount": 2198.8985
   },
   {
     "car": {
@@ -973,10 +973,10 @@
       "Model": "Torino",
       "TravelledDistance": 922337807
     },
-    "customerName": "Emmitt Benally",
-    "Discount": 0.45,
-    "price": 1595.40,
-    "priceWithDiscount": 877.4700
+    "customerName": "Kristian Engberg",
+    "Discount": 0.2,
+    "price": 5467.18,
+    "priceWithDiscount": 4373.744
   },
   {
     "car": {
@@ -985,9 +985,9 @@
       "TravelledDistance": 922337203
     },
     "customerName": "Donnetta Soliz",
-    "Discount": 0.1,
-    "price": 5135.74,
-    "priceWithDiscount": 4622.166
+    "Discount": 0.45,
+    "price": 2423.16,
+    "priceWithDiscount": 1332.7380
   },
   {
     "car": {
@@ -995,10 +995,10 @@
       "Model": "GT40",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.5,
-    "price": 7580.69,
-    "priceWithDiscount": 3790.345
+    "customerName": "Hai Everton",
+    "Discount": 0.55,
+    "price": 5321.42,
+    "priceWithDiscount": 2394.6390
   },
   {
     "car": {
@@ -1006,10 +1006,10 @@
       "Model": "Pinto",
       "TravelledDistance": 9223807
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.05,
-    "price": 4941.13,
-    "priceWithDiscount": 4694.0735
+    "customerName": "Marcelle Griego",
+    "Discount": 0.25,
+    "price": 3472.57,
+    "priceWithDiscount": 2604.4275
   },
   {
     "car": {
@@ -1017,10 +1017,10 @@
       "Model": "GT40",
       "TravelledDistance": 9223377
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.35,
-    "price": 1293.05,
-    "priceWithDiscount": 840.4825
+    "customerName": "Zada Attwood",
+    "Discount": 0.1,
+    "price": 859.40,
+    "priceWithDiscount": 773.460
   },
   {
     "car": {
@@ -1028,10 +1028,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 922337775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.15,
-    "price": 1870.21,
-    "priceWithDiscount": 1589.6785
+    "customerName": "Emmitt Benally",
+    "Discount": 0.35,
+    "price": 1078.30,
+    "priceWithDiscount": 700.8950
   },
   {
     "car": {
@@ -1039,10 +1039,10 @@
       "Model": "Torino",
       "TravelledDistance": 217
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.55,
-    "price": 5493.60,
-    "priceWithDiscount": 2472.1200
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.05,
+    "price": 3290.87,
+    "priceWithDiscount": 3126.3265
   },
   {
     "car": {
@@ -1050,10 +1050,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 922375807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.15,
-    "price": 8162.12,
-    "priceWithDiscount": 6937.8020
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.2,
+    "price": 1931.43,
+    "priceWithDiscount": 1545.144
   },
   {
     "car": {
@@ -1061,10 +1061,10 @@
       "Model": "Pinto",
       "TravelledDistance": 214647
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.25,
-    "price": 7691.72,
-    "priceWithDiscount": 5768.7900
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.0,
+    "price": 3532.43,
+    "priceWithDiscount": 3532.430
   },
   {
     "car": {
@@ -1072,10 +1072,10 @@
       "Model": "Taurus",
       "TravelledDistance": 9223375807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.45,
-    "price": 4651.40,
-    "priceWithDiscount": 2558.2700
+    "customerName": "Lino Subia",
+    "Discount": 0.4,
+    "price": 5244.91,
+    "priceWithDiscount": 3146.946
   },
   {
     "car": {
@@ -1083,10 +1083,10 @@
       "Model": "Fiesta",
       "TravelledDistance": 214647
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.05,
-    "price": 3186.34,
-    "priceWithDiscount": 3027.0230
+    "customerName": "Carri Knapik",
+    "Discount": 0.55,
+    "price": 7031.07,
+    "priceWithDiscount": 3163.9815
   },
   {
     "car": {
@@ -1094,10 +1094,10 @@
       "Model": "Torino",
       "TravelledDistance": 21474647
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.45,
-    "price": 6405.45,
-    "priceWithDiscount": 3522.9975
+    "customerName": "Daniele Zarate",
+    "Discount": 0.5,
+    "price": 2505.77,
+    "priceWithDiscount": 1252.885
   },
   {
     "car": {
@@ -1105,10 +1105,10 @@
       "Model": "Ranger",
       "TravelledDistance": 9223372007
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.05,
-    "price": 9938.20,
-    "priceWithDiscount": 9441.2900
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.45,
+    "price": 1369.61,
+    "priceWithDiscount": 753.2855
   },
   {
     "car": {
@@ -1116,10 +1116,10 @@
       "Model": "Pinto",
       "TravelledDistance": 2147647
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.1,
-    "price": 5988.02,
-    "priceWithDiscount": 5389.218
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.2,
+    "price": 3670.38,
+    "priceWithDiscount": 2936.304
   },
   {
     "car": {
@@ -1127,10 +1127,10 @@
       "Model": "Ranger",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.15000000000000002,
-    "price": 4672.86,
-    "priceWithDiscount": 3971.9309999999999065428
+    "customerName": "Kristian Engberg",
+    "Discount": 0.2,
+    "price": 6157.49,
+    "priceWithDiscount": 4925.992
   },
   {
     "car": {
@@ -1139,9 +1139,9 @@
       "TravelledDistance": 9223372037
     },
     "customerName": "Hai Everton",
-    "Discount": 0.35,
-    "price": 8930.50,
-    "priceWithDiscount": 5804.8250
+    "Discount": 0.2,
+    "price": 2735.74,
+    "priceWithDiscount": 2188.592
   },
   {
     "car": {
@@ -1149,10 +1149,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 96854775807
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.5,
-    "price": 5220.06,
-    "priceWithDiscount": 2610.030
+    "customerName": "Rema Revelle",
+    "Discount": 0.2,
+    "price": 2234.26,
+    "priceWithDiscount": 1787.408
   },
   {
     "car": {
@@ -1160,10 +1160,10 @@
       "Model": "Prius",
       "TravelledDistance": 214747
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.4,
-    "price": 4865.70,
-    "priceWithDiscount": 2919.420
+    "customerName": "Carri Knapik",
+    "Discount": 0.05,
+    "price": 7377.93,
+    "priceWithDiscount": 7009.0335
   },
   {
     "car": {
@@ -1171,10 +1171,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 94775807
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.05,
-    "price": 2467.09,
-    "priceWithDiscount": 2343.7355
+    "customerName": "Lino Subia",
+    "Discount": 0.2,
+    "price": 2430.46,
+    "priceWithDiscount": 1944.368
   },
   {
     "car": {
@@ -1182,10 +1182,10 @@
       "Model": "Prius",
       "TravelledDistance": 922337207
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.55,
-    "price": 5521.05,
-    "priceWithDiscount": 2484.4725
+    "customerName": "Natalie Poli",
+    "Discount": 0.2,
+    "price": 3040.63,
+    "priceWithDiscount": 2432.504
   },
   {
     "car": {
@@ -1193,10 +1193,10 @@
       "Model": "Corolla",
       "TravelledDistance": 9223854775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.0,
-    "price": 2679.17,
-    "priceWithDiscount": 2679.170
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.25,
+    "price": 5047.63,
+    "priceWithDiscount": 3785.7225
   },
   {
     "car": {
@@ -1204,10 +1204,10 @@
       "Model": "Yaris",
       "TravelledDistance": 21477
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.25,
-    "price": 5285.23,
-    "priceWithDiscount": 3963.9225
+    "customerName": "Natalie Poli",
+    "Discount": 0.1,
+    "price": 2257.45,
+    "priceWithDiscount": 2031.705
   },
   {
     "car": {
@@ -1215,10 +1215,10 @@
       "Model": "Prius",
       "TravelledDistance": 922337203685
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.05,
-    "price": 3648.55,
-    "priceWithDiscount": 3466.1225
+    "customerName": "Lino Subia",
+    "Discount": 0.4,
+    "price": 3808.22,
+    "priceWithDiscount": 2284.932
   },
   {
     "car": {
@@ -1226,10 +1226,10 @@
       "Model": "Camry Hybrid",
       "TravelledDistance": 92275807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.3,
-    "price": 4127.12,
-    "priceWithDiscount": 2888.984
+    "customerName": "Rico Peer",
+    "Discount": 0.55,
+    "price": 3967.73,
+    "priceWithDiscount": 1785.4785
   },
   {
     "car": {
@@ -1237,10 +1237,10 @@
       "Model": "Corolla",
       "TravelledDistance": 92235807
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.15,
-    "price": 9289.45,
-    "priceWithDiscount": 7896.0325
+    "customerName": "Taina Achenbach",
+    "Discount": 0.4,
+    "price": 6051.01,
+    "priceWithDiscount": 3630.606
   },
   {
     "car": {
@@ -1248,10 +1248,10 @@
       "Model": "Prius",
       "TravelledDistance": 21477
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.25,
-    "price": 7633.73,
-    "priceWithDiscount": 5725.2975
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.05,
+    "price": 1461.43,
+    "priceWithDiscount": 1388.3585
   },
   {
     "car": {
@@ -1259,10 +1259,10 @@
       "Model": "Corolla",
       "TravelledDistance": 9223807
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.05,
-    "price": 8829.71,
-    "priceWithDiscount": 8388.2245
+    "customerName": "Kristian Engberg",
+    "Discount": 0.3,
+    "price": 853.73,
+    "priceWithDiscount": 597.611
   },
   {
     "car": {
@@ -1272,8 +1272,8 @@
     },
     "customerName": "Carri Knapik",
     "Discount": 0.05,
-    "price": 3775.48,
-    "priceWithDiscount": 3586.7060
+    "price": 3947.33,
+    "priceWithDiscount": 3749.9635
   },
   {
     "car": {
@@ -1281,10 +1281,10 @@
       "Model": "Camry Hybrid",
       "TravelledDistance": 954775807
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.35,
-    "price": 3807.37,
-    "priceWithDiscount": 2474.7905
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.15000000000000002,
+    "price": 8056.21,
+    "priceWithDiscount": 6847.7784999999998388758
   },
   {
     "car": {
@@ -1292,10 +1292,10 @@
       "Model": "Prius",
       "TravelledDistance": 925807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.4,
-    "price": 4289.87,
-    "priceWithDiscount": 2573.922
+    "customerName": "Faustina Burgher",
+    "Discount": 0.05,
+    "price": 3660.69,
+    "priceWithDiscount": 3477.6555
   },
   {
     "car": {
@@ -1303,10 +1303,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 922337807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.0,
-    "price": 6465.03,
-    "priceWithDiscount": 6465.030
+    "customerName": "Carri Knapik",
+    "Discount": 0.1,
+    "price": 3458.74,
+    "priceWithDiscount": 3112.866
   },
   {
     "car": {
@@ -1314,10 +1314,10 @@
       "Model": "Corolla",
       "TravelledDistance": 2147
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.1,
-    "price": 6279.68,
-    "priceWithDiscount": 5651.712
+    "customerName": "Louann Holzworth",
+    "Discount": 0.0,
+    "price": 3356.91,
+    "priceWithDiscount": 3356.910
   },
   {
     "car": {
@@ -1325,10 +1325,10 @@
       "Model": "Prius",
       "TravelledDistance": 21477
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.3,
-    "price": 9185.04,
-    "priceWithDiscount": 6429.528
+    "customerName": "Carri Knapik",
+    "Discount": 0.45,
+    "price": 12272.42,
+    "priceWithDiscount": 6749.8310
   },
   {
     "car": {
@@ -1336,10 +1336,10 @@
       "Model": "Corolla",
       "TravelledDistance": 975807
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.0,
-    "price": 5178.77,
-    "priceWithDiscount": 5178.770
+    "customerName": "Oren Perlman",
+    "Discount": 0.55,
+    "price": 4555.53,
+    "priceWithDiscount": 2049.9885
   },
   {
     "car": {
@@ -1347,10 +1347,10 @@
       "Model": "Yaris",
       "TravelledDistance": 94775807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.45,
-    "price": 2637.47,
-    "priceWithDiscount": 1450.6085
+    "customerName": "Kristian Engberg",
+    "Discount": 0.15,
+    "price": 3079.20,
+    "priceWithDiscount": 2617.3200
   },
   {
     "car": {
@@ -1358,10 +1358,10 @@
       "Model": "Corolla",
       "TravelledDistance": 21477
     },
-    "customerName": "Carole Witman",
+    "customerName": "Louann Holzworth",
     "Discount": 0.15,
-    "price": 8913.09,
-    "priceWithDiscount": 7576.1265
+    "price": 1109.57,
+    "priceWithDiscount": 943.1345
   },
   {
     "car": {
@@ -1369,10 +1369,10 @@
       "Model": "Prius",
       "TravelledDistance": 283647
     },
-    "customerName": "Emmitt Benally",
-    "Discount": 0.35,
-    "price": 1052.61,
-    "priceWithDiscount": 684.1965
+    "customerName": "Hai Everton",
+    "Discount": 0.25,
+    "price": 6314.24,
+    "priceWithDiscount": 4735.6800
   },
   {
     "car": {
@@ -1380,10 +1380,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 927
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.15000000000000002,
-    "price": 2233.70,
-    "priceWithDiscount": 1898.6449999999999553260
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.3,
+    "price": 3958.10,
+    "priceWithDiscount": 2770.670
   },
   {
     "car": {
@@ -1391,10 +1391,10 @@
       "Model": "Yaris",
       "TravelledDistance": 9207
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.3,
-    "price": 4728.76,
-    "priceWithDiscount": 3310.132
+    "customerName": "Garret Capron",
+    "Discount": 0.5,
+    "price": 4041.39,
+    "priceWithDiscount": 2020.695
   },
   {
     "car": {
@@ -1402,10 +1402,10 @@
       "Model": "Prius",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.2,
-    "price": 2708.05,
-    "priceWithDiscount": 2166.440
+    "customerName": "Oren Perlman",
+    "Discount": 0.05,
+    "price": 1797.17,
+    "priceWithDiscount": 1707.3115
   },
   {
     "car": {
@@ -1414,9 +1414,9 @@
       "TravelledDistance": 247
     },
     "customerName": "Garret Capron",
-    "Discount": 0.0,
-    "price": 2736.38,
-    "priceWithDiscount": 2736.380
+    "Discount": 0.2,
+    "price": 6735.00,
+    "priceWithDiscount": 5388.000
   },
   {
     "car": {
@@ -1424,10 +1424,10 @@
       "Model": "Prius",
       "TravelledDistance": 9223354775807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.1,
-    "price": 2456.81,
-    "priceWithDiscount": 2211.129
+    "customerName": "Nisha Markwell",
+    "Discount": 0.2,
+    "price": 2086.67,
+    "priceWithDiscount": 1669.336
   },
   {
     "car": {
@@ -1435,10 +1435,10 @@
       "Model": "Yaris",
       "TravelledDistance": 21477
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.2,
-    "price": 4411.54,
-    "priceWithDiscount": 3529.232
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.25,
+    "price": 4075.28,
+    "priceWithDiscount": 3056.4600
   },
   {
     "car": {
@@ -1446,10 +1446,10 @@
       "Model": "Prius",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.1,
-    "price": 4369.86,
-    "priceWithDiscount": 3932.874
+    "customerName": "Rema Revelle",
+    "Discount": 0.45,
+    "price": 1221.07,
+    "priceWithDiscount": 671.5885
   },
   {
     "car": {
@@ -1457,10 +1457,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 2147
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.0,
-    "price": 841.17,
-    "priceWithDiscount": 841.170
+    "customerName": "Daniele Zarate",
+    "Discount": 0.15,
+    "price": 7963.49,
+    "priceWithDiscount": 6768.9665
   },
   {
     "car": {
@@ -1468,10 +1468,10 @@
       "Model": "Camry Hybrid",
       "TravelledDistance": 2143647
     },
-    "customerName": "Carri Knapik",
+    "customerName": "Ann Mcenaney",
     "Discount": 0.55,
-    "price": 2532.11,
-    "priceWithDiscount": 1139.4495
+    "price": 4180.52,
+    "priceWithDiscount": 1881.2340
   },
   {
     "car": {
@@ -1479,10 +1479,10 @@
       "Model": "Prius",
       "TravelledDistance": 922337807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.45,
-    "price": 2367.12,
-    "priceWithDiscount": 1301.9160
+    "customerName": "Taina Achenbach",
+    "Discount": 0.5,
+    "price": 6306.78,
+    "priceWithDiscount": 3153.390
   },
   {
     "car": {
@@ -1490,10 +1490,10 @@
       "Model": "Camry Hybrid",
       "TravelledDistance": 214647
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.2,
-    "price": 2051.63,
-    "priceWithDiscount": 1641.304
+    "customerName": "Brett Brickley",
+    "Discount": 0.55,
+    "price": 1733.14,
+    "priceWithDiscount": 779.9130
   },
   {
     "car": {
@@ -1501,10 +1501,10 @@
       "Model": "Prius",
       "TravelledDistance": 922335807
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.15000000000000002,
-    "price": 2938.39,
-    "priceWithDiscount": 2497.6314999999999412322
+    "customerName": "Teddy Hobby",
+    "Discount": 0.35,
+    "price": 3951.74,
+    "priceWithDiscount": 2568.6310
   },
   {
     "car": {
@@ -1512,10 +1512,10 @@
       "Model": "Tacoma",
       "TravelledDistance": 21474647
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.05,
-    "price": 6110.90,
-    "priceWithDiscount": 5805.3550
+    "customerName": "Teddy Hobby",
+    "Discount": 0.25,
+    "price": 5586.77,
+    "priceWithDiscount": 4190.0775
   },
   {
     "car": {
@@ -1523,10 +1523,10 @@
       "Model": "Camry Hybrid",
       "TravelledDistance": 214647
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.1,
-    "price": 2458.61,
-    "priceWithDiscount": 2212.749
+    "customerName": "Zada Attwood",
+    "Discount": 0.15000000000000002,
+    "price": 5064.88,
+    "priceWithDiscount": 4305.1479999999998987024
   },
   {
     "car": {
@@ -1534,10 +1534,10 @@
       "Model": "GT-R",
       "TravelledDistance": 21473647
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.15000000000000002,
-    "price": 4222.53,
-    "priceWithDiscount": 3589.1504999999999155494
+    "customerName": "Marcelle Griego",
+    "Discount": 0.45,
+    "price": 7064.64,
+    "priceWithDiscount": 3885.5520
   },
   {
     "car": {
@@ -1545,10 +1545,10 @@
       "Model": "Altima",
       "TravelledDistance": 9223372775807
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.05,
-    "price": 1434.55,
-    "priceWithDiscount": 1362.8225
+    "customerName": "Taina Achenbach",
+    "Discount": 0.4,
+    "price": 11905.43,
+    "priceWithDiscount": 7143.258
   },
   {
     "car": {
@@ -1556,10 +1556,10 @@
       "Model": "GT-R",
       "TravelledDistance": 2147647
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.1,
-    "price": 9423.38,
-    "priceWithDiscount": 8481.042
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.2,
+    "price": 1742.05,
+    "priceWithDiscount": 1393.640
   },
   {
     "car": {
@@ -1567,10 +1567,10 @@
       "Model": "370Z",
       "TravelledDistance": 2143647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.0,
-    "price": 4919.55,
-    "priceWithDiscount": 4919.550
+    "customerName": "Faustina Burgher",
+    "Discount": 0.2,
+    "price": 8159.55,
+    "priceWithDiscount": 6527.640
   },
   {
     "car": {
@@ -1578,10 +1578,10 @@
       "Model": "GT-R",
       "TravelledDistance": 21477
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.5,
-    "price": 1284.33,
-    "priceWithDiscount": 642.165
+    "customerName": "Faustina Burgher",
+    "Discount": 0.0,
+    "price": 1519.47,
+    "priceWithDiscount": 1519.470
   },
   {
     "car": {
@@ -1589,10 +1589,10 @@
       "Model": "Altima",
       "TravelledDistance": 9224775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.05,
-    "price": 2827.43,
-    "priceWithDiscount": 2686.0585
+    "customerName": "Rema Revelle",
+    "Discount": 0.55,
+    "price": 9602.99,
+    "priceWithDiscount": 4321.3455
   },
   {
     "car": {
@@ -1600,10 +1600,10 @@
       "Model": "GT-R",
       "TravelledDistance": 23647
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.1,
-    "price": 2504.14,
-    "priceWithDiscount": 2253.726
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.55,
+    "price": 3199.69,
+    "priceWithDiscount": 1439.8605
   },
   {
     "car": {
@@ -1611,10 +1611,10 @@
       "Model": "370Z",
       "TravelledDistance": 922775807
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.2,
-    "price": 9675.74,
-    "priceWithDiscount": 7740.592
+    "customerName": "Sylvie Mcelravy",
+    "Discount": 0.05,
+    "price": 5171.13,
+    "priceWithDiscount": 4912.5735
   },
   {
     "car": {
@@ -1622,10 +1622,10 @@
       "Model": "370Z",
       "TravelledDistance": 21477
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.25,
-    "price": 2132.32,
-    "priceWithDiscount": 1599.2400
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.45,
+    "price": 6156.25,
+    "priceWithDiscount": 3385.9375
   },
   {
     "car": {
@@ -1633,10 +1633,10 @@
       "Model": "Altima",
       "TravelledDistance": 2147
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.55,
-    "price": 6850.04,
-    "priceWithDiscount": 3082.5180
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.25,
+    "price": 1957.05,
+    "priceWithDiscount": 1467.7875
   },
   {
     "car": {
@@ -1644,10 +1644,10 @@
       "Model": "370Z",
       "TravelledDistance": 21447
     },
-    "customerName": "Marcelle Griego",
+    "customerName": "Rema Revelle",
     "Discount": 0.25,
-    "price": 4941.77,
-    "priceWithDiscount": 3706.3275
+    "price": 2407.76,
+    "priceWithDiscount": 1805.8200
   },
   {
     "car": {
@@ -1655,10 +1655,10 @@
       "Model": "Altima",
       "TravelledDistance": 92233707
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.2,
-    "price": 3196.89,
-    "priceWithDiscount": 2557.512
+    "customerName": "Louann Holzworth",
+    "Discount": 0.1,
+    "price": 7909.08,
+    "priceWithDiscount": 7118.172
   },
   {
     "car": {
@@ -1666,10 +1666,10 @@
       "Model": "GT-R",
       "TravelledDistance": 954775807
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.1,
-    "price": 2057.74,
-    "priceWithDiscount": 1851.966
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.55,
+    "price": 5099.18,
+    "priceWithDiscount": 2294.6310
   },
   {
     "car": {
@@ -1677,10 +1677,10 @@
       "Model": "Altima",
       "TravelledDistance": 214647
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.05,
-    "price": 2795.14,
-    "priceWithDiscount": 2655.3830
+    "customerName": "Hai Everton",
+    "Discount": 0.35,
+    "price": 3610.24,
+    "priceWithDiscount": 2346.6560
   },
   {
     "car": {
@@ -1688,10 +1688,10 @@
       "Model": "370Z",
       "TravelledDistance": 922337205807
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.05,
-    "price": 1058.10,
-    "priceWithDiscount": 1005.1950
+    "customerName": "Louann Holzworth",
+    "Discount": 0.4,
+    "price": 3618.06,
+    "priceWithDiscount": 2170.836
   },
   {
     "car": {
@@ -1699,10 +1699,10 @@
       "Model": "GT-R",
       "TravelledDistance": 96854775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.15,
-    "price": 5877.63,
-    "priceWithDiscount": 4995.9855
+    "customerName": "Daniele Zarate",
+    "Discount": 0.1,
+    "price": 1114.01,
+    "priceWithDiscount": 1002.609
   },
   {
     "car": {
@@ -1710,10 +1710,10 @@
       "Model": "Versa",
       "TravelledDistance": 9223775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.5,
-    "price": 680.88,
-    "priceWithDiscount": 340.440
+    "customerName": "Marcelle Griego",
+    "Discount": 0.05,
+    "price": 2545.14,
+    "priceWithDiscount": 2417.8830
   },
   {
     "car": {
@@ -1721,10 +1721,10 @@
       "Model": "Altima",
       "TravelledDistance": 2147447
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.25,
-    "price": 3032.64,
-    "priceWithDiscount": 2274.4800
+    "customerName": "Oren Perlman",
+    "Discount": 0.05,
+    "price": 11721.97,
+    "priceWithDiscount": 11135.8715
   },
   {
     "car": {
@@ -1732,10 +1732,10 @@
       "Model": "370Z",
       "TravelledDistance": 922307
     },
-    "customerName": "Cinthia Lasala",
+    "customerName": "Brett Brickley",
     "Discount": 0.15000000000000002,
-    "price": 2879.19,
-    "priceWithDiscount": 2447.3114999999999424162
+    "price": 5521.46,
+    "priceWithDiscount": 4693.2409999999998895708
   },
   {
     "car": {
@@ -1743,10 +1743,10 @@
       "Model": "GT-R",
       "TravelledDistance": 2147447
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.2,
-    "price": 7584.15,
-    "priceWithDiscount": 6067.320
+    "customerName": "Lino Subia",
+    "Discount": 0.0,
+    "price": 2462.96,
+    "priceWithDiscount": 2462.960
   },
   {
     "car": {
@@ -1754,10 +1754,10 @@
       "Model": "Rogue",
       "TravelledDistance": 9223807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.2,
-    "price": 4959.78,
-    "priceWithDiscount": 3967.824
+    "customerName": "Oren Perlman",
+    "Discount": 0.45,
+    "price": 3973.63,
+    "priceWithDiscount": 2185.4965
   },
   {
     "car": {
@@ -1765,10 +1765,10 @@
       "Model": "Altima",
       "TravelledDistance": 213647
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.45,
-    "price": 7101.49,
-    "priceWithDiscount": 3905.8195
+    "customerName": "Rema Revelle",
+    "Discount": 0.55,
+    "price": 5440.07,
+    "priceWithDiscount": 2448.0315
   },
   {
     "car": {
@@ -1776,10 +1776,10 @@
       "Model": "GT-R",
       "TravelledDistance": 2143647
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.3,
-    "price": 4094.84,
-    "priceWithDiscount": 2866.388
+    "customerName": "Emmitt Benally",
+    "Discount": 0.55,
+    "price": 1598.38,
+    "priceWithDiscount": 719.2710
   },
   {
     "car": {
@@ -1787,10 +1787,10 @@
       "Model": "Altima",
       "TravelledDistance": 214747
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.5,
-    "price": 2541.87,
-    "priceWithDiscount": 1270.935
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.25,
+    "price": 2448.21,
+    "priceWithDiscount": 1836.1575
   },
   {
     "car": {
@@ -1798,10 +1798,10 @@
       "Model": "Rogue",
       "TravelledDistance": 214647
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.2,
-    "price": 1388.43,
-    "priceWithDiscount": 1110.744
+    "customerName": "Nisha Markwell",
+    "Discount": 0.0,
+    "price": 2674.39,
+    "priceWithDiscount": 2674.390
   },
   {
     "car": {
@@ -1809,10 +1809,10 @@
       "Model": "GT-R",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.1,
-    "price": 3628.01,
-    "priceWithDiscount": 3265.209
+    "customerName": "Francis Mckim",
+    "Discount": 0.15000000000000002,
+    "price": 4246.24,
+    "priceWithDiscount": 3609.3039999999999150752
   },
   {
     "car": {
@@ -1820,10 +1820,10 @@
       "Model": "Altima",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.0,
-    "price": 2454.16,
-    "priceWithDiscount": 2454.160
+    "customerName": "Kristian Engberg",
+    "Discount": 0.2,
+    "price": 1879.55,
+    "priceWithDiscount": 1503.640
   },
   {
     "car": {
@@ -1831,10 +1831,10 @@
       "Model": "Versa",
       "TravelledDistance": 2143647
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.25,
-    "price": 5123.70,
-    "priceWithDiscount": 3842.7750
+    "customerName": "Francis Mckim",
+    "Discount": 0.45,
+    "price": 3477.56,
+    "priceWithDiscount": 1912.6580
   },
   {
     "car": {
@@ -1842,10 +1842,10 @@
       "Model": "GT-R",
       "TravelledDistance": 2143647
     },
-    "customerName": "Carole Witman",
+    "customerName": "Donnetta Soliz",
     "Discount": 0.05,
-    "price": 4680.19,
-    "priceWithDiscount": 4446.1805
+    "price": 2589.77,
+    "priceWithDiscount": 2460.2815
   },
   {
     "car": {
@@ -1853,10 +1853,10 @@
       "Model": "Versa",
       "TravelledDistance": 922775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.4,
-    "price": 5081.66,
-    "priceWithDiscount": 3048.996
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.05,
+    "price": 2353.49,
+    "priceWithDiscount": 2235.8155
   },
   {
     "car": {
@@ -1864,10 +1864,10 @@
       "Model": "H2",
       "TravelledDistance": 9236854775807
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.4,
-    "price": 2319.41,
-    "priceWithDiscount": 1391.646
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.25,
+    "price": 1810.85,
+    "priceWithDiscount": 1358.1375
   },
   {
     "car": {
@@ -1875,10 +1875,10 @@
       "Model": "Haval M4",
       "TravelledDistance": 213647
     },
-    "customerName": "Francis Mckim",
+    "customerName": "Audrea Cardinal",
     "Discount": 0.2,
-    "price": 3481.20,
-    "priceWithDiscount": 2784.960
+    "price": 9549.63,
+    "priceWithDiscount": 7639.704
   },
   {
     "car": {
@@ -1886,10 +1886,10 @@
       "Model": "H2",
       "TravelledDistance": 21647
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.05,
-    "price": 2048.71,
-    "priceWithDiscount": 1946.2745
+    "customerName": "Hai Everton",
+    "Discount": 0.15000000000000002,
+    "price": 5016.13,
+    "priceWithDiscount": 4263.7104999999998996774
   },
   {
     "car": {
@@ -1897,10 +1897,10 @@
       "Model": "H8",
       "TravelledDistance": 21447
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.35,
-    "price": 4177.32,
-    "priceWithDiscount": 2715.2580
+    "customerName": "Oren Perlman",
+    "Discount": 0.15000000000000002,
+    "price": 4860.10,
+    "priceWithDiscount": 4131.0849999999999027980
   },
   {
     "car": {
@@ -1908,10 +1908,10 @@
       "Model": "Steed 3",
       "TravelledDistance": 922336854775807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.15000000000000002,
-    "price": 7757.10,
-    "priceWithDiscount": 6593.5349999999998448580
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.35,
+    "price": 1310.33,
+    "priceWithDiscount": 851.7145
   },
   {
     "car": {
@@ -1919,10 +1919,10 @@
       "Model": "Wingle 5",
       "TravelledDistance": 214747
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.0,
-    "price": 4957.95,
-    "priceWithDiscount": 4957.950
+    "customerName": "Teddy Hobby",
+    "Discount": 0.55,
+    "price": 3121.73,
+    "priceWithDiscount": 1404.7785
   },
   {
     "car": {
@@ -1930,10 +1930,10 @@
       "Model": "Haval M4",
       "TravelledDistance": 9223372035807
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.15000000000000002,
-    "price": 6571.88,
-    "priceWithDiscount": 5586.0979999999998685624
+    "customerName": "Rico Peer",
+    "Discount": 0.35,
+    "price": 2119.88,
+    "priceWithDiscount": 1377.9220
   },
   {
     "car": {
@@ -1941,10 +1941,10 @@
       "Model": "Haval H6",
       "TravelledDistance": 214747
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.4,
-    "price": 5963.50,
-    "priceWithDiscount": 3578.100
+    "customerName": "Lino Subia",
+    "Discount": 0.05,
+    "price": 4373.05,
+    "priceWithDiscount": 4154.3975
   },
   {
     "car": {
@@ -1952,10 +1952,10 @@
       "Model": "Alaskan",
       "TravelledDistance": 2647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.3,
-    "price": 4829.63,
-    "priceWithDiscount": 3380.741
+    "customerName": "Francis Mckim",
+    "Discount": 0.15000000000000002,
+    "price": 3551.02,
+    "priceWithDiscount": 3018.3669999999999289796
   },
   {
     "car": {
@@ -1963,10 +1963,10 @@
       "Model": "Clio IV",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.05,
-    "price": 5295.71,
-    "priceWithDiscount": 5030.9245
+    "customerName": "Rema Revelle",
+    "Discount": 0.2,
+    "price": 1837.02,
+    "priceWithDiscount": 1469.616
   },
   {
     "car": {
@@ -1974,10 +1974,10 @@
       "Model": "Duster",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.55,
-    "price": 2718.80,
-    "priceWithDiscount": 1223.4600
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.1,
+    "price": 4727.46,
+    "priceWithDiscount": 4254.714
   },
   {
     "car": {
@@ -1985,32 +1985,10 @@
       "Model": "Alaskan",
       "TravelledDistance": 92807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.05,
-    "price": 878.34,
-    "priceWithDiscount": 834.4230
-  },
-  {
-    "car": {
-      "Make": "Renault",
-      "Model": "Alaskan",
-      "TravelledDistance": 2147483647
-    },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.15000000000000002,
-    "price": 2815.25,
-    "priceWithDiscount": 2392.9624999999999436950
-  },
-  {
-    "car": {
-      "Make": "Renault",
-      "Model": "Duster",
-      "TravelledDistance": 922337203685807
-    },
-    "customerName": "Brett Brickley",
-    "Discount": 0.1,
-    "price": 1448.21,
-    "priceWithDiscount": 1303.389
+    "customerName": "Garret Capron",
+    "Discount": 0.3,
+    "price": 1889.38,
+    "priceWithDiscount": 1322.566
   },
   {
     "car": {
@@ -2019,9 +1997,31 @@
       "TravelledDistance": 2147483647
     },
     "customerName": "Donnetta Soliz",
+    "Discount": 0.35,
+    "price": 1021.02,
+    "priceWithDiscount": 663.6630
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Duster",
+      "TravelledDistance": 922337203685807
+    },
+    "customerName": "Carole Witman",
+    "Discount": 0.3,
+    "price": 3750.61,
+    "priceWithDiscount": 2625.427
+  },
+  {
+    "car": {
+      "Make": "Renault",
+      "Model": "Alaskan",
+      "TravelledDistance": 2147483647
+    },
+    "customerName": "Hai Everton",
     "Discount": 0.15000000000000002,
-    "price": 7670.79,
-    "priceWithDiscount": 6520.1714999999998465842
+    "price": 4422.78,
+    "priceWithDiscount": 3759.3629999999999115444
   },
   {
     "car": {
@@ -2029,10 +2029,10 @@
       "Model": "Clio IV",
       "TravelledDistance": 92234775807
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.3,
-    "price": 8027.05,
-    "priceWithDiscount": 5618.935
+    "customerName": "Natalie Poli",
+    "Discount": 0.15,
+    "price": 3487.74,
+    "priceWithDiscount": 2964.5790
   },
   {
     "car": {
@@ -2040,10 +2040,10 @@
       "Model": "Duster",
       "TravelledDistance": 922337203685807
     },
-    "customerName": "Francis Mckim",
+    "customerName": "Johnette Derryberry",
     "Discount": 0.05,
-    "price": 4911.83,
-    "priceWithDiscount": 4666.2385
+    "price": 5090.04,
+    "priceWithDiscount": 4835.5380
   },
   {
     "car": {
@@ -2051,10 +2051,10 @@
       "Model": "Alaskan",
       "TravelledDistance": 92233720375807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.2,
-    "price": 6136.14,
-    "priceWithDiscount": 4908.912
+    "customerName": "Oren Perlman",
+    "Discount": 0.55,
+    "price": 5617.53,
+    "priceWithDiscount": 2527.8885
   },
   {
     "car": {
@@ -2062,10 +2062,10 @@
       "Model": "Captur",
       "TravelledDistance": 9223807
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.2,
-    "price": 1662.42,
-    "priceWithDiscount": 1329.936
+    "customerName": "Lino Subia",
+    "Discount": 0.05,
+    "price": 8681.56,
+    "priceWithDiscount": 8247.4820
   },
   {
     "car": {
@@ -2073,10 +2073,10 @@
       "Model": "Alaskan",
       "TravelledDistance": 21447
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.05,
-    "price": 7420.54,
-    "priceWithDiscount": 7049.5130
+    "customerName": "Brett Brickley",
+    "Discount": 0.15000000000000002,
+    "price": 5014.15,
+    "priceWithDiscount": 4262.0274999999998997170
   },
   {
     "car": {
@@ -2084,10 +2084,10 @@
       "Model": "Espace",
       "TravelledDistance": 9223375807
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.45,
-    "price": 4001.01,
-    "priceWithDiscount": 2200.5555
+    "customerName": "Hai Everton",
+    "Discount": 0.35,
+    "price": 10004.04,
+    "priceWithDiscount": 6502.6260
   },
   {
     "car": {
@@ -2096,9 +2096,9 @@
       "TravelledDistance": 2147483647
     },
     "customerName": "Daniele Zarate",
-    "Discount": 0.15,
-    "price": 6291.91,
-    "priceWithDiscount": 5348.1235
+    "Discount": 0.4,
+    "price": 3130.71,
+    "priceWithDiscount": 1878.426
   },
   {
     "car": {
@@ -2106,10 +2106,10 @@
       "Model": "Captur",
       "TravelledDistance": 92233724775807
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.1,
-    "price": 4364.92,
-    "priceWithDiscount": 3928.428
+    "customerName": "Rico Peer",
+    "Discount": 0.05,
+    "price": 1402.66,
+    "priceWithDiscount": 1332.5270
   },
   {
     "car": {
@@ -2117,10 +2117,10 @@
       "Model": "Espace",
       "TravelledDistance": 2147487
     },
-    "customerName": "Emmitt Benally",
-    "Discount": 0.55,
-    "price": 7720.66,
-    "priceWithDiscount": 3474.2970
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.25,
+    "price": 2832.57,
+    "priceWithDiscount": 2124.4275
   },
   {
     "car": {
@@ -2128,10 +2128,10 @@
       "Model": "Camaro",
       "TravelledDistance": 92233854775807
     },
-    "customerName": "Hipolito Lamoreaux",
+    "customerName": "Hai Everton",
     "Discount": 0.45,
-    "price": 3058.46,
-    "priceWithDiscount": 1682.1530
+    "price": 3544.71,
+    "priceWithDiscount": 1949.5905
   },
   {
     "car": {
@@ -2139,10 +2139,10 @@
       "Model": "Caprice",
       "TravelledDistance": 2147647
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.2,
-    "price": 3947.67,
-    "priceWithDiscount": 3158.136
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.05,
+    "price": 4118.54,
+    "priceWithDiscount": 3912.6130
   },
   {
     "car": {
@@ -2150,10 +2150,10 @@
       "Model": "Camaro",
       "TravelledDistance": 922335807
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.15000000000000002,
-    "price": 6299.75,
-    "priceWithDiscount": 5354.7874999999998740050
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.1,
+    "price": 2212.44,
+    "priceWithDiscount": 1991.196
   },
   {
     "car": {
@@ -2161,10 +2161,10 @@
       "Model": "Caprice",
       "TravelledDistance": 2143647
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.35,
-    "price": 9290.10,
-    "priceWithDiscount": 6038.5650
+    "customerName": "Carri Knapik",
+    "Discount": 0.2,
+    "price": 4863.27,
+    "priceWithDiscount": 3890.616
   },
   {
     "car": {
@@ -2172,10 +2172,10 @@
       "Model": "Malibu",
       "TravelledDistance": 92233854775807
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.2,
-    "price": 2628.39,
-    "priceWithDiscount": 2102.712
+    "customerName": "Carole Witman",
+    "Discount": 0.5,
+    "price": 4554.17,
+    "priceWithDiscount": 2277.085
   },
   {
     "car": {
@@ -2183,10 +2183,10 @@
       "Model": "Camaro",
       "TravelledDistance": 283647
     },
-    "customerName": "Faustina Burgher",
+    "customerName": "Louann Holzworth",
     "Discount": 0.4,
-    "price": 2126.74,
-    "priceWithDiscount": 1276.044
+    "price": 3704.76,
+    "priceWithDiscount": 2222.856
   },
   {
     "car": {
@@ -2194,10 +2194,10 @@
       "Model": "Impala",
       "TravelledDistance": 214747
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.1,
-    "price": 8708.05,
-    "priceWithDiscount": 7837.245
+    "customerName": "Carri Knapik",
+    "Discount": 0.15000000000000002,
+    "price": 3595.91,
+    "priceWithDiscount": 3056.5234999999999280818
   },
   {
     "car": {
@@ -2205,10 +2205,10 @@
       "Model": "Malibu",
       "TravelledDistance": 922337775807
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.5,
-    "price": 3376.20,
-    "priceWithDiscount": 1688.100
+    "customerName": "Daniele Zarate",
+    "Discount": 0.4,
+    "price": 3933.18,
+    "priceWithDiscount": 2359.908
   },
   {
     "car": {
@@ -2216,10 +2216,10 @@
       "Model": "Impala",
       "TravelledDistance": 214748347
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.55,
-    "price": 6847.94,
-    "priceWithDiscount": 3081.5730
+    "customerName": "Garret Capron",
+    "Discount": 0.5,
+    "price": 2780.85,
+    "priceWithDiscount": 1390.425
   },
   {
     "car": {
@@ -2227,10 +2227,10 @@
       "Model": "Camaro",
       "TravelledDistance": 21473647
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.35,
-    "price": 1208.98,
-    "priceWithDiscount": 785.8370
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.1,
+    "price": 4902.82,
+    "priceWithDiscount": 4412.538
   },
   {
     "car": {
@@ -2238,10 +2238,10 @@
       "Model": "Camaro",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.5,
-    "price": 4340.27,
-    "priceWithDiscount": 2170.135
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.1,
+    "price": 1393.36,
+    "priceWithDiscount": 1254.024
   },
   {
     "car": {
@@ -2249,10 +2249,10 @@
       "Model": "Corvette",
       "TravelledDistance": 92233720375807
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.05,
-    "price": 1437.70,
-    "priceWithDiscount": 1365.8150
+    "customerName": "Sylvie Mcelravy",
+    "Discount": 0.4,
+    "price": 2622.06,
+    "priceWithDiscount": 1573.236
   },
   {
     "car": {
@@ -2260,10 +2260,10 @@
       "Model": "Cruze",
       "TravelledDistance": 92775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.35,
-    "price": 4542.04,
-    "priceWithDiscount": 2952.3260
+    "customerName": "Zada Attwood",
+    "Discount": 0.05,
+    "price": 1644.48,
+    "priceWithDiscount": 1562.2560
   },
   {
     "car": {
@@ -2271,10 +2271,10 @@
       "Model": "Corvette",
       "TravelledDistance": 21474847
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.15000000000000002,
-    "price": 1055.68,
-    "priceWithDiscount": 897.3279999999999788864
+    "customerName": "Daniele Zarate",
+    "Discount": 0.05,
+    "price": 1342.18,
+    "priceWithDiscount": 1275.0710
   },
   {
     "car": {
@@ -2282,10 +2282,10 @@
       "Model": "Camaro",
       "TravelledDistance": 2147487
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.25,
-    "price": 2984.90,
-    "priceWithDiscount": 2238.6750
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.35,
+    "price": 1912.41,
+    "priceWithDiscount": 1243.0665
   },
   {
     "car": {
@@ -2293,10 +2293,10 @@
       "Model": "Caprice",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.55,
-    "price": 1702.24,
-    "priceWithDiscount": 766.0080
+    "customerName": "Lino Subia",
+    "Discount": 0.0,
+    "price": 5743.52,
+    "priceWithDiscount": 5743.520
   },
   {
     "car": {
@@ -2304,10 +2304,10 @@
       "Model": "Cruze",
       "TravelledDistance": 9223372034775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.15,
-    "price": 6659.06,
-    "priceWithDiscount": 5660.2010
+    "customerName": "Carole Witman",
+    "Discount": 0.0,
+    "price": 6178.80,
+    "priceWithDiscount": 6178.800
   },
   {
     "car": {
@@ -2315,10 +2315,10 @@
       "Model": "Caprice",
       "TravelledDistance": 9223372034775807
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.15000000000000002,
-    "price": 2877.18,
-    "priceWithDiscount": 2445.6029999999999424564
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.35,
+    "price": 2691.84,
+    "priceWithDiscount": 1749.6960
   },
   {
     "car": {
@@ -2326,10 +2326,10 @@
       "Model": "Matiz",
       "TravelledDistance": 922337203685807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.4,
-    "price": 5388.89,
-    "priceWithDiscount": 3233.334
+    "customerName": "Teddy Hobby",
+    "Discount": 0.55,
+    "price": 7475.87,
+    "priceWithDiscount": 3364.1415
   },
   {
     "car": {
@@ -2337,10 +2337,10 @@
       "Model": "Phantom",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.45,
-    "price": 3288.66,
-    "priceWithDiscount": 1808.7630
+    "customerName": "Faustina Burgher",
+    "Discount": 0.05,
+    "price": 1767.10,
+    "priceWithDiscount": 1678.7450
   },
   {
     "car": {
@@ -2348,10 +2348,10 @@
       "Model": "Phantom Drophead Coupé",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.55,
-    "price": 3477.45,
-    "priceWithDiscount": 1564.8525
+    "customerName": "Hai Everton",
+    "Discount": 0.1,
+    "price": 1629.62,
+    "priceWithDiscount": 1466.658
   },
   {
     "car": {
@@ -2359,10 +2359,10 @@
       "Model": "Phantom",
       "TravelledDistance": 214647
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.3,
-    "price": 5031.85,
-    "priceWithDiscount": 3522.295
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.45,
+    "price": 6069.42,
+    "priceWithDiscount": 3338.1810
   },
   {
     "car": {
@@ -2370,10 +2370,10 @@
       "Model": "Ghost",
       "TravelledDistance": 21473647
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.05,
-    "price": 4027.69,
-    "priceWithDiscount": 3826.3055
+    "customerName": "Daniele Zarate",
+    "Discount": 0.0,
+    "price": 5597.38,
+    "priceWithDiscount": 5597.380
   },
   {
     "car": {
@@ -2381,10 +2381,10 @@
       "Model": "Dawn",
       "TravelledDistance": 214647
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.05,
-    "price": 2028.27,
-    "priceWithDiscount": 1926.8565
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.55,
+    "price": 5309.79,
+    "priceWithDiscount": 2389.4055
   },
   {
     "car": {
@@ -2392,10 +2392,10 @@
       "Model": "Phantom",
       "TravelledDistance": 922337254775807
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.25,
-    "price": 3664.44,
-    "priceWithDiscount": 2748.3300
+    "customerName": "Nisha Markwell",
+    "Discount": 0.2,
+    "price": 2758.94,
+    "priceWithDiscount": 2207.152
   },
   {
     "car": {
@@ -2403,10 +2403,10 @@
       "Model": "Ghost",
       "TravelledDistance": 214747
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.2,
-    "price": 974.44,
-    "priceWithDiscount": 779.552
+    "customerName": "Louann Holzworth",
+    "Discount": 0.1,
+    "price": 4638.17,
+    "priceWithDiscount": 4174.353
   },
   {
     "car": {
@@ -2414,10 +2414,10 @@
       "Model": "Wraith",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.1,
-    "price": 5675.25,
-    "priceWithDiscount": 5107.725
+    "customerName": "Natalie Poli",
+    "Discount": 0.0,
+    "price": 4450.70,
+    "priceWithDiscount": 4450.700
   },
   {
     "car": {
@@ -2425,10 +2425,10 @@
       "Model": "Phantom Drophead Coupé",
       "TravelledDistance": 922336854775807
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.2,
-    "price": 4347.23,
-    "priceWithDiscount": 3477.784
+    "customerName": "Emmitt Benally",
+    "Discount": 0.05,
+    "price": 4795.15,
+    "priceWithDiscount": 4555.3925
   },
   {
     "car": {
@@ -2436,10 +2436,10 @@
       "Model": "Wraith",
       "TravelledDistance": 21647
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.0,
-    "price": 3016.13,
-    "priceWithDiscount": 3016.130
+    "customerName": "Hai Everton",
+    "Discount": 0.05,
+    "price": 1970.32,
+    "priceWithDiscount": 1871.8040
   },
   {
     "car": {
@@ -2447,10 +2447,10 @@
       "Model": "Phantom Drophead Coupé",
       "TravelledDistance": 9223372075807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.25,
-    "price": 4737.89,
-    "priceWithDiscount": 3553.4175
+    "customerName": "Zada Attwood",
+    "Discount": 0.35,
+    "price": 4537.71,
+    "priceWithDiscount": 2949.5115
   },
   {
     "car": {
@@ -2458,10 +2458,10 @@
       "Model": "Gallardo",
       "TravelledDistance": 92234775807
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.45,
-    "price": 1139.56,
-    "priceWithDiscount": 626.7580
+    "customerName": "Teddy Hobby",
+    "Discount": 0.15000000000000002,
+    "price": 4357.14,
+    "priceWithDiscount": 3703.5689999999999128572
   },
   {
     "car": {
@@ -2469,10 +2469,10 @@
       "Model": "Murciélago",
       "TravelledDistance": 2143647
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.25,
-    "price": 1542.89,
-    "priceWithDiscount": 1157.1675
+    "customerName": "Carole Witman",
+    "Discount": 0.1,
+    "price": 7141.78,
+    "priceWithDiscount": 6427.602
   },
   {
     "car": {
@@ -2480,10 +2480,10 @@
       "Model": "Diablo",
       "TravelledDistance": 283647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.2,
-    "price": 5575.75,
-    "priceWithDiscount": 4460.600
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.45,
+    "price": 9479.67,
+    "priceWithDiscount": 5213.8185
   },
   {
     "car": {
@@ -2491,10 +2491,10 @@
       "Model": "Gallardo",
       "TravelledDistance": 9223372054775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.35,
-    "price": 8424.50,
-    "priceWithDiscount": 5475.9250
+    "customerName": "Rico Peer",
+    "Discount": 0.2,
+    "price": 3821.71,
+    "priceWithDiscount": 3057.368
   },
   {
     "car": {
@@ -2502,10 +2502,10 @@
       "Model": "Murciélago",
       "TravelledDistance": 214783647
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.15000000000000002,
-    "price": 4200.17,
-    "priceWithDiscount": 3570.1444999999999159966
+    "customerName": "Rico Peer",
+    "Discount": 0.05,
+    "price": 1853.61,
+    "priceWithDiscount": 1760.9295
   },
   {
     "car": {
@@ -2513,10 +2513,10 @@
       "Model": "Gallardo",
       "TravelledDistance": 923372054775807
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.1,
-    "price": 5240.56,
-    "priceWithDiscount": 4716.504
+    "customerName": "Hai Everton",
+    "Discount": 0.35,
+    "price": 1515.50,
+    "priceWithDiscount": 985.0750
   },
   {
     "car": {
@@ -2524,10 +2524,10 @@
       "Model": "Diablo",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.2,
-    "price": 3039.26,
-    "priceWithDiscount": 2431.408
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.15,
+    "price": 3945.40,
+    "priceWithDiscount": 3353.5900
   },
   {
     "car": {
@@ -2535,10 +2535,10 @@
       "Model": "Daytona",
       "TravelledDistance": 92036854775807
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.1,
-    "price": 3769.17,
-    "priceWithDiscount": 3392.253
+    "customerName": "Lino Subia",
+    "Discount": 0.05,
+    "price": 1019.25,
+    "priceWithDiscount": 968.2875
   },
   {
     "car": {
@@ -2546,10 +2546,10 @@
       "Model": "250 GTO",
       "TravelledDistance": 214747
     },
-    "customerName": "Rico Peer",
+    "customerName": "Hai Everton",
     "Discount": 0.1,
-    "price": 5404.94,
-    "priceWithDiscount": 4864.446
+    "price": 2507.06,
+    "priceWithDiscount": 2256.354
   },
   {
     "car": {
@@ -2557,10 +2557,10 @@
       "Model": "F430",
       "TravelledDistance": 2147647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.5,
-    "price": 4026.22,
-    "priceWithDiscount": 2013.110
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.45,
+    "price": 2291.70,
+    "priceWithDiscount": 1260.4350
   },
   {
     "car": {
@@ -2568,10 +2568,10 @@
       "Model": "275",
       "TravelledDistance": 92854775807
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.55,
-    "price": 7447.97,
-    "priceWithDiscount": 3351.5865
+    "customerName": "Faustina Burgher",
+    "Discount": 0.4,
+    "price": 4341.23,
+    "priceWithDiscount": 2604.738
   },
   {
     "car": {
@@ -2579,10 +2579,10 @@
       "Model": "F430",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Ann Mcenaney",
+    "customerName": "Zada Attwood",
     "Discount": 0.45,
-    "price": 5288.81,
-    "priceWithDiscount": 2908.8455
+    "price": 4982.26,
+    "priceWithDiscount": 2740.2430
   },
   {
     "car": {
@@ -2590,10 +2590,10 @@
       "Model": "F40",
       "TravelledDistance": 2647
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.05,
-    "price": 1695.75,
-    "priceWithDiscount": 1610.9625
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.35,
+    "price": 2446.34,
+    "priceWithDiscount": 1590.1210
   },
   {
     "car": {
@@ -2601,10 +2601,10 @@
       "Model": "250 GTO",
       "TravelledDistance": 214747
     },
-    "customerName": "Garret Capron",
-    "Discount": 0.5,
-    "price": 2634.94,
-    "priceWithDiscount": 1317.470
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.15000000000000002,
+    "price": 2168.94,
+    "priceWithDiscount": 1843.5989999999999566212
   },
   {
     "car": {
@@ -2613,9 +2613,9 @@
       "TravelledDistance": 922337275807
     },
     "customerName": "Audrea Cardinal",
-    "Discount": 0.5,
-    "price": 3837.81,
-    "priceWithDiscount": 1918.905
+    "Discount": 0.05,
+    "price": 4573.14,
+    "priceWithDiscount": 4344.4830
   },
   {
     "car": {
@@ -2623,10 +2623,10 @@
       "Model": "275",
       "TravelledDistance": 214647
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.45,
-    "price": 5226.63,
-    "priceWithDiscount": 2874.6465
+    "customerName": "Francis Mckim",
+    "Discount": 0.55,
+    "price": 2560.92,
+    "priceWithDiscount": 1152.4140
   },
   {
     "car": {
@@ -2634,10 +2634,10 @@
       "Model": "250 GTO",
       "TravelledDistance": 2183647
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.15000000000000002,
-    "price": 2388.34,
-    "priceWithDiscount": 2030.0889999999999522332
+    "customerName": "Faustina Burgher",
+    "Discount": 0.1,
+    "price": 6185.54,
+    "priceWithDiscount": 5566.986
   },
   {
     "car": {
@@ -2645,10 +2645,10 @@
       "Model": "F40",
       "TravelledDistance": 214647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.2,
-    "price": 4867.99,
-    "priceWithDiscount": 3894.392
+    "customerName": "Taina Achenbach",
+    "Discount": 0.15,
+    "price": 1152.83,
+    "priceWithDiscount": 979.9055
   },
   {
     "car": {
@@ -2656,10 +2656,10 @@
       "Model": "250 GTO",
       "TravelledDistance": 213647
     },
-    "customerName": "Yvonne Mccalla",
+    "customerName": "Carole Witman",
     "Discount": 0.05,
-    "price": 3309.49,
-    "priceWithDiscount": 3144.0155
+    "price": 4707.01,
+    "priceWithDiscount": 4471.6595
   },
   {
     "car": {
@@ -2667,10 +2667,10 @@
       "Model": "F430",
       "TravelledDistance": 214647
     },
-    "customerName": "Taina Achenbach",
+    "customerName": "Audrea Cardinal",
     "Discount": 0.1,
-    "price": 1365.05,
-    "priceWithDiscount": 1228.545
+    "price": 3515.23,
+    "priceWithDiscount": 3163.707
   },
   {
     "car": {
@@ -2678,10 +2678,10 @@
       "Model": "Daytona",
       "TravelledDistance": 213647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.4,
-    "price": 8238.08,
-    "priceWithDiscount": 4942.848
+    "customerName": "Marcelle Griego",
+    "Discount": 0.1,
+    "price": 3524.78,
+    "priceWithDiscount": 3172.302
   },
   {
     "car": {
@@ -2689,10 +2689,10 @@
       "Model": "F40",
       "TravelledDistance": 21447
     },
-    "customerName": "Hipolito Lamoreaux",
+    "customerName": "Johnette Derryberry",
     "Discount": 0.25,
-    "price": 5093.24,
-    "priceWithDiscount": 3819.9300
+    "price": 2786.24,
+    "priceWithDiscount": 2089.6800
   },
   {
     "car": {
@@ -2700,10 +2700,10 @@
       "Model": "250 GTO",
       "TravelledDistance": 213647
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.35,
-    "price": 5665.19,
-    "priceWithDiscount": 3682.3735
+    "customerName": "Rema Revelle",
+    "Discount": 0.55,
+    "price": 566.19,
+    "priceWithDiscount": 254.7855
   },
   {
     "car": {
@@ -2711,10 +2711,10 @@
       "Model": "275",
       "TravelledDistance": 2147647
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.2,
-    "price": 1634.05,
-    "priceWithDiscount": 1307.240
+    "customerName": "Nisha Markwell",
+    "Discount": 0.4,
+    "price": 7795.55,
+    "priceWithDiscount": 4677.330
   },
   {
     "car": {
@@ -2722,10 +2722,10 @@
       "Model": "Enzo",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.45,
-    "price": 2008.18,
-    "priceWithDiscount": 1104.4990
+    "customerName": "Carole Witman",
+    "Discount": 0.0,
+    "price": 1915.38,
+    "priceWithDiscount": 1915.380
   },
   {
     "car": {
@@ -2733,10 +2733,10 @@
       "Model": "Daytona",
       "TravelledDistance": 2147447
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.2,
-    "price": 4095.85,
-    "priceWithDiscount": 3276.680
+    "customerName": "Zada Attwood",
+    "Discount": 0.1,
+    "price": 4223.88,
+    "priceWithDiscount": 3801.492
   },
   {
     "car": {
@@ -2744,10 +2744,10 @@
       "Model": "Giulia",
       "TravelledDistance": 214647
     },
-    "customerName": "Emmitt Benally",
+    "customerName": "Sylvie Mcelravy",
     "Discount": 0.1,
-    "price": 2416.59,
-    "priceWithDiscount": 2174.931
+    "price": 2125.70,
+    "priceWithDiscount": 1913.130
   },
   {
     "car": {
@@ -2755,10 +2755,10 @@
       "Model": "Giulietta",
       "TravelledDistance": 21474847
     },
-    "customerName": "Louann Holzworth",
-    "Discount": 0.0,
-    "price": 4226.75,
-    "priceWithDiscount": 4226.750
+    "customerName": "Carri Knapik",
+    "Discount": 0.15000000000000002,
+    "price": 1870.28,
+    "priceWithDiscount": 1589.7379999999999625944
   },
   {
     "car": {
@@ -2766,10 +2766,10 @@
       "Model": "AR51",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.1,
-    "price": 5578.71,
-    "priceWithDiscount": 5020.839
+    "customerName": "Rico Peer",
+    "Discount": 0.55,
+    "price": 8797.08,
+    "priceWithDiscount": 3958.6860
   },
   {
     "car": {
@@ -2777,10 +2777,10 @@
       "Model": "Alfetta",
       "TravelledDistance": 92233720775807
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.05,
-    "price": 3582.80,
-    "priceWithDiscount": 3403.6600
+    "customerName": "Oren Perlman",
+    "Discount": 0.35,
+    "price": 2120.33,
+    "priceWithDiscount": 1378.2145
   },
   {
     "car": {
@@ -2788,10 +2788,10 @@
       "Model": "75",
       "TravelledDistance": 9223372775807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.0,
-    "price": 3149.87,
-    "priceWithDiscount": 3149.870
+    "customerName": "Natalie Poli",
+    "Discount": 0.1,
+    "price": 1384.15,
+    "priceWithDiscount": 1245.735
   },
   {
     "car": {
@@ -2799,10 +2799,10 @@
       "Model": "AR51",
       "TravelledDistance": 922337275807
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.15000000000000002,
-    "price": 969.42,
-    "priceWithDiscount": 824.0069999999999806116
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.1,
+    "price": 1629.66,
+    "priceWithDiscount": 1466.694
   },
   {
     "car": {
@@ -2810,10 +2810,10 @@
       "Model": "156",
       "TravelledDistance": 92233720368547
     },
-    "customerName": "Teddy Hobby",
+    "customerName": "Natalie Poli",
     "Discount": 0.2,
-    "price": 5059.05,
-    "priceWithDiscount": 4047.240
+    "price": 1060.83,
+    "priceWithDiscount": 848.664
   },
   {
     "car": {
@@ -2821,10 +2821,10 @@
       "Model": "Giulietta",
       "TravelledDistance": 922337203685807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.2,
-    "price": 1735.53,
-    "priceWithDiscount": 1388.424
+    "customerName": "Hai Everton",
+    "Discount": 0.05,
+    "price": 5137.19,
+    "priceWithDiscount": 4880.3305
   },
   {
     "car": {
@@ -2832,10 +2832,10 @@
       "Model": "164",
       "TravelledDistance": 92233775807
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.15000000000000002,
-    "price": 12443.81,
-    "priceWithDiscount": 10577.2384999999997511238
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.45,
+    "price": 2891.72,
+    "priceWithDiscount": 1590.4460
   },
   {
     "car": {
@@ -2843,10 +2843,10 @@
       "Model": "75",
       "TravelledDistance": 72036854775807
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.2,
-    "price": 2043.87,
-    "priceWithDiscount": 1635.096
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.35,
+    "price": 3087.13,
+    "priceWithDiscount": 2006.6345
   },
   {
     "car": {
@@ -2854,10 +2854,10 @@
       "Model": "Giulietta",
       "TravelledDistance": 2036854775807
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.15000000000000002,
-    "price": 4951.66,
-    "priceWithDiscount": 4208.9109999999999009668
+    "customerName": "Nisha Markwell",
+    "Discount": 0.5,
+    "price": 4461.72,
+    "priceWithDiscount": 2230.860
   },
   {
     "car": {
@@ -2865,10 +2865,10 @@
       "Model": "156",
       "TravelledDistance": 92036854775807
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.35,
-    "price": 5272.20,
-    "priceWithDiscount": 3426.9300
+    "customerName": "Oren Perlman",
+    "Discount": 0.2,
+    "price": 4556.57,
+    "priceWithDiscount": 3645.256
   },
   {
     "car": {
@@ -2876,10 +2876,10 @@
       "Model": "Giulietta",
       "TravelledDistance": 2036854775807
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.15,
-    "price": 2483.12,
-    "priceWithDiscount": 2110.6520
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.45,
+    "price": 1724.11,
+    "priceWithDiscount": 948.2605
   },
   {
     "car": {
@@ -2887,10 +2887,10 @@
       "Model": "75",
       "TravelledDistance": 9775807
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.35,
-    "price": 4032.53,
-    "priceWithDiscount": 2621.1445
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.05,
+    "price": 1152.87,
+    "priceWithDiscount": 1095.2265
   },
   {
     "car": {
@@ -2898,10 +2898,10 @@
       "Model": "206",
       "TravelledDistance": 214647
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.45,
-    "price": 4855.48,
-    "priceWithDiscount": 2670.5140
+    "customerName": "Louann Holzworth",
+    "Discount": 0.1,
+    "price": 2606.12,
+    "priceWithDiscount": 2345.508
   },
   {
     "car": {
@@ -2909,10 +2909,10 @@
       "Model": "405",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.5,
-    "price": 4468.92,
-    "priceWithDiscount": 2234.460
+    "customerName": "Lino Subia",
+    "Discount": 0.1,
+    "price": 1349.31,
+    "priceWithDiscount": 1214.379
   },
   {
     "car": {
@@ -2920,10 +2920,10 @@
       "Model": "206",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.5,
-    "price": 6733.01,
-    "priceWithDiscount": 3366.505
+    "customerName": "Francis Mckim",
+    "Discount": 0.45,
+    "price": 6029.10,
+    "priceWithDiscount": 3316.0050
   },
   {
     "car": {
@@ -2931,10 +2931,10 @@
       "Model": "405",
       "TravelledDistance": 922854775807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.25,
-    "price": 3290.86,
-    "priceWithDiscount": 2468.1450
+    "customerName": "Kristian Engberg",
+    "Discount": 0.2,
+    "price": 2998.67,
+    "priceWithDiscount": 2398.936
   },
   {
     "car": {
@@ -2942,10 +2942,10 @@
       "Model": "306",
       "TravelledDistance": 2036854775807
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.0,
-    "price": 1278.48,
-    "priceWithDiscount": 1278.480
+    "customerName": "Johnette Derryberry",
+    "Discount": 0.25,
+    "price": 11781.71,
+    "priceWithDiscount": 8836.2825
   },
   {
     "car": {
@@ -2953,10 +2953,10 @@
       "Model": "308",
       "TravelledDistance": 775807
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.15000000000000002,
-    "price": 2001.74,
-    "priceWithDiscount": 1701.4789999999999599652
+    "customerName": "Rema Revelle",
+    "Discount": 0.05,
+    "price": 5185.96,
+    "priceWithDiscount": 4926.6620
   },
   {
     "car": {
@@ -2964,10 +2964,10 @@
       "Model": "407",
       "TravelledDistance": 854775807
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.2,
-    "price": 5397.95,
-    "priceWithDiscount": 4318.360
+    "customerName": "Carole Witman",
+    "Discount": 0.1,
+    "price": 1688.83,
+    "priceWithDiscount": 1519.947
   },
   {
     "car": {
@@ -2975,10 +2975,10 @@
       "Model": "306",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Garret Capron",
+    "customerName": "Carole Witman",
     "Discount": 0.3,
-    "price": 4475.59,
-    "priceWithDiscount": 3132.913
+    "price": 2325.10,
+    "priceWithDiscount": 1627.570
   },
   {
     "car": {
@@ -2986,10 +2986,10 @@
       "Model": "308",
       "TravelledDistance": 854775807
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.2,
-    "price": 6782.90,
-    "priceWithDiscount": 5426.320
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.05,
+    "price": 2808.14,
+    "priceWithDiscount": 2667.7330
   },
   {
     "car": {
@@ -2997,10 +2997,10 @@
       "Model": "405",
       "TravelledDistance": 9226854775807
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.0,
-    "price": 12809.10,
-    "priceWithDiscount": 12809.100
+    "customerName": "Hai Everton",
+    "Discount": 0.25,
+    "price": 1735.90,
+    "priceWithDiscount": 1301.9250
   },
   {
     "car": {
@@ -3008,10 +3008,10 @@
       "Model": "306",
       "TravelledDistance": 21474647
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.35,
-    "price": 4192.56,
-    "priceWithDiscount": 2725.1640
+    "customerName": "Faustina Burgher",
+    "Discount": 0.3,
+    "price": 1307.93,
+    "priceWithDiscount": 915.551
   },
   {
     "car": {
@@ -3019,10 +3019,10 @@
       "Model": "407",
       "TravelledDistance": 922036854775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.5,
-    "price": 1460.80,
-    "priceWithDiscount": 730.400
+    "customerName": "Brett Brickley",
+    "Discount": 0.55,
+    "price": 5057.52,
+    "priceWithDiscount": 2275.8840
   },
   {
     "car": {
@@ -3030,10 +3030,10 @@
       "Model": "206",
       "TravelledDistance": 21474647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.0,
-    "price": 8660.12,
-    "priceWithDiscount": 8660.120
+    "customerName": "Daniele Zarate",
+    "Discount": 0.5,
+    "price": 2713.10,
+    "priceWithDiscount": 1356.550
   },
   {
     "car": {
@@ -3041,10 +3041,10 @@
       "Model": "407",
       "TravelledDistance": 9223372775807
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.15,
-    "price": 5361.69,
-    "priceWithDiscount": 4557.4365
+    "customerName": "Zada Attwood",
+    "Discount": 0.25,
+    "price": 2131.82,
+    "priceWithDiscount": 1598.8650
   },
   {
     "car": {
@@ -3052,10 +3052,10 @@
       "Model": "206",
       "TravelledDistance": 922036854775807
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.15000000000000002,
-    "price": 3220.27,
-    "priceWithDiscount": 2737.2294999999999355946
+    "customerName": "Garret Capron",
+    "Discount": 0.0,
+    "price": 5935.09,
+    "priceWithDiscount": 5935.090
   },
   {
     "car": {
@@ -3063,10 +3063,10 @@
       "Model": "308",
       "TravelledDistance": 23647
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.3,
-    "price": 8855.51,
-    "priceWithDiscount": 6198.857
+    "customerName": "Hai Everton",
+    "Discount": 0.55,
+    "price": 2224.99,
+    "priceWithDiscount": 1001.2455
   },
   {
     "car": {
@@ -3074,10 +3074,10 @@
       "Model": "405",
       "TravelledDistance": 92036854775807
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.55,
-    "price": 4277.68,
-    "priceWithDiscount": 1924.9560
+    "customerName": "Teddy Hobby",
+    "Discount": 0.05,
+    "price": 4712.88,
+    "priceWithDiscount": 4477.2360
   },
   {
     "car": {
@@ -3085,10 +3085,10 @@
       "Model": "306",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.1,
-    "price": 2453.80,
-    "priceWithDiscount": 2208.420
+    "customerName": "Oren Perlman",
+    "Discount": 0.15000000000000002,
+    "price": 2811.75,
+    "priceWithDiscount": 2389.9874999999999437650
   },
   {
     "car": {
@@ -3096,10 +3096,10 @@
       "Model": "405",
       "TravelledDistance": 92233854775807
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.35,
-    "price": 2048.35,
-    "priceWithDiscount": 1331.4275
+    "customerName": "Carri Knapik",
+    "Discount": 0.45,
+    "price": 745.37,
+    "priceWithDiscount": 409.9535
   },
   {
     "car": {
@@ -3107,10 +3107,10 @@
       "Model": "308",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.55,
-    "price": 3143.49,
-    "priceWithDiscount": 1414.5705
+    "customerName": "Francis Mckim",
+    "Discount": 0.25,
+    "price": 3507.14,
+    "priceWithDiscount": 2630.3550
   },
   {
     "car": {
@@ -3118,10 +3118,10 @@
       "Model": "206",
       "TravelledDistance": 922775807
     },
-    "customerName": "Taina Achenbach",
+    "customerName": "Natalie Poli",
     "Discount": 0.15,
-    "price": 1406.97,
-    "priceWithDiscount": 1195.9245
+    "price": 3729.05,
+    "priceWithDiscount": 3169.6925
   },
   {
     "car": {
@@ -3129,10 +3129,10 @@
       "Model": "206",
       "TravelledDistance": 214748347
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.1,
-    "price": 10240.65,
-    "priceWithDiscount": 9216.585
+    "customerName": "Carole Witman",
+    "Discount": 0.5,
+    "price": 3168.84,
+    "priceWithDiscount": 1584.420
   },
   {
     "car": {
@@ -3140,10 +3140,10 @@
       "Model": "Berlingo",
       "TravelledDistance": 922354775807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.2,
-    "price": 822.61,
-    "priceWithDiscount": 658.088
+    "customerName": "Louann Holzworth",
+    "Discount": 0.3,
+    "price": 3284.53,
+    "priceWithDiscount": 2299.171
   },
   {
     "car": {
@@ -3151,10 +3151,10 @@
       "Model": "C1",
       "TravelledDistance": 924775807
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.35,
-    "price": 5415.07,
-    "priceWithDiscount": 3519.7955
+    "customerName": "Oren Perlman",
+    "Discount": 0.25,
+    "price": 3297.60,
+    "priceWithDiscount": 2473.2000
   },
   {
     "car": {
@@ -3162,10 +3162,10 @@
       "Model": "Berlingo",
       "TravelledDistance": 9223354775807
     },
-    "customerName": "Lino Subia",
-    "Discount": 0.0,
-    "price": 6644.71,
-    "priceWithDiscount": 6644.710
+    "customerName": "Garret Capron",
+    "Discount": 0.2,
+    "price": 7427.58,
+    "priceWithDiscount": 5942.064
   },
   {
     "car": {
@@ -3173,10 +3173,10 @@
       "Model": "C5",
       "TravelledDistance": 922334775807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.1,
-    "price": 1978.49,
-    "priceWithDiscount": 1780.641
+    "customerName": "Carri Knapik",
+    "Discount": 0.55,
+    "price": 3180.67,
+    "priceWithDiscount": 1431.3015
   },
   {
     "car": {
@@ -3185,9 +3185,9 @@
       "TravelledDistance": 213647
     },
     "customerName": "Kristian Engberg",
-    "Discount": 0.3,
-    "price": 7156.16,
-    "priceWithDiscount": 5009.312
+    "Discount": 0.5,
+    "price": 1634.60,
+    "priceWithDiscount": 817.300
   },
   {
     "car": {
@@ -3195,10 +3195,10 @@
       "Model": "C8",
       "TravelledDistance": 2147447
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.1,
-    "price": 4790.26,
-    "priceWithDiscount": 4311.234
+    "customerName": "Oren Perlman",
+    "Discount": 0.25,
+    "price": 3579.44,
+    "priceWithDiscount": 2684.5800
   },
   {
     "car": {
@@ -3206,10 +3206,10 @@
       "Model": "Elysée",
       "TravelledDistance": 922354775807
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.25,
-    "price": 7542.84,
-    "priceWithDiscount": 5657.1300
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.2,
+    "price": 7423.35,
+    "priceWithDiscount": 5938.680
   },
   {
     "car": {
@@ -3217,10 +3217,10 @@
       "Model": "C1",
       "TravelledDistance": 2147
     },
-    "customerName": "Hipolito Lamoreaux",
-    "Discount": 0.05,
-    "price": 5683.11,
-    "priceWithDiscount": 5398.9545
+    "customerName": "Louann Holzworth",
+    "Discount": 0.2,
+    "price": 3011.08,
+    "priceWithDiscount": 2408.864
   },
   {
     "car": {
@@ -3228,10 +3228,10 @@
       "Model": "C4",
       "TravelledDistance": 2147487
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.25,
-    "price": 6017.04,
-    "priceWithDiscount": 4512.7800
+    "customerName": "Carole Witman",
+    "Discount": 0.05,
+    "price": 2377.44,
+    "priceWithDiscount": 2258.5680
   },
   {
     "car": {
@@ -3239,10 +3239,10 @@
       "Model": "C5",
       "TravelledDistance": 922337204775807
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.15000000000000002,
-    "price": 9171.73,
-    "priceWithDiscount": 7795.9704999999998165654
+    "customerName": "Rico Peer",
+    "Discount": 0.05,
+    "price": 2162.51,
+    "priceWithDiscount": 2054.3845
   },
   {
     "car": {
@@ -3251,9 +3251,9 @@
       "TravelledDistance": 922337854775807
     },
     "customerName": "Faustina Burgher",
-    "Discount": 0.3,
-    "price": 2888.33,
-    "priceWithDiscount": 2021.831
+    "Discount": 0.05,
+    "price": 5670.23,
+    "priceWithDiscount": 5386.7185
   },
   {
     "car": {
@@ -3261,10 +3261,10 @@
       "Model": "C3",
       "TravelledDistance": 214647
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.35,
-    "price": 2929.16,
-    "priceWithDiscount": 1903.9540
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.15000000000000002,
+    "price": 5481.16,
+    "priceWithDiscount": 4658.9859999999998903768
   },
   {
     "car": {
@@ -3272,10 +3272,10 @@
       "Model": "C1",
       "TravelledDistance": 2483647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.5,
-    "price": 5866.04,
-    "priceWithDiscount": 2933.020
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.15000000000000002,
+    "price": 1319.41,
+    "priceWithDiscount": 1121.4984999999999736118
   },
   {
     "car": {
@@ -3283,10 +3283,10 @@
       "Model": "C4",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.15000000000000002,
-    "price": 6012.89,
-    "priceWithDiscount": 5110.9564999999998797422
+    "customerName": "Audrea Cardinal",
+    "Discount": 0.0,
+    "price": 1337.42,
+    "priceWithDiscount": 1337.420
   },
   {
     "car": {
@@ -3295,9 +3295,9 @@
       "TravelledDistance": 922336854775807
     },
     "customerName": "Donnetta Soliz",
-    "Discount": 0.55,
-    "price": 5324.33,
-    "priceWithDiscount": 2395.9485
+    "Discount": 0.1,
+    "price": 7244.34,
+    "priceWithDiscount": 6519.906
   },
   {
     "car": {
@@ -3305,10 +3305,10 @@
       "Model": "C5",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.25,
-    "price": 3946.00,
-    "priceWithDiscount": 2959.5000
+    "customerName": "Marcelle Griego",
+    "Discount": 0.35,
+    "price": 3862.96,
+    "priceWithDiscount": 2510.9240
   },
   {
     "car": {
@@ -3316,10 +3316,10 @@
       "Model": "C3",
       "TravelledDistance": 2147647
     },
-    "customerName": "Johnette Derryberry",
-    "Discount": 0.05,
-    "price": 8072.98,
-    "priceWithDiscount": 7669.3310
+    "customerName": "Taina Achenbach",
+    "Discount": 0.4,
+    "price": 5675.03,
+    "priceWithDiscount": 3405.018
   },
   {
     "car": {
@@ -3327,10 +3327,10 @@
       "Model": "C8",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.1,
-    "price": 2632.44,
-    "priceWithDiscount": 2369.196
+    "customerName": "Brett Brickley",
+    "Discount": 0.2,
+    "price": 1805.01,
+    "priceWithDiscount": 1444.008
   },
   {
     "car": {
@@ -3338,10 +3338,10 @@
       "Model": "C1",
       "TravelledDistance": 2147483647
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.05,
-    "price": 10027.32,
-    "priceWithDiscount": 9525.9540
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.2,
+    "price": 3740.75,
+    "priceWithDiscount": 2992.600
   },
   {
     "car": {
@@ -3349,10 +3349,10 @@
       "Model": "C3",
       "TravelledDistance": 9223336854775807
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.05,
-    "price": 1078.78,
-    "priceWithDiscount": 1024.8410
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.15000000000000002,
+    "price": 2426.66,
+    "priceWithDiscount": 2062.6609999999999514668
   },
   {
     "car": {
@@ -3360,10 +3360,10 @@
       "Model": "Elysée",
       "TravelledDistance": 23336854775
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.3,
-    "price": 5196.27,
-    "priceWithDiscount": 3637.389
+    "customerName": "Rema Revelle",
+    "Discount": 0.2,
+    "price": 4136.37,
+    "priceWithDiscount": 3309.096
   },
   {
     "car": {
@@ -3371,10 +3371,10 @@
       "Model": "C1",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Cinthia Lasala",
+    "customerName": "Rico Peer",
     "Discount": 0.05,
-    "price": 3060.82,
-    "priceWithDiscount": 2907.7790
+    "price": 2355.05,
+    "priceWithDiscount": 2237.2975
   },
   {
     "car": {
@@ -3382,10 +3382,10 @@
       "Model": "C4",
       "TravelledDistance": 213647
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.55,
-    "price": 3075.16,
-    "priceWithDiscount": 1383.8220
+    "customerName": "Taina Achenbach",
+    "Discount": 0.1,
+    "price": 6394.67,
+    "priceWithDiscount": 5755.203
   },
   {
     "car": {
@@ -3393,10 +3393,10 @@
       "Model": "C3",
       "TravelledDistance": 2147647
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.05,
-    "price": 5249.83,
-    "priceWithDiscount": 4987.3385
+    "customerName": "Lino Subia",
+    "Discount": 0.4,
+    "price": 4988.21,
+    "priceWithDiscount": 2992.926
   },
   {
     "car": {
@@ -3404,10 +3404,10 @@
       "Model": "C1",
       "TravelledDistance": 9223775807
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.2,
-    "price": 3833.36,
-    "priceWithDiscount": 3066.688
+    "customerName": "Daniele Zarate",
+    "Discount": 0.4,
+    "price": 3043.18,
+    "priceWithDiscount": 1825.908
   },
   {
     "car": {
@@ -3415,10 +3415,10 @@
       "Model": "C5",
       "TravelledDistance": 2183647
     },
-    "customerName": "Francis Mckim",
-    "Discount": 0.25,
-    "price": 4499.13,
-    "priceWithDiscount": 3374.3475
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.1,
+    "price": 4758.93,
+    "priceWithDiscount": 4283.037
   },
   {
     "car": {
@@ -3426,10 +3426,10 @@
       "Model": "C1",
       "TravelledDistance": 9854775807
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.5,
-    "price": 6308.57,
-    "priceWithDiscount": 3154.285
+    "customerName": "Taina Achenbach",
+    "Discount": 0.1,
+    "price": 5294.64,
+    "priceWithDiscount": 4765.176
   },
   {
     "car": {
@@ -3437,10 +3437,10 @@
       "Model": "C8",
       "TravelledDistance": 83647
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.2,
-    "price": 7699.61,
-    "priceWithDiscount": 6159.688
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.15000000000000002,
+    "price": 2898.86,
+    "priceWithDiscount": 2464.0309999999999420228
   },
   {
     "car": {
@@ -3448,10 +3448,10 @@
       "Model": "Toledo",
       "TravelledDistance": 21483647
     },
-    "customerName": "Cinthia Lasala",
-    "Discount": 0.2,
-    "price": 5296.58,
-    "priceWithDiscount": 4237.264
+    "customerName": "Lino Subia",
+    "Discount": 0.4,
+    "price": 6034.12,
+    "priceWithDiscount": 3620.472
   },
   {
     "car": {
@@ -3459,10 +3459,10 @@
       "Model": "Mii",
       "TravelledDistance": 214783647
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.15000000000000002,
-    "price": 6309.80,
-    "priceWithDiscount": 5363.3299999999998738040
+    "customerName": "Kristian Engberg",
+    "Discount": 0.5,
+    "price": 5746.95,
+    "priceWithDiscount": 2873.475
   },
   {
     "car": {
@@ -3471,9 +3471,9 @@
       "TravelledDistance": 21647
     },
     "customerName": "Donnetta Soliz",
-    "Discount": 0.15000000000000002,
-    "price": 1084.30,
-    "priceWithDiscount": 921.6549999999999783140
+    "Discount": 0.1,
+    "price": 9565.11,
+    "priceWithDiscount": 8608.599
   },
   {
     "car": {
@@ -3481,10 +3481,10 @@
       "Model": "Mii",
       "TravelledDistance": 2147447
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.1,
-    "price": 5612.92,
-    "priceWithDiscount": 5051.628
+    "customerName": "Emmitt Benally",
+    "Discount": 0.2,
+    "price": 2078.78,
+    "priceWithDiscount": 1663.024
   },
   {
     "car": {
@@ -3492,10 +3492,10 @@
       "Model": "Ibiza",
       "TravelledDistance": 213647
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.1,
-    "price": 4783.81,
-    "priceWithDiscount": 4305.429
+    "customerName": "Garret Capron",
+    "Discount": 0.3,
+    "price": 8677.54,
+    "priceWithDiscount": 6074.278
   },
   {
     "car": {
@@ -3504,9 +3504,9 @@
       "TravelledDistance": 21447
     },
     "customerName": "Johnette Derryberry",
-    "Discount": 0.55,
-    "price": 5223.25,
-    "priceWithDiscount": 2350.4625
+    "Discount": 0.25,
+    "price": 5947.10,
+    "priceWithDiscount": 4460.3250
   },
   {
     "car": {
@@ -3514,10 +3514,10 @@
       "Model": "Toledo",
       "TravelledDistance": 2147647
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.15000000000000002,
-    "price": 4454.13,
-    "priceWithDiscount": 3786.0104999999999109174
+    "customerName": "Kristian Engberg",
+    "Discount": 0.1,
+    "price": 4484.02,
+    "priceWithDiscount": 4035.618
   },
   {
     "car": {
@@ -3525,10 +3525,10 @@
       "Model": "Toledo",
       "TravelledDistance": 21473647
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.2,
-    "price": 2741.76,
-    "priceWithDiscount": 2193.408
+    "customerName": "Hai Everton",
+    "Discount": 0.25,
+    "price": 3751.80,
+    "priceWithDiscount": 2813.8500
   },
   {
     "car": {
@@ -3536,10 +3536,10 @@
       "Model": "Ibiza",
       "TravelledDistance": 92234775807
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.55,
-    "price": 2819.71,
-    "priceWithDiscount": 1268.8695
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.1,
+    "price": 804.21,
+    "priceWithDiscount": 723.789
   },
   {
     "car": {
@@ -3547,10 +3547,10 @@
       "Model": "Mii",
       "TravelledDistance": 936854775807
     },
-    "customerName": "Taina Achenbach",
-    "Discount": 0.2,
-    "price": 3545.45,
-    "priceWithDiscount": 2836.360
+    "customerName": "Nisha Markwell",
+    "Discount": 0.5,
+    "price": 3585.86,
+    "priceWithDiscount": 1792.930
   },
   {
     "car": {
@@ -3558,10 +3558,10 @@
       "Model": "Toledo",
       "TravelledDistance": 21447
     },
-    "customerName": "Hai Everton",
+    "customerName": "Emmitt Benally",
     "Discount": 0.35,
-    "price": 4693.24,
-    "priceWithDiscount": 3050.6060
+    "price": 1982.60,
+    "priceWithDiscount": 1288.6900
   },
   {
     "car": {
@@ -3569,10 +3569,10 @@
       "Model": "Mii",
       "TravelledDistance": 214747
     },
-    "customerName": "Audrea Cardinal",
-    "Discount": 0.2,
-    "price": 5086.11,
-    "priceWithDiscount": 4068.888
+    "customerName": "Hipolito Lamoreaux",
+    "Discount": 0.25,
+    "price": 4749.38,
+    "priceWithDiscount": 3562.0350
   },
   {
     "car": {
@@ -3580,10 +3580,10 @@
       "Model": "Toledo",
       "TravelledDistance": 2147647
     },
-    "customerName": "Marcelle Griego",
-    "Discount": 0.15000000000000002,
-    "price": 5000.83,
-    "priceWithDiscount": 4250.7054999999998999834
+    "customerName": "Yvonne Mccalla",
+    "Discount": 0.2,
+    "price": 6680.43,
+    "priceWithDiscount": 5344.344
   },
   {
     "car": {
@@ -3591,10 +3591,10 @@
       "Model": "Ibiza",
       "TravelledDistance": 21474847
     },
-    "customerName": "Carole Witman",
-    "Discount": 0.5,
-    "price": 7490.13,
-    "priceWithDiscount": 3745.065
+    "customerName": "Garret Capron",
+    "Discount": 0.2,
+    "price": 3793.19,
+    "priceWithDiscount": 3034.552
   },
   {
     "car": {
@@ -3602,10 +3602,10 @@
       "Model": "Toledo",
       "TravelledDistance": 2147447
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.2,
-    "price": 3658.22,
-    "priceWithDiscount": 2926.576
+    "customerName": "Nisha Markwell",
+    "Discount": 0.05,
+    "price": 6543.09,
+    "priceWithDiscount": 6215.9355
   },
   {
     "car": {
@@ -3613,10 +3613,10 @@
       "Model": "Mii",
       "TravelledDistance": 92236854775807
     },
-    "customerName": "Hai Everton",
-    "Discount": 0.25,
-    "price": 2586.21,
-    "priceWithDiscount": 1939.6575
+    "customerName": "Daniele Zarate",
+    "Discount": 0.3,
+    "price": 6184.78,
+    "priceWithDiscount": 4329.346
   },
   {
     "car": {
@@ -3624,10 +3624,10 @@
       "Model": "Citigo",
       "TravelledDistance": 214647
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.15000000000000002,
-    "price": 2426.39,
-    "priceWithDiscount": 2062.4314999999999514722
+    "customerName": "Carole Witman",
+    "Discount": 0.05,
+    "price": 7293.07,
+    "priceWithDiscount": 6928.4165
   },
   {
     "car": {
@@ -3635,10 +3635,10 @@
       "Model": "Rapid Spaceback",
       "TravelledDistance": 685477580
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.1,
-    "price": 6148.76,
-    "priceWithDiscount": 5533.884
+    "customerName": "Rema Revelle",
+    "Discount": 0.45,
+    "price": 3272.45,
+    "priceWithDiscount": 1799.8475
   },
   {
     "car": {
@@ -3646,10 +3646,10 @@
       "Model": "Citigo",
       "TravelledDistance": 92233854775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.2,
-    "price": 2749.59,
-    "priceWithDiscount": 2199.672
+    "customerName": "Donnetta Soliz",
+    "Discount": 0.35,
+    "price": 4365.48,
+    "priceWithDiscount": 2837.5620
   },
   {
     "car": {
@@ -3657,10 +3657,10 @@
       "Model": "Citigo",
       "TravelledDistance": 2183647
     },
-    "customerName": "Ann Mcenaney",
+    "customerName": "Lino Subia",
     "Discount": 0.2,
-    "price": 1833.78,
-    "priceWithDiscount": 1467.024
+    "price": 1222.10,
+    "priceWithDiscount": 977.680
   },
   {
     "car": {
@@ -3668,10 +3668,10 @@
       "Model": "Citigo",
       "TravelledDistance": 214747
     },
-    "customerName": "Kristian Engberg",
-    "Discount": 0.5,
-    "price": 5376.89,
-    "priceWithDiscount": 2688.445
+    "customerName": "Francis Mckim",
+    "Discount": 0.1,
+    "price": 1363.89,
+    "priceWithDiscount": 1227.501
   },
   {
     "car": {
@@ -3681,8 +3681,8 @@
     },
     "customerName": "Garret Capron",
     "Discount": 0.15,
-    "price": 6307.73,
-    "priceWithDiscount": 5361.5705
+    "price": 2350.89,
+    "priceWithDiscount": 1998.2565
   },
   {
     "car": {
@@ -3690,10 +3690,10 @@
       "Model": "Citigo",
       "TravelledDistance": 214647
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.2,
-    "price": 2819.82,
-    "priceWithDiscount": 2255.856
+    "customerName": "Rema Revelle",
+    "Discount": 0.45,
+    "price": 2071.10,
+    "priceWithDiscount": 1139.1050
   },
   {
     "car": {
@@ -3701,10 +3701,10 @@
       "Model": "Fabia",
       "TravelledDistance": 214747
     },
-    "customerName": "Teddy Hobby",
-    "Discount": 0.25,
-    "price": 1990.41,
-    "priceWithDiscount": 1492.8075
+    "customerName": "Jimmy Grossi",
+    "Discount": 0.1,
+    "price": 1372.84,
+    "priceWithDiscount": 1235.556
   },
   {
     "car": {
@@ -3712,10 +3712,10 @@
       "Model": "Rapid",
       "TravelledDistance": 9223372775807
     },
-    "customerName": "Zada Attwood",
-    "Discount": 0.55,
-    "price": 5085.58,
-    "priceWithDiscount": 2288.5110
+    "customerName": "Lino Subia",
+    "Discount": 0.0,
+    "price": 3224.18,
+    "priceWithDiscount": 3224.180
   },
   {
     "car": {
@@ -3723,10 +3723,10 @@
       "Model": "Fabia",
       "TravelledDistance": 214647
     },
-    "customerName": "Rema Revelle",
-    "Discount": 0.2,
-    "price": 3235.55,
-    "priceWithDiscount": 2588.440
+    "customerName": "Lino Subia",
+    "Discount": 0.3,
+    "price": 5936.39,
+    "priceWithDiscount": 4155.473
   },
   {
     "car": {
@@ -3734,10 +3734,10 @@
       "Model": "Fabia",
       "TravelledDistance": 922337203775807
     },
-    "customerName": "Rico Peer",
-    "Discount": 0.15000000000000002,
-    "price": 999.58,
-    "priceWithDiscount": 849.6429999999999800084
+    "customerName": "Ann Mcenaney",
+    "Discount": 0.05,
+    "price": 4194.45,
+    "priceWithDiscount": 3984.7275
   },
   {
     "car": {
@@ -3745,10 +3745,10 @@
       "Model": "Rapid",
       "TravelledDistance": 2147447
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.3,
-    "price": 1536.98,
-    "priceWithDiscount": 1075.886
+    "customerName": "Carri Knapik",
+    "Discount": 0.2,
+    "price": 2072.01,
+    "priceWithDiscount": 1657.608
   },
   {
     "car": {
@@ -3756,10 +3756,10 @@
       "Model": "Rapid Spaceback",
       "TravelledDistance": 474
     },
-    "customerName": "Natalie Poli",
-    "Discount": 0.3,
-    "price": 4628.80,
-    "priceWithDiscount": 3240.160
+    "customerName": "Brett Brickley",
+    "Discount": 0.05,
+    "price": 6857.66,
+    "priceWithDiscount": 6514.7770
   },
   {
     "car": {
@@ -3767,10 +3767,10 @@
       "Model": "Fabia",
       "TravelledDistance": 92233720368807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.55,
-    "price": 2638.14,
-    "priceWithDiscount": 1187.1630
+    "customerName": "Zada Attwood",
+    "Discount": 0.45,
+    "price": 2609.87,
+    "priceWithDiscount": 1435.4285
   },
   {
     "car": {
@@ -3778,10 +3778,10 @@
       "Model": "Logan",
       "TravelledDistance": 9036854775807
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.0,
-    "price": 3683.59,
-    "priceWithDiscount": 3683.590
+    "customerName": "Marcelle Griego",
+    "Discount": 0.1,
+    "price": 3645.08,
+    "priceWithDiscount": 3280.572
   },
   {
     "car": {
@@ -3789,10 +3789,10 @@
       "Model": "Sandero Stepway",
       "TravelledDistance": 92233724775807
     },
-    "customerName": "Daniele Zarate",
-    "Discount": 0.05,
-    "price": 1368.78,
-    "priceWithDiscount": 1300.3410
+    "customerName": "Nisha Markwell",
+    "Discount": 0.2,
+    "price": 2340.24,
+    "priceWithDiscount": 1872.192
   },
   {
     "car": {
@@ -3800,10 +3800,10 @@
       "Model": "Sandero",
       "TravelledDistance": 2147647
     },
-    "customerName": "Sylvie Mcelravy",
-    "Discount": 0.5,
-    "price": 8067.31,
-    "priceWithDiscount": 4033.655
+    "customerName": "Natalie Poli",
+    "Discount": 0.0,
+    "price": 4725.05,
+    "priceWithDiscount": 4725.050
   },
   {
     "car": {
@@ -3811,10 +3811,10 @@
       "Model": "Dokker",
       "TravelledDistance": 213647
     },
-    "customerName": "Faustina Burgher",
-    "Discount": 0.05,
-    "price": 2932.13,
-    "priceWithDiscount": 2785.5235
+    "customerName": "Daniele Zarate",
+    "Discount": 0.2,
+    "price": 4066.17,
+    "priceWithDiscount": 3252.936
   },
   {
     "car": {
@@ -3822,10 +3822,10 @@
       "Model": "Sandero",
       "TravelledDistance": 2143647
     },
-    "customerName": "Brett Brickley",
-    "Discount": 0.1,
-    "price": 5575.83,
-    "priceWithDiscount": 5018.247
+    "customerName": "Rico Peer",
+    "Discount": 0.2,
+    "price": 5451.91,
+    "priceWithDiscount": 4361.528
   },
   {
     "car": {
@@ -3833,10 +3833,10 @@
       "Model": "Logan",
       "TravelledDistance": 21474647
     },
-    "customerName": "Nisha Markwell",
-    "Discount": 0.0,
-    "price": 7028.16,
-    "priceWithDiscount": 7028.160
+    "customerName": "Cinthia Lasala",
+    "Discount": 0.15000000000000002,
+    "price": 3154.10,
+    "priceWithDiscount": 2680.9849999999999369180
   },
   {
     "car": {
@@ -3844,10 +3844,10 @@
       "Model": "Logan",
       "TravelledDistance": 9275807
     },
-    "customerName": "Oren Perlman",
-    "Discount": 0.55,
-    "price": 4369.20,
-    "priceWithDiscount": 1966.1400
+    "customerName": "Natalie Poli",
+    "Discount": 0.5,
+    "price": 2310.02,
+    "priceWithDiscount": 1155.010
   },
   {
     "car": {
@@ -3856,9 +3856,9 @@
       "TravelledDistance": 2147647
     },
     "customerName": "Zada Attwood",
-    "Discount": 0.05,
-    "price": 7902.30,
-    "priceWithDiscount": 7507.1850
+    "Discount": 0.35,
+    "price": 6202.57,
+    "priceWithDiscount": 4031.6705
   },
   {
     "car": {
@@ -3866,10 +3866,10 @@
       "Model": "Sandero",
       "TravelledDistance": 922337254775807
     },
-    "customerName": "Jimmy Grossi",
-    "Discount": 0.15000000000000002,
-    "price": 6295.51,
-    "priceWithDiscount": 5351.1834999999998740898
+    "customerName": "Natalie Poli",
+    "Discount": 0.5,
+    "price": 6398.55,
+    "priceWithDiscount": 3199.275
   },
   {
     "car": {
@@ -3877,10 +3877,10 @@
       "Model": "Dokker",
       "TravelledDistance": 2147447
     },
-    "customerName": "Ann Mcenaney",
-    "Discount": 0.45,
-    "price": 3543.97,
-    "priceWithDiscount": 1949.1835
+    "customerName": "Lino Subia",
+    "Discount": 0.2,
+    "price": 9428.53,
+    "priceWithDiscount": 7542.824
   },
   {
     "car": {
@@ -3888,10 +3888,10 @@
       "Model": "Logan",
       "TravelledDistance": 922337203687
     },
-    "customerName": "Yvonne Mccalla",
-    "Discount": 0.2,
-    "price": 4887.00,
-    "priceWithDiscount": 3909.600
+    "customerName": "Garret Capron",
+    "Discount": 0.1,
+    "price": 4038.39,
+    "priceWithDiscount": 3634.551
   },
   {
     "car": {
@@ -3899,10 +3899,10 @@
       "Model": "Duster",
       "TravelledDistance": 21447
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.55,
-    "price": 2834.91,
-    "priceWithDiscount": 1275.7095
+    "customerName": "Brett Brickley",
+    "Discount": 0.2,
+    "price": 3537.70,
+    "priceWithDiscount": 2830.160
   },
   {
     "car": {
@@ -3910,10 +3910,10 @@
       "Model": "Sandero Stepway",
       "TravelledDistance": 922337807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.05,
-    "price": 6301.56,
-    "priceWithDiscount": 5986.4820
+    "customerName": "Faustina Burgher",
+    "Discount": 0.2,
+    "price": 4544.36,
+    "priceWithDiscount": 3635.488
   },
   {
     "car": {
@@ -3921,10 +3921,10 @@
       "Model": "Duster",
       "TravelledDistance": 922375807
     },
-    "customerName": "Carri Knapik",
-    "Discount": 0.05,
-    "price": 2031.06,
-    "priceWithDiscount": 1929.5070
+    "customerName": "Rico Peer",
+    "Discount": 0.2,
+    "price": 4209.17,
+    "priceWithDiscount": 3367.336
   },
   {
     "car": {
@@ -3932,9 +3932,9 @@
       "Model": "Logan",
       "TravelledDistance": 213647
     },
-    "customerName": "Donnetta Soliz",
-    "Discount": 0.15000000000000002,
-    "price": 4296.17,
-    "priceWithDiscount": 3651.7444999999999140766
+    "customerName": "Taina Achenbach",
+    "Discount": 0.15,
+    "price": 4318.48,
+    "priceWithDiscount": 3670.7080
   }
 ]
