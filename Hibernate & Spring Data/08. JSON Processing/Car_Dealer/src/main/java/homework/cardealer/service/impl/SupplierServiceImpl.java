@@ -58,7 +58,7 @@ public class SupplierServiceImpl implements SupplierService {
         Supplier supplier = null;
 
         while (supplier == null) {
-            long id = random.nextInt((int) count - 1) + 1;
+            long id = random.nextInt((int) count) + 1;
             supplier = this.supplierRepository.findById(id).orElse(null);
         }
 
