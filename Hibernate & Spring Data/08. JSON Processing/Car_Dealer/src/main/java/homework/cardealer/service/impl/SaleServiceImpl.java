@@ -1,6 +1,6 @@
 package homework.cardealer.service.impl;
 
-import homework.cardealer.domain.dto.view.SaleWithCarCustomerDiscountPrice;
+import homework.cardealer.domain.dto.view.SaleWithCarCustomerDiscountPriceViewDto;
 import homework.cardealer.domain.entity.Car;
 import homework.cardealer.domain.entity.Customer;
 import homework.cardealer.domain.entity.Part;
@@ -54,13 +54,13 @@ public class SaleServiceImpl implements SaleService {
     }
 
     @Override
-    public List<SaleWithCarCustomerDiscountPrice> getAllTotalSalesByCustomer() {
+    public List<SaleWithCarCustomerDiscountPriceViewDto> getAllTotalSalesByCustomer() {
         return this.saleRepository
                 .findAll()
                 .stream()
                 .map(s -> {
-                    SaleWithCarCustomerDiscountPrice dto =
-                            modelMapper.map(s, SaleWithCarCustomerDiscountPrice.class);
+                    SaleWithCarCustomerDiscountPriceViewDto dto =
+                            modelMapper.map(s, SaleWithCarCustomerDiscountPriceViewDto.class);
 
                     if (s.getCustomer().isYoungDriver()) {
                         dto.setDiscount(dto.getDiscount() + 0.05);
