@@ -26,7 +26,6 @@ public class CategoryServiceImpl implements CategoryService {
         this.categoryRepository = categoryRepository;
     }
 
-
     @Override
     public void seedCategories(CategorySeedDto[] categorySeedDtos) {
         for (CategorySeedDto categorySeedDto : categorySeedDtos) {
