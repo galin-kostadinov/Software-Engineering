@@ -94,13 +94,13 @@ public class ProductServiceImpl implements ProductService {
 
     private User getRandomSeller() {
         Random random = new Random();
-        long id = (long) random.nextInt((int) this.userRepository.count() - 1) + 1;
+        long id = (long) random.nextInt((int) this.userRepository.count()) + 1;
         return this.userRepository.findById(id).orElse(null);
     }
 
     private User getRandomBuyer() {
         Random random = new Random();
-        long id = (long) random.nextInt((int) this.userRepository.count() - 1) + 1;
+        long id = (long) random.nextInt((int) this.userRepository.count()) + 1;
 
         if (id % 4 == 0) {
             return null;
@@ -111,7 +111,7 @@ public class ProductServiceImpl implements ProductService {
 
     private Category getRandomCategory() {
         Random random = new Random();
-        long id = (long) random.nextInt((int) this.categoryRepository.count() - 1) + 1;
+        long id = (long) random.nextInt((int) this.categoryRepository.count()) + 1;
 
         return this.categoryRepository.findById(id).orElse(null);
     }
