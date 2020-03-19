@@ -1,11 +1,11 @@
 package homework.cardealer.service;
 
-import homework.cardealer.domain.dto.view.SaleWithCarCustomerDiscountPrice;
+import homework.cardealer.domain.dto.view.SaleWithCarCustomerDiscountPriceViewDto;
 
 import java.util.List;
 
 public interface SaleService {
     void seedSales();
 
-    List<SaleWithCarCustomerDiscountPrice> getAllTotalSalesByCustomer();
+    List<SaleWithCarCustomerDiscountPriceViewDto> getAllTotalSalesByCustomer();
 }
