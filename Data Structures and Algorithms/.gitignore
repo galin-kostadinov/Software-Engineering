@@ -385,3 +385,7 @@ hs_err_pid*
 *.exe
 *.out
 *.app
+
+#Dir to ignore
+out/
+
