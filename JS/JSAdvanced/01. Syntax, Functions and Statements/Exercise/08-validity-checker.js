@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 function solve(arr) {
     let x1 = arr[0];
@@ -6,26 +6,15 @@ function solve(arr) {
     let x2 = arr[2];
     let y2 = arr[3];
 
-    let dist1 = Math.sqrt(x1 ** 2 + y1 ** 2);
+    isValid(x1, y1, 0, 0);
+    isValid(x2, y2, 0, 0);
+    isValid(x1, y1, x2, y2);
 
-    if (Number.isInteger(dist1)) {
-        console.log(`{${x1}, ${y1}} to {0, 0} is valid`)
-    } else {
-        console.log(`{${x1}, ${y1}} to {0, 0} is invalid`)
-    }
+    function isValid(x1, y1, x2, y2) {
+        let dist = Math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2);
 
-    let dist2 = Math.sqrt(x2 ** 2 + y2 ** 2);
-    if (Number.isInteger(dist2)) {
-        console.log(`{${x2}, ${y2}} to {0, 0} is valid`)
-    } else {
-        console.log(`{${x2}, ${y2}} to {0, 0} is invalid`)
-    }
-
-    let dist3 = Math.sqrt((x1 - x2) ** 2 + (y1 - y2) ** 2);
-    if (Number.isInteger(dist3)) {
-        console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is valid`)
-    } else {
-        console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is invalid`)
+        const valid = Number.isInteger(dist) ? 'valid' : 'invalid';
+        console.log(`{${x1}, ${y1}} to {${x2}, ${y2}} is ${valid}`)
     }
 }
 
