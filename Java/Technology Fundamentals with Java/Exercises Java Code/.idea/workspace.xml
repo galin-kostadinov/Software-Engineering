@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0000947-be94-4d6d-930d-09c3a79aa70e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Object And Classes Exsercise/src/TeamworkProjectsMoreEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Object And Classes Exsercise/src/TeamworkProjectsMoreEx/Team.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Object And Classes Exsercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Object And Classes Exsercise/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Hibernate &amp; Spring Data/03. Introduction to Hibernate/Hibernate_intro/introduction-to-hibernate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Hibernate &amp; Spring Data/03. Introduction to Hibernate/Hibernate_intro/introduction-to-hibernate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JavaWeb/Basic/03. Java EE - Servlets_JSP_JPA/WestCompassCarDealerShop/skeleton.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JavaWeb/Basic/03. Java EE - Servlets_JSP_JPA/WestCompassCarDealerShop/skeleton.iml" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +26,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFundamentalsMay2019" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -58,12 +52,17 @@
   </component>
   <component name="ProjectId" id="1Oe1vhtPQS56kRQRhGy5OKgw6pZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java Advanced/Exercises Java Code" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,18 +74,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.DemoStreamAPI">
     <configuration name="DemoStreamAPI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -240,6 +227,7 @@
       <workItem from="1564323497304" duration="7006000" />
       <workItem from="1564381104415" duration="7673000" />
       <workItem from="1564494614698" duration="715000" />
+      <workItem from="1590574575846" duration="842000" />
     </task>
     <servers />
   </component>
@@ -253,20 +241,25 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="118" key="FileChooserDialogImpl" timestamp="1590575899625">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="118" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1590575899625" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
