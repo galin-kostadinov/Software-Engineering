@@ -1,79 +1,43 @@
 function attachEventsListeners() {
-    let days = 0;
-    let hours = 0;
-    let minute = 0;
-    let seconds = 0;
+    const days = document.querySelector('#days');
+    const hours = document.querySelector('#hours');
+    const minutes = document.querySelector('#minutes');
+    const seconds = document.querySelector('#seconds');
 
-    const daysBtn = document.querySelector('#daysBtn');
-    const daysInput = document.querySelector('#days');
+    document.querySelector('#daysBtn').addEventListener('click', onClick);
+    document.querySelector('#hoursBtn').addEventListener('click', onClick);
+    document.querySelector('#minutesBtn').addEventListener('click', onClick);
+    document.querySelector('#secondsBtn').addEventListener('click', onClick);
 
-    const hoursBtn = document.querySelector('#hoursBtn');
-    const hoursInput = document.querySelector('#hours');
+    const ratios = {
+        days: 1,
+        hours: 24,
+        minutes: 1440,
+        seconds: 86400
+    }
 
-    const minutesBtn = document.querySelector('#minutesBtn');
-    const minutesInput = document.querySelector('#minutes');
+    function convert(value, from) {
+        const inDays = value / ratios[from];
 
-    const secondsBtn = document.querySelector('#secondsBtn');
-    const secondsInput = document.querySelector('#seconds');
-
-    daysBtn.addEventListener('click', calcFromDays);
-    hoursBtn.addEventListener('click', calcFromHours);
-    minutesBtn.addEventListener('click', calcFromMinutes);
-    secondsBtn.addEventListener('click', calcFromSeconds);
-
-    function calcFromDays(ev) {
-        let days = Number(daysInput.value);
-
-        if (days) {
-            hours = 24 * days;
-            minute = hours * 60;
-            seconds = minute * 60;
-
-            hoursInput.value = hours;
-            minutesInput.value = minute;
-            secondsInput.value = seconds;
+        return {
+            days: inDays * ratios.days,
+            hours: inDays * ratios.hours,
+            minutes: inDays * ratios.minutes,
+            seconds: inDays * ratios.seconds
         }
     }
 
-    function calcFromHours(ev) {
-        let hours = Number(hoursInput.value);
-
-        if (hours) {
-            days = hours / 24;
-            minute = hours * 60;
-            seconds = minute * 60;
-
-            daysInput.value = days;
-            minutesInput.value = minute;
-            secondsInput.value = seconds;
-        }
+    function onClick(ev) {
+        const input = ev.target.parentElement.querySelector('input[type="text"]');
+        const value = Number(input.value);
+        const convertedValues = convert(value, input.id);
+        display(convertedValues);
     }
 
-    function calcFromMinutes(ev) {
-        let minute = Number(minutesInput.value);
-
-        if (minute) {
-            days = minute / (24 * 60);
-            hours = minute / 60;
-            seconds = minute * 60;
-
-            daysInput.value = days;
-            hoursInput.value = hours;
-            secondsInput.value = seconds;
-        }
-    }
-
-    function calcFromSeconds(ev) {
-        let seconds = Number(secondsInput.value);
-
-        if (seconds) {
-            days = seconds / (24 * 60 * 60);
-            hours = seconds / (60 * 60);
-            minute = seconds / 60;
-
-            daysInput.value = days;
-            hoursInput.value = hours;
-            minutesInput.value = minute;
-        }
+    function display(values) {
+        days.value = values.days;
+        hours.value = values.hours;
+        minutes.value = values.minutes;
+        seconds.value = values.seconds;
     }
 }
