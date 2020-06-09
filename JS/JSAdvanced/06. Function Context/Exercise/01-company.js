@@ -14,17 +14,17 @@ class Company {
             throw new Error('Invalid input!');
         }
 
-        let currDdepartment = this.departments.find(dep => dep.name === department);
+        let currDepartment = this.departments.find(dep => dep.name === department);
 
-        if (currDdepartment === undefined) {
-            currDdepartment = {
+        if (currDepartment === undefined) {
+            currDepartment = {
                 name: department,
                 employees: [],
                 averageSalary: function () {
                     return this.employees.reduce((acc, emp) => acc += emp.salary, 0) / this.employees.length;
                 }
             }
-            this.departments.push(currDdepartment);
+            this.departments.push(currDepartment);
         }
 
         let employee = {
@@ -33,7 +33,7 @@ class Company {
             position: position
         }
 
-        currDdepartment.employees.push(employee);
+        currDepartment.employees.push(employee);
         return `New employee is hired. Name: ${username}. Position: ${position}`;
     }
 
@@ -41,10 +41,10 @@ class Company {
         //find the department with the highest average salary
         let department = this.departments.reduce((max, currDep) => currDep.averageSalary() > max.averageSalary() ? max = currDep : max, this.departments[0]);
 
-        //sort employess [] by salary desc and by name asc
-        let departmentEmployess = department.employees;
+        //sort employees [] by salary desc and by name asc
+        let departmentEmployees = department.employees;
 
-        departmentEmployess.sort((emp1, emp2) => {
+        departmentEmployees.sort((emp1, emp2) => {
             let sort = emp2.salary - emp1.salary;
 
             if (sort === 0) {
@@ -56,7 +56,7 @@ class Company {
 
         let result = (`Best Department is: ${department.name}\n`);
         result += (`Average salary: ${department.averageSalary().toFixed(2)}\n`);
-        result += departmentEmployess.reduce((acc, emp) => acc += `${emp.name} ${emp.salary} ${emp.position}\n`, "");
+        result += departmentEmployees.reduce((acc, emp) => acc += `${emp.name} ${emp.salary} ${emp.position}\n`, "");
 
         return result.trim();
     }
