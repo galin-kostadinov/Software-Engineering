@@ -1,19 +1,17 @@
 "use strict";
 
-function solve() {
+function elemelons() {
     class Melon {
         constructor(weight, melonSort) {
             if (new.target === Melon) {
-                throw new TypeError('Abstract class cannot be instantiated directly');
+                throw new TypeError("Abstract class cannot be instantiated directly");
             }
             this.weight = weight;
             this.melonSort = melonSort;
         }
 
         toString() {
-            return `Element: ${this.element}\n` +
-                `Sort: ${this.melonSort}\n` +
-                `Element Index: ${this.elementIndex}`;
+            return `Element: ${this.element}\nSort: ${this.melonSort}\nElement Index: ${this.elementIndex}`;
         }
     }
 
@@ -64,14 +62,15 @@ function solve() {
     class Melolemonmelon extends Watermelon {
         constructor(weight, melonSort) {
             super(weight, melonSort);
-            this.types = [Fire, Earth, Air, Water];
-            this.index = 0;
         }
 
         morph() {
-            this.index %= this.types.length;
-            this.element = types[this.index];
-            this.index++;
+            switch (this.element) {
+                case 'Water': this.element = 'Fire'; break;
+                case 'Fire': this.element = 'Earth'; break;
+                case 'Earth': this.element = 'Air'; break;
+                case 'Air': this.element = 'Water'; break;
+            }
         }
     }
 
@@ -82,7 +81,7 @@ function solve() {
         Earthmelon,
         Airmelon,
         Melolemonmelon
-    };
+    }
 }
 
 //Throws error

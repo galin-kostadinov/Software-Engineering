@@ -21,4 +21,28 @@ function solve(...args) {
     }
 }
 
+// function solve() {
+//     //arguments is an Array-like object accessible inside functions that contains 
+//     //the values of the arguments passed to that function.
+
+//     const myMap = new Map();
+
+//     for (let arg of arguments) {
+//         const type = typeof arg;
+
+//         console.log(`${type}: ${arg}`);
+//         if (!myMap.has(type)) {
+//             myMap.set(type, 0);
+//         }
+
+//         myMap.set(type, myMap.get(type) + 1);
+//     }
+
+//     let sortedMap = new Map([...myMap].sort((a, b) => (b[1] - a[1])));
+
+//     for (let [key, value] of sortedMap.entries()) {
+//         console.log(`${key} = ${value}`);
+//     }
+// }
+
 solve('cat', 42, function () { console.log('Hello world!'); });
