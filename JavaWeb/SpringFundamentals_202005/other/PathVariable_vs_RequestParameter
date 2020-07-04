@@ -1,0 +1,15 @@
+####Thymeleaf####
+
+##PathVariable##
+
+ @PostMapping("/edit/{id}")
+ @PathVariable String id
+
+<a th:href="@{/product/delete/{id}(id=${product.id})}" class="btn btn-danger glow-button font-weight-bold text-white">Delete</a> or "<a th:href="@{/product/delete/{id}(id=*{id})}" ... 
+
+##RequestParameter##
+
+ @PostMapping("/edit/")
+ @RequestParameter String id
+ 
+ <a th:href="@{/product/delete/(id=*{id})}"  ...

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="~{fragments/head}"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav rounded">
+        <th:block th:include="~{fragments/nav}"/>
+    </nav>
+</header>
+<main>
+    <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Add product</span></h1>
+    <hr class="hr-3 w-25 bg-white"/>
+    <form class="mx-auto w-25 bg-blur rounded" th:object="${productAddBindingModel}" action="/products/add"
+          method="POST">
+        <div class="form-group">
+            <div class="label-holder textCol d-flex justify-content-center">
+                <label for="name" class="h4 mb-2 text-white">Name</label>
+            </div>
+            <input type="text" class="form-control" th:errorclass="bg-danger" th:field="*{name}" id="name" name="name"/>
+            <p th:each="e  : ${#fields.errors('name')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </p>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="description" class="h4 mb-2">Description</label>
+            </div>
+            <textarea type="text" class="form-control" id="description" th:errorclass="bg-danger"
+                      th:field="*{description}" name="description"></textarea>
+            <p th:each="e  : ${#fields.errors('description')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </p>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="neededBefore" class="h4 mb-2">Before</label>
+            </div>
+            <input type="datetime-local" class="form-control" th:errorclass="bg-danger"
+                   th:field="*{neededBefore}" id="neededBefore" name="neededBefore"/>
+            <p th:each="e  : ${#fields.errors('neededBefore')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </p>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="price" class="h4 mb-2">Price</label>
+            </div>
+            <input type="number" step="0.1" class="form-control" th:errorclass="bg-danger"
+                   th:field="*{price}" id="price" name="price"/>
+            <p th:each="e  : ${#fields.errors('price')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </p>
+        </div>
+        <div class="form-group">
+            <div class="text-white label-holder d-flex justify-content-center">
+                <label for="category" class="h4 mb-2">Category</label>
+            </div>
+            <select class="browser-default custom-select" th:errorclass="bg-danger" th:field="*{category}" id="category"
+                    name="category">
+                <option value="">Select category</option>
+                <th:block th:each="type : ${T(exam.model.entity.CategoryName).values()}">
+                    <option name="type" th:value="${type}" th:text="${type}"></option>
+                </th:block>
+            </select>
+            <p th:each="e  : ${#fields.errors('category')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </p>
+        </div>
+        <div class="button-holder d-flex justify-content-center">
+            <button type="submit" class="btn btn-warning  mb-3" value="Register">Add product</button>
+        </div>
+    </form>
+</main>
+
+<footer class="footer bg-transparent  py-2">
+    <th:block th:include="~{fragments/footer}"/>
+</footer>
+</body>
+</html>

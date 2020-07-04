@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <th:block th:include="~{fragments/head}"/>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-nav rounded">
+        <th:block th:include="~{fragments/nav}"/>
+    </nav>
+</header>
+<main>
+    <h1 class="text-center mt-2"><span class="badge badge-pill badge-dark">Register</span></h1>
+    <hr class="hr-3 w-25 bg-white"/>
+    <form class="mx-auto w-25 bg-blur rounded" th:object="${userRegisterBindingModel}" th:action="@{/users/register}"
+          method="POST">
+        <div class="form-group">
+            <div class="label-holder textCol d-flex justify-content-center">
+                <label for="username" class="h4 mb-2 text-white">Username</label>
+            </div>
+            <input type="text" th:errorclass="bg-danger" class="form-control" th:field="*{username}" id="username"
+                   name="username"/>
+            <th:block th:each="e  : ${#fields.errors('username')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="email" class="h4 mb-2">Email</label>
+            </div>
+            <input type="email" th:errorclass="bg-danger" class="form-control" th:field="*{email}" id="email"
+                   name="email"/>
+            <th:block th:each="e  : ${#fields.errors('email')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="password" class="h4 mb-2">Password</label>
+            </div>
+            <input type="password" th:errorclass="bg-danger" class="form-control" th:field="*{password}" id="password"
+                   name="password"/>
+            <th:block th:each="e  : ${#fields.errors('password')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </th:block>
+        </div>
+        <div class="form-group">
+            <div class="label-holder text-white textCol d-flex justify-content-center">
+                <label for="confirmPassword" class="h4 mb-2">Confirm Password</label>
+            </div>
+            <input type="password" th:errorclass="bg-danger" class="form-control" th:field="*{confirmPassword}"
+                   id="confirmPassword"
+                   name="confirmPassword"/>
+            <th:block th:each="e  : ${#fields.errors('confirmPassword')}">
+                <small th:text="${e}" class="text-danger col-12 text-center"></small>
+            </th:block>
+        </div>
+
+        <div class="button-holder d-flex justify-content-center">
+            <button type="submit" class="btn btn-warning  mb-3" value="Register">Register</button>
+        </div>
+    </form>
+</main>
+
+<footer class="footer bg-transparent  py-2">
+    <th:block th:include="~{fragments/footer}"/>
+</footer>
+</body>
+</html>

@@ -1,0 +1,6 @@
+If we write additional text, we interpolate - surround with |.....|
+<h5 class="mb-md-2" th:text="|Price: *{promotionalPrice}|"></h5>
+
+<h5 class="mb-md-2" th:text="*{promotionalPrice}"></h5>
+
+<h5 class="mb-md-2" th:utext="'Price: ' + ${product.promotionalPrice} + ' $'"></h5>
