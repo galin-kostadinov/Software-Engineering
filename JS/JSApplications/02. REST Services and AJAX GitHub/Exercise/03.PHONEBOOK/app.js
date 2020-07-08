@@ -1,5 +1,5 @@
 function attachEvents() {
-    const baseURL = 'http://localhost:3000/phonebook';
+    const baseURL = 'http://localhost:8000/phonebook';
 
     const elements = {
         person() { return document.querySelector('#person') },
@@ -36,7 +36,6 @@ function attachEvents() {
                     deleteBtn.textContent = 'Delete'
 
                     deleteBtn.addEventListener('click', function () {
-                        //Doesn't work due to CORS
                         fetch(baseURL + `/${key}`, {
                             method: "DELETE"
                         });

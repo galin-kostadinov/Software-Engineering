@@ -1,5 +1,5 @@
 function attachEvents() {
-    const baseURL = 'http://localhost:3000/messenger';
+    const baseURL = 'http://localhost:8000/messenger';
 
     const elements = {
         messagesArea() { return document.querySelector('#messages') },
