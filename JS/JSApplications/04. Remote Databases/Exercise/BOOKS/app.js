@@ -121,9 +121,15 @@ window.addEventListener('load', () => {
                 try {
                     toggleInput(true, ...Object.values(edit), confirmBtn, cancelBtn);
                     const updatedBook = await api.updateBook(editedBook);
+                    console.log(updatedBook);
+
+                    if (updatedBook.code === 1012) {
+                        throw new Error(`${updatedBook.message}: ${book.title}`);
+                    }
+
                     tableBody.replaceChild(renderBook(updatedBook), editor);
                 } catch (err) {
-                    alert(err);
+                    alert(err.message);
                     toggleInput(false, ...Object.values(edit), confirmBtn, cancelBtn);
                 }
             });
@@ -152,7 +158,13 @@ window.addEventListener('load', () => {
                 deleteBtn.setAttribute('disabled', true);
                 deleteBtn.disable = true;
                 deleteBtn.textContent = 'Please wait...'
-                await api.deleteBook(book.objectId);
+
+                let result = await api.deleteBook(book.objectId);
+
+                if (result.code === 1014) {
+                    throw new Error(`${result.message} The book "${book.title}" is protected.`);
+                }
+
                 element.remove();
             } catch (err) {
                 deleteBtn.removeAttribute('disabled');
