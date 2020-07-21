@@ -1,4 +1,4 @@
-import { createTeam } from '../data.js';
+import { createTeam, setUserTeamId } from '../data.js';
 
 export default async function () {
     this.partials = {
@@ -8,7 +8,6 @@ export default async function () {
     };
     this.partial('./templates/create/createPage.hbs');
 }
-
 
 export async function createPost() {
     const newTeam = {
@@ -31,8 +30,51 @@ export async function createPost() {
 
         this.app.userData.hasTeam = true;
         this.app.userData.teamId = result.objectId;
-        
+
+        await setUserTeamId(this.app.userData.userId, result.objectId);
+
         this.redirect(`#/catalog/${result.objectId}`);
+    } catch (err) {
+        alert(err.message);
+    }
+}
+
+export async function leaveTeam() {
+    try {
+        const result = await setUserTeamId(this.app.userData.userId, '');
+        if (result.hasOwnProperty('errorData')) {
+            const error = new Error();
+            Object.assign(error, result);
+            throw error;
+        }
+
+        this.app.userData.hasTeam = false;
+        this.app.userData.teamId = undefined;
+
+        this.redirect(`#/catalog`);
+    } catch (err) {
+        alert(err.message);
+    }
+}
+
+joinTeam
+export async function joinTeam() {
+    if (this.app.userData.teamId !== undefined) {
+        alert("User is already joined to a team.");
+    }
+    
+    try {
+        const result = await setUserTeamId(this.app.userData.userId, this.params.teamId);
+        if (result.hasOwnProperty('errorData')) {
+            const error = new Error();
+            Object.assign(error, result);
+            throw error;
+        }
+
+        this.app.userData.hasTeam = true;
+        this.app.userData.teamId = result.teamId;
+
+        this.redirect(`#/catalog/${result.teamId}`);
     } catch (err) {
         alert(err.message);
     }

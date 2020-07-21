@@ -52,7 +52,7 @@ export async function logout(username, password) {
     });
 }
 
-async function setUserTeamId(userId, teamId) {
+export async function setUserTeamId(userId, teamId) {
     const token = localStorage.getItem('userToken');
 
     if (!token) {
@@ -66,7 +66,7 @@ async function setUserTeamId(userId, teamId) {
             'user-token': token
         },
         body: JSON.stringify({
-            teamId
+            teamId:teamId
         })
     })).json();
 }

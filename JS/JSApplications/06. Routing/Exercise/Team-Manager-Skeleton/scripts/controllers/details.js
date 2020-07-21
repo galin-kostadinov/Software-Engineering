@@ -16,8 +16,6 @@ export default async function () {
 
     if (data.objectId === this.app.userData.teamId) {
         data.isOnTeam = true;
-        //todo Join To Team
-        //todo relations is do not work
     }
 
     Object.assign(data, this.app.userData);

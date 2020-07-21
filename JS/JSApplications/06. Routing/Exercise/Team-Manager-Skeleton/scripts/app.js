@@ -4,7 +4,7 @@ import register, { registerPost } from './controllers/register.js';
 import login, { loginPost, logout } from './controllers/login.js';
 import catalog from './controllers/catalog.js';
 import details from './controllers/details.js';
-import create, { createPost } from './controllers/create.js';
+import create, { createPost, leaveTeam, joinTeam } from './controllers/create.js';
 import edit, {editPut} from './controllers/edit.js';
 
 $(() => {
@@ -43,6 +43,10 @@ $(() => {
         this.post('#/login', (ctx) => { loginPost.call(ctx); });
 
         this.post('#/create', (ctx) => { createPost.call(ctx); });
+
+        this.get('#/leave', leaveTeam);
+
+        this.get('#/join/:teamId', joinTeam );
     });
 
     app.run();

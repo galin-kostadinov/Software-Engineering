@@ -21,10 +21,18 @@ export async function loginPost() {
         this.app.userData.loggedIn = true;
         this.app.userData.username = result.username;
         this.app.userData.userId = result.objectId;
+        this.app.userData.teamId = result.teamId;
+
+        if(result.teamId){
+            this.app.userData.hasTeam = true;
+        }else{
+            this.app.userData.hasTeam = false;
+        }
+        
         localStorage.setItem('userToken', result['user-token']);
         localStorage.setItem('username', result.username);
         localStorage.setItem('userId', result.objectId);
-
+        localStorage.setItem('teamId', result.teamId);
         this.redirect('#/home');
     } catch (err) {
         alert(err.message);
