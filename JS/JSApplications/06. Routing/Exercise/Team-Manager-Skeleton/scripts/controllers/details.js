@@ -1,4 +1,4 @@
-import { getTeamById } from "../data.js";
+import { getTeamById, getAllTeamMembers } from "../data.js";
 
 export default async function () {
     this.partials = {
@@ -18,6 +18,10 @@ export default async function () {
         data.isOnTeam = true;
     }
 
+    
+    const members = await getAllTeamMembers(this.params.id);
+    data.members =  await members.json();
+ 
     Object.assign(data, this.app.userData);
 
     this.partial('./templates/catalog/details.hbs', data);

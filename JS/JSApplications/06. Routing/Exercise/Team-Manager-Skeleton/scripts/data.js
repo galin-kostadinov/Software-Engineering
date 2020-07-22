@@ -8,7 +8,8 @@ const endpoints = {
     TEAMS: 'data/teams',
     UPDATE_USER: 'users/',
     LOGOUT: 'users/logout',
-    UPDATE_TEAM: 'data/teams/'
+    UPDATE_TEAM: 'data/teams/',
+    GET_USERS_BY_TEAM: 'data/Users?where=teamId%3D'
 }
 
 export async function register(username, password) {
@@ -66,7 +67,7 @@ export async function setUserTeamId(userId, teamId) {
             'user-token': token
         },
         body: JSON.stringify({
-            teamId:teamId
+            teamId: teamId
         })
     })).json();
 }
@@ -127,8 +128,24 @@ export async function updateTeam(team, teamId) {
             'user-token': token
         },
         body: JSON.stringify({
-            name:team.name,
-            comment:team.comment
+            name: team.name,
+            comment: team.comment
         })
     })).json();
+}
+
+export async function getAllTeamMembers(teamId) {
+    const token = localStorage.getItem('userToken');
+
+    if (!token) {
+        throw new Error('User is not logged in');
+    }
+
+    return (await fetch(host(endpoints.GET_USERS_BY_TEAM + `'${teamId}'`), {
+        method: 'GET',
+        headers: {
+            'user-token': token,
+            'Access-Control-Allow-Origin': '*'
+        }
+    }));
 }
