@@ -1,0 +1,24 @@
+$(() => {
+    const app = Sammy('#main', function (context) {
+        this.use('Handlebars', 'hbs');
+
+        //this === Sammy.Application
+
+        //context === this
+        this.get('index.html', function () {
+            //this === Sammy.EventContext
+
+
+//this.partial('./templates/register/registerForm.hbs') === render+swap
+            this.render('.templates/register/registerForm.hbs').then(function (html) {
+                //this === Sammy.RenderContext
+
+                this.swap(html);
+
+            });
+
+        });
+    });
+
+    app.run();
+})

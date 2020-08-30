@@ -1,0 +1,25 @@
+npm init -y // create packasge.json - there is all ainformation for our app // -y -default answer for all questions YES
+
+npm install --save   //install libraries // --save - that save information in our package.json
+or 
+npm i -E
+
+
+example:
+npm install --save jquery
+npm install --save sammy
+npm install --save handlebars
+npm install --save bootstrap
+
+
+
+Стъпки:
+При съществуваш package.json package-lock.json, то първо си инсталираме същесвуващите
+библиотеки:
+			npm i
+			
+След това добавяме каквото ни е нужно допълнително:
+npm i -E sammy
+или
+npm install --save handlebars
+
